@@ -1,0 +1,48 @@
+EM result: target_g=8.87  N0=256  weights=[2.07619895e-291 1.08869615e-279 2.60059008e-219 6.04205711e-250
+ 0.00000000e+000 2.48519200e-137 3.07740954e-139 3.06835677e-042
+ 9.97216979e-001 1.36911417e-059]
+Loading target (data/venus_sac_replay_seed100.hdf5, N0=256)...
+  target_train: 256
+
+Loading 10 sources at g=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]...
+  g=1: 1,000,000
+  g=2: 1,000,000
+  g=3: 1,000,000
+  g=4: 1,000,000
+  g=5: 1,000,000
+  g=6: 1,000,000
+  g=7: 1,000,000
+  g=8: 1,000,000
+  g=9: 1,000,000
+  g=10: 1,000,000
+
+Sampling probabilities (target + 10 sources):
+  p_target = 0.0003  (N_0=256)
+  p_g=1 = 0.0000  (w=0.0000, N=1,000,000)
+  p_g=2 = 0.0000  (w=0.0000, N=1,000,000)
+  p_g=3 = 0.0000  (w=0.0000, N=1,000,000)
+  p_g=4 = 0.0000  (w=0.0000, N=1,000,000)
+  p_g=5 = 0.0000  (w=0.0000, N=1,000,000)
+  p_g=6 = 0.0000  (w=0.0000, N=1,000,000)
+  p_g=7 = 0.0000  (w=0.0000, N=1,000,000)
+  p_g=8 = 0.0000  (w=0.0000, N=1,000,000)
+  p_g=9 = 0.9997  (w=0.9972, N=1,000,000)
+  p_g=10 = 0.0000  (w=0.0000, N=1,000,000)
+
+IQL training: 200,000 steps, batch=256, in-training eval g=8.87
+[step  20,000/200,000]  v_loss=0.436  q_loss=5.016  pi_loss=-2.733  eval@g=8.87=1077.8±596.2  (2.1min)
+[step  40,000/200,000]  v_loss=1.874  q_loss=23.864  pi_loss=-7.761  eval@g=8.87=1536.0±737.6  (4.1min)
+[step  60,000/200,000]  v_loss=1.398  q_loss=8.210  pi_loss=-13.729  eval@g=8.87=2121.1±866.6  (6.2min)
+[step  80,000/200,000]  v_loss=2.134  q_loss=7.468  pi_loss=-14.781  eval@g=8.87=2325.1±995.5  (8.2min)
+[step 100,000/200,000]  v_loss=20.692  q_loss=7.427  pi_loss=-7.866  eval@g=8.87=2537.6±856.5  (10.3min)
+[step 120,000/200,000]  v_loss=1.933  q_loss=11.527  pi_loss=4.984  eval@g=8.87=2166.9±827.9  (12.4min)
+[step 140,000/200,000]  v_loss=2.240  q_loss=6.390  pi_loss=-20.245  eval@g=8.87=2425.5±798.6  (14.5min)
+[step 160,000/200,000]  v_loss=2.843  q_loss=10.988  pi_loss=-8.105  eval@g=8.87=2367.4±827.6  (16.6min)
+[step 180,000/200,000]  v_loss=4.098  q_loss=5.306  pi_loss=-13.497  eval@g=8.87=2741.6±762.0  (18.6min)
+[step 200,000/200,000]  v_loss=1.513  q_loss=12.713  pi_loss=-11.453  eval@g=8.87=2747.6±688.8  (20.9min)
+
+Saved -> results/iql_v3_e1k_constLR/venus_correct_N256.pt
+
+Final multi-gravity eval at g in [8.87]...
+  g=8.87: 2539.4 +/- 864.2
+Saved -> results\iql_v3_e1k_constLR\venus_correct_N256.json

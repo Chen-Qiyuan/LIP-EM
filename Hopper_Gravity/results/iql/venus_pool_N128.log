@@ -1,0 +1,46 @@
+EM result: target_g=8.87  N0=128  weights=[1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+Loading target (data/venus_sac_replay_seed100.hdf5, N0=128)...
+  target_train: 128
+
+Loading 10 sources at g=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]...
+  g=1: 1,000,000
+  g=2: 1,000,000
+  g=3: 1,000,000
+  g=4: 1,000,000
+  g=5: 1,000,000
+  g=6: 1,000,000
+  g=7: 1,000,000
+  g=8: 1,000,000
+  g=9: 1,000,000
+  g=10: 1,000,000
+
+Sampling probabilities (target + 10 sources):
+  p_target = 0.0000  (N_0=128)
+  p_g=1 = 0.1000  (w=1.0000, N=1,000,000)
+  p_g=2 = 0.1000  (w=1.0000, N=1,000,000)
+  p_g=3 = 0.1000  (w=1.0000, N=1,000,000)
+  p_g=4 = 0.1000  (w=1.0000, N=1,000,000)
+  p_g=5 = 0.1000  (w=1.0000, N=1,000,000)
+  p_g=6 = 0.1000  (w=1.0000, N=1,000,000)
+  p_g=7 = 0.1000  (w=1.0000, N=1,000,000)
+  p_g=8 = 0.1000  (w=1.0000, N=1,000,000)
+  p_g=9 = 0.1000  (w=1.0000, N=1,000,000)
+  p_g=10 = 0.1000  (w=1.0000, N=1,000,000)
+
+IQL training: 200,000 steps, batch=256, in-training eval g=8.87
+[step  20,000/200,000]  v_loss=1.082  q_loss=10.383  pi_loss=10.218  eval@g=8.87=481.1±227.2  (2.2min)
+[step  40,000/200,000]  v_loss=2.297  q_loss=18.878  pi_loss=-7.829  eval@g=8.87=648.7±173.1  (4.3min)
+[step  60,000/200,000]  v_loss=3.976  q_loss=14.964  pi_loss=4.170  eval@g=8.87=706.7±241.4  (6.4min)
+[step  80,000/200,000]  v_loss=4.313  q_loss=13.927  pi_loss=-3.918  eval@g=8.87=1106.6±623.2  (8.6min)
+[step 100,000/200,000]  v_loss=3.373  q_loss=18.497  pi_loss=1.644  eval@g=8.87=1385.0±718.8  (10.7min)
+[step 120,000/200,000]  v_loss=3.503  q_loss=22.516  pi_loss=-1.729  eval@g=8.87=1577.1±855.3  (12.9min)
+[step 140,000/200,000]  v_loss=3.172  q_loss=13.456  pi_loss=0.620  eval@g=8.87=1593.4±702.6  (15.2min)
+[step 160,000/200,000]  v_loss=2.649  q_loss=11.263  pi_loss=4.839  eval@g=8.87=1618.3±625.1  (17.4min)
+[step 180,000/200,000]  v_loss=3.445  q_loss=10.539  pi_loss=-7.154  eval@g=8.87=1447.9±531.7  (19.5min)
+[step 200,000/200,000]  v_loss=4.056  q_loss=15.047  pi_loss=5.205  eval@g=8.87=1674.3±634.6  (21.7min)
+
+Saved -> results/iql_v3_e1k_lr1e5/venus_pool_N128.pt
+
+Final multi-gravity eval at g in [8.87]...
+  g=8.87: 1610.2 +/- 674.6
+Saved -> results\iql_v3_e1k_lr1e5\venus_pool_N128.json

@@ -1,0 +1,2517 @@
+{
+  "target_desc": "\nThis aircraft is operating in a desert environment.\nRoutine visual inspections confirm severe aerodynamic degradation of the high-pressure compressor,\nlikely due to continuously ingesting fine, dry abrasives at high velocities.\n",
+  "responses": [
+    {
+      "S": [
+        43,
+        64,
+        75
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Source A shows a significant, monotonically increasing physical core speed (Nc) that follows an exponential growth curve, which is the characteristic response of the C-MAPSS model to severe HPC efficiency and flow loss. The substantial delta of approximately 170 RPM over the engine's life is consistent with the 'severe aerodynamic degradation' described, whereas Sources B and C show negligible or linear trends."
+    },
+    {
+      "S": [
+        9,
+        19,
+        68
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "Dataset A exhibits a clear exponential increase in physical core speed (Nc), with the rate of change accelerating significantly from cycle 150 (9072 rpm) to cycle 276 (9172 rpm). This trajectory aligns with the NASA report's exponential damage propagation model and the physical requirement for higher core speeds to compensate for the severe HPC efficiency loss caused by continuous abrasive erosion."
+    },
+    {
+      "S": [
+        12,
+        50,
+        69,
+        73,
+        77
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Source C shows the most aggressive monotonic increase in Physical Core Speed (Nc), rising approximately 118 RPM over 208 cycles. This rapid upward trajectory reflects the control system's compensation for severe HPC efficiency loss and flow degradation, which is the primary physical consequence of continuous abrasive ingestion and erosion."
+    },
+    {
+      "S": [
+        64,
+        77,
+        90
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Source B exhibits an accelerating upward trajectory in physical core speed (Nc), which is the characteristic compensatory response in a closed-loop turbofan controller to maintain thrust despite the efficiency loss caused by HPC erosion. The exponential increase in RPM toward the end-of-life (rising from ~9068 to ~9106 in the final 50 cycles) aligns with the damage propagation models for severe degradation described in the NASA report."
+    },
+    {
+      "S": [
+        9,
+        22,
+        43,
+        44
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Source C shows a significant and sustained monotonic increase in Physical Core Speed (Nc) from approximately 9062 to 9228 RPM, which is the physical response of the engine controller compensating for severe HPC efficiency loss. The accelerating upward trajectory in the final cycles is consistent with the exponential damage propagation model (Equation 4) used in the NASA report to simulate worsening aerodynamic degradation."
+    },
+    {
+      "S": [
+        16,
+        26,
+        61,
+        75,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Source E shows a significant and accelerating upward trajectory in Physical Core Speed (Nc), reaching a terminal value of approximately 9170 rpm. This exponential increase is the strongest indicator of severe HPC aerodynamic degradation, as the engine's closed-loop controller must increase core speed to compensate for the efficiency and flow losses caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        66,
+        75,
+        77,
+        86
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Source C shows a clear, accelerating monotonic increase in Physical Core Speed (Nc), which is the characteristic closed-loop response to compensate for the efficiency loss associated with severe HPC aerodynamic degradation. The terminal values in C reach significantly higher levels than other sources, reflecting the 'severe' damage propagation described in the target scenario."
+    },
+    {
+      "S": [
+        4,
+        15,
+        53,
+        74
+      ],
+      "C": [
+        53
+      ],
+      "reasoning": "Source C displays a distinct and accelerating downward trajectory in Physical Core Speed (Nc) during its final 30 cycles, dropping from a baseline of ~9050 RPM to ~9031 RPM. This terminal decline is consistent with the severe aerodynamic degradation and loss of compressor efficiency described in the target scenario, where the system can no longer maintain core speed despite control compensations."
+    },
+    {
+      "S": [
+        32,
+        40,
+        90,
+        93
+      ],
+      "C": [
+        32
+      ],
+      "reasoning": "Dataset A exhibits a monotonic and significantly accelerating increase in Physical Core Speed (Nc), which is the characteristic compensatory response of a closed-loop turbofan controller to the exponential loss of HPC efficiency and flow capacity caused by severe abrasive erosion."
+    },
+    {
+      "S": [
+        12,
+        18,
+        44,
+        47,
+        67
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Source D shows a significant and accelerating upward trajectory in physical core speed (Nc), which reflects the closed-loop control system's compensation for severe HPC efficiency loss. The delta between the initial and terminal values is the most pronounced among the sources, consistent with the 'severe aerodynamic degradation' described in the target scenario."
+    },
+    {
+      "S": [
+        15,
+        41,
+        62,
+        70,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Source E exhibits a significant and accelerating upward trajectory in Physical Core Speed (Nc), rising from approximately 9064 to 9215 RPM. This trend is the characteristic physical response in C-MAPSS simulations for a High-Pressure Compressor experiencing severe efficiency loss, as the core must spin faster to maintain thrust requirements despite aerodynamic degradation."
+    },
+    {
+      "S": [
+        38,
+        78,
+        82,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "Dataset D exhibits a monotonic and accelerating increase in physical core speed (Nc) from 9065 to 9239 RPM, which is the characteristic response of a closed-loop turbofan system compensating for the loss of HPC efficiency and flow capacity. This exponential trajectory aligns with the damage propagation model described in the NASA report for severe aerodynamic degradation caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        13,
+        19,
+        80,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Source D exhibits a clear monotonic increase in Physical Core Speed (Nc) with a distinct exponential acceleration in the final 50 cycles, reaching a terminal value of 9215 RPM. This trajectory aligns with the C-MAPSS control logic where the core must speed up to compensate for the severe efficiency and flow losses associated with the described HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        27,
+        45,
+        63,
+        69,
+        78
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Source D shows a clear monotonic and accelerating increase in Physical Core Speed (Nc), which is the expected physical response of the C-MAPSS closed-loop controller compensating for HPC efficiency and flow loss. The trajectory exhibits a more aggressive and sustained degradation rate compared to other sources, consistent with the 'severe' and 'continuous' abrasive ingestion described in a desert environment."
+    },
+    {
+      "S": [
+        11,
+        13,
+        24
+      ],
+      "C": [
+        13
+      ],
+      "reasoning": "Source B exhibits a clear upward trend in physical core speed (Nc) over 234 cycles, rising from the 9050s to the 9070s. This trajectory is consistent with the physics of a closed-loop turbofan system where the controller increases core RPM to compensate for the loss of efficiency and flow capacity caused by severe HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        7,
+        45,
+        55,
+        83
+      ],
+      "C": [
+        45
+      ],
+      "reasoning": "Source B shows a strong, monotonic increase in physical core speed (Nc) from approximately 9066 to 9157 RPM, which is the characteristic compensatory response of a closed-loop controller to the efficiency and flow losses associated with severe HPC aerodynamic degradation. The magnitude of this upward trajectory is significantly more pronounced than in the other sources, aligning with the 'severe' degradation described."
+    },
+    {
+      "S": [
+        8,
+        53,
+        55,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Dataset D exhibits a significant and accelerating increase in physical core speed (Nc) from approximately 9052 to 9170 RPM, which is the characteristic response of a closed-loop controller increasing core demand to compensate for the severe efficiency loss associated with HPC erosion. This pronounced upward trajectory matches the 'severe aerodynamic degradation' described, whereas other sources show either negligible changes or downward trends."
+    },
+    {
+      "S": [
+        21,
+        27,
+        42,
+        96
+      ],
+      "C": [
+        42
+      ],
+      "reasoning": "Dataset C shows a clear monotonic and accelerating increase in physical core speed (Nc) from approximately 9060 to 9110 RPM, which is the physical signature of a closed-loop controller compensating for severe HPC efficiency loss. This exponential trajectory aligns with the damage propagation model described in the NASA report for a system reaching a failure threshold under continuous degradation."
+    },
+    {
+      "S": [
+        5,
+        22,
+        81
+      ],
+      "C": [
+        5
+      ],
+      "reasoning": "Source A shows a clear exponential increase in physical core speed (Nc), which is the expected physical response as the control system compensates for HPC efficiency and flow losses. The trajectory exhibits a sharp acceleration in the final 30 cycles, consistent with the severe, continuous erosion and exponential damage propagation model described in the NASA report."
+    },
+    {
+      "S": [
+        12,
+        28,
+        42,
+        55,
+        64
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "Source B exhibits the most aggressive monotonic increase in Physical Core Speed (Nc), rising over 100 RPM in fewer than 200 cycles. This rapid trajectory and high terminal value are consistent with the severe aerodynamic degradation and efficiency loss in the HPC expected from continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        32,
+        39,
+        40,
+        80
+      ],
+      "C": [
+        32
+      ],
+      "reasoning": "Source A exhibits a clear, accelerating upward trajectory in Physical Core Speed (Nc), which is the characteristic closed-loop control response to compensate for the severe HPC efficiency loss and flow capacity degradation described. The magnitude of the RPM increase in A is significantly more pronounced than in the other sources, matching the 'severe' degradation profile expected from continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        8,
+        72,
+        76
+      ],
+      "C": [
+        76
+      ],
+      "reasoning": "Source C shows a clear monotonic and accelerating increase in physical core speed (Nc) from approximately 9055 to 9095 RPM, which is consistent with the exponential damage propagation model described in the NASA report. This upward trajectory reflects the engine control system's requirement to increase core speed to compensate for the severe loss in HPC efficiency and flow capacity caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        15,
+        49,
+        87,
+        92,
+        99
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "Source B exhibits a pronounced exponential increase in physical core speed (Nc), rising from approximately 9065 rpm to a terminal value of 9167 rpm. This accelerating upward trajectory is the classic signature of a closed-loop control system increasing core speed to compensate for the severe efficiency and flow losses associated with HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        23,
+        30,
+        37
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "Source A exhibits a clear exponential increase in physical core speed (Nc), which is the expected compensatory response of the control system to severe HPC efficiency loss. The trajectory shows an accelerating upward trend and a significant terminal value shift of approximately 140 RPM, consistent with the severe aerodynamic degradation described in the desert environment scenario."
+    },
+    {
+      "S": [
+        8,
+        34,
+        35,
+        94
+      ],
+      "C": [
+        34
+      ],
+      "reasoning": "Source B exhibits a clear monotonic and exponential increase in Physical Core Speed (Nc), which is the expected controller compensation for efficiency and flow losses caused by severe HPC degradation. The trajectory shows the most aggressive terminal acceleration among the sources, consistent with the 'severe' damage propagation described in the desert environment scenario."
+    },
+    {
+      "S": [
+        45,
+        48,
+        69,
+        88
+      ],
+      "C": [
+        45
+      ],
+      "reasoning": "Source A's Physical Core Speed (Nc) exhibits a classic exponential growth trajectory, with the rate of increase accelerating significantly in the final 40 cycles (rising from ~9090 to 9157 RPM). This trend is consistent with the NASA report's description of HPC degradation where efficiency and flow losses require the core to spin faster to maintain thrust, particularly under the severe, continuous erosion caused by abrasive ingestion."
+    },
+    {
+      "S": [
+        25,
+        71,
+        76
+      ],
+      "C": [
+        76
+      ],
+      "reasoning": "Source C shows a clear monotonic and accelerating increase in Physical Core Speed (Nc) toward the end of the sequence, reaching values above 9090 RPM. This trajectory is consistent with the physics of a closed-loop engine controller increasing core speed to compensate for the efficiency and flow capacity losses caused by severe HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        7,
+        9,
+        26,
+        44,
+        90
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "Source B shows a clear, monotonic, and accelerating increase in Physical Core Speed (Nc) from approximately 9060 to 9172 RPM over 276 cycles. This upward trajectory is the characteristic control-loop compensation for a loss in High Pressure Compressor efficiency and flow capacity, consistent with the severe aerodynamic degradation described."
+    },
+    {
+      "S": [
+        17,
+        29,
+        54,
+        56,
+        78
+      ],
+      "C": [
+        29
+      ],
+      "reasoning": "Source B shows a clear monotonic increase in Physical Core Speed (Nc) from approximately 9061 to 9102 RPM, which is the characteristic response in the C-MAPSS model as the control system increases core speed to compensate for the efficiency and flow losses associated with severe HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        30,
+        42,
+        65,
+        69
+      ],
+      "C": [
+        65
+      ],
+      "reasoning": "Source C shows a monotonic increase in physical core speed (Nc) that accelerates significantly in the final 50 cycles, reaching a high terminal value of 9158 RPM. This upward exponential trajectory is the characteristic control system response to severe HPC efficiency and flow loss caused by continuous abrasive ingestion, as the engine must spin faster to maintain demanded thrust."
+    },
+    {
+      "S": [
+        8,
+        62,
+        63
+      ],
+      "C": [
+        63
+      ],
+      "reasoning": "Source C shows a clear monotonic increase in physical core speed (Nc) that accelerates significantly in the latter half of the sequence, reaching a terminal value near 9080 RPM. This trajectory aligns with the C-MAPSS model's behavior where the control system increases core speed to compensate for the loss of efficiency and flow capacity caused by severe HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        3,
+        17,
+        18,
+        32,
+        48
+      ],
+      "C": [
+        32
+      ],
+      "reasoning": "Source D's physical core speed (Nc) follows a clear exponential trajectory, remaining stable for the first 100 cycles before exhibiting a sharp, accelerating increase to a terminal value above 9150 RPM. This rapid rise in RPM is the characteristic closed-loop control response to compensate for the severe HPC efficiency loss and flow degradation described in the desert erosion scenario."
+    },
+    {
+      "S": [
+        17,
+        57,
+        78
+      ],
+      "C": [
+        57
+      ],
+      "reasoning": "Source B shows a clear monotonic and accelerating increase in Physical Core Speed (Nc) from approximately 9044 to 9141 RPM, which is the characteristic control-loop compensation for efficiency and flow losses caused by severe HPC aerodynamic degradation. In contrast, Source A shows a declining trend and Source C remains relatively stable, neither of which aligns with the physics of a turbofan controller maintaining thrust despite compressor erosion."
+    },
+    {
+      "S": [
+        33,
+        43,
+        55,
+        59,
+        60
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Source B exhibits a clear, monotonically increasing trajectory in physical core speed (Nc), which is the expected control-loop response to compensate for HPC efficiency and flow loss. The accelerating rate of change toward the end of the sequence (reaching 9228 RPM) aligns with the exponential damage propagation model described in the NASA report for severe aerodynamic degradation."
+    },
+    {
+      "S": [
+        6,
+        45,
+        46,
+        77
+      ],
+      "C": [
+        6
+      ],
+      "reasoning": "Source A exhibits the steepest monotonic increase in Physical Core Speed (Nc), which is the characteristic control-loop response to compensate for the severe HPC efficiency and flow losses described. Its shorter lifespan compared to the other sources aligns with the 'severe' degradation rate expected from continuous abrasive ingestion in a desert environment."
+    },
+    {
+      "S": [
+        15,
+        42,
+        47,
+        57,
+        91
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Source C shows a strong, monotonically increasing trajectory in Physical Core Speed (Nc) that accelerates exponentially toward the end-of-life, consistent with the NASA report's damage propagation model. This significant rise in RPM reflects the closed-loop controller's compensation for severe HPC efficiency and flow losses caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        31,
+        43,
+        51,
+        52,
+        84
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Source B shows a strong monotonic increase in physical core speed (Nc) from 9062 to 9228 rpm, which is the expected response of a closed-loop controller compensating for HPC efficiency and flow loss. The trajectory exhibits an accelerating upward trend toward the end-of-life, consistent with the exponential damage propagation model described in the NASA report for severe aerodynamic degradation."
+    },
+    {
+      "S": [
+        14,
+        53,
+        87
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "Source A shows a monotonic and accelerating increase in physical core speed (Nc), which is the characteristic closed-loop compensatory response for HPC efficiency loss and aerodynamic degradation described in the report. Compared to Source C, Source A exhibits a more rapid rise and a higher total delta in RPM over a shorter lifespan, aligning with the 'severe' degradation caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        10,
+        65,
+        67
+      ],
+      "C": [
+        10
+      ],
+      "reasoning": "Source A shows a clear monotonic and accelerating increase in physical core speed (Nc), which is the characteristic closed-loop response to compensate for exponential efficiency loss in the HPC. The trajectory's sharp terminal rise and high total delta (approx. 160 RPM) best represent the 'severe' degradation described in the desert environment scenario."
+    },
+    {
+      "S": [
+        64,
+        72,
+        99
+      ],
+      "C": [
+        64
+      ],
+      "reasoning": "Source A shows a clear monotonic increase in physical core speed (Nc) that accelerates significantly toward the end of the sequence. This trajectory is the characteristic signature of a closed-loop controller increasing RPM to compensate for the loss of HPC efficiency and flow capacity caused by severe aerodynamic degradation."
+    },
+    {
+      "S": [
+        10,
+        60,
+        91
+      ],
+      "C": [
+        10
+      ],
+      "reasoning": "Source A shows a clear monotonic increase in Physical Core Speed (Nc) that accelerates exponentially toward the end of the life cycle, reaching a terminal value of 9224 rpm. This trajectory is the primary indicator of a closed-loop control system compensating for severe HPC efficiency loss and flow degradation caused by abrasive erosion."
+    },
+    {
+      "S": [
+        3,
+        13,
+        55
+      ],
+      "C": [
+        3
+      ],
+      "reasoning": "Source A exhibits a monotonic and accelerating increase in Physical Core Speed (Nc), rising from ~9051 to ~9155 RPM, which reflects the exponential damage propagation model described in the NASA report. This sharp upward trajectory is the expected physical response of a closed-loop controller increasing core speed to compensate for the severe efficiency and flow losses associated with HPC aerodynamic degradation from abrasive ingestion."
+    },
+    {
+      "S": [
+        45,
+        80,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Source C shows a monotonic increase in Physical Core Speed (Nc) that accelerates exponentially toward the end of life, reaching a terminal value of 9215 rpm. This trajectory aligns with the physics of a closed-loop turbofan system where the core must spin faster to compensate for the severe efficiency and flow losses caused by HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        29,
+        62,
+        93
+      ],
+      "C": [
+        29
+      ],
+      "reasoning": "Source A exhibits a clear monotonic increase in Physical Core Speed (Nc) from approximately 9061 to 9102 RPM, which is the characteristic control-loop compensation for the loss of HPC efficiency and flow capacity described in the NASA report. This accelerating upward trajectory at the end-of-life is consistent with the severe aerodynamic degradation expected from continuous abrasive ingestion in a desert environment."
+    },
+    {
+      "S": [
+        16,
+        17,
+        24,
+        91,
+        96
+      ],
+      "C": [
+        96
+      ],
+      "reasoning": "Source E shows a strong, monotonic increase in Physical Core Speed (Nc) from approximately 9046 to 9077 rpm, which is the characteristic response of a closed-loop turbofan controller compensating for the efficiency and flow losses associated with severe HPC erosion. The long-duration trajectory and high terminal values in Source E best reflect the 'severe aerodynamic degradation' described in the desert environment scenario."
+    },
+    {
+      "S": [
+        9,
+        14,
+        74,
+        87,
+        95
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "Source B exhibits the most aggressive increase in physical core speed (Nc), with a terminal rate of change (~2.4 units/cycle in the final 25 cycles) that significantly exceeds the other sources. This rapid, exponential trajectory is consistent with the severe aerodynamic degradation and efficiency loss expected from continuous abrasive ingestion in a desert environment."
+    },
+    {
+      "S": [
+        31,
+        46,
+        50
+      ],
+      "C": [
+        46
+      ],
+      "reasoning": "Source B shows a more rapid and severe increase in physical core speed (Nc) compared to Source C, reaching approximately 9128 RPM by cycle 198, whereas Source C is only at 9096 RPM at the same point. This accelerating upward trajectory is the characteristic signature of the C-MAPSS control system compensating for the loss of HPC efficiency and flow capacity caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        36,
+        40,
+        64,
+        88
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "Source A shows a clear upward trajectory in Physical Core Speed (Nc) that accelerates exponentially toward the end-of-life, which is the expected closed-loop compensation for severe HPC efficiency loss. This trend aligns with the NASA report's description of exponential damage propagation and the physical requirement for the core to spin faster to maintain thrust as aerodynamic degradation worsens."
+    },
+    {
+      "S": [
+        0,
+        25,
+        92,
+        94
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "Dataset D shows a significant monotonic increase in Physical Core Speed (Nc) from ~9050 to ~9153 RPM, which is the characteristic control-loop response to HPC efficiency loss in the C-MAPSS model. Compared to Source C, Source D exhibits a steeper, more severe degradation trajectory over fewer cycles, aligning with the 'severe' degradation expected from continuous abrasive ingestion in a desert environment."
+    },
+    {
+      "S": [
+        15,
+        81,
+        88
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Source B exhibits a clear exponential increase in physical core speed (Nc), which aligns with the report's description of damage propagation and the physical requirement for the core to spin faster to compensate for severe HPC efficiency loss. The terminal value in B (9215 RPM) is significantly higher than the other sources, reflecting the 'severe' aerodynamic degradation described in the target."
+    },
+    {
+      "S": [
+        4,
+        58,
+        70,
+        86
+      ],
+      "C": [
+        70
+      ],
+      "reasoning": "Source C exhibits the most significant and sustained downward trajectory in Physical Core Speed (Nc), dropping from an initial ~9051 to a terminal low of ~9024. This accelerating decline over 213 cycles aligns with the exponential damage propagation model described in the NASA report for severe HPC efficiency loss and aerodynamic degradation."
+    },
+    {
+      "S": [
+        31,
+        49,
+        50,
+        74,
+        95
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "Source B shows a clear monotonic increase in physical core speed (Nc) with an accelerating trajectory toward the end-of-life, which is the physical response of the C-MAPSS control system to compensate for the efficiency and flow losses associated with severe HPC aerodynamic degradation. Compared to other sources, B's steeper slope and higher terminal value relative to its starting point best reflect the 'severe' and 'continuous' nature of abrasive ingestion described."
+    },
+    {
+      "S": [
+        13,
+        22,
+        27
+      ],
+      "C": [
+        13
+      ],
+      "reasoning": "Source A shows a clear, sustained upward trend in physical core speed (Nc) over 234 cycles, which is the characteristic compensatory response of a closed-loop controller attempting to maintain thrust despite the loss of HPC efficiency and flow capacity. This monotonic increase, accelerating toward the end-of-life, aligns with the exponential damage propagation model for severe aerodynamic degradation described in the NASA report."
+    },
+    {
+      "S": [
+        11,
+        28,
+        49,
+        69,
+        91
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "Dataset B shows a clear monotonic and accelerating increase in physical core speed (Nc), which is the characteristic closed-loop response to High-Pressure Compressor efficiency loss in the C-MAPSS model. The trajectory's exponential growth, starting early and rising significantly toward the terminal value of ~9162 RPM, aligns with the physics of continuous abrasive ingestion and severe aerodynamic degradation."
+    },
+    {
+      "S": [
+        2,
+        8,
+        70,
+        73,
+        77
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Source E shows a clear monotonic and accelerating increase in physical core speed (Nc), rising from approximately 9055 rpm to over 9100 rpm by the terminal cycle. This exponential trajectory aligns with the damage propagation model described in the NASA report, where the control system increases core speed to compensate for the severe efficiency and flow losses caused by HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        7,
+        39,
+        89,
+        97
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "Source C exhibits a significant and accelerating increase in physical core speed (Nc), which is the characteristic response of a closed-loop turbofan controller compensating for the severe loss of HPC efficiency and flow capacity caused by abrasive erosion. The terminal trajectory in C shows a sharp, exponential upward trend (e.g., jumping from 9224 to 9239 in the final cycle), aligning with the 'severe' degradation described."
+    },
+    {
+      "S": [
+        30,
+        52,
+        64,
+        94
+      ],
+      "C": [
+        52
+      ],
+      "reasoning": "Source B exhibits a clear monotonic and exponential increase in physical core speed (Nc), which represents the control system's compensation for the progressive loss of HPC efficiency and flow capacity caused by continuous abrasive erosion. The trajectory shows a significant acceleration in RPM rise towards the end-of-life, consistent with the severe aerodynamic degradation described in the target scenario."
+    },
+    {
+      "S": [
+        2,
+        14,
+        54,
+        58
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "Source B shows a significant and accelerating upward trajectory in Physical Core Speed (Nc), which is the characteristic response of a closed-loop turbofan controller compensating for the severe efficiency loss associated with HPC aerodynamic degradation. The exponential increase in the final cycles aligns with the damage propagation model (Equation 4) described in the NASA report for engines approaching a failure threshold."
+    },
+    {
+      "S": [
+        0,
+        13,
+        41,
+        72,
+        96
+      ],
+      "C": [
+        13
+      ],
+      "reasoning": "In C-MAPSS turbofan simulations, the physical core speed (Nc) must increase over time to compensate for the loss of high-pressure compressor efficiency and flow capacity. Source B exhibits a clear, monotonic upward trajectory in Nc, rising from approximately 9055 to 9077 RPM, which aligns with the expected physics of severe HPC aerodynamic degradation due to abrasive erosion."
+    },
+    {
+      "S": [
+        41,
+        45,
+        62,
+        77,
+        78
+      ],
+      "C": [
+        45
+      ],
+      "reasoning": "Source B shows a clear, monotonic, and accelerating increase in Physical Core Speed (Nc) from approximately 9066 rpm to 9157 rpm. This upward exponential trajectory is the characteristic signature of the C-MAPSS control system compensating for severe HPC efficiency and flow loss to maintain thrust, directly matching the 'severe aerodynamic degradation' described."
+    },
+    {
+      "S": [
+        24,
+        79,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Source C shows a monotonic and accelerating increase in physical core speed (Nc), which is the characteristic response of a closed-loop turbofan controller compensating for the loss of HPC efficiency and flow capacity. The trajectory in C reaches a higher terminal RPM and exhibits a steeper exponential growth curve than B, more closely matching the 'severe' aerodynamic degradation described."
+    },
+    {
+      "S": [
+        51,
+        59,
+        74,
+        93
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Source A exhibits a clear, monotonic, and accelerating increase in Physical Core Speed (Nc) from approximately 9041 to 9202 RPM, which aligns with the C-MAPSS closed-loop controller's requirement to increase core speed to compensate for the severe efficiency and flow losses associated with HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        11,
+        37,
+        40
+      ],
+      "C": [
+        40
+      ],
+      "reasoning": "Source C shows a clear, accelerating upward trajectory in Physical Core Speed (Nc), which is the characteristic signature of the control system increasing core RPM to compensate for the severe loss of HPC efficiency and flow capacity. This monotonic trend and the accelerating terminal values align with the exponential damage propagation model for HPC erosion described in the NASA report."
+    },
+    {
+      "S": [
+        63,
+        86,
+        95
+      ],
+      "C": [
+        95
+      ],
+      "reasoning": "Source C exhibits a significant and accelerating increase in physical core speed (Nc), rising from approximately 9074 to 9120 RPM. This upward trajectory is consistent with the physics of a closed-loop turbofan system where the core must spin faster to compensate for the severe loss of HPC efficiency and flow capacity caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        23,
+        24,
+        26,
+        99
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "Source A exhibits a significant and accelerating upward trajectory in Physical Core Speed (Nc), rising from approximately 9057 to 9197 RPM. This trend is the characteristic closed-loop response to severe HPC aerodynamic degradation, where the core must rotate faster to compensate for efficiency losses and maintain demanded thrust."
+    },
+    {
+      "S": [
+        6,
+        10,
+        47,
+        59,
+        85
+      ],
+      "C": [
+        10
+      ],
+      "reasoning": "Source B exhibits a clear exponential increase in Physical Core Speed (Nc), which reflects the control system's compensation for the loss of HPC efficiency and flow capacity described in the report. The trajectory shows a sharp, accelerating rise in RPM during the final 40 cycles, consistent with the 'severe' aerodynamic degradation and exponential damage propagation model (Equation 4) typical of abrasive-driven erosion."
+    },
+    {
+      "S": [
+        14,
+        30,
+        91
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "Source A shows a clear monotonic increase in Physical Core Speed (Nc) that accelerates exponentially toward the end of the sequence, reaching a terminal value of 9161.51. This trajectory is the characteristic signature of the engine controller increasing core speed to compensate for the severe loss of HPC efficiency and flow capacity described in the desert ingestion scenario."
+    },
+    {
+      "S": [
+        15,
+        16,
+        28,
+        57
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "Source C shows a significant and accelerating increase in Physical Core Speed (Nc), with a total delta exceeding 100 RPM and a distinct exponential 'hook' in the final 50 cycles. This trajectory aligns with the NASA report's damage propagation model where the control system increases core speed to compensate for severe HPC efficiency and flow capacity losses caused by abrasive erosion."
+    },
+    {
+      "S": [
+        2,
+        5,
+        19,
+        69
+      ],
+      "C": [
+        5
+      ],
+      "reasoning": "Source B shows a clear monotonic increase in Physical Core Speed (Nc) with a distinct exponential acceleration in the final 40 cycles, reaching a terminal value of ~9153. This trajectory aligns with the NASA report's model for HPC efficiency loss and flow capacity degradation caused by continuous abrasive ingestion in harsh environments."
+    },
+    {
+      "S": [
+        50,
+        57,
+        67,
+        80
+      ],
+      "C": [
+        50
+      ],
+      "reasoning": "Source A shows a clear monotonic and accelerating increase in Physical Core Speed (Nc) from approximately 9060 to 9155 RPM, which is the characteristic control system compensation for severe HPC efficiency loss. This trajectory perfectly matches the exponential damage propagation model (h(t) = 1 - exp{at^b}) described in the NASA report for a continuous degradation process like abrasive erosion."
+    },
+    {
+      "S": [
+        48,
+        71,
+        78,
+        85,
+        99
+      ],
+      "C": [
+        48
+      ],
+      "reasoning": "Source A exhibits a clear monotonic increase in Physical Core Speed (Nc) that accelerates exponentially towards the end of the sequence (reaching ~9119 RPM). This trajectory matches the physics described in the report where the control system increases core speed to compensate for the efficiency and flow losses caused by severe HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        22,
+        24,
+        57,
+        63,
+        96
+      ],
+      "C": [
+        57
+      ],
+      "reasoning": "Source C shows a strong, accelerating monotonic increase in Physical Core Speed (Nc) from approximately cycle 80 to 172, reaching a terminal value near 9144 RPM. This trajectory is the classic signature of a closed-loop controller increasing core speed to compensate for the severe loss of HPC efficiency and flow capacity caused by abrasive-induced aerodynamic degradation."
+    },
+    {
+      "S": [
+        36,
+        52,
+        91
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "Source A shows a clear monotonic increase in physical core speed (Nc) from ~9064 to ~9152 rpm, which is the expected control-loop compensation for the efficiency loss caused by HPC aerodynamic degradation. The trajectory exhibits an accelerating upward trend in the final 40 cycles, consistent with the exponential damage propagation model described in the NASA report for severe erosion."
+    },
+    {
+      "S": [
+        5,
+        10,
+        81
+      ],
+      "C": [
+        10
+      ],
+      "reasoning": "Source B shows a monotonic increase in physical core speed (Nc) that exhibits a sharp exponential acceleration in the final 25 cycles, reaching a terminal value of 9224.53 rpm. This trajectory is consistent with the C-MAPSS damage propagation model where the control system increases core speed to compensate for severe HPC efficiency loss and aerodynamic degradation caused by abrasive ingestion."
+    },
+    {
+      "S": [
+        9,
+        79,
+        81,
+        82,
+        90
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Source C exhibits a significant monotonic increase in physical core speed (Nc) with a sharp exponential acceleration in the final cycles, reaching a terminal value of 9215.59 RPM. This trajectory is the most consistent with the expected control system compensation for severe HPC aerodynamic degradation (efficiency and flow loss) caused by continuous abrasive ingestion in a closed-loop turbofan system."
+    },
+    {
+      "S": [
+        61,
+        63,
+        75,
+        99
+      ],
+      "C": [
+        61
+      ],
+      "reasoning": "Source A shows a clear monotonic increase in Physical Core Speed (Nc) that accelerates exponentially in the final cycles, reaching a terminal value of ~9111 RPM. This trajectory is consistent with the C-MAPSS closed-loop system increasing core speed to compensate for the severe efficiency and flow losses associated with HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        31,
+        50,
+        51,
+        85,
+        95
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Source C shows a significant monotonic increase in physical core speed (Nc), rising from approximately 9041 to 9202 RPM with an accelerating trend toward the end-of-life. This trajectory is consistent with the C-MAPSS closed-loop control system compensating for severe HPC efficiency loss and flow capacity reduction caused by abrasive erosion in a desert environment."
+    },
+    {
+      "S": [
+        6,
+        13,
+        24,
+        26,
+        61
+      ],
+      "C": [
+        6
+      ],
+      "reasoning": "Source A shows a clear monotonic increase in Physical Core Speed (Nc) that accelerates exponentially toward the end of the sequence, reaching a terminal value of approximately 9132 RPM. This trajectory is consistent with the C-MAPSS control logic described in the report, where core speed is increased to compensate for the severe loss of HPC efficiency and flow capacity caused by continuous abrasive erosion."
+    },
+    {
+      "S": [
+        22,
+        33,
+        36,
+        50
+      ],
+      "C": [
+        50
+      ],
+      "reasoning": "Source D's Physical Core Speed (Nc) increases from approximately 9056 to 9155 rpm, which is the characteristic closed-loop control response to compensate for the loss of HPC efficiency and flow capacity. The trajectory follows the exponential damage propagation model described in the NASA report, with the longer sequence (257 cycles) and accelerating terminal values best representing the severe, continuous degradation caused by abrasive ingestion in a desert environment."
+    },
+    {
+      "S": [
+        17,
+        23,
+        36,
+        67
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "Source B shows a clear, accelerating upward trajectory in Physical Core Speed (Nc), which is the expected compensatory response for severe HPC efficiency loss in a closed-loop system. This monotonic increase and the terminal value are consistent with the exponential damage propagation model for compressor erosion described in the NASA report."
+    },
+    {
+      "S": [
+        32,
+        47,
+        76,
+        82,
+        87
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Source B shows the most significant and accelerating increase in physical core speed (Nc), reaching a terminal value of 9244 RPM. This steep upward trajectory is consistent with the control system's compensation for severe HPC efficiency loss and aerodynamic degradation caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        19,
+        55,
+        63,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Source D exhibits the most aggressive exponential increase in Physical Core Speed (Nc), reaching the highest terminal value of 9170 rpm. This steep trajectory and high rate of change per cycle are consistent with the severe aerodynamic degradation and rapid efficiency loss expected from continuous abrasive ingestion in a desert environment."
+    },
+    {
+      "S": [
+        17,
+        28,
+        73
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "Source B exhibits a clear monotonic increase in physical core speed (Nc) that accelerates toward the end of the sequence, which is the characteristic signature of a closed-loop control system increasing core RPM to compensate for the efficiency and flow losses caused by severe HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        49,
+        67,
+        85,
+        91
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "Source A exhibits a clear exponential increase in Physical Core Speed (Nc), which is the characteristic compensatory response of the engine's control system as the High-Pressure Compressor loses efficiency due to severe erosion. The trajectory shows an accelerating upward trend in RPM towards the end-of-life (Cycle 195), consistent with the exponential damage propagation model detailed in the NASA report for gas path degradation."
+    },
+    {
+      "S": [
+        9,
+        58,
+        60,
+        71
+      ],
+      "C": [
+        60
+      ],
+      "reasoning": "Source C exhibits a continuous and accelerating increase in physical core speed (Nc), which is the expected physical response to compensate for HPC efficiency loss in a closed-loop system. Its shorter 174-cycle lifespan and immediate onset of degradation better reflect the 'severe' and 'continuous' nature of abrasive ingestion in a desert environment compared to the long stable period seen in Source A."
+    },
+    {
+      "S": [
+        13,
+        16,
+        80,
+        93,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "Source E exhibits a significant and accelerating (exponential) increase in Physical Core Speed (Nc), rising from approximately 9044 to 9208 RPM. This trajectory matches the physics described in the NASA report where the control system increases core speed to compensate for the severe loss of HPC efficiency and flow capacity caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        8,
+        25,
+        76,
+        90,
+        92
+      ],
+      "C": [
+        92
+      ],
+      "reasoning": "Source E exhibits a clear, accelerating monotonic increase in Physical Core Speed (Nc) from approximately 9057 to 9143 RPM over 341 cycles. This trajectory is consistent with the C-MAPSS model's response to severe HPC efficiency loss, where the core speed must increase to compensate for aerodynamic degradation caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        12,
+        16,
+        59,
+        98
+      ],
+      "C": [
+        12
+      ],
+      "reasoning": "Dataset A shows a significant and accelerating increase in Physical Core Speed (Nc) from approximately 9054 to 9109 RPM over 287 cycles. This upward trajectory is the characteristic signature of a closed-loop control system increasing core speed to compensate for the efficiency and flow losses caused by severe HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        45,
+        51,
+        66,
+        72
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Source B exhibits a strong, monotonic increase in Physical Core Speed (Nc) from approximately 9041 to 9202 RPM, representing a significant delta of ~161 RPM. This upward trajectory is the characteristic physical response of the C-MAPSS closed-loop controller compensating for the severe efficiency loss and flow capacity reduction associated with HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        13,
+        23,
+        47,
+        59
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "Source B's physical core speed (Nc) exhibits a clear, accelerating upward trend from approximately 9057 to 9197 RPM over 179 cycles. This trajectory matches the expected physical response to severe HPC aerodynamic degradation in a closed-loop system, where core speed increases to compensate for efficiency losses caused by abrasive ingestion."
+    },
+    {
+      "S": [
+        8,
+        11,
+        48,
+        65,
+        69
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Source E exhibits the most severe degradation profile, with the Physical Core Speed (Nc) increasing by approximately 118 rpm over 208 cycles. The trajectory shows a distinct exponential acceleration in the final 50 cycles, which aligns with the physics-inspired wear model w = Ae^B(t) described in the report for engines compensating for significant HPC efficiency loss."
+    },
+    {
+      "S": [
+        33,
+        65,
+        72
+      ],
+      "C": [
+        65
+      ],
+      "reasoning": "Source B shows a clear, monotonic, and accelerating increase in physical core speed (Nc) over 199 cycles, which is the characteristic control system response to compensate for the efficiency loss associated with severe HPC aerodynamic degradation. This exponential-like trajectory aligns with the damage propagation modeling described in the NASA report for engines approaching a failure threshold."
+    },
+    {
+      "S": [
+        26,
+        36,
+        61,
+        73,
+        78
+      ],
+      "C": [
+        26
+      ],
+      "reasoning": "Source A follows the exponential degradation model described in the NASA report, showing a stable physical core speed (Nc) for the first 100 cycles followed by an accelerating upward trajectory to 9095 RPM. This specific profile indicates the engine is working progressively harder to compensate for the severe HPC efficiency loss caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        8,
+        14,
+        43,
+        54,
+        91
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Source C exhibits a strong monotonic increase in physical core speed (Nc) with a pronounced exponential acceleration in the final 40 cycles, reaching a terminal value of 9228.53 RPM. This trajectory perfectly matches the damage propagation model described in the report, where the control system increases core speed to compensate for the severe efficiency and flow losses associated with HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        54,
+        93,
+        99
+      ],
+      "C": [
+        54
+      ],
+      "reasoning": "Source A exhibits a clear monotonic decline in physical core speed (Nc) that accelerates after cycle 110, dropping from a baseline of ~9065 to a terminal value of ~9039. This trajectory matches the exponential damage propagation model described in the NASA report for severe high-pressure compressor degradation caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        13,
+        37,
+        46,
+        65
+      ],
+      "C": [
+        65
+      ],
+      "reasoning": "Source D shows a clear upward trend in Physical Core Speed (Nc) that accelerates exponentially toward the end-of-life, reaching the highest terminal value among the sources. This trajectory is the characteristic physical response in a closed-loop system compensating for the severe HPC efficiency loss and flow degradation described in the target scenario."
+    },
+    {
+      "S": [
+        11,
+        26,
+        41,
+        85,
+        91
+      ],
+      "C": [
+        26
+      ],
+      "reasoning": "Source B shows a clear, monotonic increase in Physical Core Speed (Nc) from approximately 9047 to 9095 rpm, which is the expected physical response in a closed-loop turbofan system compensating for the loss of HPC efficiency and pressure ratio caused by severe erosion. The accelerating upward trend toward the end-of-life (Cycle 191) aligns with the exponential damage propagation model described in the NASA report for gas path degradation."
+    },
+    {
+      "S": [
+        3,
+        54,
+        57,
+        67
+      ],
+      "C": [
+        57
+      ],
+      "reasoning": "Source C exhibits a pronounced and accelerating increase in physical core speed (Nc), rising from ~9044 to ~9141 RPM over a shorter lifespan (172 cycles) compared to Source A. This steeper, exponential trajectory is characteristic of the control system's compensatory response to the severe loss of HPC efficiency and flow capacity described in the target scenario."
+    },
+    {
+      "S": [
+        28,
+        41,
+        45,
+        79,
+        95
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Source D shows a clear monotonic increase in physical core speed (Nc) that accelerates exponentially in the final 30 cycles, reaching the highest terminal value of 9170 RPM. This trajectory is consistent with the C-MAPSS closed-loop control logic described in the report, where the system increases core speed to compensate for the severe efficiency and flow losses associated with HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        54,
+        72,
+        77,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "Source D shows a significant and accelerating upward trajectory in Physical Core Speed (Nc), which is the characteristic closed-loop response to compensate for severe HPC efficiency loss and flow degradation. The exponential increase toward the terminal value of 9239.76 RPM aligns with the NASA report's damage propagation model for an engine experiencing worsening aerodynamic erosion from abrasive ingestion."
+    },
+    {
+      "S": [
+        28,
+        67,
+        86
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "Source A shows a clear monotonic increase in physical core speed (Nc) from approximately 9058 to 9166 RPM, which is the characteristic compensatory response of a closed-loop controller to HPC efficiency loss. The accelerating upward trend toward the end-of-life is consistent with the severe aerodynamic degradation expected from continuous abrasive ingestion in a desert environment."
+    },
+    {
+      "S": [
+        10,
+        65,
+        99
+      ],
+      "C": [
+        10
+      ],
+      "reasoning": "Source A exhibits a clear monotonic increase in physical core speed (Nc) with a sharp exponential acceleration in the final 50 cycles, reaching a terminal value of 9224.53. This trajectory aligns with the physics of a closed-loop controller compensating for severe HPC efficiency loss caused by continuous abrasive erosion, as described in the damage propagation models of the NASA report."
+    },
+    {
+      "S": [
+        9,
+        61,
+        63
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "Source A exhibits a clear, monotonic, and accelerating increase in Physical Core Speed (Nc), which is the characteristic physical response to severe HPC efficiency loss as the system compensates for aerodynamic degradation. The trajectory's sharp terminal rise from approximately 9060 to 9170 RPM aligns with the exponential damage propagation model described in the NASA report for an engine nearing its failure threshold due to continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        2,
+        14,
+        23,
+        44,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "Source E demonstrates a clear monotonic increase in physical core speed (Nc) with a pronounced exponential acceleration toward the end-of-life, reaching a terminal value of 9208 RPM. This trajectory is consistent with the C-MAPSS closed-loop controller increasing the core speed to compensate for the severe loss of HPC efficiency and flow capacity caused by continuous abrasive ingestion in a desert environment."
+    },
+    {
+      "S": [
+        28,
+        65,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "Dataset C exhibits a pronounced exponential increase in physical core speed (Nc), with the rate of change accelerating sharply toward the end of the sequence (reaching 9239.76 RPM). This trajectory is the most consistent with the 'severe' aerodynamic degradation described, as the engine core must spin significantly faster to compensate for the rapid loss of HPC efficiency and flow capacity caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        0,
+        5,
+        15
+      ],
+      "C": [
+        5
+      ],
+      "reasoning": "Source B shows a clear monotonic increase in physical core speed (Nc) from approximately 9051 to 9153 RPM, which is the characteristic sensor response in C-MAPSS when the control system compensates for HPC efficiency and flow loss. The accelerating upward trajectory toward the end of the sequence is consistent with the severe aerodynamic degradation described in the desert environment scenario."
+    },
+    {
+      "S": [
+        23,
+        28,
+        76,
+        84,
+        93
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "Source A shows a clear monotonic increase in Physical Core Speed (Nc) that accelerates significantly toward the end of the sequence, reaching a terminal value of ~9197 RPM. This trajectory is consistent with the C-MAPSS physics described in the NASA report, where the control system must increase core speed to compensate for the severe efficiency and flow losses caused by HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        11,
+        69,
+        75,
+        83,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "Source E shows a significant monotonic increase in Physical Core Speed (Nc) from ~9065 to ~9239 RPM, with a sharp exponential acceleration in the final 50 cycles. This trajectory is the most consistent with the NASA report's description of a closed-loop controller increasing core speed to compensate for the severe efficiency loss and aerodynamic degradation associated with continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        11,
+        12,
+        19,
+        69
+      ],
+      "C": [
+        19
+      ],
+      "reasoning": "Source C shows a clear monotonic increase in Physical Core Speed (Nc) that accelerates significantly toward the end-of-life, reaching approximately 9159 RPM. This trajectory is the classic signature of the engine's control system increasing core speed to compensate for the severe loss of HPC efficiency and flow capacity described in the target scenario."
+    },
+    {
+      "S": [
+        8,
+        44,
+        61,
+        84
+      ],
+      "C": [
+        61
+      ],
+      "reasoning": "Source C exhibits a clear, accelerating upward trajectory in physical core speed (Nc), which is the expected control system response to compensate for the severe loss of HPC efficiency and flow capacity described. The trend follows the exponential damage propagation model detailed in the NASA report, reaching a significantly higher terminal value compared to other sources."
+    },
+    {
+      "S": [
+        1,
+        18,
+        27
+      ],
+      "C": [
+        18
+      ],
+      "reasoning": "Source B shows a significant and accelerating upward trend in physical core speed (Nc), rising from approximately 9045 to 9152 RPM. This trajectory is consistent with the C-MAPSS control system increasing core speed to compensate for the severe efficiency and flow losses associated with HPC aerodynamic degradation from abrasive ingestion."
+    },
+    {
+      "S": [
+        50,
+        60,
+        73,
+        95
+      ],
+      "C": [
+        60
+      ],
+      "reasoning": "Source B shows a strong, accelerating upward trend in Physical Core Speed (Nc), reaching the highest terminal value of approximately 9175 RPM over the shortest cycle count. This trajectory aligns with the physics of a closed-loop turbofan system where the core must spin faster to compensate for the severe efficiency losses caused by HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        4,
+        21,
+        88
+      ],
+      "C": [
+        21
+      ],
+      "reasoning": "Source B exhibits a sharp, exponential increase in physical core speed (Nc) during its final 15 cycles, rising from approximately 9070 to 9087 RPM. This accelerating trajectory matches the damage propagation model described in the NASA report, where the control system increases core speed to compensate for the severe loss in HPC efficiency and flow caused by abrasive ingestion."
+    },
+    {
+      "S": [
+        9,
+        16,
+        36,
+        77
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "Source A shows a clear monotonic increase in Physical Core Speed (Nc) that accelerates exponentially toward the end of the sequence, reaching a terminal value of 9172. This trajectory matches the physics of a closed-loop system compensating for severe HPC efficiency loss due to abrasive erosion, as described in the NASA report's damage propagation models."
+    },
+    {
+      "S": [
+        25,
+        44,
+        53,
+        77
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Source D shows a significant and accelerating increase in Physical Core Speed (Nc) over its duration, which is the characteristic physical response of a closed-loop turbofan controller increasing core RPM to compensate for the severe loss of HPC efficiency and flow capacity caused by abrasive erosion."
+    },
+    {
+      "S": [
+        14,
+        24,
+        54,
+        93
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "Source A shows a clear monotonic increase in Physical Core Speed (Nc) that accelerates significantly toward the end-of-life, which is the characteristic physical response of a closed-loop turbofan controller compensating for the severe efficiency and flow losses associated with HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        25,
+        44,
+        64,
+        67
+      ],
+      "C": [
+        44
+      ],
+      "reasoning": "Source B's Physical Core Speed (Nc) shows a clear upward trend from a nominal baseline of ~9041 rpm to a peak of 9069 rpm, which is the characteristic signature of the engine controller compensating for the loss of HPC efficiency and pressure ratio caused by abrasive erosion."
+    },
+    {
+      "S": [
+        39,
+        49,
+        67,
+        91
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "Source B exhibits a significant and accelerating increase in physical core speed (Nc) over its duration, which is the characteristic control response in C-MAPSS to compensate for the severe efficiency and flow losses associated with HPC aerodynamic degradation. The trajectory in B shows a much more pronounced upward trend compared to A or C, aligning with the 'severe' degradation expected from continuous abrasive ingestion in a desert environment."
+    },
+    {
+      "S": [
+        9,
+        12,
+        27,
+        30,
+        91
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "Source A shows a clear monotonic increase in Physical Core Speed (Nc) that accelerates significantly toward the end of the sequence, reaching a terminal value of approximately 9178 RPM. This upward trajectory is the characteristic signature of a turbofan's control system increasing core speed to compensate for the loss of efficiency and flow capacity caused by severe HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        15,
+        40,
+        61,
+        95
+      ],
+      "C": [
+        61
+      ],
+      "reasoning": "Source C exhibits a clear exponential increase in Physical Core Speed (Nc) over 283 cycles, which aligns with the NASA report's damage propagation model for efficiency loss. The trajectory shows an accelerating upward trend in the final 80 cycles, consistent with the severe aerodynamic degradation expected from continuous abrasive ingestion in a desert environment."
+    },
+    {
+      "S": [
+        3,
+        31,
+        56,
+        58,
+        91
+      ],
+      "C": [
+        3
+      ],
+      "reasoning": "Source A is the only dataset showing a clear monotonic increase in Physical Core Speed (Nc) that accelerates toward the end-of-life (9051 to 9155 rpm), which is the characteristic control-loop compensation for HPC efficiency loss. This upward exponential trajectory aligns with the damage propagation models (Equation 4) described in the NASA report for a system undergoing severe aerodynamic degradation."
+    },
+    {
+      "S": [
+        9,
+        22,
+        57
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "Source A's physical core speed (Nc) exhibits a clear, monotonic, and accelerating increase over 276 cycles, which is the characteristic closed-loop control response to compensate for the loss of HPC efficiency and flow capacity. The total magnitude of the RPM shift (~110 RPM) is the most pronounced among the sources, consistent with the 'severe' aerodynamic degradation and erosion described in the target scenario."
+    },
+    {
+      "S": [
+        53,
+        58,
+        64,
+        68
+      ],
+      "C": [
+        68
+      ],
+      "reasoning": "Source D shows a significant and accelerating increase in Physical Core Speed (Nc) from approximately 9065 to 9106 rpm, which is the characteristic compensatory response of a closed-loop controlled engine attempting to maintain thrust despite severe HPC efficiency loss and aerodynamic degradation."
+    },
+    {
+      "S": [
+        33,
+        54,
+        77
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Source C exhibits a clear monotonic increase in Physical Core Speed (Nc) from approximately 9055 to 9096 RPM, which is the characteristic compensatory signature of a closed-loop turbofan controller responding to HPC efficiency and flow loss. This upward trajectory reflects the engine running at higher speeds to maintain thrust despite the severe aerodynamic degradation caused by abrasive erosion."
+    },
+    {
+      "S": [
+        35,
+        51,
+        60,
+        96
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Source B shows the most significant and sustained increase in Physical Core Speed (Nc), rising from approximately 9041 to 9202 rpm. This pronounced upward trajectory reflects the control system's compensation for the severe HPC efficiency loss and aerodynamic degradation described in the target scenario."
+    },
+    {
+      "S": [
+        12,
+        85,
+        91,
+        99
+      ],
+      "C": [
+        12
+      ],
+      "reasoning": "Source A exhibits a clear monotonic and accelerating increase in Physical Core Speed (Nc), rising from approximately 9054 to 9109 RPM. This upward trajectory is the characteristic signature of the C-MAPSS control system increasing core speed to compensate for the severe loss of HPC efficiency and flow capacity described in the target scenario."
+    },
+    {
+      "S": [
+        24,
+        31,
+        78
+      ],
+      "C": [
+        24
+      ],
+      "reasoning": "Source A exhibits a clear monotonic decline in physical core speed (Nc) that accelerates after cycle 160, reaching a terminal value significantly below its initial baseline. This trajectory aligns with the exponential damage propagation model described in the NASA report for severe HPC efficiency and flow loss caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        4,
+        5,
+        11,
+        47
+      ],
+      "C": [
+        5
+      ],
+      "reasoning": "Source B's Physical Core Speed exhibits a monotonic increase with an accelerating 'knee' towards the end-of-life, which is the classic signature of a turbofan controller compensating for HPC efficiency loss. This trajectory matches the exponential damage propagation model described in the NASA report for severe compressor degradation caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        5,
+        7,
+        27,
+        33,
+        55
+      ],
+      "C": [
+        5
+      ],
+      "reasoning": "Source A shows a distinct, accelerating increase in physical core speed (Nc) from approximately 9051 to 9153 rpm, which is the characteristic signature of a closed-loop controller increasing RPM to compensate for severe HPC efficiency loss. This monotonic upward trajectory aligns with the physics of continuous aerodynamic degradation described in the NASA report for an engine ingesting abrasives."
+    },
+    {
+      "S": [
+        1,
+        72,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "Source C exhibits a significant and accelerating upward trajectory in physical core speed (Nc), rising from approximately 9065 to 9239 RPM. This pronounced monotonic increase is the characteristic signature of severe HPC aerodynamic degradation in a closed-loop system, where the core must spin faster to compensate for efficiency and flow losses caused by abrasive erosion."
+    },
+    {
+      "S": [
+        15,
+        36,
+        40,
+        70,
+        82
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "Source B shows a significant and accelerating monotonic increase in Physical Core Speed (Nc) from approximately 9064 to 9152 rpm, which is the physical signature of a closed-loop controller compensating for severe HPC efficiency loss. This trajectory aligns with the exponential damage propagation model (Equation 4) described in the NASA report for engines experiencing worsening aerodynamic degradation."
+    },
+    {
+      "S": [
+        7,
+        35,
+        49,
+        94
+      ],
+      "C": [
+        35
+      ],
+      "reasoning": "Source B's physical core speed (Nc) exhibits a monotonic increase with clear exponential acceleration starting around cycle 60, which is the characteristic signature of a closed-loop controller compensating for HPC efficiency and flow losses. The trajectory reaches a high terminal value of 9142 rpm and shows an earlier departure from the baseline than Source C, consistent with the 'continuous' ingestion of abrasives described."
+    },
+    {
+      "S": [
+        14,
+        30,
+        68,
+        75
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "Source A exhibits a clear monotonic increase in Physical Core Speed (Nc) that accelerates exponentially towards the end-of-life, reaching a terminal value significantly higher than its baseline. This trajectory perfectly matches the 'exponential behavior of fault evolution' described in the NASA report for severe HPC efficiency loss and aerodynamic degradation."
+    },
+    {
+      "S": [
+        1,
+        20,
+        32,
+        61,
+        66
+      ],
+      "C": [
+        20
+      ],
+      "reasoning": "Source B shows a consistent and accelerating increase in Physical Core Speed (Nc), which is the characteristic signature of the C-MAPSS control system compensating for the loss of HPC efficiency and flow capacity caused by continuous abrasive erosion. Compared to other sources, B exhibits a higher rate of degradation per cycle, matching the description of severe aerodynamic degradation."
+    },
+    {
+      "S": [
+        15,
+        40,
+        81,
+        91,
+        98
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Source C shows a significant and accelerating increase in Physical Core Speed (Nc) from approximately 9064 to 9215 RPM, which is the characteristic signature of a closed-loop control system increasing core speed to compensate for severe HPC efficiency and flow loss. This pronounced upward trajectory aligns with the 'severe aerodynamic degradation' described as resulting from continuous abrasive ingestion in a desert environment."
+    },
+    {
+      "S": [
+        13,
+        44,
+        49,
+        63,
+        95
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "Source C shows a clear monotonic and exponential increase in Physical Core Speed (Nc), rising from approximately 9065 to 9162 rpm, which is the most pronounced trajectory among the sets. This accelerating upward trend in core speed is a classic signature of the control system compensating for severe efficiency and flow losses in the High Pressure Compressor caused by abrasive-induced aerodynamic degradation."
+    },
+    {
+      "S": [
+        3,
+        42,
+        46,
+        47,
+        72
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Source D shows a strong monotonic increase in physical core speed (Nc) that accelerates significantly in its final cycles, reaching a terminal value of 9244 RPM. This trajectory represents the control system's aggressive compensation for the severe loss of HPC efficiency and pressure ratio caused by the abrasive-driven aerodynamic degradation described."
+    },
+    {
+      "S": [
+        4,
+        88,
+        93
+      ],
+      "C": [
+        88
+      ],
+      "reasoning": "Source B exhibits a clear, accelerating upward trajectory in Physical Core Speed (Nc), which is the characteristic sensor signature for a degrading High-Pressure Compressor in the C-MAPSS model. This trend reflects the control system's requirement to increase core rotational speed to compensate for the efficiency and flow losses caused by severe aerodynamic degradation."
+    },
+    {
+      "S": [
+        19,
+        28,
+        49
+      ],
+      "C": [
+        19
+      ],
+      "reasoning": "Source A exhibits a distinct exponential increase in physical core speed (Nc) that accelerates significantly as it approaches end-of-life, which is the characteristic signature of the worsening aerodynamic efficiency loss described in the NASA report's damage propagation model. The total delta in RPM for Source A is the highest among the sets, reflecting the 'severe' degradation mentioned in the target description."
+    },
+    {
+      "S": [
+        1,
+        8,
+        24,
+        26,
+        47
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Source E shows a strong monotonic increase in Physical Core Speed (Nc) with a clear exponential acceleration in the final cycles, reaching a terminal value of approximately 9244 RPM. This trajectory represents the most severe degradation profile among the sources, consistent with the significant efficiency losses and compensatory core speed increases expected from continuous abrasive ingestion in a desert environment."
+    },
+    {
+      "S": [
+        39,
+        62,
+        66,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Dataset D exhibits a significant and accelerating increase in Physical Core Speed (Nc), rising from ~9052 to ~9170 rpm, which is the characteristic response of a closed-loop turbofan system compensating for severe HPC efficiency loss. This pronounced upward trajectory aligns with the exponential damage propagation model described in the NASA report for severe aerodynamic degradation."
+    },
+    {
+      "S": [
+        33,
+        35,
+        52,
+        72,
+        87
+      ],
+      "C": [
+        35
+      ],
+      "reasoning": "Source B shows a clear, monotonic, and accelerating upward trajectory in Physical Core Speed (Nc), which is the physical signature of a closed-loop control system increasing core speed to compensate for the progressive loss of HPC efficiency and flow capacity described in the target scenario."
+    },
+    {
+      "S": [
+        36,
+        67,
+        74,
+        84
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "Source A exhibits a clear monotonic and accelerating increase in Physical Core Speed (Nc), rising from approximately 9064 to 9152 RPM. This upward trajectory is the characteristic signature of a closed-loop control system compensating for the efficiency and flow losses associated with the severe HPC aerodynamic degradation described in the NASA report."
+    },
+    {
+      "S": [
+        11,
+        57,
+        85
+      ],
+      "C": [
+        57
+      ],
+      "reasoning": "Source B exhibits a clear, accelerating monotonic increase in Physical Core Speed (Nc), which aligns with the C-MAPSS model's response to severe HPC efficiency loss where the controller compensates to maintain thrust. The trajectory shape reflects the exponential damage propagation described in the NASA report, consistent with the continuous ingestion of abrasives in a desert environment."
+    },
+    {
+      "S": [
+        48,
+        51,
+        52,
+        83
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Source B shows the most significant and rapid increase in Physical Core Speed (Nc), rising from approximately 9041 to 9202 RPM. This steep upward trajectory reflects the engine control system's attempt to compensate for the severe loss in HPC efficiency and flow capacity caused by abrasive-induced aerodynamic degradation."
+    },
+    {
+      "S": [
+        17,
+        38,
+        61,
+        88,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "Source E exhibits a strong, accelerating upward trajectory in Physical Core Speed (Nc), which is the characteristic compensatory response of a closed-loop turbofan control system attempting to maintain thrust despite severe HPC efficiency loss. This exponential increase aligns with the damage propagation model described in the NASA report and the 'severe' degradation mentioned in the target description."
+    },
+    {
+      "S": [
+        2,
+        60,
+        92
+      ],
+      "C": [
+        60
+      ],
+      "reasoning": "Source B shows a clear, accelerating upward trend in physical core speed (Nc), which is the expected closed-loop response to compensate for severe HPC efficiency and flow loss. The trajectory exhibits an exponential-like increase towards a high terminal value of 9175 RPM, consistent with the aggressive damage propagation described from continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        13,
+        29,
+        56,
+        59
+      ],
+      "C": [
+        29
+      ],
+      "reasoning": "Source B shows a significant and accelerating increase in Physical Core Speed (Nc), which aligns with the C-MAPSS model's behavior where the controller increases core speed to compensate for the severe efficiency and flow losses associated with HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        52,
+        63,
+        68
+      ],
+      "C": [
+        52
+      ],
+      "reasoning": "Source A exhibits a clear, accelerating monotonic increase in physical core speed (Nc), which aligns with the exponential damage propagation model for severe HPC efficiency loss described in the NASA report. The significant terminal rise from approximately 9055 to 9145 rpm reflects the control system's compensation for the severe aerodynamic degradation caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        46,
+        59,
+        76,
+        85,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "Source E shows the most significant and accelerating increase in physical core speed (Nc), rising from approximately 9044 to 9208 RPM, which reflects the controller's compensatory response to severe HPC efficiency loss. The trajectory exhibits a pronounced exponential 'hook' in the final 50 cycles, consistent with the rapid damage propagation expected from continuous abrasive ingestion in a desert environment."
+    },
+    {
+      "S": [
+        61,
+        78,
+        94
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "Source C exhibits a clear, monotonic, and accelerating upward trajectory in physical core speed (Nc), which aligns with the C-MAPSS closed-loop controller's requirement to increase RPM to compensate for the severe loss in HPC efficiency and flow capacity. The magnitude of the increase in Source C (approximately 100 RPM) is significantly more pronounced than in Source A, better reflecting the 'severe aerodynamic degradation' described in the target scenario."
+    },
+    {
+      "S": [
+        11,
+        50,
+        73
+      ],
+      "C": [
+        50
+      ],
+      "reasoning": "Source B shows a clear monotonic and accelerating increase in physical core speed (Nc) from approximately 9057 to 9155 RPM, which is the characteristic signature of the engine's control system compensating for HPC efficiency loss. This upward trajectory aligns with the exponential damage propagation model described in the NASA report for severe compressor degradation caused by environmental erosion."
+    },
+    {
+      "S": [
+        41,
+        53,
+        64,
+        94
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "Source D exhibits a pronounced exponential increase in Physical Core Speed (Nc), which is the characteristic closed-loop response in C-MAPSS to compensate for the severe efficiency and flow loss of a degraded HPC. The trajectory's accelerating trend and significant terminal value (~9153 RPM) align with the exponential damage propagation model and the 'severe' degradation described in the report."
+    },
+    {
+      "S": [
+        28,
+        73,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Source C shows a significant monotonic increase in physical core speed (Nc) from ~9064 to ~9215 RPM, with a distinct acceleration in the final 20 cycles. This upward trajectory is consistent with the C-MAPSS model's closed-loop response to severe HPC efficiency loss, where the core must spin faster to maintain thrust as aerodynamic degradation progresses."
+    },
+    {
+      "S": [
+        0,
+        12,
+        29,
+        33
+      ],
+      "C": [
+        12
+      ],
+      "reasoning": "Dataset B shows a monotonic and accelerating increase in Physical Core Speed (Nc), which is the characteristic control-loop response in C-MAPSS to compensate for the loss of HPC efficiency and flow capacity. The trajectory follows the exponential damage propagation model described in the report, reaching a significantly higher terminal value compared to other sources, consistent with 'severe' aerodynamic degradation."
+    },
+    {
+      "S": [
+        46,
+        47,
+        84,
+        85,
+        96
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Source B exhibits a pronounced exponential increase in physical core speed (Nc), with a sharp acceleration in the final 60 cycles and a high terminal value of 9244 RPM. This trajectory represents the control system's compensatory response to the severe aerodynamic efficiency loss in the HPC described in the target scenario, following the exponential damage propagation model (Equation 4) detailed in the NASA report."
+    },
+    {
+      "S": [
+        8,
+        64,
+        77
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Source C exhibits a distinct exponential increase in Physical Core Speed (Nc), rising sharply from approximately 9060 rpm to over 9100 rpm in its final 50 cycles. This accelerating trajectory matches the physics-inspired exponential wear model (w = Ae^B(t)) described in the NASA report, specifically representing the control system's compensation for severe HPC efficiency and flow loss caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        26,
+        44,
+        77,
+        91
+      ],
+      "C": [
+        26
+      ],
+      "reasoning": "Source A shows a clear monotonic increase in Physical Core Speed (Nc) that accelerates exponentially toward the end of the sequence, rising from ~9050 to ~9095 RPM. This trajectory matches the C-MAPSS physics described in the report, where the control system increases core speed to compensate for the severe loss of HPC efficiency and flow capacity caused by abrasive erosion."
+    },
+    {
+      "S": [
+        4,
+        36,
+        94
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "Source B demonstrates a clear exponential increase in physical core speed (Nc) that accelerates significantly in the final 50 cycles, which is the characteristic compensatory response of a closed-loop turbofan controller to severe HPC efficiency loss. This monotonic upward trajectory and the terminal value of approximately 9153 rpm align with the damage propagation models and sensor behaviors described in the NASA report for compressor degradation."
+    },
+    {
+      "S": [
+        64,
+        65,
+        69,
+        73,
+        77
+      ],
+      "C": [
+        65
+      ],
+      "reasoning": "Source B follows the exponential damage propagation model described in the report, where the physical core speed (Nc) remains stable for the first 100 cycles before exhibiting a sharp, accelerating increase to 9158 rpm to compensate for the severe HPC efficiency loss caused by abrasive ingestion."
+    },
+    {
+      "S": [
+        4,
+        37,
+        77,
+        90
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Source C exhibits a clear monotonic and accelerating increase in Physical Core Speed (Nc), which is the characteristic compensatory response of a closed-loop controller attempting to maintain thrust as HPC efficiency and flow capacity degrade. This trajectory aligns with the exponential damage propagation model described in the NASA report for severe aerodynamic degradation."
+    },
+    {
+      "S": [
+        0,
+        43,
+        84
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Source B shows a clear, accelerating monotonic increase in Physical Core Speed (Nc) from approximately 9062 to 9228 RPM, which is the characteristic signature of the C-MAPSS closed-loop control system compensating for HPC efficiency loss. This upward trajectory matches the exponential damage propagation model described in the NASA report for severe aerodynamic degradation caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        2,
+        52,
+        66
+      ],
+      "C": [
+        52
+      ],
+      "reasoning": "Source B shows a clear, monotonic, and accelerating upward trajectory in physical core speed (Nc), rising from ~9055 to ~9155 RPM over 275 cycles. This trend is consistent with the C-MAPSS closed-loop controller increasing core speed to compensate for the severe efficiency and flow losses caused by the aerodynamic degradation of the HPC described in the target scenario."
+    },
+    {
+      "S": [
+        23,
+        25,
+        59,
+        65,
+        85
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "Source A exhibits a clear monotonic increase in physical core speed (Nc) with an accelerating upward trajectory towards the end-of-life. This matches the expected physical response of a closed-loop turbofan system compensating for severe HPC efficiency loss and flow degradation caused by abrasive erosion, as described in the C-MAPSS exponential damage model."
+    },
+    {
+      "S": [
+        29,
+        59,
+        70,
+        81,
+        87
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Source D shows a strong monotonic increase in physical core speed (Nc) that accelerates significantly toward the end of life, reaching a terminal value of approximately 9215 rpm. This trajectory reflects the control system's compensation for severe HPC efficiency loss and flow degradation caused by the abrasive erosion described in the target scenario."
+    },
+    {
+      "S": [
+        18,
+        67,
+        84,
+        85
+      ],
+      "C": [
+        18
+      ],
+      "reasoning": "Source A exhibits a clear, accelerating upward trajectory in physical core speed (Nc) from approximately 9045 to 9152 RPM, which is the characteristic compensatory response of a closed-loop system to severe HPC efficiency loss. This monotonic, exponential increase matches the damage propagation model described in the NASA report for an engine reaching its failure threshold due to aerodynamic degradation."
+    },
+    {
+      "S": [
+        41,
+        53,
+        69,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Source D shows a monotonic and accelerating increase in physical core speed (Nc), reaching the highest terminal value (9170 RPM) in the shortest timeframe (185 cycles). This trajectory is the expected physical response to severe HPC efficiency loss and flow degradation in the C-MAPSS model, consistent with the abrasive ingestion described."
+    },
+    {
+      "S": [
+        11,
+        13,
+        39,
+        51,
+        57
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Source D shows a strong, monotonic, and accelerating increase in Physical Core Speed (Nc) from approximately 9041 to 9202 RPM, which is the most severe trajectory among the sets. This upward trend reflects the engine control system's compensation for the significant loss in compressor efficiency and flow capacity caused by the abrasive-induced aerodynamic degradation described in the report."
+    },
+    {
+      "S": [
+        5,
+        38,
+        49,
+        57,
+        91
+      ],
+      "C": [
+        5
+      ],
+      "reasoning": "Source A shows a monotonic increase in Physical Core Speed (Nc) with a distinct accelerating trend toward the end-of-life, which is the expected closed-loop response to compensate for HPC efficiency loss. It exhibits the highest rate of degradation among the increasing trajectories, consistent with the 'severe' aerodynamic damage caused by continuous abrasive ingestion in a desert environment."
+    },
+    {
+      "S": [
+        6,
+        8,
+        35
+      ],
+      "C": [
+        35
+      ],
+      "reasoning": "Source C shows a clear monotonic increase in physical core speed (Nc) that exhibits a sharp exponential acceleration toward the end of its life, reaching a terminal value of 9142. This trajectory is consistent with the C-MAPSS closed-loop control system increasing core speed to compensate for the severe efficiency and flow losses associated with HPC aerodynamic degradation in a desert environment."
+    },
+    {
+      "S": [
+        1,
+        29,
+        44,
+        96
+      ],
+      "C": [
+        1
+      ],
+      "reasoning": "Source A shows the most significant and accelerating increase in Physical Core Speed (Nc), which is the characteristic response of a turbofan's control system attempting to maintain performance despite the severe loss of HPC efficiency and flow capacity described."
+    },
+    {
+      "S": [
+        40,
+        86,
+        94,
+        96
+      ],
+      "C": [
+        40
+      ],
+      "reasoning": "Source A shows a clear monotonic increase in Physical Core Speed (Nc) that accelerates exponentially toward the end-of-life at cycle 158. This trajectory is consistent with the physics of a closed-loop controller increasing core speed to compensate for the efficiency and flow losses caused by severe HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        23,
+        27,
+        33,
+        38,
+        87
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "Source A shows a clear, monotonically increasing trajectory in Physical Core Speed (Nc) that accelerates significantly toward the end-of-life, reaching a terminal value of approximately 9197 rpm. This upward trend is the characteristic control-loop compensation for severe HPC efficiency loss and flow degradation caused by the abrasive erosion described in the target scenario."
+    },
+    {
+      "S": [
+        51,
+        74,
+        97
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Source A shows a clear monotonic and accelerating increase in physical core speed (Nc) starting around cycle 75, which is the characteristic control-loop response in C-MAPSS to compensate for the loss of HPC efficiency and flow capacity. This trajectory aligns with the physics of severe aerodynamic degradation where the core must spin faster to maintain demanded thrust despite the damage from continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        2,
+        29,
+        63,
+        85
+      ],
+      "C": [
+        29
+      ],
+      "reasoning": "Source B shows a significant and accelerating increase in Physical Core Speed (Nc) from approximately 9061 to 9101 rpm, which is the characteristic signature of a closed-loop controller increasing core speed to compensate for the severe HPC efficiency and flow losses described. This trajectory exhibits the most pronounced upward trend and terminal delta among the sources, consistent with the 'severe' degradation caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        15,
+        34,
+        87
+      ],
+      "C": [
+        34
+      ],
+      "reasoning": "Source B shows a clear exponential increase in physical core speed (Nc) from ~9051 to ~9200 rpm, which is the characteristic control-loop response to compensate for severe HPC efficiency loss. The accelerating upward trajectory in the final cycles aligns with the exponential damage propagation model described in the NASA report for a run-to-failure scenario under continuous degradation."
+    },
+    {
+      "S": [
+        24,
+        55,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Source C exhibits a clear monotonic and accelerating increase in physical core speed (Nc), which is the characteristic response in C-MAPSS as the control system compensates for severe HPC efficiency and flow loss. The significant rise from a baseline of ~9050 to over 9180 RPM aligns with the 'severe aerodynamic degradation' described in the target scenario."
+    },
+    {
+      "S": [
+        42,
+        47,
+        84,
+        94
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Source B shows a clear exponential upward trajectory in Physical Core Speed (Nc), with the rate of increase accelerating sharply from approximately 9127 RPM at cycle 180 to 9244 RPM at cycle 213. This accelerating trend is consistent with the NASA report's description of exponential damage propagation (Equation 4) resulting from severe High-Pressure Compressor (HPC) aerodynamic degradation."
+    },
+    {
+      "S": [
+        66,
+        79,
+        90
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Source B shows a clear exponential increase in Physical Core Speed (Nc) from approximately 9052 to 9170 RPM, which is the characteristic signature of a closed-loop control system compensating for the loss of HPC efficiency and flow capacity described in the NASA report. This accelerating upward trajectory matches the exponential damage propagation model (Equation 4) expected from continuous abrasive ingestion in a desert environment."
+    },
+    {
+      "S": [
+        16,
+        17,
+        31,
+        55
+      ],
+      "C": [
+        17
+      ],
+      "reasoning": "Source B exhibits a distinct, accelerating downward trajectory in physical core speed (Nc) starting around cycle 130, dropping from ~9060 to ~9043. This sharp terminal decline is characteristic of the severe aerodynamic degradation and loss of flow capacity described in the target scenario, contrasting with the more stable or upward-drifting trends in the other sources."
+    },
+    {
+      "S": [
+        51,
+        77,
+        93
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Source A shows a clear upward trend in physical core speed (Nc) that accelerates exponentially toward the end of the life cycle, reaching a terminal value of 9202.75. This trajectory is consistent with the C-MAPSS closed-loop controller increasing core speed to compensate for the severe efficiency and flow losses caused by HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        3,
+        92,
+        95
+      ],
+      "C": [
+        3
+      ],
+      "reasoning": "Source A exhibits the most aggressive monotonic increase in Physical Core Speed (Nc), with a terminal delta of approximately 104 RPM and a clear exponential acceleration toward end-of-life. This trajectory is consistent with the physics of a closed-loop controller increasing core speed to compensate for the severe efficiency and flow losses caused by HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        4,
+        5,
+        24
+      ],
+      "C": [
+        5
+      ],
+      "reasoning": "Source B shows a clear monotonic increase in physical core speed (Nc) that accelerates toward the end of the life cycle, which is the characteristic response of the C-MAPSS control system compensating for the efficiency and flow losses associated with HPC aerodynamic degradation. This upward trajectory from approximately 9051 to 9153 RPM aligns with the exponential damage propagation model described in the NASA report for severe component wear."
+    },
+    {
+      "S": [
+        25,
+        31,
+        43,
+        50,
+        78
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Source C shows a significant and accelerating monotonic increase in physical core speed (Nc) from approximately 9062 to 9228 rpm, which is the expected response of a closed-loop controller compensating for severe HPC efficiency loss. The trajectory follows the exponential damage propagation model described in the NASA report, reflecting the 'severe' degradation mentioned in the target description."
+    },
+    {
+      "S": [
+        5,
+        37,
+        76,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "Source D shows the most aggressive monotonic increase in Physical Core Speed (Nc), with a terminal value of ~9240 RPM and a sharp exponential acceleration in the final 25 cycles. This trajectory represents the most severe aerodynamic degradation of the HPC, where the core must significantly overspeed to compensate for the efficiency and flow losses caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        22,
+        28,
+        38,
+        41,
+        47
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Source E shows a significant monotonic increase in Physical Core Speed (Nc), which is the physical response of a closed-loop turbofan to compensate for the loss of HPC efficiency and flow capacity. The trajectory exhibits an accelerating upward trend reaching a terminal value of ~9244 RPM, consistent with the exponential damage propagation model for severe abrasive erosion described in the NASA report."
+    },
+    {
+      "S": [
+        0,
+        11,
+        15,
+        83
+      ],
+      "C": [
+        83
+      ],
+      "reasoning": "Source D shows a clear monotonic and accelerating increase in Physical Core Speed (Nc) from approximately 9047 to 9079 RPM, which matches the expected physics of a C-MAPSS closed-loop controller increasing core speed to compensate for severe HPC efficiency loss. The upward curvature in the final cycles is consistent with the exponential damage propagation model described in the NASA report for a system approaching its failure threshold."
+    },
+    {
+      "S": [
+        32,
+        40,
+        43
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Source C demonstrates the most pronounced and accelerating increase in physical core speed (Nc), reaching a terminal value of 9228 RPM, which is physically consistent with the engine's control system overcompensating for severe HPC efficiency loss. The trajectory follows the exponential damage propagation model described in the NASA report, with the magnitude of the RPM rise (166 RPM) indicating the most severe aerodynamic degradation among the sources."
+    },
+    {
+      "S": [
+        22,
+        25,
+        51,
+        81
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Source C shows a significant and accelerating increase in Physical Core Speed (Nc), rising from approximately 9041 to 9202 RPM. This upward trajectory is the characteristic response of the C-MAPSS control system increasing core speed to compensate for the efficiency and flow losses caused by severe HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        22,
+        33,
+        46,
+        66,
+        83
+      ],
+      "C": [
+        46
+      ],
+      "reasoning": "Source C shows a clear, monotonic, and accelerating increase in physical core speed (Nc) from approximately 9060 to 9130 RPM. This upward trajectory is the characteristic physical response of a closed-loop turbofan control system compensating for the loss of HPC efficiency and flow capacity caused by severe aerodynamic degradation."
+    },
+    {
+      "S": [
+        4,
+        45,
+        48,
+        86
+      ],
+      "C": [
+        45
+      ],
+      "reasoning": "Source B shows a clear, monotonic increase in Physical Core Speed (Nc) from approximately 9066 to 9157 rpm, which is the expected control system response to compensate for severe HPC efficiency loss. The trajectory follows the exponential damage propagation model described in the NASA report, with the rate of change accelerating as the engine approaches its failure threshold."
+    },
+    {
+      "S": [
+        2,
+        4,
+        13,
+        31
+      ],
+      "C": [
+        13
+      ],
+      "reasoning": "Dataset C exhibits a sustained and accelerating upward trajectory in Physical Core Speed (Nc), rising from approximately 9063 to 9078 rpm. This trend is the characteristic compensatory response of a closed-loop control system attempting to maintain thrust despite the severe loss of HPC efficiency and flow capacity associated with continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        3,
+        11,
+        15,
+        18,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Source E shows a strong monotonic increase in physical core speed (Nc) that follows the exponential damage propagation model described in the report, reaching the highest terminal value (~9170 RPM) in the shortest timeframe. This rapid, accelerating upward trajectory is the characteristic control-system response to compensate for the severe efficiency and flow losses associated with high-pressure compressor erosion in a desert environment."
+    },
+    {
+      "S": [
+        22,
+        55,
+        59
+      ],
+      "C": [
+        55
+      ],
+      "reasoning": "Source B exhibits a clear upward trajectory in physical core speed (Nc) towards the end of its life, which is the characteristic response of a closed-loop turbofan controller increasing spool speed to compensate for the efficiency and flow losses caused by severe HPC aerodynamic degradation. In contrast, Sources A and C show declining core speeds, which does not align with the expected physics of a system attempting to maintain thrust despite a degrading compressor."
+    },
+    {
+      "S": [
+        0,
+        27,
+        53,
+        84
+      ],
+      "C": [
+        53
+      ],
+      "reasoning": "Source C exhibits a clear monotonic decline in Physical Core Speed (Nc) that accelerates significantly after cycle 100, reaching a terminal value of 9031.44. This trajectory aligns with the exponential damage propagation model described in the NASA report for severe High-Pressure Compressor (HPC) efficiency loss caused by continuous abrasive ingestion."
+    },
+    {
+      "S": [
+        25,
+        28,
+        74,
+        83,
+        96
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "Source B shows a clear, monotonic, and accelerating increase in Physical Core Speed (Nc) from approximately 9058 to 9162 rpm. This upward trajectory is the characteristic physical response of a closed-loop turbofan control system increasing core speed to compensate for the severe efficiency and flow losses associated with HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        7,
+        36,
+        57,
+        88,
+        96
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "Source B exhibits a clear, continuous, and accelerating monotonic increase in physical core speed (Nc) from ~9064 to 9152 RPM, which is the characteristic compensatory response in the C-MAPSS model for severe HPC aerodynamic degradation. This sustained upward trajectory over 216 cycles aligns with the 'continuous ingestion' of abrasives described, whereas other sources show either downward trends or less aggressive degradation."
+    },
+    {
+      "S": [
+        11,
+        29,
+        59,
+        77
+      ],
+      "C": [
+        29
+      ],
+      "reasoning": "Source B's Physical Core Speed (Nc) shows a clear monotonic increase with an accelerating terminal slope, reaching over 9100 RPM by cycle 181. This trajectory matches the exponential damage propagation model for HPC degradation described in the NASA report, where the closed-loop controller increases core speed to compensate for severe aerodynamic efficiency losses caused by abrasive erosion."
+    },
+    {
+      "S": [
+        7,
+        30,
+        80,
+        86
+      ],
+      "C": [
+        7
+      ],
+      "reasoning": "Source A's Physical Core Speed (Nc) exhibits a stable baseline of approximately 9058 RPM followed by a clear, accelerating downward trajectory starting around cycle 180, reaching a terminal value of 9039.93. This monotonic decline and late-life acceleration are characteristic of the exponential damage propagation model described in the NASA report for severe HPC aerodynamic degradation."
+    },
+    {
+      "S": [
+        1,
+        16,
+        65,
+        68
+      ],
+      "C": [
+        65
+      ],
+      "reasoning": "Source C shows a strong monotonic increase in Physical Core Speed (Nc) with a significant terminal delta of approximately 93 RPM, which is the characteristic response of the C-MAPSS control system compensating for severe HPC efficiency and flow loss. The accelerating upward trajectory in the final cycles aligns with the exponential damage propagation model described in the NASA report for severe aerodynamic degradation."
+    }
+  ],
+  "source_basenames": [
+    "1.csv",
+    "10.csv",
+    "100.csv",
+    "11.csv",
+    "12.csv",
+    "13.csv",
+    "14.csv",
+    "15.csv",
+    "16.csv",
+    "17.csv",
+    "18.csv",
+    "19.csv",
+    "2.csv",
+    "20.csv",
+    "21.csv",
+    "22.csv",
+    "23.csv",
+    "24.csv",
+    "25.csv",
+    "26.csv",
+    "27.csv",
+    "28.csv",
+    "29.csv",
+    "3.csv",
+    "30.csv",
+    "31.csv",
+    "32.csv",
+    "33.csv",
+    "34.csv",
+    "35.csv",
+    "36.csv",
+    "37.csv",
+    "38.csv",
+    "39.csv",
+    "4.csv",
+    "40.csv",
+    "41.csv",
+    "42.csv",
+    "43.csv",
+    "44.csv",
+    "45.csv",
+    "46.csv",
+    "47.csv",
+    "48.csv",
+    "49.csv",
+    "5.csv",
+    "50.csv",
+    "51.csv",
+    "52.csv",
+    "53.csv",
+    "54.csv",
+    "55.csv",
+    "56.csv",
+    "57.csv",
+    "58.csv",
+    "59.csv",
+    "6.csv",
+    "60.csv",
+    "61.csv",
+    "62.csv",
+    "63.csv",
+    "64.csv",
+    "65.csv",
+    "66.csv",
+    "67.csv",
+    "68.csv",
+    "69.csv",
+    "7.csv",
+    "70.csv",
+    "71.csv",
+    "72.csv",
+    "73.csv",
+    "74.csv",
+    "75.csv",
+    "76.csv",
+    "77.csv",
+    "78.csv",
+    "79.csv",
+    "8.csv",
+    "80.csv",
+    "81.csv",
+    "82.csv",
+    "83.csv",
+    "84.csv",
+    "85.csv",
+    "86.csv",
+    "87.csv",
+    "88.csv",
+    "89.csv",
+    "9.csv",
+    "90.csv",
+    "91.csv",
+    "92.csv",
+    "93.csv",
+    "94.csv",
+    "95.csv",
+    "96.csv",
+    "97.csv",
+    "98.csv",
+    "99.csv"
+  ],
+  "meta": {
+    "model": "gemini-3-flash-preview",
+    "n_queries": 200,
+    "subgroup_size_range": [
+      3,
+      5
+    ],
+    "seed": 42,
+    "global_pool": true
+  }
+}

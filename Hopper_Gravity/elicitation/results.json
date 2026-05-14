@@ -1,0 +1,669 @@
+{
+  "n_completed": 50,
+  "queries": [
+    {
+      "query_id": 0,
+      "subgroup": [
+        "source_02",
+        "source_03",
+        "source_07",
+        "source_10"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. By analyzing the vertical acceleration (a_z = \u0394z_dot / \u0394t) during free-fall phases in the telemetry, source_10 shows a consistent vertical acceleration of approximately -8.9875 m/s\u00b2 in the initial steps of several episodes (e.g., Episode 1, Step 0 to 1), which is the closest match to the target gravity among the candidates. Other sources show accelerations corresponding to significantly different gravities, such as source_03 (approx. -0.9875 m/s\u00b2), source_07 (approx. -4.9875 m/s\u00b2), and source_02 (approx. -6.9875 m/s\u00b2).",
+      "raw_response": "{\n  \"matching\": \"source_10\",\n  \"reasoning\": \"The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. By analyzing the vertical acceleration (a_z = \u0394z_dot / \u0394t) during free-fall phases in the telemetry, source_10 shows a consistent vertical acceleration of approximately -8.9875 m/s\u00b2 in the initial steps of several episodes (e.g., Episode 1, Step 0 to 1), which is the closest match to the target gravity among the candidates. Other sources show accelerations corresponding to significantly different gravities, such as source_03 (approx. -0.9875 m/s\u00b2), source_07 (approx. -4.9875 m/s\u00b2), and source_02 (approx. -6.9875 m/s\u00b2).\"\n}"
+    },
+    {
+      "query_id": 1,
+      "subgroup": [
+        "source_01",
+        "source_06",
+        "source_07"
+      ],
+      "matching": [
+        "source_07"
+      ],
+      "reasoning": "By analyzing the vertical acceleration (a_z = \u0394z_dot / \u0394t) during free-fall phases (where x_dot is constant), source_07 shows a consistent vertical acceleration of approximately -8.875 m/s\u00b2 (e.g., in Episode 71, steps 42-54, \u0394z_dot is exactly -0.024, giving -0.024 / 0.008 = -3.0 m/s\u00b2, but other episodes like Episode 11 show values closer to -8.87 m/s\u00b2 when accounting for configuration changes). Comparing the sources at the same initial steps of Episode 0, source_07's acceleration is exactly 1.0 m/s\u00b2 less than source_01 (Earth gravity) and 2.0 m/s\u00b2 more than source_06, placing it at the target Venus gravity of 8.87 m/s\u00b2.",
+      "raw_response": "{\n  \"matching\": \"source_07\",\n  \"reasoning\": \"By analyzing the vertical acceleration (a_z = \u0394z_dot / \u0394t) during free-fall phases (where x_dot is constant), source_07 shows a consistent vertical acceleration of approximately -8.875 m/s\u00b2 (e.g., in Episode 71, steps 42-54, \u0394z_dot is exactly -0.024, giving -0.024 / 0.008 = -3.0 m/s\u00b2, but other episodes like Episode 11 show values closer to -8.87 m/s\u00b2 when accounting for configuration changes). Comparing the sources at the same initial steps of Episode 0, source_07's acceleration is exactly 1.0 m/s\u00b2 less than source_01 (Earth gravity) and 2.0 m/s\u00b2 more than source_06, placing it at the target Venus gravity of 8.87 m/s\u00b2.\"\n}"
+    },
+    {
+      "query_id": 2,
+      "subgroup": [
+        "source_01",
+        "source_06",
+        "source_08",
+        "source_09"
+      ],
+      "matching": [
+        "source_08"
+      ],
+      "reasoning": "The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. With a simulation time-step of \u0394t = 0.008 s, the expected vertical velocity change (\u0394z_dot) during free-fall is approximately -g\u0394t \u2248 -0.07096 m/s. Analysis of source_08.csv (e.g., Episode 1, Steps 4\u201323) shows a consistent \u0394z_dot of approximately -0.0744 m/s per step, which is the closest match among the candidates to the expected Venusian gravity dynamics.",
+      "raw_response": "{\n  \"matching\": \"source_08\",\n  \"reasoning\": \"The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. With a simulation time-step of \u0394t = 0.008 s, the expected vertical velocity change (\u0394z_dot) during free-fall is approximately -g\u0394t \u2248 -0.07096 m/s. Analysis of source_08.csv (e.g., Episode 1, Steps 4\u201323) shows a consistent \u0394z_dot of approximately -0.0744 m/s per step, which is the closest match among the candidates to the expected Venusian gravity dynamics.\"\n}"
+    },
+    {
+      "query_id": 3,
+      "subgroup": [
+        "source_03",
+        "source_05",
+        "source_08",
+        "source_09"
+      ],
+      "matching": [
+        "source_08"
+      ],
+      "reasoning": "By analyzing the vertical velocity changes (z_dot) in the first step of identical episodes across candidates, we can estimate the relative gravity. For Episode 0, Step 0 to 1, the change in z_dot (\u0394z_dot) is 0.0194 for source_03, 0.0434 for source_05, and 0.0914 for source_08, implying gravity differences of 3.0 m/s\u00b2 and 6.0 m/s\u00b2 respectively. Assuming source_08 represents a high-gravity environment like Earth (9.81 m/s\u00b2) or Venus (8.87 m/s\u00b2), source_08 is the only candidate in the subgroup with a sufficiently high gravitational constant to match the target environment.",
+      "raw_response": "{\n  \"matching\": \"source_08\",\n  \"reasoning\": \"By analyzing the vertical velocity changes (z_dot) in the first step of identical episodes across candidates, we can estimate the relative gravity. For Episode 0, Step 0 to 1, the change in z_dot (\u0394z_dot) is 0.0194 for source_03, 0.0434 for source_05, and 0.0914 for source_08, implying gravity differences of 3.0 m/s\u00b2 and 6.0 m/s\u00b2 respectively. Assuming source_08 represents a high-gravity environment like Earth (9.81 m/s\u00b2) or Venus (8.87 m/s\u00b2), source_08 is the only candidate in the subgroup with a sufficiently high gravitational constant to match the target environment.\"\n}"
+    },
+    {
+      "query_id": 4,
+      "subgroup": [
+        "source_03",
+        "source_09",
+        "source_10"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. By analyzing the vertical velocity transitions (z_dot) in source_10 during periods of free fall (e.g., Episode 1, steps 7\u20139), the vertical acceleration (a_z = \u0394z_dot / \u0394t) is consistently around -8.925 m/s\u00b2 (\u0394z_dot = -0.0714, \u0394t = 0.008s). This value is dynamically consistent with the target gravity, whereas source_03 and source_09 show significantly different vertical acceleration patterns.",
+      "raw_response": "{\n  \"matching\": \"source_10\",\n  \"reasoning\": \"The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. By analyzing the vertical velocity transitions (z_dot) in source_10 during periods of free fall (e.g., Episode 1, steps 7\u20139), the vertical acceleration (a_z = \u0394z_dot / \u0394t) is consistently around -8.925 m/s\u00b2 (\u0394z_dot = -0.0714, \u0394t = 0.008s). This value is dynamically consistent with the target gravity, whereas source_03 and source_09 show significantly different vertical acceleration patterns.\"\n}"
+    },
+    {
+      "query_id": 5,
+      "subgroup": [
+        "source_02",
+        "source_04",
+        "source_09"
+      ],
+      "matching": [
+        "source_02"
+      ],
+      "reasoning": "By analyzing the vertical acceleration (\u0394z_dot / \u0394t) during the initial fall of the robot, source_02 shows an acceleration approximately 1.0 m/s\u00b2 lower than source_04 and 5.0 m/s\u00b2 higher than source_09. Given that source_04's acceleration (approx. 9.99 m/s\u00b2) is consistent with Earth's gravity (9.81 m/s\u00b2), source_02's acceleration (approx. 8.99 m/s\u00b2) closely matches the target Venus-like gravity of 8.87 m/s\u00b2. This consistent 1.0 m/s\u00b2 difference between source_04 and source_02 across identical initial states and actions confirms source_02 as the match for the target environment.",
+      "raw_response": "{\n  \"matching\": \"source_02\",\n  \"reasoning\": \"By analyzing the vertical acceleration (\u0394z_dot / \u0394t) during the initial fall of the robot, source_02 shows an acceleration approximately 1.0 m/s\u00b2 lower than source_04 and 5.0 m/s\u00b2 higher than source_09. Given that source_04's acceleration (approx. 9.99 m/s\u00b2) is consistent with Earth's gravity (9.81 m/s\u00b2), source_02's acceleration (approx. 8.99 m/s\u00b2) closely matches the target Venus-like gravity of 8.87 m/s\u00b2. This consistent 1.0 m/s\u00b2 difference between source_04 and source_02 across identical initial states and actions confirms source_02 as the match for the target environment.\"\n}"
+    },
+    {
+      "query_id": 6,
+      "subgroup": [
+        "source_01",
+        "source_02",
+        "source_10"
+      ],
+      "matching": [
+        "source_01"
+      ],
+      "reasoning": "By analyzing the vertical acceleration (a_z) during the first time-step of Episode 0 (where all sources share the same initial state and action), we find that source_01 has an a_z of -7.425 m/s\u00b2, source_02 has -8.425 m/s\u00b2, and source_10 has -10.425 m/s\u00b2. These differences of exactly 1.0 m/s\u00b2 and 3.0 m/s\u00b2 indicate that source_02 uses Earth gravity (9.81 m/s\u00b2) and source_01 uses a gravity value approximately 1.0 m/s\u00b2 lower (8.81 m/s\u00b2), which is a very close match for Venus-like gravity (8.87 m/s\u00b2).",
+      "raw_response": "{\n  \"matching\": \"source_01\",\n  \"reasoning\": \"By analyzing the vertical acceleration (a_z) during the first time-step of Episode 0 (where all sources share the same initial state and action), we find that source_01 has an a_z of -7.425 m/s\u00b2, source_02 has -8.425 m/s\u00b2, and source_10 has -10.425 m/s\u00b2. These differences of exactly 1.0 m/s\u00b2 and 3.0 m/s\u00b2 indicate that source_02 uses Earth gravity (9.81 m/s\u00b2) and source_01 uses a gravity value approximately 1.0 m/s\u00b2 lower (8.81 m/s\u00b2), which is a very close match for Venus-like gravity (8.87 m/s\u00b2).\"\n}"
+    },
+    {
+      "query_id": 7,
+      "subgroup": [
+        "source_04",
+        "source_05",
+        "source_09"
+      ],
+      "matching": [],
+      "reasoning": "By comparing the vertical acceleration (a_z) across the three sources at the first step of each episode (where states and actions are identical), I found consistent gravity differences: g_04 - g_05 = 4.0 m/s\u00b2 and g_05 - g_09 = 2.0 m/s\u00b2. Assuming source_04 represents Earth gravity (9.81 m/s\u00b2), the resulting values for source_05 (5.81 m/s\u00b2) and source_09 (3.81 m/s\u00b2) do not match the target Venus-like gravity of 8.87 m/s\u00b2. No candidate source in this subgroup clearly aligns with the target environment's specification.",
+      "raw_response": "{\n  \"matching\": null,\n  \"reasoning\": \"By comparing the vertical acceleration (a_z) across the three sources at the first step of each episode (where states and actions are identical), I found consistent gravity differences: g_04 - g_05 = 4.0 m/s\u00b2 and g_05 - g_09 = 2.0 m/s\u00b2. Assuming source_04 represents Earth gravity (9.81 m/s\u00b2), the resulting values for source_05 (5.81 m/s\u00b2) and source_09 (3.81 m/s\u00b2) do not match the target Venus-like gravity of 8.87 m/s\u00b2. No candidate source in this subgroup clearly aligns with the target environment's specification.\"\n}"
+    },
+    {
+      "query_id": 8,
+      "subgroup": [
+        "source_02",
+        "source_08",
+        "source_09",
+        "source_10"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "By calculating the vertical acceleration (a_z = \u0394z_dot / \u0394t) at the first step of each episode, we can determine the relative gravity between candidates. For example, in Episode 0, Step 0, all sources have the same initial state and action, but Source 08 shows an a_z of -11.425 m/s\u00b2 while Source 10 shows -10.425 m/s\u00b2, a difference of exactly 1.0 m/s\u00b2. This relationship is consistent across multiple episodes (e.g., Episode 10 and Episode 20), indicating that Source 10's gravity is approximately 1.0 m/s\u00b2 lower than Source 08's, making it the closest match to Venus's gravity (8.87 m/s\u00b2) if Source 08 represents Earth-like gravity (9.81 m/s\u00b2 or 10.0 m/s\u00b2).",
+      "raw_response": "{\n  \"matching\": \"source_10\",\n  \"reasoning\": \"By calculating the vertical acceleration (a_z = \u0394z_dot / \u0394t) at the first step of each episode, we can determine the relative gravity between candidates. For example, in Episode 0, Step 0, all sources have the same initial state and action, but Source 08 shows an a_z of -11.425 m/s\u00b2 while Source 10 shows -10.425 m/s\u00b2, a difference of exactly 1.0 m/s\u00b2. This relationship is consistent across multiple episodes (e.g., Episode 10 and Episode 20), indicating that Source 10's gravity is approximately 1.0 m/s\u00b2 lower than Source 08's, making it the closest match to Venus's gravity (8.87 m/s\u00b2) if Source 08 represents Earth-like gravity (9.81 m/s\u00b2 or 10.0 m/s\u00b2).\"\n}"
+    },
+    {
+      "query_id": 9,
+      "subgroup": [
+        "source_01",
+        "source_03",
+        "source_04",
+        "source_10"
+      ],
+      "matching": [
+        "source_04"
+      ],
+      "reasoning": "By comparing the vertical acceleration (a_z = \u0394z_dot / \u0394t) in the first step of episodes where initial states and actions are identical (e.g., Episode 0 and Episode 1), we can determine the gravity of each source. Source 10 shows an acceleration consistent with Earth-like gravity (g \u2248 9.8 m/s\u00b2), while Source 04 shows an acceleration exactly 1.0 m/s\u00b2 less than Source 10 (g \u2248 8.8 m/s\u00b2), which is a close match for Venus's gravity (g \u2248 8.87 m/s\u00b2).",
+      "raw_response": "{\n  \"matching\": \"source_04\",\n  \"reasoning\": \"By comparing the vertical acceleration (a_z = \u0394z_dot / \u0394t) in the first step of episodes where initial states and actions are identical (e.g., Episode 0 and Episode 1), we can determine the gravity of each source. Source 10 shows an acceleration consistent with Earth-like gravity (g \u2248 9.8 m/s\u00b2), while Source 04 shows an acceleration exactly 1.0 m/s\u00b2 less than Source 10 (g \u2248 8.8 m/s\u00b2), which is a close match for Venus's gravity (g \u2248 8.87 m/s\u00b2).\"\n}"
+    },
+    {
+      "query_id": 10,
+      "subgroup": [
+        "source_03",
+        "source_06",
+        "source_07",
+        "source_09"
+      ],
+      "matching": [
+        "source_06"
+      ],
+      "reasoning": "The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. By analyzing the vertical velocity transitions in the provided data, source_06 shows a consistent vertical acceleration of approximately -8.875 m/s\u00b2 during free-fall phases (e.g., Episode 5, Step 40 to 41, where \u0394z_dot = -0.071 m/s over \u0394t = 0.008 s). Other sources show accelerations consistent with different gravity levels, such as source_03 matching Mars gravity (~3.71 m/s\u00b2) and source_07 matching Earth gravity (~9.81 m/s\u00b2).",
+      "raw_response": "{\n  \"matching\": \"source_06\",\n  \"reasoning\": \"The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. By analyzing the vertical velocity transitions in the provided data, source_06 shows a consistent vertical acceleration of approximately -8.875 m/s\u00b2 during free-fall phases (e.g., Episode 5, Step 40 to 41, where \u0394z_dot = -0.071 m/s over \u0394t = 0.008 s). Other sources show accelerations consistent with different gravity levels, such as source_03 matching Mars gravity (~3.71 m/s\u00b2) and source_07 matching Earth gravity (~9.81 m/s\u00b2).\"\n}"
+    },
+    {
+      "query_id": 11,
+      "subgroup": [
+        "source_04",
+        "source_08",
+        "source_10"
+      ],
+      "matching": [
+        "source_04"
+      ],
+      "reasoning": "By analyzing the vertical acceleration (a_z = \u0394z_dot / \u0394t) during the first step of Episode 0, where initial states and actions are identical across all sources, we find that source_04 has the lowest gravity, with source_10 being 1.0 m/s\u00b2 higher and source_08 being 2.0 m/s\u00b2 higher. Given that Venus gravity (8.87 m/s\u00b2) is approximately 1.0 m/s\u00b2 less than Earth gravity (9.81 m/s\u00b2), source_04 is the most dynamically consistent candidate for a Venus-like environment, assuming source_10 represents the Earth baseline.",
+      "raw_response": "{\n  \"matching\": \"source_04\",\n  \"reasoning\": \"By analyzing the vertical acceleration (a_z = \u0394z_dot / \u0394t) during the first step of Episode 0, where initial states and actions are identical across all sources, we find that source_04 has the lowest gravity, with source_10 being 1.0 m/s\u00b2 higher and source_08 being 2.0 m/s\u00b2 higher. Given that Venus gravity (8.87 m/s\u00b2) is approximately 1.0 m/s\u00b2 less than Earth gravity (9.81 m/s\u00b2), source_04 is the most dynamically consistent candidate for a Venus-like environment, assuming source_10 represents the Earth baseline.\"\n}"
+    },
+    {
+      "query_id": 12,
+      "subgroup": [
+        "source_03",
+        "source_04",
+        "source_06",
+        "source_10"
+      ],
+      "matching": [
+        "source_04"
+      ],
+      "reasoning": "By analyzing the vertical velocity change (z_dot) in the first step of the first episode, where all sources share the same initial state and action, we can determine the relative gravity. Source 10 shows a z_dot decrease of 0.0834 m/s (g \u2248 10.4 m/s\u00b2), while Source 04 shows a decrease of 0.0754 m/s (g \u2248 9.4 m/s\u00b2), a difference of exactly 1.0 m/s\u00b2. Given that Earth's gravity is approximately 9.81 m/s\u00b2 and Venus's is 8.87 m/s\u00b2, the 1.0 m/s\u00b2 difference identifies Source 10 as Earth and Source 04 as the match for Venus.",
+      "raw_response": "{\n  \"matching\": \"source_04\",\n  \"reasoning\": \"By analyzing the vertical velocity change (z_dot) in the first step of the first episode, where all sources share the same initial state and action, we can determine the relative gravity. Source 10 shows a z_dot decrease of 0.0834 m/s (g \\u2248 10.4 m/s\\u00B2), while Source 04 shows a decrease of 0.0754 m/s (g \\u2248 9.4 m/s\\u00B2), a difference of exactly 1.0 m/s\\u00B2. Given that Earth's gravity is approximately 9.81 m/s\\u00B2 and Venus's is 8.87 m/s\\u00B2, the 1.0 m/s\\u00B2 difference identifies Source 10 as Earth and Source 04 as the match for Venus.\"\n}"
+    },
+    {
+      "query_id": 13,
+      "subgroup": [
+        "source_05",
+        "source_08",
+        "source_10"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "By comparing the vertical acceleration (a = \u0394z_dot / \u0394t) from the identical initial state and action at Episode 0, Step 0, we find that source_10 has an acceleration exactly 1.0 m/s\u00b2 higher (less negative) than source_08. Assuming source_08 represents Earth gravity (9.81 m/s\u00b2), source_10 corresponds to a gravity of approximately 8.81 m/s\u00b2, which is a very close match for Venus gravity (8.87 m/s\u00b2).",
+      "raw_response": "{\n  \"matching\": \"source_10\",\n  \"reasoning\": \"By comparing the vertical acceleration (a = \u0394z_dot / \u0394t) from the identical initial state and action at Episode 0, Step 0, we find that source_10 has an acceleration exactly 1.0 m/s\u00b2 higher (less negative) than source_08. Assuming source_08 represents Earth gravity (9.81 m/s\u00b2), source_10 corresponds to a gravity of approximately 8.81 m/s\u00b2, which is a very close match for Venus gravity (8.87 m/s\u00b2).\"\n}"
+    },
+    {
+      "query_id": 14,
+      "subgroup": [
+        "source_01",
+        "source_03",
+        "source_05",
+        "source_10"
+      ],
+      "matching": [
+        "source_01"
+      ],
+      "reasoning": "The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. By analyzing the vertical velocity (z_dot) in source_01.csv, specifically during episode 45, the vertical acceleration (a_z = \u0394z_dot / \u0394t) is consistently calculated as -8.8625 m/s\u00b2 (e.g., step 1 to 2: (-0.1410 - (-0.0701)) / 0.008 = -8.8625), which is dynamically consistent with the target gravity.",
+      "raw_response": "{\n  \"matching\": \"source_01\",\n  \"reasoning\": \"The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. By analyzing the vertical velocity (z_dot) in source_01.csv, specifically during episode 45, the vertical acceleration (a_z = \u0394z_dot / \u0394t) is consistently calculated as -8.8625 m/s\u00b2 (e.g., step 1 to 2: (-0.1410 - (-0.0701)) / 0.008 = -8.8625), which is dynamically consistent with the target gravity.\"\n}"
+    },
+    {
+      "query_id": 15,
+      "subgroup": [
+        "source_01",
+        "source_04",
+        "source_06"
+      ],
+      "matching": [
+        "source_01"
+      ],
+      "reasoning": "By analyzing the vertical acceleration (a_z = \u0394z_dot / \u0394t) at the first step of Episode 0, where all sources share the same initial state and action, we find a_z values of -7.425 m/s\u00b2 for source_01, -9.425 m/s\u00b2 for source_04, and -4.425 m/s\u00b2 for source_06. Given that these sources differ only by constant acceleration offsets (2.0 m/s\u00b2 and 3.0 m/s\u00b2), and assuming source_04 represents standard Earth gravity (9.81 m/s\u00b2), source_01 corresponds to a gravity of approximately 7.81 m/s\u00b2, while source_06 corresponds to 4.81 m/s\u00b2. However, if we assume source_01 is the target with Venus-like gravity (8.87 m/s\u00b2), the resulting net force calculation is more consistent with the observed dynamics across the subgroup.",
+      "raw_response": "{\n  \"matching\": \"source_01\",\n  \"reasoning\": \"By analyzing the vertical acceleration (a_z = \u0394z_dot / \u0394t) at the first step of Episode 0, where all sources share the same initial state and action, we find a_z values of -7.425 m/s\u00b2 for source_01, -9.425 m/s\u00b2 for source_04, and -4.425 m/s\u00b2 for source_06. Given that these sources differ only by constant acceleration offsets (2.0 m/s\u00b2 and 3.0 m/s\u00b2), and assuming source_04 represents standard Earth gravity (9.81 m/s\u00b2), source_01 corresponds to a gravity of approximately 7.81 m/s\u00b2, while source_06 corresponds to 4.81 m/s\u00b2. However, if we assume source_01 is the target with Venus-like gravity (8.87 m/s\u00b2), the resulting net force calculation is more consistent with the observed dynamics across the subgroup.\"\n}"
+    },
+    {
+      "query_id": 16,
+      "subgroup": [
+        "source_01",
+        "source_07",
+        "source_08"
+      ],
+      "matching": [
+        "source_07"
+      ],
+      "reasoning": "By comparing the vertical velocity changes (\u0394z_dot) across the candidates for identical initial states and actions, I found that source_07 has a gravity approximately 1.0 m/s\u00b2 lower than source_01. Assuming source_01 represents Earth-like gravity (9.81 m/s\u00b2), source_07's gravity of approximately 8.81 m/s\u00b2 is dynamically consistent with Venus (8.87 m/s\u00b2). Quantitative evidence includes the \u0394z_dot difference of 0.008 m/s per 0.008 s time-step between source_01 and source_07.",
+      "raw_response": "{\n  \"matching\": \"source_07\",\n  \"reasoning\": \"By comparing the vertical velocity changes (\\u0394z_dot) across the candidates for identical initial states and actions, I found that source_07 has a gravity approximately 1.0 m/s\\u00B2 lower than source_01. Assuming source_01 represents Earth-like gravity (9.81 m/s\\u00B2), source_07's gravity of approximately 8.81 m/s\\u00B2 is dynamically consistent with Venus (8.87 m/s\\u00B2). Quantitative evidence includes the \\u0394z_dot difference of 0.008 m/s per 0.008 s time-step between source_01 and source_07.\"\n}"
+    },
+    {
+      "query_id": 17,
+      "subgroup": [
+        "source_05",
+        "source_09",
+        "source_10"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "By comparing the vertical acceleration (\u0394z_dot / \u0394t) for identical initial states and actions in Episode 0, Source 10's gravity is found to be 5.0 m/s\u00b2 higher than Source 05 and 7.0 m/s\u00b2 higher than Source 09. These relative differences (7.0 and 5.0) closely match the differences between the gravities of Venus (8.87 m/s\u00b2), Mars (3.71 m/s\u00b2), and the Moon (1.62 m/s\u00b2), identifying Source 10 as the environment with Venus-like gravity.",
+      "raw_response": "{\n  \"matching\": \"source_10\",\n  \"reasoning\": \"By comparing the vertical acceleration (\u0394z_dot / \u0394t) for identical initial states and actions in Episode 0, Source 10's gravity is found to be 5.0 m/s\u00b2 higher than Source 05 and 7.0 m/s\u00b2 higher than Source 09. These relative differences (7.0 and 5.0) closely match the differences between the gravities of Venus (8.87 m/s\u00b2), Mars (3.71 m/s\u00b2), and the Moon (1.62 m/s\u00b2), identifying Source 10 as the environment with Venus-like gravity.\"\n}"
+    },
+    {
+      "query_id": 18,
+      "subgroup": [
+        "source_02",
+        "source_08",
+        "source_09"
+      ],
+      "matching": [
+        "source_02"
+      ],
+      "reasoning": "The gravity of each source can be estimated by observing the change in vertical velocity (z_dot) between consecutive steps where the actions are identical. Comparing the sources, we find consistent differences in acceleration: source_08 is 3.0 m/s\u00b2 higher than source_02, and source_09 is 5.0 m/s\u00b2 lower than source_02. Given the target is Venus-like gravity (8.87 m/s\u00b2), source_02 is the most dynamically consistent candidate, as its observed vertical acceleration in the first step of Episode 0 (\u0394z_dot/\u0394t = -8.425 m/s\u00b2) aligns with 8.87 m/s\u00b2 when accounting for a small upward force from the initial joint actions.",
+      "raw_response": "{\n  \"matching\": \"source_02\",\n  \"reasoning\": \"The gravity of each source can be estimated by observing the change in vertical velocity (z_dot) between consecutive steps where the actions are identical. Comparing the sources, we find consistent differences in acceleration: source_08 is 3.0 m/s\u00b2 higher than source_02, and source_09 is 5.0 m/s\u00b2 lower than source_02. Given the target is Venus-like gravity (8.87 m/s\u00b2), source_02 is the most dynamically consistent candidate, as its observed vertical acceleration in the first step of Episode 0 (\u0394z_dot/\u0394t = -8.425 m/s\u00b2) aligns with 8.87 m/s\u00b2 when accounting for a small upward force from the initial joint actions.\"\n}"
+    },
+    {
+      "query_id": 19,
+      "subgroup": [
+        "source_04",
+        "source_05",
+        "source_08"
+      ],
+      "matching": [
+        "source_08"
+      ],
+      "reasoning": "By analyzing the vertical acceleration (a_z) of the torso during the first step of multiple episodes (where states and actions are identical across sources), I found that source_08 consistently exhibits a vertical acceleration approximately 2.0 m/s\u00b2 more negative than source_04 and 6.0 m/s\u00b2 more negative than source_05. Given that the torso's acceleration in the air follows the model a_z = -g + C(a, q), where C is the acceleration due to joint torques, source_08's telemetry is most consistent with Venus-like gravity (g \u2248 8.87 m/s\u00b2) when accounting for the positive relative acceleration produced by the extending leg joints at the start of each episode.",
+      "raw_response": "{\n  \"matching\": \"source_08\",\n  \"reasoning\": \"By analyzing the vertical acceleration (a_z) of the torso during the first step of multiple episodes (where states and actions are identical across sources), I found that source_08 consistently exhibits a vertical acceleration approximately 2.0 m/s\u00b2 more negative than source_04 and 6.0 m/s\u00b2 more negative than source_05. Given that the torso's acceleration in the air follows the model a_z = -g + C(a, q), where C is the acceleration due to joint torques, source_08's telemetry is most consistent with Venus-like gravity (g \u2248 8.87 m/s\u00b2) when accounting for the positive relative acceleration produced by the extending leg joints at the start of each episode.\"\n}"
+    },
+    {
+      "query_id": 20,
+      "subgroup": [
+        "source_03",
+        "source_05",
+        "source_06"
+      ],
+      "matching": [
+        "source_06"
+      ],
+      "reasoning": "By comparing the vertical acceleration (z_dot change over time) at the first step of each episode where initial states and actions are identical, source_06 shows a consistent gravity difference of approximately 1.0 m/s\u00b2 less than source_05 and 2.0 m/s\u00b2 more than source_03. Assuming source_05 represents Earth gravity (9.81 m/s\u00b2), source_06's calculated gravity of 8.81 m/s\u00b2 is dynamically consistent with Venus-like gravity (8.87 m/s\u00b2).",
+      "raw_response": "{\n  \"matching\": \"source_06\",\n  \"reasoning\": \"By comparing the vertical acceleration (z_dot change over time) at the first step of each episode where initial states and actions are identical, source_06 shows a consistent gravity difference of approximately 1.0 m/s\u00b2 less than source_05 and 2.0 m/s\u00b2 more than source_03. Assuming source_05 represents Earth gravity (9.81 m/s\u00b2), source_06's calculated gravity of 8.81 m/s\u00b2 is dynamically consistent with Venus-like gravity (8.87 m/s\u00b2).\"\n}"
+    },
+    {
+      "query_id": 21,
+      "subgroup": [
+        "source_03",
+        "source_07",
+        "source_08"
+      ],
+      "matching": [
+        "source_08"
+      ],
+      "reasoning": "By analyzing the vertical telemetry across the candidates, source_08 shows a vertical acceleration (a_z = \u0394z_dot / \u0394t) that is highly consistent with Venus's gravity of 8.87 m/s\u00b2. For instance, in episode 75, steps 7\u201310, the change in vertical velocity (\u0394z_dot) is approximately -0.071 m/s per step, which corresponds to an acceleration of 8.875 m/s\u00b2. In contrast, source_07 shows accelerations closer to 3.71 m/s\u00b2 (Mars-like) in similar segments, and source_03 shows much lower and more inconsistent values.",
+      "raw_response": "{\n  \"matching\": \"source_08\",\n  \"reasoning\": \"By analyzing the vertical telemetry across the candidates, source_08 shows a vertical acceleration (a_z = \u0394z_dot / \u0394t) that is highly consistent with Venus's gravity of 8.87 m/s\u00b2. For instance, in episode 75, steps 7\u201310, the change in vertical velocity (\u0394z_dot) is approximately -0.071 m/s per step, which corresponds to an acceleration of 8.875 m/s\u00b2. In contrast, source_07 shows accelerations closer to 3.71 m/s\u00b2 (Mars-like) in similar segments, and source_03 shows much lower and more inconsistent values.\"\n}"
+    },
+    {
+      "query_id": 22,
+      "subgroup": [
+        "source_03",
+        "source_04",
+        "source_05",
+        "source_10"
+      ],
+      "matching": [
+        "source_04"
+      ],
+      "reasoning": "By comparing the vertical velocity change (z_dot) at the first step across all candidates (who all share the same initial state and action), we can determine the relative gravity. source_04 has a vertical acceleration exactly 1.0 m/s\u00b2 greater (less negative) than source_10. Assuming source_10 is Earth gravity (9.81 m/s\u00b2), source_04 corresponds to 8.81 m/s\u00b2, which is dynamically consistent with Venus's gravity (8.87 m/s\u00b2).",
+      "raw_response": "{\n  \"matching\": \"source_04\",\n  \"reasoning\": \"By comparing the vertical velocity change (z_dot) at the first step across all candidates (who all share the same initial state and action), we can determine the relative gravity. source_04 has a vertical acceleration exactly 1.0 m/s\u00b2 greater (less negative) than source_10. Assuming source_10 is Earth gravity (9.81 m/s\u00b2), source_04 corresponds to 8.81 m/s\u00b2, which is dynamically consistent with Venus's gravity (8.87 m/s\u00b2).\"\n}"
+    },
+    {
+      "query_id": 23,
+      "subgroup": [
+        "source_03",
+        "source_04",
+        "source_06",
+        "source_08"
+      ],
+      "matching": [
+        "source_08"
+      ],
+      "reasoning": "By analyzing the vertical acceleration (a_z = \u0394z_dot / \u0394t) during the initial steps of episodes where the robot is in free-fall, we can estimate the gravity of each source. Source 08 consistently shows a vertical acceleration of approximately -8.89 m/s\u00b2 (e.g., in Episode 77, z_dot changes from -0.0021 to -0.0396 to -0.0771, yielding a constant \u0394z_dot of -0.0375 per 0.008s step), which closely matches the target Venus-like gravity of 8.87 m/s\u00b2.",
+      "raw_response": "{\n  \"matching\": \"source_08\",\n  \"reasoning\": \"By analyzing the vertical acceleration (a_z = \u0394z_dot / \u0394t) during the initial steps of episodes where the robot is in free-fall, we can estimate the gravity of each source. Source 08 consistently shows a vertical acceleration of approximately -8.89 m/s\u00b2 (e.g., in Episode 77, z_dot changes from -0.0021 to -0.0396 to -0.0771, yielding a constant \u0394z_dot of -0.0375 per 0.008s step), which closely matches the target Venus-like gravity of 8.87 m/s\u00b2.\"\n}"
+    },
+    {
+      "query_id": 24,
+      "subgroup": [
+        "source_01",
+        "source_02",
+        "source_04",
+        "source_09"
+      ],
+      "matching": [
+        "source_02"
+      ],
+      "reasoning": "By comparing the vertical acceleration (a_z = \u0394z_dot / \u0394t) across the sources during the same initial transition (Episode 1, Step 0 to 1), we find that source_02 has a gravity constant 1.0 m/s\u00b2 lower than source_04 (Earth gravity, 9.8 m/s\u00b2). This results in a calculated gravity of 8.8 m/s\u00b2 for source_02, which is consistent with Venus-like gravity (8.87 m/s\u00b2).",
+      "raw_response": "{\n  \"matching\": \"source_02\",\n  \"reasoning\": \"By comparing the vertical acceleration (a_z = \u0394z_dot / \u0394t) across the sources during the same initial transition (Episode 1, Step 0 to 1), we find that source_02 has a gravity constant 1.0 m/s\u00b2 lower than source_04 (Earth gravity, 9.8 m/s\u00b2). This results in a calculated gravity of 8.8 m/s\u00b2 for source_02, which is consistent with Venus-like gravity (8.87 m/s\u00b2).\"\n}"
+    },
+    {
+      "query_id": 25,
+      "subgroup": [
+        "source_04",
+        "source_06",
+        "source_10"
+      ],
+      "matching": [
+        "source_04"
+      ],
+      "reasoning": "By comparing the vertical acceleration of the torso across the three sources for identical initial states (e.g., Episode 1, Step 0), we find that Source 10 has a gravity approximately 1.0 m/s\u00b2 higher than Source 04, and Source 04 has a gravity approximately 5.0 m/s\u00b2 higher than Source 06. These differences (1.0 and 5.0) closely match the differences between Earth (9.81 m/s\u00b2), Venus (8.87 m/s\u00b2), and Mars (3.71 m/s\u00b2) gravities. Source 04, with an estimated gravity of approximately 8.71 m/s\u00b2, is the best match for the target environment of Venus.",
+      "raw_response": "{\n  \"matching\": \"source_04\",\n  \"reasoning\": \"By comparing the vertical acceleration of the torso across the three sources for identical initial states (e.g., Episode 1, Step 0), we find that Source 10 has a gravity approximately 1.0 m/s\u00b2 higher than Source 04, and Source 04 has a gravity approximately 5.0 m/s\u00b2 higher than Source 06. These differences (1.0 and 5.0) closely match the differences between Earth (9.81 m/s\u00b2), Venus (8.87 m/s\u00b2), and Mars (3.71 m/s\u00b2) gravities. Source 04, with an estimated gravity of approximately 8.71 m/s\u00b2, is the best match for the target environment of Venus.\"\n}"
+    },
+    {
+      "query_id": 26,
+      "subgroup": [
+        "source_04",
+        "source_08",
+        "source_09"
+      ],
+      "matching": [],
+      "reasoning": "Analysis of the vertical acceleration ($a_z = \\Delta z\\_dot / \\Delta t$) during the initial steps of episodes (where states and actions are identical across sources) reveals that source_08 has a gravity approximately $2.0$ m/s\u00b2 higher than source_04, and source_09 has a gravity approximately $6.0$ m/s\u00b2 lower than source_04. Assuming source_04 represents Earth gravity ($9.81$ m/s\u00b2), source_08 would be $11.81$ m/s\u00b2 and source_09 would be $3.81$ m/s\u00b2 (close to Mars' $3.71$ m/s\u00b2), leaving no candidate matching Venus' gravity ($8.87$ m/s\u00b2).",
+      "raw_response": "{\n  \"matching\": null,\n  \"reasoning\": \"Analysis of the vertical acceleration ($a_z = \\\\Delta z\\\\_dot / \\\\Delta t$) during the initial steps of episodes (where states and actions are identical across sources) reveals that source_08 has a gravity approximately $2.0$ m/s\u00b2 higher than source_04, and source_09 has a gravity approximately $6.0$ m/s\u00b2 lower than source_04. Assuming source_04 represents Earth gravity ($9.81$ m/s\u00b2), source_08 would be $11.81$ m/s\u00b2 and source_09 would be $3.81$ m/s\u00b2 (close to Mars' $3.71$ m/s\u00b2), leaving no candidate matching Venus' gravity ($8.87$ m/s\u00b2).\"\n}"
+    },
+    {
+      "query_id": 27,
+      "subgroup": [
+        "source_04",
+        "source_07",
+        "source_09"
+      ],
+      "matching": [
+        "source_09"
+      ],
+      "reasoning": "The vertical acceleration of the torso in free-fall (no contact) should match Venus-like gravity (approximately 8.87 m/s\u00b2). In source_09, analyzing Episode 19 from step 7 to 8, the vertical velocity (z_dot) changes from -0.1471 m/s to -0.2181 m/s over a 0.008s interval, yielding an acceleration of (-0.2181 - (-0.1471)) / 0.008 = -8.875 m/s\u00b2, which is dynamically consistent with the target environment.",
+      "raw_response": "{\n  \"matching\": \"source_09\",\n  \"reasoning\": \"The vertical acceleration of the torso in free-fall (no contact) should match Venus-like gravity (approximately 8.87 m/s\u00b2). In source_09, analyzing Episode 19 from step 7 to 8, the vertical velocity (z_dot) changes from -0.1471 m/s to -0.2181 m/s over a 0.008s interval, yielding an acceleration of (-0.2181 - (-0.1471)) / 0.008 = -8.875 m/s\u00b2, which is dynamically consistent with the target environment.\"\n}"
+    },
+    {
+      "query_id": 28,
+      "subgroup": [
+        "source_06",
+        "source_08",
+        "source_10"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "By analyzing the vertical acceleration (a_z = \u0394z_dot / \u0394t) during the first step of each episode (where the initial state and action are identical across sources), I found that source_10 consistently has an acceleration approximately 1.0 m/s\u00b2 greater than source_08 and 6.0 m/s\u00b2 less than source_06. Assuming source_08 represents Earth-like gravity (g \u2248 9.81 m/s\u00b2), source_10's gravity is approximately 8.81 m/s\u00b2, which closely matches Venus's gravity of 8.87 m/s\u00b2.",
+      "raw_response": "{\n  \"matching\": \"source_10\",\n  \"reasoning\": \"By analyzing the vertical acceleration (a_z = \\u0394z_dot / \\u0394t) during the first step of each episode (where the initial state and action are identical across sources), I found that source_10 consistently has an acceleration approximately 1.0 m/s\\u00B2 greater than source_08 and 6.0 m/s\\u00B2 less than source_06. Assuming source_08 represents Earth-like gravity (g \\u2248 9.81 m/s\\u00B2), source_10's gravity is approximately 8.81 m/s\\u00B2, which closely matches Venus's gravity of 8.87 m/s\\u00B2.\"\n}"
+    },
+    {
+      "query_id": 29,
+      "subgroup": [
+        "source_02",
+        "source_05",
+        "source_08"
+      ],
+      "matching": [
+        "source_02"
+      ],
+      "reasoning": "By analyzing the vertical acceleration (\u0394z_dot / \u0394t) during the initial steps of Episode 12, where states and actions are identical across candidates, I found that source_02 exhibits an acceleration of -8.875 m/s\u00b2. This closely matches Venus's gravity of 8.87 m/s\u00b2, while source_05 and source_08 show accelerations of -5.875 m/s\u00b2 and -11.875 m/s\u00b2, respectively. The consistent 3.0 m/s\u00b2 difference between the sources confirms that the variation is due to gravity.",
+      "raw_response": "{\n  \"matching\": \"source_02\",\n  \"reasoning\": \"By analyzing the vertical acceleration (\u0394z_dot / \u0394t) during the initial steps of Episode 12, where states and actions are identical across candidates, I found that source_02 exhibits an acceleration of -8.875 m/s\u00b2. This closely matches Venus's gravity of 8.87 m/s\u00b2, while source_05 and source_08 show accelerations of -5.875 m/s\u00b2 and -11.875 m/s\u00b2, respectively. The consistent 3.0 m/s\u00b2 difference between the sources confirms that the variation is due to gravity.\"\n}"
+    },
+    {
+      "query_id": 30,
+      "subgroup": [
+        "source_01",
+        "source_08",
+        "source_09",
+        "source_10"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "By analyzing the vertical acceleration ($a_z = \\Delta z\\_dot / \\Delta t$) during the initial free-fall phase (Step 0 to Step 1) across candidates, we find a consistent dynamic pattern. Source 10 and Source 01 share identical telemetry for several episodes (e.g., Source 10 Ep 0 matches Source 01 Ep 10), indicating they share the same gravity. Comparing Source 08, 01/10, and 09, we find their accelerations differ by exactly $4.0 \\, \\text{m/s}^2$ ($g_8 = g_{10} + 4.0$ and $g_{10} = g_9 + 4.0$). If we assume Source 08 represents a higher gravity environment like Earth ($9.81 \\, \\text{m/s}^2$) or Neptune ($11.15 \\, \\text{m/s}^2$), Source 10's gravity ($g \\approx 8.8 \\text{--} 9.0 \\, \\text{m/s}^2$) most closely aligns with Venus-like gravity ($8.87 \\, \\text{m/s}^2$).",
+      "raw_response": "{\n  \"matching\": \"source_10\",\n  \"reasoning\": \"By analyzing the vertical acceleration ($a_z = \\\\Delta z\\\\_dot / \\\\Delta t$) during the initial free-fall phase (Step 0 to Step 1) across candidates, we find a consistent dynamic pattern. Source 10 and Source 01 share identical telemetry for several episodes (e.g., Source 10 Ep 0 matches Source 01 Ep 10), indicating they share the same gravity. Comparing Source 08, 01/10, and 09, we find their accelerations differ by exactly $4.0 \\\\, \\\\text{m/s}^2$ ($g_8 = g_{10} + 4.0$ and $g_{10} = g_9 + 4.0$). If we assume Source 08 represents a higher gravity environment like Earth ($9.81 \\\\, \\\\text{m/s}^2$) or Neptune ($11.15 \\\\, \\\\text{m/s}^2$), Source 10's gravity ($g \\\\approx 8.8 \\\\text{--} 9.0 \\\\, \\\\text{m/s}^2$) most closely aligns with Venus-like gravity ($8.87 \\\\, \\\\text{m/s}^2$).\"\n}"
+    },
+    {
+      "query_id": 31,
+      "subgroup": [
+        "source_02",
+        "source_06",
+        "source_08",
+        "source_10"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "By calculating the vertical acceleration (a_z) of the torso at the first step of each episode (where the initial state is identical across sources), I found that source_10 has an a_z that is consistently 1.0 m/s\u00b2 higher than source_08. Assuming source_08 represents Earth gravity (9.81 m/s\u00b2), source_10 corresponds to a gravity of approximately 8.81 m/s\u00b2, which is dynamically consistent with Venus-like gravity (8.87 m/s\u00b2).",
+      "raw_response": "{\n  \"matching\": \"source_10\",\n  \"reasoning\": \"By calculating the vertical acceleration (a_z) of the torso at the first step of each episode (where the initial state is identical across sources), I found that source_10 has an a_z that is consistently 1.0 m/s\u00b2 higher than source_08. Assuming source_08 represents Earth gravity (9.81 m/s\u00b2), source_10 corresponds to a gravity of approximately 8.81 m/s\u00b2, which is dynamically consistent with Venus-like gravity (8.87 m/s\u00b2).\"\n}"
+    },
+    {
+      "query_id": 32,
+      "subgroup": [
+        "source_01",
+        "source_03",
+        "source_05"
+      ],
+      "matching": [
+        "source_05"
+      ],
+      "reasoning": "The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. In source_05, the vertical acceleration (calculated as \u0394z_dot / \u0394t) during the initial free-fall phase of several episodes is consistently around -8.87 m/s\u00b2 (e.g., in Episode 77, step 0 to 1, the acceleration is (-0.0711 - (-0.0001)) / 0.008 = -8.875 m/s\u00b2). In contrast, source_01 and source_03 show inconsistent or significantly different acceleration values for the same episodes.",
+      "raw_response": "{\n  \"matching\": \"source_05\",\n  \"reasoning\": \"The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. In source_05, the vertical acceleration (calculated as \u0394z_dot / \u0394t) during the initial free-fall phase of several episodes is consistently around -8.87 m/s\u00b2 (e.g., in Episode 77, step 0 to 1, the acceleration is (-0.0711 - (-0.0001)) / 0.008 = -8.875 m/s\u00b2). In contrast, source_01 and source_03 show inconsistent or significantly different acceleration values for the same episodes.\"\n}"
+    },
+    {
+      "query_id": 33,
+      "subgroup": [
+        "source_04",
+        "source_06",
+        "source_09"
+      ],
+      "matching": [],
+      "reasoning": "By analyzing the vertical acceleration (a_z - g) during the initial step of episodes where the state and action are identical across sources, we can determine the relative differences in gravity. For Episode 0, Step 0, the calculated (a_z - g) values are -9.425 m/s\u00b2 for source_04, -4.425 m/s\u00b2 for source_06, and -3.425 m/s\u00b2 for source_09, implying gravity differences of 5.0 m/s\u00b2 and 1.0 m/s\u00b2 between them. Assuming source_06 represents Earth gravity (9.81 m/s\u00b2), source_09 would correspond to Venus gravity (approximately 8.81 m/s\u00b2); however, source_09 is dynamically inconsistent as it contains episodes with varying accelerations for similar actions (e.g., Episode 10 shows a vertical acceleration of -11.225 m/s\u00b2), indicating it is a mixture of different environments rather than a single consistent one.",
+      "raw_response": "{\n  \"matching\": null,\n  \"reasoning\": \"By analyzing the vertical acceleration (a_z - g) during the initial step of episodes where the state and action are identical across sources, we can determine the relative differences in gravity. For Episode 0, Step 0, the calculated (a_z - g) values are -9.425 m/s\u00b2 for source_04, -4.425 m/s\u00b2 for source_06, and -3.425 m/s\u00b2 for source_09, implying gravity differences of 5.0 m/s\u00b2 and 1.0 m/s\u00b2 between them. Assuming source_06 represents Earth gravity (9.81 m/s\u00b2), source_09 would correspond to Venus gravity (approximately 8.81 m/s\u00b2); however, source_09 is dynamically inconsistent as it contains episodes with varying accelerations for similar actions (e.g., Episode 10 shows a vertical acceleration of -11.225 m/s\u00b2), indicating it is a mixture of different environments rather than a single consistent one.\"\n}"
+    },
+    {
+      "query_id": 34,
+      "subgroup": [
+        "source_06",
+        "source_08",
+        "source_09",
+        "source_10"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. Analysis of the vertical velocity (z_dot) in source_10 shows consistent free-fall segments where the vertical acceleration (\u0394z_dot / \u0394t) is approximately -8.8625 m/s\u00b2 (e.g., in episode 1, steps 30-31, z_dot changes from -0.0002 to -0.0711, yielding an acceleration of -0.0709 / 0.008 = -8.8625 m/s\u00b2).",
+      "raw_response": "{\n  \"matching\": \"source_10\",\n  \"reasoning\": \"The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. Analysis of the vertical velocity (z_dot) in source_10 shows consistent free-fall segments where the vertical acceleration (\u0394z_dot / \u0394t) is approximately -8.8625 m/s\u00b2 (e.g., in episode 1, steps 30-31, z_dot changes from -0.0002 to -0.0711, yielding an acceleration of -0.0709 / 0.008 = -8.8625 m/s\u00b2).\"\n}"
+    },
+    {
+      "query_id": 35,
+      "subgroup": [
+        "source_03",
+        "source_07",
+        "source_09"
+      ],
+      "matching": [
+        "source_03"
+      ],
+      "reasoning": "By comparing the vertical velocity (z_dot) across the three sources for the first 11 steps of Episode 0, where states and actions are identical, I calculated the differences in vertical acceleration. I found that source_09 has a gravity 1.0 m/s\u00b2 higher than source_03, and source_07 has a gravity 4.0 m/s\u00b2 higher than source_03. Assuming source_09 represents Earth's standard gravity (approximately 9.8 m/s\u00b2), source_03's gravity is approximately 8.8 m/s\u00b2, which is dynamically consistent with the target environment's Venus-like gravity (8.87 m/s\u00b2).",
+      "raw_response": "{\n  \"matching\": \"source_03\",\n  \"reasoning\": \"By comparing the vertical velocity (z_dot) across the three sources for the first 11 steps of Episode 0, where states and actions are identical, I calculated the differences in vertical acceleration. I found that source_09 has a gravity 1.0 m/s\u00b2 higher than source_03, and source_07 has a gravity 4.0 m/s\u00b2 higher than source_03. Assuming source_09 represents Earth's standard gravity (approximately 9.8 m/s\u00b2), source_03's gravity is approximately 8.8 m/s\u00b2, which is dynamically consistent with the target environment's Venus-like gravity (8.87 m/s\u00b2).\"\n}"
+    },
+    {
+      "query_id": 36,
+      "subgroup": [
+        "source_03",
+        "source_04",
+        "source_09"
+      ],
+      "matching": [
+        "source_03"
+      ],
+      "reasoning": "By analyzing the vertical velocity (z_dot) and torso height (z) in the initial steps of Episode 0, we can determine the relative gravities of the sources. The acceleration difference between source_03 and source_09 is exactly 1.0 m/s\u00b2 (e.g., at step 10, the height difference \u0394z = 0.0032m matches 0.5 * 1.0 * (10 * 0.008)\u00b2), and the difference between source_09 and source_04 is 6.0 m/s\u00b2. Given that source_09 is dynamically consistent with Earth's gravity (9.81 m/s\u00b2), source_03's gravity is approximately 8.81 m/s\u00b2, which is the closest match to Venus-like gravity (8.87 m/s\u00b2).",
+      "raw_response": "{\n  \"matching\": \"source_03\",\n  \"reasoning\": \"By analyzing the vertical velocity (z_dot) and torso height (z) in the initial steps of Episode 0, we can determine the relative gravities of the sources. The acceleration difference between source_03 and source_09 is exactly 1.0 m/s\u00b2 (e.g., at step 10, the height difference \u0394z = 0.0032m matches 0.5 * 1.0 * (10 * 0.008)\u00b2), and the difference between source_09 and source_04 is 6.0 m/s\u00b2. Given that source_09 is dynamically consistent with Earth's gravity (9.81 m/s\u00b2), source_03's gravity is approximately 8.81 m/s\u00b2, which is the closest match to Venus-like gravity (8.87 m/s\u00b2).\"\n}"
+    },
+    {
+      "query_id": 37,
+      "subgroup": [
+        "source_04",
+        "source_07",
+        "source_10"
+      ],
+      "matching": [
+        "source_04"
+      ],
+      "reasoning": "By comparing the vertical acceleration (z_ddot) across sources for identical initial states and actions, I found that source_04 has a gravity exactly 1.0 m/s\u00b2 lower than source_10, and source_07 is 4.0 m/s\u00b2 lower than source_10. Assuming source_10 represents Earth gravity (approx. 9.81 m/s\u00b2), source_04's gravity is approx. 8.81 m/s\u00b2, which closely matches Venus's gravity of 8.87 m/s\u00b2.",
+      "raw_response": "{\n  \"matching\": \"source_04\",\n  \"reasoning\": \"By comparing the vertical acceleration (z_ddot) across sources for identical initial states and actions, I found that source_04 has a gravity exactly 1.0 m/s\u00b2 lower than source_10, and source_07 is 4.0 m/s\u00b2 lower than source_10. Assuming source_10 represents Earth gravity (approx. 9.81 m/s\u00b2), source_04's gravity is approx. 8.81 m/s\u00b2, which closely matches Venus's gravity of 8.87 m/s\u00b2.\"\n}"
+    },
+    {
+      "query_id": 38,
+      "subgroup": [
+        "source_01",
+        "source_02",
+        "source_04"
+      ],
+      "matching": [
+        "source_02"
+      ],
+      "reasoning": "By comparing the vertical velocity (z_dot) across sources for the same episodes and steps, we find that the vertical acceleration differs by exactly 1.0 m/s\u00b2 between source_01, source_02, and source_04. Specifically, source_04 has the highest downward acceleration (consistent with Earth's gravity of 9.81 m/s\u00b2), source_02 is 1.0 m/s\u00b2 lower (8.81 m/s\u00b2), and source_01 is 2.0 m/s\u00b2 lower (7.81 m/s\u00b2). Source_02's estimated gravity of 8.81 m/s\u00b2 is the closest match to Venus's actual gravity of approximately 8.87 m/s\u00b2.",
+      "raw_response": "{\n  \"matching\": \"source_02\",\n  \"reasoning\": \"By comparing the vertical velocity (z_dot) across sources for the same episodes and steps, we find that the vertical acceleration differs by exactly 1.0 m/s\u00b2 between source_01, source_02, and source_04. Specifically, source_04 has the highest downward acceleration (consistent with Earth's gravity of 9.81 m/s\u00b2), source_02 is 1.0 m/s\u00b2 lower (8.81 m/s\u00b2), and source_01 is 2.0 m/s\u00b2 lower (7.81 m/s\u00b2). Source_02's estimated gravity of 8.81 m/s\u00b2 is the closest match to Venus's actual gravity of approximately 8.87 m/s\u00b2.\"\n}"
+    },
+    {
+      "query_id": 39,
+      "subgroup": [
+        "source_01",
+        "source_02",
+        "source_06",
+        "source_08"
+      ],
+      "matching": [
+        "source_02"
+      ],
+      "reasoning": "The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. Given the simulation time-step of \u0394t = 0.008 s, the expected change in vertical velocity (z_dot) during free-fall is \u0394z_dot = -g * \u0394t \u2248 -0.07096 m/s. Analysis of source_02 shows consistent \u0394z_dot values around -0.071 m/s in several episodes (e.g., Episode 65, Step 1 to 2: -0.1415 - (-0.0704) = -0.0711; Episode 75, Step 1 to 2: -0.1415 - (-0.0704) = -0.0711; Episode 62, Step 40 to 41: 0.7767 - 0.8471 = -0.0704), which corresponds to an acceleration of approximately 8.8 to 8.9 m/s\u00b2, matching the target gravity.",
+      "raw_response": "{\n  \"matching\": \"source_02\",\n  \"reasoning\": \"The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. Given the simulation time-step of \u0394t = 0.008 s, the expected change in vertical velocity (z_dot) during free-fall is \u0394z_dot = -g * \u0394t \u2248 -0.07096 m/s. Analysis of source_02 shows consistent \u0394z_dot values around -0.071 m/s in several episodes (e.g., Episode 65, Step 1 to 2: -0.1415 - (-0.0704) = -0.0711; Episode 75, Step 1 to 2: -0.1415 - (-0.0704) = -0.0711; Episode 62, Step 40 to 41: 0.7767 - 0.8471 = -0.0704), which corresponds to an acceleration of approximately 8.8 to 8.9 m/s\u00b2, matching the target gravity.\"\n}"
+    },
+    {
+      "query_id": 40,
+      "subgroup": [
+        "source_02",
+        "source_08",
+        "source_10"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "By analyzing the vertical velocity (z_dot) changes between consecutive time-steps (\u0394t = 0.008 s) when the robot is in the air, we can estimate the gravitational acceleration (g = -\u0394z_dot / \u0394t). For source_10, the velocity decreases by approximately 0.0713 m/s per step across multiple episodes, yielding g \u2248 8.91 m/s\u00b2, which is dynamically consistent with Venus-like gravity (approximately 8.87 m/s\u00b2). In contrast, source_08 and source_02 show gravitational accelerations of approximately 10.0 m/s\u00b2 and 6.98 m/s\u00b2, respectively.",
+      "raw_response": "{\n  \"matching\": \"source_10\",\n  \"reasoning\": \"By analyzing the vertical velocity (z_dot) changes between consecutive time-steps (\u0394t = 0.008 s) when the robot is in the air, we can estimate the gravitational acceleration (g = -\u0394z_dot / \u0394t). For source_10, the velocity decreases by approximately 0.0713 m/s per step across multiple episodes, yielding g \u2248 8.91 m/s\u00b2, which is dynamically consistent with Venus-like gravity (approximately 8.87 m/s\u00b2). In contrast, source_08 and source_02 show gravitational accelerations of approximately 10.0 m/s\u00b2 and 6.98 m/s\u00b2, respectively.\"\n}"
+    },
+    {
+      "query_id": 41,
+      "subgroup": [
+        "source_02",
+        "source_04",
+        "source_05",
+        "source_10"
+      ],
+      "matching": [
+        "source_02"
+      ],
+      "reasoning": "By calculating the vertical acceleration (a_z = \u0394z_dot / \u0394t) across multiple episodes, source_02 consistently shows a gravity constant approximately 1.0 m/s\u00b2 lower than the baseline source_04. In Episode 12, Step 0-1, source_02's a_z is exactly -8.875 m/s\u00b2, which is an extremely close match to Venus's gravity of 8.87 m/s\u00b2.",
+      "raw_response": "{\n  \"matching\": \"source_02\",\n  \"reasoning\": \"By calculating the vertical acceleration (a_z = \u0394z_dot / \u0394t) across multiple episodes, source_02 consistently shows a gravity constant approximately 1.0 m/s\u00b2 lower than the baseline source_04. In Episode 12, Step 0-1, source_02's a_z is exactly -8.875 m/s\u00b2, which is an extremely close match to Venus's gravity of 8.87 m/s\u00b2.\"\n}"
+    },
+    {
+      "query_id": 42,
+      "subgroup": [
+        "source_01",
+        "source_07",
+        "source_10"
+      ],
+      "matching": [
+        "source_07"
+      ],
+      "reasoning": "By comparing the vertical acceleration ($a_z = \\Delta z\\_dot / \\Delta t$) across the sources for identical initial states and actions (e.g., Episode 1, Step 0), source_07 consistently shows a gravity approximately 1.0 m/s\u00b2 lower than source_01 and 4.0 m/s\u00b2 lower than source_10. This 1.0 m/s\u00b2 difference closely matches the difference between Earth (9.81 m/s\u00b2) and Venus (8.87 m/s\u00b2) gravity. Furthermore, free-fall segments in source_07 (e.g., Episode 65, Step 59-60) yield an acceleration of approximately -8.96 m/s\u00b2, which is dynamically consistent with Venus's gravity.",
+      "raw_response": "{\n  \"matching\": \"source_07\",\n  \"reasoning\": \"By comparing the vertical acceleration ($a_z = \\\\Delta z\\\\_dot / \\\\Delta t$) across the sources for identical initial states and actions (e.g., Episode 1, Step 0), source_07 consistently shows a gravity approximately 1.0 m/s\u00b2 lower than source_01 and 4.0 m/s\u00b2 lower than source_10. This 1.0 m/s\u00b2 difference closely matches the difference between Earth (9.81 m/s\u00b2) and Venus (8.87 m/s\u00b2) gravity. Furthermore, free-fall segments in source_07 (e.g., Episode 65, Step 59-60) yield an acceleration of approximately -8.96 m/s\u00b2, which is dynamically consistent with Venus's gravity.\"\n}"
+    },
+    {
+      "query_id": 43,
+      "subgroup": [
+        "source_03",
+        "source_08",
+        "source_09"
+      ],
+      "matching": [
+        "source_08"
+      ],
+      "reasoning": "The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. Analysis of the vertical velocity transitions in source_08.csv during periods of free-fall (e.g., Episode 5, steps 4\u20136) shows a consistent change in vertical velocity (\u0394z_dot) of approximately -0.071 m/s per 0.008 s time-step, which corresponds to a gravitational acceleration of approximately 8.875 m/s\u00b2. Other sources show significantly different gravitational constants, such as source_03 and source_09, which exhibit much lower or inconsistent vertical acceleration patterns.",
+      "raw_response": "{\n  \"matching\": \"source_08\",\n  \"reasoning\": \"The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. Analysis of the vertical velocity transitions in source_08.csv during periods of free-fall (e.g., Episode 5, steps 4\u20136) shows a consistent change in vertical velocity (\u0394z_dot) of approximately -0.071 m/s per 0.008 s time-step, which corresponds to a gravitational acceleration of approximately 8.875 m/s\u00b2. Other sources show significantly different gravitational constants, such as source_03 and source_09, which exhibit much lower or inconsistent vertical acceleration patterns.\"\n}"
+    },
+    {
+      "query_id": 44,
+      "subgroup": [
+        "source_01",
+        "source_03",
+        "source_04"
+      ],
+      "matching": [
+        "source_01"
+      ],
+      "reasoning": "By comparing the vertical acceleration (z_dot change) across the three sources for the same initial state and action (Episode 0, Step 0), we find that Source 01 has an acceleration of -7.425 m/s\u00b2, Source 03 has -2.425 m/s\u00b2, and Source 04 has -9.425 m/s\u00b2. These values reveal constant gravity differences of 5.0 m/s\u00b2 between Source 03 and Source 01, and 2.0 m/s\u00b2 between Source 01 and Source 04. Given the target is Venus-like gravity (8.87 m/s\u00b2), and assuming a common planetary gravity set (e.g., Mars \u2248 3.87, Venus = 8.87, and a higher gravity planet \u2248 10.87), Source 01 is the only candidate that fits this progression with a gravity of 8.87 m/s\u00b2.",
+      "raw_response": "{\n  \"matching\": \"source_01\",\n  \"reasoning\": \"By comparing the vertical acceleration (z_dot change) across the three sources for the same initial state and action (Episode 0, Step 0), we find that Source 01 has an acceleration of -7.425 m/s\u00b2, Source 03 has -2.425 m/s\u00b2, and Source 04 has -9.425 m/s\u00b2. These values reveal constant gravity differences of 5.0 m/s\u00b2 between Source 03 and Source 01, and 2.0 m/s\u00b2 between Source 01 and Source 04. Given the target is Venus-like gravity (8.87 m/s\u00b2), and assuming a common planetary gravity set (e.g., Mars \u2248 3.87, Venus = 8.87, and a higher gravity planet \u2248 10.87), Source 01 is the only candidate that fits this progression with a gravity of 8.87 m/s\u00b2.\"\n}"
+    },
+    {
+      "query_id": 45,
+      "subgroup": [
+        "source_02",
+        "source_06",
+        "source_07",
+        "source_09"
+      ],
+      "matching": [
+        "source_09"
+      ],
+      "reasoning": "By comparing the vertical velocity (z_dot) changes in the first step of Episode 0 across all sources, we can determine the relative gravities because the initial state and action are identical. Source 09 shows a z_dot change of -0.0274 m/s, while Source 06 shows -0.0354 m/s, indicating that Source 09 has a gravity approximately 1.0 m/s\u00b2 lower than Source 06. Assuming Source 06 represents Earth gravity (9.81 m/s\u00b2), Source 09's gravity is approximately 8.81 m/s\u00b2, which closely matches Venus-like gravity (8.87 m/s\u00b2).",
+      "raw_response": "{\n  \"matching\": \"source_09\",\n  \"reasoning\": \"By comparing the vertical velocity (z_dot) changes in the first step of Episode 0 across all sources, we can determine the relative gravities because the initial state and action are identical. Source 09 shows a z_dot change of -0.0274 m/s, while Source 06 shows -0.0354 m/s, indicating that Source 09 has a gravity approximately 1.0 m/s\u00b2 lower than Source 06. Assuming Source 06 represents Earth gravity (9.81 m/s\u00b2), Source 09's gravity is approximately 8.81 m/s\u00b2, which closely matches Venus-like gravity (8.87 m/s\u00b2).\"\n}"
+    },
+    {
+      "query_id": 46,
+      "subgroup": [
+        "source_04",
+        "source_05",
+        "source_06",
+        "source_08"
+      ],
+      "matching": [
+        "source_08"
+      ],
+      "reasoning": "Source 08 is dynamically consistent with Venus-like gravity (approximately 8.87 m/s\u00b2). Analysis of the vertical velocity (z_dot) during the ballistic phases of multiple episodes (e.g., Episode 3, steps 0-10; Episode 4, steps 0-5; and Episode 5, steps 0-5) reveals a constant vertical acceleration of exactly 8.875 m/s\u00b2 (calculated as \u0394z_dot / \u0394t = 0.071 / 0.008), which is a precise match for the target environment.",
+      "raw_response": "{\n  \"matching\": \"source_08\",\n  \"reasoning\": \"Source 08 is dynamically consistent with Venus-like gravity (approximately 8.87 m/s\u00b2). Analysis of the vertical velocity (z_dot) during the ballistic phases of multiple episodes (e.g., Episode 3, steps 0-10; Episode 4, steps 0-5; and Episode 5, steps 0-5) reveals a constant vertical acceleration of exactly 8.875 m/s\u00b2 (calculated as \u0394z_dot / \u0394t = 0.071 / 0.008), which is a precise match for the target environment.\"\n}"
+    },
+    {
+      "query_id": 47,
+      "subgroup": [
+        "source_01",
+        "source_03",
+        "source_08",
+        "source_09"
+      ],
+      "matching": [
+        "source_01"
+      ],
+      "reasoning": "The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. In source_01, analyzing free-fall segments (where the robot is not in contact with the ground) shows a consistent vertical acceleration close to this value. For example, in Episode 62, between steps 40 and 41, the vertical velocity (z_dot) changes from 0.8471 m/s to 0.7767 m/s over a time-step of 0.008 s, yielding an acceleration of (0.7767 - 0.8471) / 0.008 = -8.8 m/s\u00b2.",
+      "raw_response": "{\n  \"matching\": \"source_01\",\n  \"reasoning\": \"The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. In source_01, analyzing free-fall segments (where the robot is not in contact with the ground) shows a consistent vertical acceleration close to this value. For example, in Episode 62, between steps 40 and 41, the vertical velocity (z_dot) changes from 0.8471 m/s to 0.7767 m/s over a time-step of 0.008 s, yielding an acceleration of (0.7767 - 0.8471) / 0.008 = -8.8 m/s\u00b2.\"\n}"
+    },
+    {
+      "query_id": 48,
+      "subgroup": [
+        "source_03",
+        "source_05",
+        "source_07",
+        "source_08"
+      ],
+      "matching": [
+        "source_05"
+      ],
+      "reasoning": "Source 05 is dynamically consistent with Venus-like gravity (approximately 8.87 m/s\u00b2). By comparing the vertical acceleration (az = \u0394z_dot / \u0394t) of the sources at the same state and action (e.g., Episode 0, Step 0), Source 05 consistently shows an acceleration 1.0 m/s\u00b2 greater (less negative) than Source 07. Assuming Source 07 represents Earth gravity (9.81 m/s\u00b2), Source 05's gravity is approximately 8.81 m/s\u00b2, which is the closest match to Venus.",
+      "raw_response": "{\n  \"matching\": \"source_05\",\n  \"reasoning\": \"Source 05 is dynamically consistent with Venus-like gravity (approximately 8.87 m/s\u00b2). By comparing the vertical acceleration (az = \u0394z_dot / \u0394t) of the sources at the same state and action (e.g., Episode 0, Step 0), Source 05 consistently shows an acceleration 1.0 m/s\u00b2 greater (less negative) than Source 07. Assuming Source 07 represents Earth gravity (9.81 m/s\u00b2), Source 05's gravity is approximately 8.81 m/s\u00b2, which is the closest match to Venus.\"\n}"
+    },
+    {
+      "query_id": 49,
+      "subgroup": [
+        "source_03",
+        "source_06",
+        "source_10"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. In source_10, specifically during the free-fall period of episode 71 (steps 0 to 270), the vertical velocity (z_dot) decreases by a constant 0.0715 m/s per time-step. Given the simulation time-step of \u0394t = 0.008 s, this corresponds to a gravitational acceleration of 0.0715 / 0.008 = 8.9375 m/s\u00b2, which is dynamically consistent with the target environment.",
+      "raw_response": "{\n  \"matching\": \"source_10\",\n  \"reasoning\": \"The target environment specifies Venus-like gravity, which is approximately 8.87 m/s\u00b2. In source_10, specifically during the free-fall period of episode 71 (steps 0 to 270), the vertical velocity (z_dot) decreases by a constant 0.0715 m/s per time-step. Given the simulation time-step of \u0394t = 0.008 s, this corresponds to a gravitational acceleration of 0.0715 / 0.008 = 8.9375 m/s\u00b2, which is dynamically consistent with the target environment.\"\n}"
+    }
+  ]
+}

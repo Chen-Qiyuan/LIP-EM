@@ -1,0 +1,10 @@
+# Pinned to the versions used to produce the published table.
+# Tested on Python 3.14.2.
+numpy==2.4.4
+pandas==3.0.2
+torch==2.11.0
+matplotlib==3.10.8
+# Only needed if re-running the LLM elicitation (collect_responses.py).
+# The cached responses (llm_subgroup_queries_*.json) are sufficient to
+# reproduce the table without this dependency.
+google-genai==1.75.0

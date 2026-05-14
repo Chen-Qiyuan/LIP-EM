@@ -1,0 +1,11 @@
+# Pinned to the versions used to produce the published table.
+# Tested on Python 3.14.2 with CUDA 12.8 (NVIDIA RTX 5090).
+torch==2.11.0
+numpy==2.4.4
+h5py==3.16.0
+pandas==3.0.2
+gymnasium==1.2.3
+mujoco==3.8.0
+tqdm==4.67.3
+# Only needed if re-running the LLM elicitation step (lip_query_gemini.py).
+google-genai==1.75.0
