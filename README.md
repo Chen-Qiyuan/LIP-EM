@@ -1,4 +1,4 @@
-# LIP-aided EM correction — supplementary code
+# Language-Induced Priors for Domain Adaptation
 
 Code and trained artifacts for two case studies in the LIP-aided EM correction paper:
 
