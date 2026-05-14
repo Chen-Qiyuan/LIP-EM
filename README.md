@@ -4,8 +4,8 @@ Code and trained artifacts for two case studies in the LIP-aided EM correction p
 
 | Folder | Case study | Backbone |
 |---|---|---|
-| [`Hopper_Gravity/`](Hopper_Gravity/) | Offline-RL negative-transfer correction on Hopper-v5 with custom gravity | NN dynamics + IQL |
-| [`CMAPSS/`](CMAPSS/) | Remaining-Useful-Life prediction on the NASA C-MAPSS turbofan dataset | Natural-cubic-spline GLM |
+| [`Hopper_Gravity/`](Hopper_Gravity/) | Offline-RL on Hopper-v5 | NN dynamics + IQL |
+| [`CMAPSS/`](CMAPSS/) | Engine Core Speed Prediction on the NASA C-MAPSS | Natural-cubic-spline GLM |
 
 Each subdirectory has its own `README.md` with full reproduction instructions, a pinned `requirements.txt`, the code, the LLM-elicitation context, the cached LLM responses, the trained model checkpoints, and the headline results table.
 
