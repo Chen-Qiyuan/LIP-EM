@@ -1,6 +1,6 @@
 # Offline RL datasets (each source HDF5 is ~105 MB, exceeds GitHub's 100 MB
 # per-file limit and the 1 GB recommended repo size). Host these separately
-# (e.g. anonymous Zenodo deposit) and document the download in each
+# (e.g. Zenodo deposit) and document the download in each
 # subproject's README.
 Hopper_Gravity/data/sources_replay/*.hdf5
 Hopper_Gravity/data/*.hdf5

@@ -286,4 +286,4 @@ Vanilla SAC for 200 000 env steps in Hopper-v5 with custom gravity. Replay buffe
 ---
 
 ## Citation
-Anonymized for double-blind review.
+Citation details will be added once the paper is on arXiv.
