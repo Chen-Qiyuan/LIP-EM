@@ -1,0 +1,5 @@
+# Versions used to verify this folder (Python 3.14.4, CPU only); the same as ../cmapss.
+numpy==2.5.1
+scipy==1.18.0
+pandas==3.0.5
+torch==2.13.0          # LIP fit (L-BFGS); the CPU build is enough

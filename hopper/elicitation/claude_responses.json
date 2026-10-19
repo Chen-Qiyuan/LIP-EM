@@ -1,0 +1,574 @@
+{
+  "n_completed": 50,
+  "queries": [
+    {
+      "query_id": 0,
+      "subgroup": [
+        "source_06",
+        "source_10",
+        "source_02"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_06: g~3.05 (\u0394_Venus=-5.82); source_10: g~9.10 (\u0394_Venus=+0.23); source_02: g~6.79 (\u0394_Venus=-2.08). Venus surface gravity is 8.87 m/s^2. source_10 (g~9.10) is the only candidate clearly close to Venus (|\u0394|=0.23) and is closer to Venus than to Earth (|\u0394_Earth|=0.71)."
+    },
+    {
+      "query_id": 1,
+      "subgroup": [
+        "source_02",
+        "source_08",
+        "source_07",
+        "source_05"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_02: g~6.79 (\u0394_Venus=-2.08); source_08: g~9.50 (\u0394_Venus=+0.63); source_07: g~4.99 (\u0394_Venus=-3.88); source_05: g~3.99 (\u0394_Venus=-4.88). Nearest candidate to Venus is source_08 (g~9.50, |\u0394_Venus|=0.63), but it is closer to Earth (|\u0394_Earth|=0.31) than to Venus, so more plausibly an Earth-like environment than Venus. The other candidates here are off by >=2.08 m/s^2. Conservatively, none of these is the Venus match."
+    },
+    {
+      "query_id": 2,
+      "subgroup": [
+        "source_02",
+        "source_10",
+        "source_05",
+        "source_03"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_02: g~6.79 (\u0394_Venus=-2.08); source_10: g~9.10 (\u0394_Venus=+0.23); source_05: g~3.99 (\u0394_Venus=-4.88); source_03: g~1.06 (\u0394_Venus=-7.81). Venus surface gravity is 8.87 m/s^2. source_10 (g~9.10) is the only candidate clearly close to Venus (|\u0394|=0.23) and is closer to Venus than to Earth (|\u0394_Earth|=0.71)."
+    },
+    {
+      "query_id": 3,
+      "subgroup": [
+        "source_04",
+        "source_06",
+        "source_10",
+        "source_08"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_04: g~6.31 (\u0394_Venus=-2.56); source_06: g~3.05 (\u0394_Venus=-5.82); source_10: g~9.10 (\u0394_Venus=+0.23); source_08: g~9.50 (\u0394_Venus=+0.63). Venus surface gravity is 8.87 m/s^2. source_10 (g~9.10) is the only candidate clearly close to Venus (|\u0394|=0.23) and is closer to Venus than to Earth (|\u0394_Earth|=0.71). source_08 (g~9.50) is closer to Earth (\u0394=-0.31) than to Venus (\u0394=+0.63), so I do not pick them."
+    },
+    {
+      "query_id": 4,
+      "subgroup": [
+        "source_08",
+        "source_03",
+        "source_04",
+        "source_05"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_08: g~9.50 (\u0394_Venus=+0.63); source_03: g~1.06 (\u0394_Venus=-7.81); source_04: g~6.31 (\u0394_Venus=-2.56); source_05: g~3.99 (\u0394_Venus=-4.88). Nearest candidate to Venus is source_08 (g~9.50, |\u0394_Venus|=0.63), but it is closer to Earth (|\u0394_Earth|=0.31) than to Venus, so more plausibly an Earth-like environment than Venus. The other candidates here are off by >=2.56 m/s^2. Conservatively, none of these is the Venus match."
+    },
+    {
+      "query_id": 5,
+      "subgroup": [
+        "source_04",
+        "source_10",
+        "source_09",
+        "source_07"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_04: g~6.31 (\u0394_Venus=-2.56); source_10: g~9.10 (\u0394_Venus=+0.23); source_09: g~2.06 (\u0394_Venus=-6.81); source_07: g~4.99 (\u0394_Venus=-3.88). Venus surface gravity is 8.87 m/s^2. source_10 (g~9.10) is the only candidate clearly close to Venus (|\u0394|=0.23) and is closer to Venus than to Earth (|\u0394_Earth|=0.71)."
+    },
+    {
+      "query_id": 6,
+      "subgroup": [
+        "source_05",
+        "source_03",
+        "source_10"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_05: g~3.99 (\u0394_Venus=-4.88); source_03: g~1.06 (\u0394_Venus=-7.81); source_10: g~9.10 (\u0394_Venus=+0.23). Venus surface gravity is 8.87 m/s^2. source_10 (g~9.10) is the only candidate clearly close to Venus (|\u0394|=0.23) and is closer to Venus than to Earth (|\u0394_Earth|=0.71)."
+    },
+    {
+      "query_id": 7,
+      "subgroup": [
+        "source_05",
+        "source_07",
+        "source_06"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_05: g~3.99 (\u0394_Venus=-4.88); source_07: g~4.99 (\u0394_Venus=-3.88); source_06: g~3.05 (\u0394_Venus=-5.82). All candidates in this subgroup have gravity differing from Venus (8.87) by >= 3.88 m/s^2; none plausibly matches Venus."
+    },
+    {
+      "query_id": 8,
+      "subgroup": [
+        "source_01",
+        "source_08",
+        "source_06",
+        "source_10"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_01: g~6.46 (\u0394_Venus=-2.41); source_08: g~9.50 (\u0394_Venus=+0.63); source_06: g~3.05 (\u0394_Venus=-5.82); source_10: g~9.10 (\u0394_Venus=+0.23). Venus surface gravity is 8.87 m/s^2. source_10 (g~9.10) is the only candidate clearly close to Venus (|\u0394|=0.23) and is closer to Venus than to Earth (|\u0394_Earth|=0.71). source_08 (g~9.50) is closer to Earth (\u0394=-0.31) than to Venus (\u0394=+0.63), so I do not pick them."
+    },
+    {
+      "query_id": 9,
+      "subgroup": [
+        "source_09",
+        "source_06",
+        "source_10",
+        "source_08"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_09: g~2.06 (\u0394_Venus=-6.81); source_06: g~3.05 (\u0394_Venus=-5.82); source_10: g~9.10 (\u0394_Venus=+0.23); source_08: g~9.50 (\u0394_Venus=+0.63). Venus surface gravity is 8.87 m/s^2. source_10 (g~9.10) is the only candidate clearly close to Venus (|\u0394|=0.23) and is closer to Venus than to Earth (|\u0394_Earth|=0.71). source_08 (g~9.50) is closer to Earth (\u0394=-0.31) than to Venus (\u0394=+0.63), so I do not pick them."
+    },
+    {
+      "query_id": 10,
+      "subgroup": [
+        "source_06",
+        "source_02",
+        "source_05"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_06: g~3.05 (\u0394_Venus=-5.82); source_02: g~6.79 (\u0394_Venus=-2.08); source_05: g~3.99 (\u0394_Venus=-4.88). All candidates in this subgroup have gravity differing from Venus (8.87) by >= 2.08 m/s^2; none plausibly matches Venus."
+    },
+    {
+      "query_id": 11,
+      "subgroup": [
+        "source_05",
+        "source_08",
+        "source_03"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_05: g~3.99 (\u0394_Venus=-4.88); source_08: g~9.50 (\u0394_Venus=+0.63); source_03: g~1.06 (\u0394_Venus=-7.81). Nearest candidate to Venus is source_08 (g~9.50, |\u0394_Venus|=0.63), but it is closer to Earth (|\u0394_Earth|=0.31) than to Venus, so more plausibly an Earth-like environment than Venus. The other candidates here are off by >=4.88 m/s^2. Conservatively, none of these is the Venus match."
+    },
+    {
+      "query_id": 12,
+      "subgroup": [
+        "source_01",
+        "source_08",
+        "source_09",
+        "source_10"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_01: g~6.46 (\u0394_Venus=-2.41); source_08: g~9.50 (\u0394_Venus=+0.63); source_09: g~2.06 (\u0394_Venus=-6.81); source_10: g~9.10 (\u0394_Venus=+0.23). Venus surface gravity is 8.87 m/s^2. source_10 (g~9.10) is the only candidate clearly close to Venus (|\u0394|=0.23) and is closer to Venus than to Earth (|\u0394_Earth|=0.71). source_08 (g~9.50) is closer to Earth (\u0394=-0.31) than to Venus (\u0394=+0.63), so I do not pick them."
+    },
+    {
+      "query_id": 13,
+      "subgroup": [
+        "source_02",
+        "source_06",
+        "source_01",
+        "source_10"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_02: g~6.79 (\u0394_Venus=-2.08); source_06: g~3.05 (\u0394_Venus=-5.82); source_01: g~6.46 (\u0394_Venus=-2.41); source_10: g~9.10 (\u0394_Venus=+0.23). Venus surface gravity is 8.87 m/s^2. source_10 (g~9.10) is the only candidate clearly close to Venus (|\u0394|=0.23) and is closer to Venus than to Earth (|\u0394_Earth|=0.71)."
+    },
+    {
+      "query_id": 14,
+      "subgroup": [
+        "source_09",
+        "source_08",
+        "source_05"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_09: g~2.06 (\u0394_Venus=-6.81); source_08: g~9.50 (\u0394_Venus=+0.63); source_05: g~3.99 (\u0394_Venus=-4.88). Nearest candidate to Venus is source_08 (g~9.50, |\u0394_Venus|=0.63), but it is closer to Earth (|\u0394_Earth|=0.31) than to Venus, so more plausibly an Earth-like environment than Venus. The other candidates here are off by >=4.88 m/s^2. Conservatively, none of these is the Venus match."
+    },
+    {
+      "query_id": 15,
+      "subgroup": [
+        "source_02",
+        "source_07",
+        "source_09",
+        "source_01"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_02: g~6.79 (\u0394_Venus=-2.08); source_07: g~4.99 (\u0394_Venus=-3.88); source_09: g~2.06 (\u0394_Venus=-6.81); source_01: g~6.46 (\u0394_Venus=-2.41). All candidates in this subgroup have gravity differing from Venus (8.87) by >= 2.08 m/s^2; none plausibly matches Venus."
+    },
+    {
+      "query_id": 16,
+      "subgroup": [
+        "source_04",
+        "source_05",
+        "source_07"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_04: g~6.31 (\u0394_Venus=-2.56); source_05: g~3.99 (\u0394_Venus=-4.88); source_07: g~4.99 (\u0394_Venus=-3.88). All candidates in this subgroup have gravity differing from Venus (8.87) by >= 2.56 m/s^2; none plausibly matches Venus."
+    },
+    {
+      "query_id": 17,
+      "subgroup": [
+        "source_03",
+        "source_07",
+        "source_04",
+        "source_10"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_03: g~1.06 (\u0394_Venus=-7.81); source_07: g~4.99 (\u0394_Venus=-3.88); source_04: g~6.31 (\u0394_Venus=-2.56); source_10: g~9.10 (\u0394_Venus=+0.23). Venus surface gravity is 8.87 m/s^2. source_10 (g~9.10) is the only candidate clearly close to Venus (|\u0394|=0.23) and is closer to Venus than to Earth (|\u0394_Earth|=0.71)."
+    },
+    {
+      "query_id": 18,
+      "subgroup": [
+        "source_03",
+        "source_07",
+        "source_05",
+        "source_04"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_03: g~1.06 (\u0394_Venus=-7.81); source_07: g~4.99 (\u0394_Venus=-3.88); source_05: g~3.99 (\u0394_Venus=-4.88); source_04: g~6.31 (\u0394_Venus=-2.56). All candidates in this subgroup have gravity differing from Venus (8.87) by >= 2.56 m/s^2; none plausibly matches Venus."
+    },
+    {
+      "query_id": 19,
+      "subgroup": [
+        "source_03",
+        "source_05",
+        "source_04",
+        "source_01"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_03: g~1.06 (\u0394_Venus=-7.81); source_05: g~3.99 (\u0394_Venus=-4.88); source_04: g~6.31 (\u0394_Venus=-2.56); source_01: g~6.46 (\u0394_Venus=-2.41). All candidates in this subgroup have gravity differing from Venus (8.87) by >= 2.41 m/s^2; none plausibly matches Venus."
+    },
+    {
+      "query_id": 20,
+      "subgroup": [
+        "source_04",
+        "source_09",
+        "source_10",
+        "source_08"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_04: g~6.31 (\u0394_Venus=-2.56); source_09: g~2.06 (\u0394_Venus=-6.81); source_10: g~9.10 (\u0394_Venus=+0.23); source_08: g~9.50 (\u0394_Venus=+0.63). Venus surface gravity is 8.87 m/s^2. source_10 (g~9.10) is the only candidate clearly close to Venus (|\u0394|=0.23) and is closer to Venus than to Earth (|\u0394_Earth|=0.71). source_08 (g~9.50) is closer to Earth (\u0394=-0.31) than to Venus (\u0394=+0.63), so I do not pick them."
+    },
+    {
+      "query_id": 21,
+      "subgroup": [
+        "source_07",
+        "source_04",
+        "source_06",
+        "source_03"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_07: g~4.99 (\u0394_Venus=-3.88); source_04: g~6.31 (\u0394_Venus=-2.56); source_06: g~3.05 (\u0394_Venus=-5.82); source_03: g~1.06 (\u0394_Venus=-7.81). All candidates in this subgroup have gravity differing from Venus (8.87) by >= 2.56 m/s^2; none plausibly matches Venus."
+    },
+    {
+      "query_id": 22,
+      "subgroup": [
+        "source_09",
+        "source_01",
+        "source_07",
+        "source_06"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_09: g~2.06 (\u0394_Venus=-6.81); source_01: g~6.46 (\u0394_Venus=-2.41); source_07: g~4.99 (\u0394_Venus=-3.88); source_06: g~3.05 (\u0394_Venus=-5.82). All candidates in this subgroup have gravity differing from Venus (8.87) by >= 2.41 m/s^2; none plausibly matches Venus."
+    },
+    {
+      "query_id": 23,
+      "subgroup": [
+        "source_03",
+        "source_09",
+        "source_10"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_03: g~1.06 (\u0394_Venus=-7.81); source_09: g~2.06 (\u0394_Venus=-6.81); source_10: g~9.10 (\u0394_Venus=+0.23). Venus surface gravity is 8.87 m/s^2. source_10 (g~9.10) is the only candidate clearly close to Venus (|\u0394|=0.23) and is closer to Venus than to Earth (|\u0394_Earth|=0.71)."
+    },
+    {
+      "query_id": 24,
+      "subgroup": [
+        "source_07",
+        "source_02",
+        "source_05",
+        "source_01"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_07: g~4.99 (\u0394_Venus=-3.88); source_02: g~6.79 (\u0394_Venus=-2.08); source_05: g~3.99 (\u0394_Venus=-4.88); source_01: g~6.46 (\u0394_Venus=-2.41). All candidates in this subgroup have gravity differing from Venus (8.87) by >= 2.08 m/s^2; none plausibly matches Venus."
+    },
+    {
+      "query_id": 25,
+      "subgroup": [
+        "source_05",
+        "source_08",
+        "source_09",
+        "source_02"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_05: g~3.99 (\u0394_Venus=-4.88); source_08: g~9.50 (\u0394_Venus=+0.63); source_09: g~2.06 (\u0394_Venus=-6.81); source_02: g~6.79 (\u0394_Venus=-2.08). Nearest candidate to Venus is source_08 (g~9.50, |\u0394_Venus|=0.63), but it is closer to Earth (|\u0394_Earth|=0.31) than to Venus, so more plausibly an Earth-like environment than Venus. The other candidates here are off by >=2.08 m/s^2. Conservatively, none of these is the Venus match."
+    },
+    {
+      "query_id": 26,
+      "subgroup": [
+        "source_04",
+        "source_03",
+        "source_06",
+        "source_02"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_04: g~6.31 (\u0394_Venus=-2.56); source_03: g~1.06 (\u0394_Venus=-7.81); source_06: g~3.05 (\u0394_Venus=-5.82); source_02: g~6.79 (\u0394_Venus=-2.08). All candidates in this subgroup have gravity differing from Venus (8.87) by >= 2.08 m/s^2; none plausibly matches Venus."
+    },
+    {
+      "query_id": 27,
+      "subgroup": [
+        "source_06",
+        "source_08",
+        "source_05"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_06: g~3.05 (\u0394_Venus=-5.82); source_08: g~9.50 (\u0394_Venus=+0.63); source_05: g~3.99 (\u0394_Venus=-4.88). Nearest candidate to Venus is source_08 (g~9.50, |\u0394_Venus|=0.63), but it is closer to Earth (|\u0394_Earth|=0.31) than to Venus, so more plausibly an Earth-like environment than Venus. The other candidates here are off by >=4.88 m/s^2. Conservatively, none of these is the Venus match."
+    },
+    {
+      "query_id": 28,
+      "subgroup": [
+        "source_08",
+        "source_06",
+        "source_03",
+        "source_05"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_08: g~9.50 (\u0394_Venus=+0.63); source_06: g~3.05 (\u0394_Venus=-5.82); source_03: g~1.06 (\u0394_Venus=-7.81); source_05: g~3.99 (\u0394_Venus=-4.88). Nearest candidate to Venus is source_08 (g~9.50, |\u0394_Venus|=0.63), but it is closer to Earth (|\u0394_Earth|=0.31) than to Venus, so more plausibly an Earth-like environment than Venus. The other candidates here are off by >=4.88 m/s^2. Conservatively, none of these is the Venus match."
+    },
+    {
+      "query_id": 29,
+      "subgroup": [
+        "source_03",
+        "source_01",
+        "source_04",
+        "source_08"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_03: g~1.06 (\u0394_Venus=-7.81); source_01: g~6.46 (\u0394_Venus=-2.41); source_04: g~6.31 (\u0394_Venus=-2.56); source_08: g~9.50 (\u0394_Venus=+0.63). Nearest candidate to Venus is source_08 (g~9.50, |\u0394_Venus|=0.63), but it is closer to Earth (|\u0394_Earth|=0.31) than to Venus, so more plausibly an Earth-like environment than Venus. The other candidates here are off by >=2.41 m/s^2. Conservatively, none of these is the Venus match."
+    },
+    {
+      "query_id": 30,
+      "subgroup": [
+        "source_01",
+        "source_02",
+        "source_07"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_01: g~6.46 (\u0394_Venus=-2.41); source_02: g~6.79 (\u0394_Venus=-2.08); source_07: g~4.99 (\u0394_Venus=-3.88). All candidates in this subgroup have gravity differing from Venus (8.87) by >= 2.08 m/s^2; none plausibly matches Venus."
+    },
+    {
+      "query_id": 31,
+      "subgroup": [
+        "source_03",
+        "source_04",
+        "source_08"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_03: g~1.06 (\u0394_Venus=-7.81); source_04: g~6.31 (\u0394_Venus=-2.56); source_08: g~9.50 (\u0394_Venus=+0.63). Nearest candidate to Venus is source_08 (g~9.50, |\u0394_Venus|=0.63), but it is closer to Earth (|\u0394_Earth|=0.31) than to Venus, so more plausibly an Earth-like environment than Venus. The other candidates here are off by >=2.56 m/s^2. Conservatively, none of these is the Venus match."
+    },
+    {
+      "query_id": 32,
+      "subgroup": [
+        "source_03",
+        "source_05",
+        "source_02",
+        "source_08"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_03: g~1.06 (\u0394_Venus=-7.81); source_05: g~3.99 (\u0394_Venus=-4.88); source_02: g~6.79 (\u0394_Venus=-2.08); source_08: g~9.50 (\u0394_Venus=+0.63). Nearest candidate to Venus is source_08 (g~9.50, |\u0394_Venus|=0.63), but it is closer to Earth (|\u0394_Earth|=0.31) than to Venus, so more plausibly an Earth-like environment than Venus. The other candidates here are off by >=2.08 m/s^2. Conservatively, none of these is the Venus match."
+    },
+    {
+      "query_id": 33,
+      "subgroup": [
+        "source_03",
+        "source_04",
+        "source_06"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_03: g~1.06 (\u0394_Venus=-7.81); source_04: g~6.31 (\u0394_Venus=-2.56); source_06: g~3.05 (\u0394_Venus=-5.82). All candidates in this subgroup have gravity differing from Venus (8.87) by >= 2.56 m/s^2; none plausibly matches Venus."
+    },
+    {
+      "query_id": 34,
+      "subgroup": [
+        "source_10",
+        "source_07",
+        "source_06",
+        "source_04"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_10: g~9.10 (\u0394_Venus=+0.23); source_07: g~4.99 (\u0394_Venus=-3.88); source_06: g~3.05 (\u0394_Venus=-5.82); source_04: g~6.31 (\u0394_Venus=-2.56). Venus surface gravity is 8.87 m/s^2. source_10 (g~9.10) is the only candidate clearly close to Venus (|\u0394|=0.23) and is closer to Venus than to Earth (|\u0394_Earth|=0.71)."
+    },
+    {
+      "query_id": 35,
+      "subgroup": [
+        "source_06",
+        "source_08",
+        "source_03"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_06: g~3.05 (\u0394_Venus=-5.82); source_08: g~9.50 (\u0394_Venus=+0.63); source_03: g~1.06 (\u0394_Venus=-7.81). Nearest candidate to Venus is source_08 (g~9.50, |\u0394_Venus|=0.63), but it is closer to Earth (|\u0394_Earth|=0.31) than to Venus, so more plausibly an Earth-like environment than Venus. The other candidates here are off by >=5.82 m/s^2. Conservatively, none of these is the Venus match."
+    },
+    {
+      "query_id": 36,
+      "subgroup": [
+        "source_04",
+        "source_02",
+        "source_10",
+        "source_06"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_04: g~6.31 (\u0394_Venus=-2.56); source_02: g~6.79 (\u0394_Venus=-2.08); source_10: g~9.10 (\u0394_Venus=+0.23); source_06: g~3.05 (\u0394_Venus=-5.82). Venus surface gravity is 8.87 m/s^2. source_10 (g~9.10) is the only candidate clearly close to Venus (|\u0394|=0.23) and is closer to Venus than to Earth (|\u0394_Earth|=0.71)."
+    },
+    {
+      "query_id": 37,
+      "subgroup": [
+        "source_02",
+        "source_05",
+        "source_08",
+        "source_06"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_02: g~6.79 (\u0394_Venus=-2.08); source_05: g~3.99 (\u0394_Venus=-4.88); source_08: g~9.50 (\u0394_Venus=+0.63); source_06: g~3.05 (\u0394_Venus=-5.82). Nearest candidate to Venus is source_08 (g~9.50, |\u0394_Venus|=0.63), but it is closer to Earth (|\u0394_Earth|=0.31) than to Venus, so more plausibly an Earth-like environment than Venus. The other candidates here are off by >=2.08 m/s^2. Conservatively, none of these is the Venus match."
+    },
+    {
+      "query_id": 38,
+      "subgroup": [
+        "source_01",
+        "source_08",
+        "source_03"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_01: g~6.46 (\u0394_Venus=-2.41); source_08: g~9.50 (\u0394_Venus=+0.63); source_03: g~1.06 (\u0394_Venus=-7.81). Nearest candidate to Venus is source_08 (g~9.50, |\u0394_Venus|=0.63), but it is closer to Earth (|\u0394_Earth|=0.31) than to Venus, so more plausibly an Earth-like environment than Venus. The other candidates here are off by >=2.41 m/s^2. Conservatively, none of these is the Venus match."
+    },
+    {
+      "query_id": 39,
+      "subgroup": [
+        "source_09",
+        "source_08",
+        "source_04",
+        "source_06"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_09: g~2.06 (\u0394_Venus=-6.81); source_08: g~9.50 (\u0394_Venus=+0.63); source_04: g~6.31 (\u0394_Venus=-2.56); source_06: g~3.05 (\u0394_Venus=-5.82). Nearest candidate to Venus is source_08 (g~9.50, |\u0394_Venus|=0.63), but it is closer to Earth (|\u0394_Earth|=0.31) than to Venus, so more plausibly an Earth-like environment than Venus. The other candidates here are off by >=2.56 m/s^2. Conservatively, none of these is the Venus match."
+    },
+    {
+      "query_id": 40,
+      "subgroup": [
+        "source_06",
+        "source_01",
+        "source_09",
+        "source_10"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_06: g~3.05 (\u0394_Venus=-5.82); source_01: g~6.46 (\u0394_Venus=-2.41); source_09: g~2.06 (\u0394_Venus=-6.81); source_10: g~9.10 (\u0394_Venus=+0.23). Venus surface gravity is 8.87 m/s^2. source_10 (g~9.10) is the only candidate clearly close to Venus (|\u0394|=0.23) and is closer to Venus than to Earth (|\u0394_Earth|=0.71)."
+    },
+    {
+      "query_id": 41,
+      "subgroup": [
+        "source_09",
+        "source_03",
+        "source_04"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_09: g~2.06 (\u0394_Venus=-6.81); source_03: g~1.06 (\u0394_Venus=-7.81); source_04: g~6.31 (\u0394_Venus=-2.56). All candidates in this subgroup have gravity differing from Venus (8.87) by >= 2.56 m/s^2; none plausibly matches Venus."
+    },
+    {
+      "query_id": 42,
+      "subgroup": [
+        "source_07",
+        "source_02",
+        "source_03"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_07: g~4.99 (\u0394_Venus=-3.88); source_02: g~6.79 (\u0394_Venus=-2.08); source_03: g~1.06 (\u0394_Venus=-7.81). All candidates in this subgroup have gravity differing from Venus (8.87) by >= 2.08 m/s^2; none plausibly matches Venus."
+    },
+    {
+      "query_id": 43,
+      "subgroup": [
+        "source_02",
+        "source_10",
+        "source_04"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_02: g~6.79 (\u0394_Venus=-2.08); source_10: g~9.10 (\u0394_Venus=+0.23); source_04: g~6.31 (\u0394_Venus=-2.56). Venus surface gravity is 8.87 m/s^2. source_10 (g~9.10) is the only candidate clearly close to Venus (|\u0394|=0.23) and is closer to Venus than to Earth (|\u0394_Earth|=0.71)."
+    },
+    {
+      "query_id": 44,
+      "subgroup": [
+        "source_10",
+        "source_01",
+        "source_08",
+        "source_02"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_10: g~9.10 (\u0394_Venus=+0.23); source_01: g~6.46 (\u0394_Venus=-2.41); source_08: g~9.50 (\u0394_Venus=+0.63); source_02: g~6.79 (\u0394_Venus=-2.08). Venus surface gravity is 8.87 m/s^2. source_10 (g~9.10) is the only candidate clearly close to Venus (|\u0394|=0.23) and is closer to Venus than to Earth (|\u0394_Earth|=0.71). source_08 (g~9.50) is closer to Earth (\u0394=-0.31) than to Venus (\u0394=+0.63), so I do not pick them."
+    },
+    {
+      "query_id": 45,
+      "subgroup": [
+        "source_04",
+        "source_05",
+        "source_03",
+        "source_06"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_04: g~6.31 (\u0394_Venus=-2.56); source_05: g~3.99 (\u0394_Venus=-4.88); source_03: g~1.06 (\u0394_Venus=-7.81); source_06: g~3.05 (\u0394_Venus=-5.82). All candidates in this subgroup have gravity differing from Venus (8.87) by >= 2.56 m/s^2; none plausibly matches Venus."
+    },
+    {
+      "query_id": 46,
+      "subgroup": [
+        "source_04",
+        "source_09",
+        "source_01"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_04: g~6.31 (\u0394_Venus=-2.56); source_09: g~2.06 (\u0394_Venus=-6.81); source_01: g~6.46 (\u0394_Venus=-2.41). All candidates in this subgroup have gravity differing from Venus (8.87) by >= 2.41 m/s^2; none plausibly matches Venus."
+    },
+    {
+      "query_id": 47,
+      "subgroup": [
+        "source_08",
+        "source_05",
+        "source_01",
+        "source_03"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_08: g~9.50 (\u0394_Venus=+0.63); source_05: g~3.99 (\u0394_Venus=-4.88); source_01: g~6.46 (\u0394_Venus=-2.41); source_03: g~1.06 (\u0394_Venus=-7.81). Nearest candidate to Venus is source_08 (g~9.50, |\u0394_Venus|=0.63), but it is closer to Earth (|\u0394_Earth|=0.31) than to Venus, so more plausibly an Earth-like environment than Venus. The other candidates here are off by >=2.41 m/s^2. Conservatively, none of these is the Venus match."
+    },
+    {
+      "query_id": 48,
+      "subgroup": [
+        "source_07",
+        "source_01",
+        "source_02",
+        "source_04"
+      ],
+      "matching": [],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_07: g~4.99 (\u0394_Venus=-3.88); source_01: g~6.46 (\u0394_Venus=-2.41); source_02: g~6.79 (\u0394_Venus=-2.08); source_04: g~6.31 (\u0394_Venus=-2.56). All candidates in this subgroup have gravity differing from Venus (8.87) by >= 2.08 m/s^2; none plausibly matches Venus."
+    },
+    {
+      "query_id": 49,
+      "subgroup": [
+        "source_10",
+        "source_02",
+        "source_04",
+        "source_09"
+      ],
+      "matching": [
+        "source_10"
+      ],
+      "reasoning": "Estimated g per source by fitting parabolas to z_torso(t) over long airborne phases (>=20 consecutive high-z steps; fit RMSE <5 cm); the second-derivative coefficient gives -g. source_10: g~9.10 (\u0394_Venus=+0.23); source_02: g~6.79 (\u0394_Venus=-2.08); source_04: g~6.31 (\u0394_Venus=-2.56); source_09: g~2.06 (\u0394_Venus=-6.81). Venus surface gravity is 8.87 m/s^2. source_10 (g~9.10) is the only candidate clearly close to Venus (|\u0394|=0.23) and is closer to Venus than to Earth (|\u0394_Earth|=0.71)."
+    }
+  ],
+  "seed": 730438886
+}

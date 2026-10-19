@@ -1,0 +1,33 @@
+{
+ "method": "target_only",
+ "target_g": 8.87,
+ "gravities": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "N0": 2048,
+ "split_seed": 45,
+ "train_idx_sha": "0721b7fc50fd456ace61df4042afc3b8b5b96fe6370d54c4a5dc3bfe4285e0ba",
+ "N0_terminals": 3,
+ "final_weights": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "final_argmax_g": -1
+}

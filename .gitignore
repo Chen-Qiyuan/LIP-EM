@@ -1,0 +1,35 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# API keys are read from the environment (GEMINI_API_KEY); never commit them
+.env
+.env.*
+
+# Raw data: downloaded or regenerated, never shipped (see the folder READMEs)
+*.h5
+*.hdf5
+CMAPSSData.zip
+CMAPSSData/
+hopper/data/
+
+# Outputs of reruns and re-elicitations
+hopper/results_rerun/
+hopper/logs/
+hopper/run_all.log
+ncmapss_ds03/reproduced/
+ncmapss_ds03/rebuilt_features/
+sessions/
+
+# Checkpoints (the pretrained hopper/models/dyn_pool/dynamics.pt is shipped)
+*.ckpt
+hopper/results*/**/*.pt
+hopper/models/dyn_pool/dynamics_e*.pt

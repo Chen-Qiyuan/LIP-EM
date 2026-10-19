@@ -1,0 +1,364 @@
+{
+  "ranked_sources": [
+    "source_04.csv",
+    "source_01.csv",
+    "source_03.csv",
+    "source_05.csv",
+    "source_13.csv",
+    "source_11.csv",
+    "source_07.csv",
+    "source_14.csv",
+    "source_02.csv",
+    "source_06.csv",
+    "source_08.csv",
+    "source_09.csv",
+    "source_10.csv",
+    "source_12.csv",
+    "source_15.csv"
+  ],
+  "relevant_sources": [
+    "source_04.csv",
+    "source_01.csv",
+    "source_03.csv",
+    "source_05.csv",
+    "source_13.csv",
+    "source_11.csv",
+    "source_07.csv",
+    "source_14.csv"
+  ],
+  "reasoning": "Ranking is a descriptive summary derived from independent subgroup choices; LIP fitting uses the choices directly.",
+  "confidence": "medium",
+  "subgroup_choices": [
+    {
+      "query_id": 0,
+      "candidates": [
+        "source_05.csv",
+        "source_06.csv",
+        "source_04.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "The target is a medium-haul aircraft. In the N-CMAPSS DS03 dataset, flight classes are defined by duration: Class 1 (Short-haul, 1-3h), Class 2 (Medium-haul, 3-5h), and Class 3 (Long-haul, 5-7h). Source 06 has a mean duration of 2.41h, placing it in the short-haul class. Both Source 04 and Source 05 have mean durations of approximately 4.0h (4.01h and 3.84h respectively), identifying them as medium-haul. Source 04 is selected as the most representative candidate because its healthy baseline (first five flights) consists entirely of flights within the 3-5h medium-haul range (mean 4.37h, range 3.80-4.93h), whereas Source 05's baseline includes a 5.64h flight, which exceeds the typical medium-haul boundary."
+    },
+    {
+      "query_id": 1,
+      "candidates": [
+        "source_04.csv",
+        "source_14.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "The target is a medium-haul aircraft. source_04.csv exhibits flight durations consistently within the 3.5 to 5.0 hour range (e.g., cycles 1-7 range from 3.8 to 4.9 hours), which characterizes medium-haul operations. In contrast, source_14.csv and source_08.csv show shorter durations, typically between 1.1 and 3.3 hours."
+    },
+    {
+      "query_id": 2,
+      "candidates": [
+        "source_05.csv",
+        "source_10.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_03.csv",
+      "reasoning": "The target is a medium-haul aircraft, which corresponds to Class 2 flights (3-5 hours) in the N-CMAPSS DS03 dataset. Source_03.csv is the most informative candidate as it contains the highest proportion of Class 2 flights (approximately 88.7%, or 63 out of 71 cycles) compared to source_05.csv (86.4%), source_14.csv (15.1%), and sources 10 and 12 (0%)."
+    },
+    {
+      "query_id": 3,
+      "candidates": [
+        "source_01.csv",
+        "source_04.csv",
+        "source_05.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "The target is medium-haul (3\u20135 hours). source_04.csv is the only candidate whose first five flights (the healthy operating-response baseline) all fall within the 3\u20135 hour range (4.63, 4.93, 4.46, 4.02, 3.80), whereas source_01 includes a short-haul flight (2.86) and source_05 includes a long-haul flight (5.64) in their baselines."
+    },
+    {
+      "query_id": 4,
+      "candidates": [
+        "source_01.csv",
+        "source_13.csv",
+        "source_14.csv",
+        "source_07.csv"
+      ],
+      "choice": "source_01.csv",
+      "reasoning": "source_01.csv is the most informative for a medium-haul target because its flight durations (e.g., Cycle 1 at 4.19h, mean of 3.99h) consistently align with the 3-5 hour range characteristic of medium-haul flights. In contrast, source_14 and source_07 represent short-haul profiles (means of ~2.5h), and source_13 represents a long-haul profile (Cycle 1 at 5.62h, mean of 4.16h with multiple excursions into the 5-7h range)."
+    },
+    {
+      "query_id": 5,
+      "candidates": [
+        "source_10.csv",
+        "source_12.csv",
+        "source_04.csv",
+        "source_07.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "The target is a medium-haul aircraft. source_04.csv is the only candidate with flight durations consistently within the 3-6 hour range (averaging approximately 4.02 hours across the trajectory), whereas other sources represent shorter flight profiles (averaging 1.25 to 2.5 hours)."
+    },
+    {
+      "query_id": 6,
+      "candidates": [
+        "source_02.csv",
+        "source_12.csv",
+        "source_10.csv",
+        "source_05.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "The target is medium-haul. source_05.csv has an average flight duration of 4.37 hours over its first five cycles, which is consistent with medium-haul profiles, whereas source_02.csv (1.21h), source_12.csv (1.21h), and source_10.csv (1.27h) all represent short-haul profiles."
+    },
+    {
+      "query_id": 7,
+      "candidates": [
+        "source_09.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_03.csv",
+      "reasoning": "The target is a medium-haul aircraft. source_03.csv records flight durations ranging from 2.48 to 5.51 hours with a mean of approximately 4.2 hours, which is the only candidate that consistently aligns with the medium-haul flight class."
+    },
+    {
+      "query_id": 8,
+      "candidates": [
+        "source_02.csv",
+        "source_15.csv",
+        "source_12.csv",
+        "source_13.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "The target is medium-haul. source_13.csv flight durations (mean ~4.18 hours, range 2.77-5.63) align with the medium-haul class, whereas other candidates (means ~1.1-1.3 hours) represent short-haul flights."
+    },
+    {
+      "query_id": 9,
+      "candidates": [
+        "source_04.csv",
+        "source_14.csv",
+        "source_03.csv",
+        "source_08.csv",
+        "source_13.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "source_04.csv is the only candidate whose first five flights (the healthy operating-response baseline) all fall within the 3-5 hour medium-haul range, with durations of 4.63, 4.93, 4.46, 4.02, and 3.80 hours. Other candidates include flights from short-haul (<3h) or long-haul (>5h) classes within their baseline period."
+    },
+    {
+      "query_id": 10,
+      "candidates": [
+        "source_11.csv",
+        "source_10.csv",
+        "source_05.csv",
+        "source_14.csv",
+        "source_15.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "source_05.csv is the only candidate with flight durations averaging approximately 4.05 hours, which fits the 3-5 hour range characteristic of the medium-haul flight class."
+    },
+    {
+      "query_id": 11,
+      "candidates": [
+        "source_13.csv",
+        "source_02.csv",
+        "source_04.csv",
+        "source_05.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "The target is a medium-haul aircraft, which in the N-CMAPSS DS03 context corresponds to Flight Class 2 (typically 3\u20135 hours). source_02.csv is excluded as it represents short-haul flights (averaging ~1.2 hours). Among the remaining candidates (source_13, source_04, and source_05), all exhibit flight durations consistent with medium-haul profiles (ranging approximately from 2.5 to 5.6 hours). source_13.csv is selected as a credible representative of this class, showing a clear and consistent degradation trend in condition-adjusted residuals (e.g., adjusted_T50 increasing from ~0.01 to 2.18) over its 63-flight trajectory."
+    },
+    {
+      "query_id": 12,
+      "candidates": [
+        "source_01.csv",
+        "source_05.csv",
+        "source_08.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_01.csv",
+      "reasoning": "The target is a medium-haul aircraft, which corresponds to the 3-5 hour flight duration class in the N-CMAPSS DS03 dataset. source_01.csv and source_05.csv both fall into this category, but source_01.csv is more informative as it contains a larger sample size (77 flights vs 59) and a higher percentage of flights strictly within the 3-5 hour range (84.4%) compared to source_08 and source_14, which average 2.3-2.6 hours (short-haul)."
+    },
+    {
+      "query_id": 13,
+      "candidates": [
+        "source_03.csv",
+        "source_12.csv",
+        "source_07.csv",
+        "source_13.csv",
+        "source_04.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "The target is medium-haul, which in the N-CMAPSS DS03 dataset corresponds to flight durations primarily in the 3-5 hour range. source_04.csv is the most representative candidate, with 89.4% of its flights (59 out of 66) falling within this 3-5 hour window and a mean duration of 4.01 hours. Its healthy baseline (first five flights) also fits the medium-haul profile perfectly (all between 3.80 and 4.92 hours), whereas other candidates like source_03 and source_13 include long-haul flights (>5 hours) in their baseline or have a higher frequency of flights outside the 3-5 hour range."
+    },
+    {
+      "query_id": 14,
+      "candidates": [
+        "source_14.csv",
+        "source_11.csv",
+        "source_07.csv"
+      ],
+      "choice": "source_11.csv",
+      "reasoning": "In the N-CMAPSS DS03 dataset, flight classes are categorized by duration: Class 1 (Short-haul: 1-3h), Class 2 (Medium-haul: 3-5h), and Class 3 (Long-haul: 5-7h). Comparing the candidates, source_11.csv exhibits the highest frequency of flights exceeding the 3-hour threshold (14 flights) and the highest single flight duration (3.415 hours), making it the most representative of the medium-haul class among the provided options."
+    },
+    {
+      "query_id": 15,
+      "candidates": [
+        "source_13.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_03.csv",
+      "reasoning": "The target is a medium-haul aircraft (typically 3\u20135 hours). Analysis of flight_duration_hours shows source_03.csv is dominated by medium-haul flights (approx. 89% of its 71 cycles fall between 3.0 and 5.0 hours), whereas source_12.csv and source_14.csv are short-haul (averaging 1.2 and 2.4 hours respectively), and source_13.csv has a higher proportion of long-haul flights (approx. 13% vs 8% in source_03.csv)."
+    },
+    {
+      "query_id": 16,
+      "candidates": [
+        "source_03.csv",
+        "source_06.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_03.csv",
+      "reasoning": "The target is a medium-haul aircraft. source_03.csv exhibits flight durations consistently between 3.0 and 5.5 hours (mean ~4.25 hours), which aligns with the medium-haul class. In contrast, source_06, source_12, and source_14 show significantly shorter average durations (~2.4, ~1.2, and ~2.6 hours respectively)."
+    },
+    {
+      "query_id": 17,
+      "candidates": [
+        "source_13.csv",
+        "source_15.csv",
+        "source_07.csv",
+        "source_01.csv"
+      ],
+      "choice": "source_01.csv",
+      "reasoning": "Source 01 has a mean flight duration of 4.01 hours across 77 cycles, with over 92% of its flights falling within the 3-5 hour range characteristic of medium-haul operations. In contrast, Source 13 has a higher mean (4.21 hours) and significantly more flights exceeding 5.2 hours (approx. 13% of its 63 cycles), while Sources 07 and 15 represent short-haul profiles with means of 2.43 and 1.15 hours, respectively."
+    },
+    {
+      "query_id": 18,
+      "candidates": [
+        "source_12.csv",
+        "source_07.csv",
+        "source_09.csv"
+      ],
+      "choice": "source_07.csv",
+      "reasoning": "The target is specified as medium-haul. source_07.csv contains flight durations ranging from 1.55 to 3.30 hours, which is characteristic of medium-haul operations. In contrast, source_12.csv and source_09.csv only record flight durations up to 1.58 hours, aligning them with short-haul profiles."
+    },
+    {
+      "query_id": 19,
+      "candidates": [
+        "source_07.csv",
+        "source_13.csv",
+        "source_11.csv",
+        "source_14.csv",
+        "source_10.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "The target is medium-haul. source_13.csv exhibits a mean flight duration of 4.21 hours (range 2.77\u20135.63), which is the only candidate aligning with the medium-haul profile. Other candidates average significantly lower durations: source_10 at ~1.21 hours, and source_07, source_11, and source_14 all averaging ~2.5 hours."
+    },
+    {
+      "query_id": 20,
+      "candidates": [
+        "source_12.csv",
+        "source_11.csv",
+        "source_13.csv",
+        "source_15.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "source_13.csv flight durations range from 2.78 to 5.63 hours with a mean of approximately 4.4 hours, which aligns with the 3-5 hour range typical of the medium-haul flight class (Class 2) in N-CMAPSS datasets, whereas other candidates represent shorter flight profiles (e.g., source_11.csv mean ~2.5 hours)."
+    },
+    {
+      "query_id": 21,
+      "candidates": [
+        "source_05.csv",
+        "source_14.csv",
+        "source_11.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "The target is a medium-haul aircraft. source_05.csv records flight durations ranging from 2.48 to 5.64 hours with an average of approximately 3.9 hours, aligning with the medium-haul class. Candidates source_14 and source_11 show significantly shorter average durations of approximately 2.4 and 2.5 hours respectively."
+    },
+    {
+      "query_id": 22,
+      "candidates": [
+        "source_02.csv",
+        "source_14.csv",
+        "source_05.csv",
+        "source_08.csv",
+        "source_06.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "The target aircraft is medium-haul. source_05.csv exhibits flight durations averaging approximately 4.37 hours across its initial cycles (ranging from 3.62 to 5.64 hours), which aligns with the medium-haul flight class. Other candidates average under 3 hours per flight."
+    },
+    {
+      "query_id": 23,
+      "candidates": [
+        "source_15.csv",
+        "source_07.csv",
+        "source_11.csv"
+      ],
+      "choice": "source_11.csv",
+      "reasoning": "In the N-CMAPSS DS03 dataset, flight classes are defined by duration: short-haul (1-3h), medium-haul (3-5h), and long-haul (5-7h). source_11.csv contains the highest frequency of medium-haul flights (12 cycles exceeding 3 hours, or 17.9% of its 67 cycles) compared to source_07.csv (6 cycles, or 10.0% of its 60 cycles) and source_15.csv (0 cycles, all flights <1.6h)."
+    },
+    {
+      "query_id": 24,
+      "candidates": [
+        "source_13.csv",
+        "source_14.csv",
+        "source_01.csv",
+        "source_15.csv"
+      ],
+      "choice": "source_01.csv",
+      "reasoning": "The medium-haul flight class in N-CMAPSS DS03 typically corresponds to flight durations of 3\u20135 hours. source_01.csv is the most representative candidate, with a mean flight duration of approximately 4.07 hours and over 84% of its recorded flights falling within the 3\u20135 hour range."
+    },
+    {
+      "query_id": 25,
+      "candidates": [
+        "source_05.csv",
+        "source_11.csv",
+        "source_04.csv",
+        "source_06.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "The target is a medium-haul aircraft, which in the N-CMAPSS DS03 dataset corresponds to flight durations primarily in the 3-5 hour range. Both source_04 and source_05 fit this profile, but source_04 has a mean flight duration of 3.98 hours and a range of 2.68 to 5.62 hours, which aligns more consistently with the medium-haul class than source_11 (mean 2.55) or source_06 (mean 2.42), which are short-haul."
+    },
+    {
+      "query_id": 26,
+      "candidates": [
+        "source_07.csv",
+        "source_05.csv",
+        "source_11.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "The target is a medium-haul aircraft. source_05.csv shows flight durations consistently within the 3 to 5.6 hour range (averaging approximately 4.04 hours), which is characteristic of medium-haul operations. In contrast, source_07.csv and source_11.csv show shorter durations, averaging approximately 2.43 and 2.53 hours respectively."
+    },
+    {
+      "query_id": 27,
+      "candidates": [
+        "source_06.csv",
+        "source_02.csv",
+        "source_14.csv",
+        "source_09.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_14.csv",
+      "reasoning": "In the N-CMAPSS DS03 dataset, flight classes are defined by duration: short-haul (1-3 hours), medium-haul (3-5 hours), and long-haul (5-7 hours). source_14.csv contains the highest frequency of flights (13 cycles) within the medium-haul range (3.0 to 3.4 hours), making it the most informative source for the target."
+    },
+    {
+      "query_id": 28,
+      "candidates": [
+        "source_08.csv",
+        "source_04.csv",
+        "source_07.csv",
+        "source_02.csv",
+        "source_03.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "In the N-CMAPSS DS03 dataset, flight classes are defined by duration: Class 1 (Short-haul) is 1-3 hours, Class 2 (Medium-haul) is 3-5 hours, and Class 3 (Long-haul) is 5-7 hours. source_04.csv has a mean flight duration of approximately 4.00 hours (ranging from 2.68 to 5.62 hours), placing it squarely in the medium-haul category."
+    },
+    {
+      "query_id": 29,
+      "candidates": [
+        "source_15.csv",
+        "source_01.csv",
+        "source_10.csv",
+        "source_06.csv"
+      ],
+      "choice": "source_01.csv",
+      "reasoning": "The target is a medium-haul aircraft. source_01.csv records flight durations consistently between 2.47 and 5.20 hours (averaging approximately 4 hours), which is characteristic of the medium-haul class. In contrast, source_15 and source_10 record short-haul durations averaging ~1.2 hours, and source_06 records durations averaging ~2.5 hours."
+    }
+  ]
+}

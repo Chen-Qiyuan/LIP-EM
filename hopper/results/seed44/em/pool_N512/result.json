@@ -1,0 +1,33 @@
+{
+ "method": "pool",
+ "target_g": 8.87,
+ "gravities": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "N0": 512,
+ "split_seed": 44,
+ "train_idx_sha": "19e279b23b9bf2acd264274d4ae087329afe30ba8e54a5611fa2c1d627914406",
+ "N0_terminals": 1,
+ "final_weights": [
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "final_argmax_g": -1
+}

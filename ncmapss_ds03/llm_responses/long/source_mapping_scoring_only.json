@@ -1,0 +1,77 @@
+[
+  {
+    "source_file": "source_09.csv",
+    "engine_id": "DS03-dev-U01",
+    "flight_class_scoring_only": "short"
+  },
+  {
+    "source_file": "source_14.csv",
+    "engine_id": "DS03-dev-U02",
+    "flight_class_scoring_only": "medium"
+  },
+  {
+    "source_file": "source_08.csv",
+    "engine_id": "DS03-dev-U03",
+    "flight_class_scoring_only": "medium"
+  },
+  {
+    "source_file": "source_07.csv",
+    "engine_id": "DS03-dev-U04",
+    "flight_class_scoring_only": "medium"
+  },
+  {
+    "source_file": "source_15.csv",
+    "engine_id": "DS03-dev-U05",
+    "flight_class_scoring_only": "short"
+  },
+  {
+    "source_file": "source_13.csv",
+    "engine_id": "DS03-dev-U06",
+    "flight_class_scoring_only": "long"
+  },
+  {
+    "source_file": "source_06.csv",
+    "engine_id": "DS03-dev-U07",
+    "flight_class_scoring_only": "medium"
+  },
+  {
+    "source_file": "source_03.csv",
+    "engine_id": "DS03-dev-U08",
+    "flight_class_scoring_only": "long"
+  },
+  {
+    "source_file": "source_10.csv",
+    "engine_id": "DS03-dev-U09",
+    "flight_class_scoring_only": "short"
+  },
+  {
+    "source_file": "source_04.csv",
+    "engine_id": "DS03-test-U10",
+    "flight_class_scoring_only": "long"
+  },
+  {
+    "source_file": "source_05.csv",
+    "engine_id": "DS03-test-U11",
+    "flight_class_scoring_only": "long"
+  },
+  {
+    "source_file": "source_12.csv",
+    "engine_id": "DS03-test-U12",
+    "flight_class_scoring_only": "short"
+  },
+  {
+    "source_file": "source_01.csv",
+    "engine_id": "DS03-test-U13",
+    "flight_class_scoring_only": "long"
+  },
+  {
+    "source_file": "source_02.csv",
+    "engine_id": "DS03-test-U14",
+    "flight_class_scoring_only": "short"
+  },
+  {
+    "source_file": "source_11.csv",
+    "engine_id": "DS03-test-U15",
+    "flight_class_scoring_only": "medium"
+  }
+]

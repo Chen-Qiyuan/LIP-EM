@@ -1,0 +1,276 @@
+{
+  "seed": 42,
+  "queries": [
+    {
+      "query_id": 0,
+      "candidates": [
+        "source_05.csv",
+        "source_06.csv",
+        "source_04.csv"
+      ]
+    },
+    {
+      "query_id": 1,
+      "candidates": [
+        "source_04.csv",
+        "source_14.csv",
+        "source_08.csv"
+      ]
+    },
+    {
+      "query_id": 2,
+      "candidates": [
+        "source_05.csv",
+        "source_10.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ]
+    },
+    {
+      "query_id": 3,
+      "candidates": [
+        "source_01.csv",
+        "source_04.csv",
+        "source_05.csv"
+      ]
+    },
+    {
+      "query_id": 4,
+      "candidates": [
+        "source_01.csv",
+        "source_13.csv",
+        "source_14.csv",
+        "source_07.csv"
+      ]
+    },
+    {
+      "query_id": 5,
+      "candidates": [
+        "source_10.csv",
+        "source_12.csv",
+        "source_04.csv",
+        "source_07.csv",
+        "source_08.csv"
+      ]
+    },
+    {
+      "query_id": 6,
+      "candidates": [
+        "source_02.csv",
+        "source_12.csv",
+        "source_10.csv",
+        "source_05.csv"
+      ]
+    },
+    {
+      "query_id": 7,
+      "candidates": [
+        "source_09.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_08.csv"
+      ]
+    },
+    {
+      "query_id": 8,
+      "candidates": [
+        "source_02.csv",
+        "source_15.csv",
+        "source_12.csv",
+        "source_13.csv"
+      ]
+    },
+    {
+      "query_id": 9,
+      "candidates": [
+        "source_04.csv",
+        "source_14.csv",
+        "source_03.csv",
+        "source_08.csv",
+        "source_13.csv"
+      ]
+    },
+    {
+      "query_id": 10,
+      "candidates": [
+        "source_11.csv",
+        "source_10.csv",
+        "source_05.csv",
+        "source_14.csv",
+        "source_15.csv"
+      ]
+    },
+    {
+      "query_id": 11,
+      "candidates": [
+        "source_13.csv",
+        "source_02.csv",
+        "source_04.csv",
+        "source_05.csv"
+      ]
+    },
+    {
+      "query_id": 12,
+      "candidates": [
+        "source_01.csv",
+        "source_05.csv",
+        "source_08.csv",
+        "source_14.csv"
+      ]
+    },
+    {
+      "query_id": 13,
+      "candidates": [
+        "source_03.csv",
+        "source_12.csv",
+        "source_07.csv",
+        "source_13.csv",
+        "source_04.csv"
+      ]
+    },
+    {
+      "query_id": 14,
+      "candidates": [
+        "source_14.csv",
+        "source_11.csv",
+        "source_07.csv"
+      ]
+    },
+    {
+      "query_id": 15,
+      "candidates": [
+        "source_13.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ]
+    },
+    {
+      "query_id": 16,
+      "candidates": [
+        "source_03.csv",
+        "source_06.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ]
+    },
+    {
+      "query_id": 17,
+      "candidates": [
+        "source_13.csv",
+        "source_15.csv",
+        "source_07.csv",
+        "source_01.csv"
+      ]
+    },
+    {
+      "query_id": 18,
+      "candidates": [
+        "source_12.csv",
+        "source_07.csv",
+        "source_09.csv"
+      ]
+    },
+    {
+      "query_id": 19,
+      "candidates": [
+        "source_07.csv",
+        "source_13.csv",
+        "source_11.csv",
+        "source_14.csv",
+        "source_10.csv"
+      ]
+    },
+    {
+      "query_id": 20,
+      "candidates": [
+        "source_12.csv",
+        "source_11.csv",
+        "source_13.csv",
+        "source_15.csv"
+      ]
+    },
+    {
+      "query_id": 21,
+      "candidates": [
+        "source_05.csv",
+        "source_14.csv",
+        "source_11.csv"
+      ]
+    },
+    {
+      "query_id": 22,
+      "candidates": [
+        "source_02.csv",
+        "source_14.csv",
+        "source_05.csv",
+        "source_08.csv",
+        "source_06.csv"
+      ]
+    },
+    {
+      "query_id": 23,
+      "candidates": [
+        "source_15.csv",
+        "source_07.csv",
+        "source_11.csv"
+      ]
+    },
+    {
+      "query_id": 24,
+      "candidates": [
+        "source_13.csv",
+        "source_14.csv",
+        "source_01.csv",
+        "source_15.csv"
+      ]
+    },
+    {
+      "query_id": 25,
+      "candidates": [
+        "source_05.csv",
+        "source_11.csv",
+        "source_04.csv",
+        "source_06.csv"
+      ]
+    },
+    {
+      "query_id": 26,
+      "candidates": [
+        "source_07.csv",
+        "source_05.csv",
+        "source_11.csv"
+      ]
+    },
+    {
+      "query_id": 27,
+      "candidates": [
+        "source_06.csv",
+        "source_02.csv",
+        "source_14.csv",
+        "source_09.csv",
+        "source_08.csv"
+      ]
+    },
+    {
+      "query_id": 28,
+      "candidates": [
+        "source_08.csv",
+        "source_04.csv",
+        "source_07.csv",
+        "source_02.csv",
+        "source_03.csv"
+      ]
+    },
+    {
+      "query_id": 29,
+      "candidates": [
+        "source_15.csv",
+        "source_01.csv",
+        "source_10.csv",
+        "source_06.csv"
+      ]
+    }
+  ]
+}

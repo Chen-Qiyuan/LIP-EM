@@ -1,0 +1,2376 @@
+{
+  "target_desc": "Controller logs indicate that progressively lower physical core speed is required to maintain commanded operation as the high-pressure compressor degrades.",
+  "responses": [
+    {
+      "S": [
+        43,
+        64,
+        75
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_044.csv \u0394=+123.6 rpm (slope +0.487, \u03c1=+0.94); source_065.csv \u0394=+11.3 rpm (slope +0.034, \u03c1=+0.62); source_076.csv \u0394=+24.6 rpm (slope +0.158, \u03c1=+0.77)]."
+    },
+    {
+      "S": [
+        9,
+        19,
+        68
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_010.csv \u0394=+90.8 rpm (slope +0.310, \u03c1=+0.93); source_020.csv \u0394=+90.1 rpm (slope +0.418, \u03c1=+0.93); source_069.csv \u0394=+37.1 rpm (slope +0.254, \u03c1=+0.84)]."
+    },
+    {
+      "S": [
+        12,
+        50,
+        69,
+        73,
+        77
+      ],
+      "C": [
+        73
+      ],
+      "reasoning": "source_074.csv drops 11.8 rpm end-to-start (slope -0.043 rpm/cycle, Spearman -0.48); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        64,
+        77,
+        90
+      ],
+      "C": [
+        90
+      ],
+      "reasoning": "source_091.csv drops 17.5 rpm end-to-start (slope -0.095 rpm/cycle, Spearman -0.60); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        9,
+        22,
+        43,
+        44
+      ],
+      "C": [
+        22
+      ],
+      "reasoning": "source_023.csv drops 7.0 rpm end-to-start (slope -0.046 rpm/cycle, Spearman -0.39); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        16,
+        26,
+        61,
+        75,
+        79
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_017.csv \u0394=+6.7 rpm (slope +0.032, \u03c1=+0.34); source_027.csv \u0394=+34.7 rpm (slope +0.179, \u03c1=+0.85); source_062.csv \u0394=+42.0 rpm (slope +0.145, \u03c1=+0.86); source_076.csv \u0394=+24.6 rpm (slope +0.158, \u03c1=+0.77); source_080.csv \u0394=+88.2 rpm (slope +0.457, \u03c1=+0.94)]."
+    },
+    {
+      "S": [
+        66,
+        75,
+        77,
+        86
+      ],
+      "C": [
+        86
+      ],
+      "reasoning": "source_087.csv drops 10.7 rpm end-to-start (slope -0.055 rpm/cycle, Spearman -0.47); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        4,
+        15,
+        53,
+        74
+      ],
+      "C": [
+        53
+      ],
+      "reasoning": "source_054.csv drops 12.6 rpm end-to-start (slope -0.092 rpm/cycle, Spearman -0.57); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        32,
+        40,
+        90,
+        93
+      ],
+      "C": [
+        90
+      ],
+      "reasoning": "source_091.csv drops 17.5 rpm end-to-start (slope -0.095 rpm/cycle, Spearman -0.60); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        12,
+        18,
+        44,
+        47,
+        67
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_013.csv \u0394=+36.6 rpm (slope +0.126, \u03c1=+0.85); source_019.csv \u0394=+81.7 rpm (slope +0.329, \u03c1=+0.92); source_045.csv \u0394=+14.5 rpm (slope +0.074, \u03c1=+0.65); source_048.csv \u0394=+127.9 rpm (slope +0.541, \u03c1=+0.93); source_068.csv \u0394=+6.5 rpm (slope +0.029, \u03c1=+0.46)]."
+    },
+    {
+      "S": [
+        15,
+        41,
+        62,
+        70,
+        81
+      ],
+      "C": [
+        62
+      ],
+      "reasoning": "source_063.csv drops 21.7 rpm end-to-start (slope -0.127 rpm/cycle, Spearman -0.68); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        38,
+        78,
+        82,
+        89
+      ],
+      "C": [
+        38
+      ],
+      "reasoning": "source_039.csv drops 11.7 rpm end-to-start (slope -0.057 rpm/cycle, Spearman -0.59); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        13,
+        19,
+        80,
+        81
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_014.csv \u0394=+15.0 rpm (slope +0.069, \u03c1=+0.75); source_020.csv \u0394=+90.1 rpm (slope +0.418, \u03c1=+0.93); source_081.csv \u0394=-2.2 rpm (slope -0.002, \u03c1=-0.02); source_082.csv \u0394=+113.4 rpm (slope +0.473, \u03c1=+0.93)]."
+    },
+    {
+      "S": [
+        27,
+        45,
+        63,
+        69,
+        78
+      ],
+      "C": [
+        27
+      ],
+      "reasoning": "source_028.csv drops 5.1 rpm end-to-start (slope -0.021 rpm/cycle, Spearman -0.24); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        11,
+        13,
+        24
+      ],
+      "C": [
+        24
+      ],
+      "reasoning": "source_025.csv drops 8.8 rpm end-to-start (slope -0.046 rpm/cycle, Spearman -0.49); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        7,
+        45,
+        55,
+        83
+      ],
+      "C": [
+        7
+      ],
+      "reasoning": "source_008.csv drops 9.2 rpm end-to-start (slope -0.040 rpm/cycle, Spearman -0.46); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        8,
+        53,
+        55,
+        79
+      ],
+      "C": [
+        53
+      ],
+      "reasoning": "source_054.csv drops 12.6 rpm end-to-start (slope -0.092 rpm/cycle, Spearman -0.57); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        21,
+        27,
+        42,
+        96
+      ],
+      "C": [
+        27
+      ],
+      "reasoning": "source_028.csv drops 5.1 rpm end-to-start (slope -0.021 rpm/cycle, Spearman -0.24); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        5,
+        22,
+        81
+      ],
+      "C": [
+        22
+      ],
+      "reasoning": "source_023.csv drops 7.0 rpm end-to-start (slope -0.046 rpm/cycle, Spearman -0.39); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        12,
+        28,
+        42,
+        55,
+        64
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_013.csv \u0394=+36.6 rpm (slope +0.126, \u03c1=+0.85); source_029.csv \u0394=+84.5 rpm (slope +0.413, \u03c1=+0.92); source_043.csv \u0394=+35.7 rpm (slope +0.158, \u03c1=+0.83); source_056.csv \u0394=+9.0 rpm (slope +0.044, \u03c1=+0.57); source_065.csv \u0394=+11.3 rpm (slope +0.034, \u03c1=+0.62)]."
+    },
+    {
+      "S": [
+        32,
+        39,
+        40,
+        80
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_033.csv \u0394=+86.8 rpm (slope +0.417, \u03c1=+0.89); source_040.csv \u0394=+11.7 rpm (slope +0.076, \u03c1=+0.68); source_041.csv \u0394=+18.3 rpm (slope +0.112, \u03c1=+0.73); source_081.csv \u0394=-2.2 rpm (slope -0.002, \u03c1=-0.02)]."
+    },
+    {
+      "S": [
+        8,
+        72,
+        76
+      ],
+      "C": [
+        72
+      ],
+      "reasoning": "source_073.csv drops 12.5 rpm end-to-start (slope -0.060 rpm/cycle, Spearman -0.48); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        15,
+        49,
+        87,
+        92,
+        99
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_016.csv \u0394=+9.8 rpm (slope +0.043, \u03c1=+0.53); source_050.csv \u0394=+85.0 rpm (slope +0.410, \u03c1=+0.92); source_088.csv \u0394=+67.2 rpm (slope +0.305, \u03c1=+0.91); source_093.csv \u0394=+66.8 rpm (slope +0.188, \u03c1=+0.93); source_100.csv \u0394=+1.4 rpm (slope +0.007, \u03c1=+0.12)]."
+    },
+    {
+      "S": [
+        23,
+        30,
+        37
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_024.csv \u0394=+110.8 rpm (slope +0.572, \u03c1=+0.94); source_031.csv \u0394=-2.8 rpm (slope -0.017, \u03c1=-0.18); source_038.csv \u0394=+2.7 rpm (slope +0.024, \u03c1=+0.29)]."
+    },
+    {
+      "S": [
+        8,
+        34,
+        35,
+        94
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_009.csv \u0394=+5.3 rpm (slope +0.015, \u03c1=+0.20); source_035.csv \u0394=+115.2 rpm (slope +0.556, \u03c1=+0.94); source_036.csv \u0394=+65.1 rpm (slope +0.328, \u03c1=+0.93); source_095.csv \u0394=+85.9 rpm (slope +0.319, \u03c1=+0.92)]."
+    },
+    {
+      "S": [
+        45,
+        48,
+        69,
+        88
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_046.csv \u0394=+66.9 rpm (slope +0.234, \u03c1=+0.91); source_049.csv \u0394=+50.6 rpm (slope +0.227, \u03c1=+0.85); source_070.csv \u0394=+90.6 rpm (slope +0.414, \u03c1=+0.95); source_089.csv \u0394=+29.6 rpm (slope +0.130, \u03c1=+0.79)]."
+    },
+    {
+      "S": [
+        25,
+        71,
+        76
+      ],
+      "C": [
+        25
+      ],
+      "reasoning": "source_026.csv drops 8.5 rpm end-to-start (slope -0.023 rpm/cycle, Spearman -0.28); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        7,
+        9,
+        26,
+        44,
+        90
+      ],
+      "C": [
+        90
+      ],
+      "reasoning": "source_091.csv drops 17.5 rpm end-to-start (slope -0.095 rpm/cycle, Spearman -0.60); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        17,
+        29,
+        54,
+        56,
+        78
+      ],
+      "C": [
+        17
+      ],
+      "reasoning": "source_018.csv drops 17.4 rpm end-to-start (slope -0.102 rpm/cycle, Spearman -0.63); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        30,
+        42,
+        65,
+        69
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_031.csv \u0394=-2.8 rpm (slope -0.017, \u03c1=-0.18); source_043.csv \u0394=+35.7 rpm (slope +0.158, \u03c1=+0.83); source_066.csv \u0394=+79.7 rpm (slope +0.379, \u03c1=+0.93); source_070.csv \u0394=+90.6 rpm (slope +0.414, \u03c1=+0.95)]."
+    },
+    {
+      "S": [
+        8,
+        62,
+        63
+      ],
+      "C": [
+        62
+      ],
+      "reasoning": "source_063.csv drops 21.7 rpm end-to-start (slope -0.127 rpm/cycle, Spearman -0.68); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        3,
+        17,
+        18,
+        32,
+        48
+      ],
+      "C": [
+        17
+      ],
+      "reasoning": "source_018.csv drops 17.4 rpm end-to-start (slope -0.102 rpm/cycle, Spearman -0.63); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        17,
+        57,
+        78
+      ],
+      "C": [
+        17
+      ],
+      "reasoning": "source_018.csv drops 17.4 rpm end-to-start (slope -0.102 rpm/cycle, Spearman -0.63); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        33,
+        43,
+        55,
+        59,
+        60
+      ],
+      "C": [
+        59
+      ],
+      "reasoning": "source_060.csv drops 9.3 rpm end-to-start (slope -0.052 rpm/cycle, Spearman -0.50); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        6,
+        45,
+        46,
+        77
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_007.csv \u0394=+59.9 rpm (slope +0.313, \u03c1=+0.90); source_046.csv \u0394=+66.9 rpm (slope +0.234, \u03c1=+0.91); source_047.csv \u0394=+56.9 rpm (slope +0.269, \u03c1=+0.87); source_078.csv \u0394=+36.0 rpm (slope +0.173, \u03c1=+0.84)]."
+    },
+    {
+      "S": [
+        15,
+        42,
+        47,
+        57,
+        91
+      ],
+      "C": [
+        91
+      ],
+      "reasoning": "source_092.csv drops 7.1 rpm end-to-start (slope -0.050 rpm/cycle, Spearman -0.41); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        31,
+        43,
+        51,
+        52,
+        84
+      ],
+      "C": [
+        31
+      ],
+      "reasoning": "source_032.csv drops 5.7 rpm end-to-start (slope -0.031 rpm/cycle, Spearman -0.31); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        14,
+        53,
+        87
+      ],
+      "C": [
+        53
+      ],
+      "reasoning": "source_054.csv drops 12.6 rpm end-to-start (slope -0.092 rpm/cycle, Spearman -0.57); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        10,
+        65,
+        67
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_011.csv \u0394=+123.6 rpm (slope +0.589, \u03c1=+0.94); source_066.csv \u0394=+79.7 rpm (slope +0.379, \u03c1=+0.93); source_068.csv \u0394=+6.5 rpm (slope +0.029, \u03c1=+0.46)]."
+    },
+    {
+      "S": [
+        64,
+        72,
+        99
+      ],
+      "C": [
+        72
+      ],
+      "reasoning": "source_073.csv drops 12.5 rpm end-to-start (slope -0.060 rpm/cycle, Spearman -0.48); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        10,
+        60,
+        91
+      ],
+      "C": [
+        91
+      ],
+      "reasoning": "source_092.csv drops 7.1 rpm end-to-start (slope -0.050 rpm/cycle, Spearman -0.41); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        3,
+        13,
+        55
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_004.csv \u0394=+81.3 rpm (slope +0.314, \u03c1=+0.92); source_014.csv \u0394=+15.0 rpm (slope +0.069, \u03c1=+0.75); source_056.csv \u0394=+9.0 rpm (slope +0.044, \u03c1=+0.57)]."
+    },
+    {
+      "S": [
+        45,
+        80,
+        81
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_046.csv \u0394=+66.9 rpm (slope +0.234, \u03c1=+0.91); source_081.csv \u0394=-2.2 rpm (slope -0.002, \u03c1=-0.02); source_082.csv \u0394=+113.4 rpm (slope +0.473, \u03c1=+0.93)]."
+    },
+    {
+      "S": [
+        29,
+        62,
+        93
+      ],
+      "C": [
+        62
+      ],
+      "reasoning": "source_063.csv drops 21.7 rpm end-to-start (slope -0.127 rpm/cycle, Spearman -0.68); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        16,
+        17,
+        24,
+        91,
+        96
+      ],
+      "C": [
+        17
+      ],
+      "reasoning": "source_018.csv drops 17.4 rpm end-to-start (slope -0.102 rpm/cycle, Spearman -0.63); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        9,
+        14,
+        74,
+        87,
+        95
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_010.csv \u0394=+90.8 rpm (slope +0.310, \u03c1=+0.93); source_015.csv \u0394=+93.5 rpm (slope +0.442, \u03c1=+0.92); source_075.csv \u0394=+1.8 rpm (slope +0.017, \u03c1=+0.23); source_088.csv \u0394=+67.2 rpm (slope +0.305, \u03c1=+0.91); source_096.csv \u0394=+39.1 rpm (slope +0.136, \u03c1=+0.84)]."
+    },
+    {
+      "S": [
+        31,
+        46,
+        50
+      ],
+      "C": [
+        31
+      ],
+      "reasoning": "source_032.csv drops 5.7 rpm end-to-start (slope -0.031 rpm/cycle, Spearman -0.31); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        36,
+        40,
+        64,
+        88
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_037.csv \u0394=+72.9 rpm (slope +0.319, \u03c1=+0.91); source_041.csv \u0394=+18.3 rpm (slope +0.112, \u03c1=+0.73); source_065.csv \u0394=+11.3 rpm (slope +0.034, \u03c1=+0.62); source_089.csv \u0394=+29.6 rpm (slope +0.130, \u03c1=+0.79)]."
+    },
+    {
+      "S": [
+        0,
+        25,
+        92,
+        94
+      ],
+      "C": [
+        25
+      ],
+      "reasoning": "source_026.csv drops 8.5 rpm end-to-start (slope -0.023 rpm/cycle, Spearman -0.28); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        15,
+        81,
+        88
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_016.csv \u0394=+9.8 rpm (slope +0.043, \u03c1=+0.53); source_082.csv \u0394=+113.4 rpm (slope +0.473, \u03c1=+0.93); source_089.csv \u0394=+29.6 rpm (slope +0.130, \u03c1=+0.79)]."
+    },
+    {
+      "S": [
+        4,
+        58,
+        70,
+        86
+      ],
+      "C": [
+        58
+      ],
+      "reasoning": "source_059.csv drops 19.1 rpm end-to-start (slope -0.107 rpm/cycle, Spearman -0.75); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        31,
+        49,
+        50,
+        74,
+        95
+      ],
+      "C": [
+        31
+      ],
+      "reasoning": "source_032.csv drops 5.7 rpm end-to-start (slope -0.031 rpm/cycle, Spearman -0.31); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        13,
+        22,
+        27
+      ],
+      "C": [
+        22
+      ],
+      "reasoning": "source_023.csv drops 7.0 rpm end-to-start (slope -0.046 rpm/cycle, Spearman -0.39); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        11,
+        28,
+        49,
+        69,
+        91
+      ],
+      "C": [
+        91
+      ],
+      "reasoning": "source_092.csv drops 7.1 rpm end-to-start (slope -0.050 rpm/cycle, Spearman -0.41); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        2,
+        8,
+        70,
+        73,
+        77
+      ],
+      "C": [
+        70
+      ],
+      "reasoning": "source_071.csv drops 13.5 rpm end-to-start (slope -0.062 rpm/cycle, Spearman -0.57); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        7,
+        39,
+        89,
+        97
+      ],
+      "C": [
+        7
+      ],
+      "reasoning": "source_008.csv drops 9.2 rpm end-to-start (slope -0.040 rpm/cycle, Spearman -0.46); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        30,
+        52,
+        64,
+        94
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_031.csv \u0394=-2.8 rpm (slope -0.017, \u03c1=-0.18); source_053.csv \u0394=+79.3 rpm (slope +0.279, \u03c1=+0.93); source_065.csv \u0394=+11.3 rpm (slope +0.034, \u03c1=+0.62); source_095.csv \u0394=+85.9 rpm (slope +0.319, \u03c1=+0.92)]."
+    },
+    {
+      "S": [
+        2,
+        14,
+        54,
+        58
+      ],
+      "C": [
+        58
+      ],
+      "reasoning": "source_059.csv drops 19.1 rpm end-to-start (slope -0.107 rpm/cycle, Spearman -0.75); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        0,
+        13,
+        41,
+        72,
+        96
+      ],
+      "C": [
+        72
+      ],
+      "reasoning": "source_073.csv drops 12.5 rpm end-to-start (slope -0.060 rpm/cycle, Spearman -0.48); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        41,
+        45,
+        62,
+        77,
+        78
+      ],
+      "C": [
+        62
+      ],
+      "reasoning": "source_063.csv drops 21.7 rpm end-to-start (slope -0.127 rpm/cycle, Spearman -0.68); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        24,
+        79,
+        81
+      ],
+      "C": [
+        24
+      ],
+      "reasoning": "source_025.csv drops 8.8 rpm end-to-start (slope -0.046 rpm/cycle, Spearman -0.49); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        51,
+        59,
+        74,
+        93
+      ],
+      "C": [
+        59
+      ],
+      "reasoning": "source_060.csv drops 9.3 rpm end-to-start (slope -0.052 rpm/cycle, Spearman -0.50); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        11,
+        37,
+        40
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_012.csv \u0394=-2.2 rpm (slope -0.013, \u03c1=-0.17); source_038.csv \u0394=+2.7 rpm (slope +0.024, \u03c1=+0.29); source_041.csv \u0394=+18.3 rpm (slope +0.112, \u03c1=+0.73)]."
+    },
+    {
+      "S": [
+        63,
+        86,
+        95
+      ],
+      "C": [
+        86
+      ],
+      "reasoning": "source_087.csv drops 10.7 rpm end-to-start (slope -0.055 rpm/cycle, Spearman -0.47); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        23,
+        24,
+        26,
+        99
+      ],
+      "C": [
+        24
+      ],
+      "reasoning": "source_025.csv drops 8.8 rpm end-to-start (slope -0.046 rpm/cycle, Spearman -0.49); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        6,
+        10,
+        47,
+        59,
+        85
+      ],
+      "C": [
+        59
+      ],
+      "reasoning": "source_060.csv drops 9.3 rpm end-to-start (slope -0.052 rpm/cycle, Spearman -0.50); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        14,
+        30,
+        91
+      ],
+      "C": [
+        91
+      ],
+      "reasoning": "source_092.csv drops 7.1 rpm end-to-start (slope -0.050 rpm/cycle, Spearman -0.41); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        15,
+        16,
+        28,
+        57
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_016.csv \u0394=+9.8 rpm (slope +0.043, \u03c1=+0.53); source_017.csv \u0394=+6.7 rpm (slope +0.032, \u03c1=+0.34); source_029.csv \u0394=+84.5 rpm (slope +0.413, \u03c1=+0.92); source_058.csv \u0394=+65.9 rpm (slope +0.366, \u03c1=+0.89)]."
+    },
+    {
+      "S": [
+        2,
+        5,
+        19,
+        69
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_003.csv \u0394=+4.7 rpm (slope +0.038, \u03c1=+0.45); source_006.csv \u0394=+78.5 rpm (slope +0.451, \u03c1=+0.91); source_020.csv \u0394=+90.1 rpm (slope +0.418, \u03c1=+0.93); source_070.csv \u0394=+90.6 rpm (slope +0.414, \u03c1=+0.95)]."
+    },
+    {
+      "S": [
+        50,
+        57,
+        67,
+        80
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_051.csv \u0394=+71.8 rpm (slope +0.267, \u03c1=+0.89); source_058.csv \u0394=+65.9 rpm (slope +0.366, \u03c1=+0.89); source_068.csv \u0394=+6.5 rpm (slope +0.029, \u03c1=+0.46); source_081.csv \u0394=-2.2 rpm (slope -0.002, \u03c1=-0.02)]."
+    },
+    {
+      "S": [
+        48,
+        71,
+        78,
+        85,
+        99
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_049.csv \u0394=+50.6 rpm (slope +0.227, \u03c1=+0.85); source_072.csv \u0394=+0.9 rpm (slope +0.008, \u03c1=+0.12); source_079.csv \u0394=+3.2 rpm (slope +0.024, \u03c1=+0.24); source_086.csv \u0394=+17.8 rpm (slope +0.069, \u03c1=+0.77); source_100.csv \u0394=+1.4 rpm (slope +0.007, \u03c1=+0.12)]."
+    },
+    {
+      "S": [
+        22,
+        24,
+        57,
+        63,
+        96
+      ],
+      "C": [
+        24
+      ],
+      "reasoning": "source_025.csv drops 8.8 rpm end-to-start (slope -0.046 rpm/cycle, Spearman -0.49); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        36,
+        52,
+        91
+      ],
+      "C": [
+        91
+      ],
+      "reasoning": "source_092.csv drops 7.1 rpm end-to-start (slope -0.050 rpm/cycle, Spearman -0.41); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        5,
+        10,
+        81
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_006.csv \u0394=+78.5 rpm (slope +0.451, \u03c1=+0.91); source_011.csv \u0394=+123.6 rpm (slope +0.589, \u03c1=+0.94); source_082.csv \u0394=+113.4 rpm (slope +0.473, \u03c1=+0.93)]."
+    },
+    {
+      "S": [
+        9,
+        79,
+        81,
+        82,
+        90
+      ],
+      "C": [
+        90
+      ],
+      "reasoning": "source_091.csv drops 17.5 rpm end-to-start (slope -0.095 rpm/cycle, Spearman -0.60); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        61,
+        63,
+        75,
+        99
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_062.csv \u0394=+42.0 rpm (slope +0.145, \u03c1=+0.86); source_064.csv \u0394=+15.1 rpm (slope +0.078, \u03c1=+0.70); source_076.csv \u0394=+24.6 rpm (slope +0.158, \u03c1=+0.77); source_100.csv \u0394=+1.4 rpm (slope +0.007, \u03c1=+0.12)]."
+    },
+    {
+      "S": [
+        31,
+        50,
+        51,
+        85,
+        95
+      ],
+      "C": [
+        31
+      ],
+      "reasoning": "source_032.csv drops 5.7 rpm end-to-start (slope -0.031 rpm/cycle, Spearman -0.31); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        6,
+        13,
+        24,
+        26,
+        61
+      ],
+      "C": [
+        24
+      ],
+      "reasoning": "source_025.csv drops 8.8 rpm end-to-start (slope -0.046 rpm/cycle, Spearman -0.49); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        22,
+        33,
+        36,
+        50
+      ],
+      "C": [
+        33
+      ],
+      "reasoning": "source_034.csv drops 7.2 rpm end-to-start (slope -0.068 rpm/cycle, Spearman -0.47); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        17,
+        23,
+        36,
+        67
+      ],
+      "C": [
+        17
+      ],
+      "reasoning": "source_018.csv drops 17.4 rpm end-to-start (slope -0.102 rpm/cycle, Spearman -0.63); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        32,
+        47,
+        76,
+        82,
+        87
+      ],
+      "C": [
+        82
+      ],
+      "reasoning": "source_083.csv drops 5.8 rpm end-to-start (slope -0.016 rpm/cycle, Spearman -0.28); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        19,
+        55,
+        63,
+        79
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_020.csv \u0394=+90.1 rpm (slope +0.418, \u03c1=+0.93); source_056.csv \u0394=+9.0 rpm (slope +0.044, \u03c1=+0.57); source_064.csv \u0394=+15.1 rpm (slope +0.078, \u03c1=+0.70); source_080.csv \u0394=+88.2 rpm (slope +0.457, \u03c1=+0.94)]."
+    },
+    {
+      "S": [
+        17,
+        28,
+        73
+      ],
+      "C": [
+        17
+      ],
+      "reasoning": "source_018.csv drops 17.4 rpm end-to-start (slope -0.102 rpm/cycle, Spearman -0.63); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        49,
+        67,
+        85,
+        91
+      ],
+      "C": [
+        91
+      ],
+      "reasoning": "source_092.csv drops 7.1 rpm end-to-start (slope -0.050 rpm/cycle, Spearman -0.41); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        9,
+        58,
+        60,
+        71
+      ],
+      "C": [
+        58
+      ],
+      "reasoning": "source_059.csv drops 19.1 rpm end-to-start (slope -0.107 rpm/cycle, Spearman -0.75); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        13,
+        16,
+        80,
+        93,
+        97
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_014.csv \u0394=+15.0 rpm (slope +0.069, \u03c1=+0.75); source_017.csv \u0394=+6.7 rpm (slope +0.032, \u03c1=+0.34); source_081.csv \u0394=-2.2 rpm (slope -0.002, \u03c1=-0.02); source_094.csv \u0394=+4.8 rpm (slope +0.040, \u03c1=+0.37); source_098.csv \u0394=+128.0 rpm (slope +0.578, \u03c1=+0.93)]."
+    },
+    {
+      "S": [
+        8,
+        25,
+        76,
+        90,
+        92
+      ],
+      "C": [
+        90
+      ],
+      "reasoning": "source_091.csv drops 17.5 rpm end-to-start (slope -0.095 rpm/cycle, Spearman -0.60); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        12,
+        16,
+        59,
+        98
+      ],
+      "C": [
+        59
+      ],
+      "reasoning": "source_060.csv drops 9.3 rpm end-to-start (slope -0.052 rpm/cycle, Spearman -0.50); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        45,
+        51,
+        66,
+        72
+      ],
+      "C": [
+        72
+      ],
+      "reasoning": "source_073.csv drops 12.5 rpm end-to-start (slope -0.060 rpm/cycle, Spearman -0.48); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        13,
+        23,
+        47,
+        59
+      ],
+      "C": [
+        59
+      ],
+      "reasoning": "source_060.csv drops 9.3 rpm end-to-start (slope -0.052 rpm/cycle, Spearman -0.50); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        8,
+        11,
+        48,
+        65,
+        69
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_009.csv \u0394=+5.3 rpm (slope +0.015, \u03c1=+0.20); source_012.csv \u0394=-2.2 rpm (slope -0.013, \u03c1=-0.17); source_049.csv \u0394=+50.6 rpm (slope +0.227, \u03c1=+0.85); source_066.csv \u0394=+79.7 rpm (slope +0.379, \u03c1=+0.93); source_070.csv \u0394=+90.6 rpm (slope +0.414, \u03c1=+0.95)]."
+    },
+    {
+      "S": [
+        33,
+        65,
+        72
+      ],
+      "C": [
+        72
+      ],
+      "reasoning": "source_073.csv drops 12.5 rpm end-to-start (slope -0.060 rpm/cycle, Spearman -0.48); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        26,
+        36,
+        61,
+        73,
+        78
+      ],
+      "C": [
+        73
+      ],
+      "reasoning": "source_074.csv drops 11.8 rpm end-to-start (slope -0.043 rpm/cycle, Spearman -0.48); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        8,
+        14,
+        43,
+        54,
+        91
+      ],
+      "C": [
+        54
+      ],
+      "reasoning": "source_055.csv drops 15.9 rpm end-to-start (slope -0.100 rpm/cycle, Spearman -0.65); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        54,
+        93,
+        99
+      ],
+      "C": [
+        54
+      ],
+      "reasoning": "source_055.csv drops 15.9 rpm end-to-start (slope -0.100 rpm/cycle, Spearman -0.65); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        13,
+        37,
+        46,
+        65
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_014.csv \u0394=+15.0 rpm (slope +0.069, \u03c1=+0.75); source_038.csv \u0394=+2.7 rpm (slope +0.024, \u03c1=+0.29); source_047.csv \u0394=+56.9 rpm (slope +0.269, \u03c1=+0.87); source_066.csv \u0394=+79.7 rpm (slope +0.379, \u03c1=+0.93)]."
+    },
+    {
+      "S": [
+        11,
+        26,
+        41,
+        85,
+        91
+      ],
+      "C": [
+        91
+      ],
+      "reasoning": "source_092.csv drops 7.1 rpm end-to-start (slope -0.050 rpm/cycle, Spearman -0.41); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        3,
+        54,
+        57,
+        67
+      ],
+      "C": [
+        54
+      ],
+      "reasoning": "source_055.csv drops 15.9 rpm end-to-start (slope -0.100 rpm/cycle, Spearman -0.65); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        28,
+        41,
+        45,
+        79,
+        95
+      ],
+      "C": [
+        41
+      ],
+      "reasoning": "source_042.csv drops 5.4 rpm end-to-start (slope -0.015 rpm/cycle, Spearman -0.23); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        54,
+        72,
+        77,
+        89
+      ],
+      "C": [
+        54
+      ],
+      "reasoning": "source_055.csv drops 15.9 rpm end-to-start (slope -0.100 rpm/cycle, Spearman -0.65); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        28,
+        67,
+        86
+      ],
+      "C": [
+        86
+      ],
+      "reasoning": "source_087.csv drops 10.7 rpm end-to-start (slope -0.055 rpm/cycle, Spearman -0.47); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        10,
+        65,
+        99
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_011.csv \u0394=+123.6 rpm (slope +0.589, \u03c1=+0.94); source_066.csv \u0394=+79.7 rpm (slope +0.379, \u03c1=+0.93); source_100.csv \u0394=+1.4 rpm (slope +0.007, \u03c1=+0.12)]."
+    },
+    {
+      "S": [
+        9,
+        61,
+        63
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_010.csv \u0394=+90.8 rpm (slope +0.310, \u03c1=+0.93); source_062.csv \u0394=+42.0 rpm (slope +0.145, \u03c1=+0.86); source_064.csv \u0394=+15.1 rpm (slope +0.078, \u03c1=+0.70)]."
+    },
+    {
+      "S": [
+        2,
+        14,
+        23,
+        44,
+        97
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_003.csv \u0394=+4.7 rpm (slope +0.038, \u03c1=+0.45); source_015.csv \u0394=+93.5 rpm (slope +0.442, \u03c1=+0.92); source_024.csv \u0394=+110.8 rpm (slope +0.572, \u03c1=+0.94); source_045.csv \u0394=+14.5 rpm (slope +0.074, \u03c1=+0.65); source_098.csv \u0394=+128.0 rpm (slope +0.578, \u03c1=+0.93)]."
+    },
+    {
+      "S": [
+        28,
+        65,
+        89
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_029.csv \u0394=+84.5 rpm (slope +0.413, \u03c1=+0.92); source_066.csv \u0394=+79.7 rpm (slope +0.379, \u03c1=+0.93); source_090.csv \u0394=+126.1 rpm (slope +0.572, \u03c1=+0.94)]."
+    },
+    {
+      "S": [
+        0,
+        5,
+        15
+      ],
+      "C": [
+        0
+      ],
+      "reasoning": "source_001.csv drops 7.5 rpm end-to-start (slope -0.039 rpm/cycle, Spearman -0.41); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        23,
+        28,
+        76,
+        84,
+        93
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_024.csv \u0394=+110.8 rpm (slope +0.572, \u03c1=+0.94); source_029.csv \u0394=+84.5 rpm (slope +0.413, \u03c1=+0.92); source_077.csv \u0394=+30.3 rpm (slope +0.129, \u03c1=+0.83); source_085.csv \u0394=+8.0 rpm (slope +0.045, \u03c1=+0.46); source_094.csv \u0394=+4.8 rpm (slope +0.040, \u03c1=+0.37)]."
+    },
+    {
+      "S": [
+        11,
+        69,
+        75,
+        83,
+        89
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_012.csv \u0394=-2.2 rpm (slope -0.013, \u03c1=-0.17); source_070.csv \u0394=+90.6 rpm (slope +0.414, \u03c1=+0.95); source_076.csv \u0394=+24.6 rpm (slope +0.158, \u03c1=+0.77); source_084.csv \u0394=+26.9 rpm (slope +0.097, \u03c1=+0.82); source_090.csv \u0394=+126.1 rpm (slope +0.572, \u03c1=+0.94)]."
+    },
+    {
+      "S": [
+        11,
+        12,
+        19,
+        69
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_012.csv \u0394=-2.2 rpm (slope -0.013, \u03c1=-0.17); source_013.csv \u0394=+36.6 rpm (slope +0.126, \u03c1=+0.85); source_020.csv \u0394=+90.1 rpm (slope +0.418, \u03c1=+0.93); source_070.csv \u0394=+90.6 rpm (slope +0.414, \u03c1=+0.95)]."
+    },
+    {
+      "S": [
+        8,
+        44,
+        61,
+        84
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_009.csv \u0394=+5.3 rpm (slope +0.015, \u03c1=+0.20); source_045.csv \u0394=+14.5 rpm (slope +0.074, \u03c1=+0.65); source_062.csv \u0394=+42.0 rpm (slope +0.145, \u03c1=+0.86); source_085.csv \u0394=+8.0 rpm (slope +0.045, \u03c1=+0.46)]."
+    },
+    {
+      "S": [
+        1,
+        18,
+        27
+      ],
+      "C": [
+        27
+      ],
+      "reasoning": "source_028.csv drops 5.1 rpm end-to-start (slope -0.021 rpm/cycle, Spearman -0.24); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        50,
+        60,
+        73,
+        95
+      ],
+      "C": [
+        73
+      ],
+      "reasoning": "source_074.csv drops 11.8 rpm end-to-start (slope -0.043 rpm/cycle, Spearman -0.48); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        4,
+        21,
+        88
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_005.csv \u0394=+4.1 rpm (slope +0.024, \u03c1=+0.27); source_022.csv \u0394=+22.5 rpm (slope +0.124, \u03c1=+0.70); source_089.csv \u0394=+29.6 rpm (slope +0.130, \u03c1=+0.79)]."
+    },
+    {
+      "S": [
+        9,
+        16,
+        36,
+        77
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_010.csv \u0394=+90.8 rpm (slope +0.310, \u03c1=+0.93); source_017.csv \u0394=+6.7 rpm (slope +0.032, \u03c1=+0.34); source_037.csv \u0394=+72.9 rpm (slope +0.319, \u03c1=+0.91); source_078.csv \u0394=+36.0 rpm (slope +0.173, \u03c1=+0.84)]."
+    },
+    {
+      "S": [
+        25,
+        44,
+        53,
+        77
+      ],
+      "C": [
+        53
+      ],
+      "reasoning": "source_054.csv drops 12.6 rpm end-to-start (slope -0.092 rpm/cycle, Spearman -0.57); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        14,
+        24,
+        54,
+        93
+      ],
+      "C": [
+        54
+      ],
+      "reasoning": "source_055.csv drops 15.9 rpm end-to-start (slope -0.100 rpm/cycle, Spearman -0.65); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        25,
+        44,
+        64,
+        67
+      ],
+      "C": [
+        25
+      ],
+      "reasoning": "source_026.csv drops 8.5 rpm end-to-start (slope -0.023 rpm/cycle, Spearman -0.28); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        39,
+        49,
+        67,
+        91
+      ],
+      "C": [
+        91
+      ],
+      "reasoning": "source_092.csv drops 7.1 rpm end-to-start (slope -0.050 rpm/cycle, Spearman -0.41); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        9,
+        12,
+        27,
+        30,
+        91
+      ],
+      "C": [
+        91
+      ],
+      "reasoning": "source_092.csv drops 7.1 rpm end-to-start (slope -0.050 rpm/cycle, Spearman -0.41); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        15,
+        40,
+        61,
+        95
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_016.csv \u0394=+9.8 rpm (slope +0.043, \u03c1=+0.53); source_041.csv \u0394=+18.3 rpm (slope +0.112, \u03c1=+0.73); source_062.csv \u0394=+42.0 rpm (slope +0.145, \u03c1=+0.86); source_096.csv \u0394=+39.1 rpm (slope +0.136, \u03c1=+0.84)]."
+    },
+    {
+      "S": [
+        3,
+        31,
+        56,
+        58,
+        91
+      ],
+      "C": [
+        58
+      ],
+      "reasoning": "source_059.csv drops 19.1 rpm end-to-start (slope -0.107 rpm/cycle, Spearman -0.75); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        9,
+        22,
+        57
+      ],
+      "C": [
+        22
+      ],
+      "reasoning": "source_023.csv drops 7.0 rpm end-to-start (slope -0.046 rpm/cycle, Spearman -0.39); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        53,
+        58,
+        64,
+        68
+      ],
+      "C": [
+        58
+      ],
+      "reasoning": "source_059.csv drops 19.1 rpm end-to-start (slope -0.107 rpm/cycle, Spearman -0.75); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        33,
+        54,
+        77
+      ],
+      "C": [
+        54
+      ],
+      "reasoning": "source_055.csv drops 15.9 rpm end-to-start (slope -0.100 rpm/cycle, Spearman -0.65); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        35,
+        51,
+        60,
+        96
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_036.csv \u0394=+65.1 rpm (slope +0.328, \u03c1=+0.93); source_052.csv \u0394=+116.5 rpm (slope +0.548, \u03c1=+0.94); source_061.csv \u0394=+97.9 rpm (slope +0.508, \u03c1=+0.93); source_097.csv \u0394=+17.0 rpm (slope +0.054, \u03c1=+0.73)]."
+    },
+    {
+      "S": [
+        12,
+        85,
+        91,
+        99
+      ],
+      "C": [
+        91
+      ],
+      "reasoning": "source_092.csv drops 7.1 rpm end-to-start (slope -0.050 rpm/cycle, Spearman -0.41); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        24,
+        31,
+        78
+      ],
+      "C": [
+        24
+      ],
+      "reasoning": "source_025.csv drops 8.8 rpm end-to-start (slope -0.046 rpm/cycle, Spearman -0.49); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        4,
+        5,
+        11,
+        47
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_005.csv \u0394=+4.1 rpm (slope +0.024, \u03c1=+0.27); source_006.csv \u0394=+78.5 rpm (slope +0.451, \u03c1=+0.91); source_012.csv \u0394=-2.2 rpm (slope -0.013, \u03c1=-0.17); source_048.csv \u0394=+127.9 rpm (slope +0.541, \u03c1=+0.93)]."
+    },
+    {
+      "S": [
+        5,
+        7,
+        27,
+        33,
+        55
+      ],
+      "C": [
+        7
+      ],
+      "reasoning": "source_008.csv drops 9.2 rpm end-to-start (slope -0.040 rpm/cycle, Spearman -0.46); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        1,
+        72,
+        89
+      ],
+      "C": [
+        72
+      ],
+      "reasoning": "source_073.csv drops 12.5 rpm end-to-start (slope -0.060 rpm/cycle, Spearman -0.48); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        15,
+        36,
+        40,
+        70,
+        82
+      ],
+      "C": [
+        70
+      ],
+      "reasoning": "source_071.csv drops 13.5 rpm end-to-start (slope -0.062 rpm/cycle, Spearman -0.57); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        7,
+        35,
+        49,
+        94
+      ],
+      "C": [
+        7
+      ],
+      "reasoning": "source_008.csv drops 9.2 rpm end-to-start (slope -0.040 rpm/cycle, Spearman -0.46); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        14,
+        30,
+        68,
+        75
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_015.csv \u0394=+93.5 rpm (slope +0.442, \u03c1=+0.92); source_031.csv \u0394=-2.8 rpm (slope -0.017, \u03c1=-0.18); source_069.csv \u0394=+37.1 rpm (slope +0.254, \u03c1=+0.84); source_076.csv \u0394=+24.6 rpm (slope +0.158, \u03c1=+0.77)]."
+    },
+    {
+      "S": [
+        1,
+        20,
+        32,
+        61,
+        66
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_002.csv \u0394=+52.0 rpm (slope +0.216, \u03c1=+0.89); source_021.csv \u0394=+63.6 rpm (slope +0.379, \u03c1=+0.89); source_033.csv \u0394=+86.8 rpm (slope +0.417, \u03c1=+0.89); source_062.csv \u0394=+42.0 rpm (slope +0.145, \u03c1=+0.86); source_067.csv \u0394=-1.9 rpm (slope -0.005, \u03c1=-0.11)]."
+    },
+    {
+      "S": [
+        15,
+        40,
+        81,
+        91,
+        98
+      ],
+      "C": [
+        98
+      ],
+      "reasoning": "source_099.csv drops 8.4 rpm end-to-start (slope -0.037 rpm/cycle, Spearman -0.32); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        13,
+        44,
+        49,
+        63,
+        95
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_014.csv \u0394=+15.0 rpm (slope +0.069, \u03c1=+0.75); source_045.csv \u0394=+14.5 rpm (slope +0.074, \u03c1=+0.65); source_050.csv \u0394=+85.0 rpm (slope +0.410, \u03c1=+0.92); source_064.csv \u0394=+15.1 rpm (slope +0.078, \u03c1=+0.70); source_096.csv \u0394=+39.1 rpm (slope +0.136, \u03c1=+0.84)]."
+    },
+    {
+      "S": [
+        3,
+        42,
+        46,
+        47,
+        72
+      ],
+      "C": [
+        72
+      ],
+      "reasoning": "source_073.csv drops 12.5 rpm end-to-start (slope -0.060 rpm/cycle, Spearman -0.48); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        4,
+        88,
+        93
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_005.csv \u0394=+4.1 rpm (slope +0.024, \u03c1=+0.27); source_089.csv \u0394=+29.6 rpm (slope +0.130, \u03c1=+0.79); source_094.csv \u0394=+4.8 rpm (slope +0.040, \u03c1=+0.37)]."
+    },
+    {
+      "S": [
+        19,
+        28,
+        49
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_020.csv \u0394=+90.1 rpm (slope +0.418, \u03c1=+0.93); source_029.csv \u0394=+84.5 rpm (slope +0.413, \u03c1=+0.92); source_050.csv \u0394=+85.0 rpm (slope +0.410, \u03c1=+0.92)]."
+    },
+    {
+      "S": [
+        1,
+        8,
+        24,
+        26,
+        47
+      ],
+      "C": [
+        24
+      ],
+      "reasoning": "source_025.csv drops 8.8 rpm end-to-start (slope -0.046 rpm/cycle, Spearman -0.49); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        39,
+        62,
+        66,
+        79
+      ],
+      "C": [
+        62
+      ],
+      "reasoning": "source_063.csv drops 21.7 rpm end-to-start (slope -0.127 rpm/cycle, Spearman -0.68); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        33,
+        35,
+        52,
+        72,
+        87
+      ],
+      "C": [
+        72
+      ],
+      "reasoning": "source_073.csv drops 12.5 rpm end-to-start (slope -0.060 rpm/cycle, Spearman -0.48); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        36,
+        67,
+        74,
+        84
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_037.csv \u0394=+72.9 rpm (slope +0.319, \u03c1=+0.91); source_068.csv \u0394=+6.5 rpm (slope +0.029, \u03c1=+0.46); source_075.csv \u0394=+1.8 rpm (slope +0.017, \u03c1=+0.23); source_085.csv \u0394=+8.0 rpm (slope +0.045, \u03c1=+0.46)]."
+    },
+    {
+      "S": [
+        11,
+        57,
+        85
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_012.csv \u0394=-2.2 rpm (slope -0.013, \u03c1=-0.17); source_058.csv \u0394=+65.9 rpm (slope +0.366, \u03c1=+0.89); source_086.csv \u0394=+17.8 rpm (slope +0.069, \u03c1=+0.77)]."
+    },
+    {
+      "S": [
+        48,
+        51,
+        52,
+        83
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_049.csv \u0394=+50.6 rpm (slope +0.227, \u03c1=+0.85); source_052.csv \u0394=+116.5 rpm (slope +0.548, \u03c1=+0.94); source_053.csv \u0394=+79.3 rpm (slope +0.279, \u03c1=+0.93); source_084.csv \u0394=+26.9 rpm (slope +0.097, \u03c1=+0.82)]."
+    },
+    {
+      "S": [
+        17,
+        38,
+        61,
+        88,
+        97
+      ],
+      "C": [
+        17
+      ],
+      "reasoning": "source_018.csv drops 17.4 rpm end-to-start (slope -0.102 rpm/cycle, Spearman -0.63); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        2,
+        60,
+        92
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_003.csv \u0394=+4.7 rpm (slope +0.038, \u03c1=+0.45); source_061.csv \u0394=+97.9 rpm (slope +0.508, \u03c1=+0.93); source_093.csv \u0394=+66.8 rpm (slope +0.188, \u03c1=+0.93)]."
+    },
+    {
+      "S": [
+        13,
+        29,
+        56,
+        59
+      ],
+      "C": [
+        56
+      ],
+      "reasoning": "source_057.csv drops 9.5 rpm end-to-start (slope -0.045 rpm/cycle, Spearman -0.47); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        52,
+        63,
+        68
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_053.csv \u0394=+79.3 rpm (slope +0.279, \u03c1=+0.93); source_064.csv \u0394=+15.1 rpm (slope +0.078, \u03c1=+0.70); source_069.csv \u0394=+37.1 rpm (slope +0.254, \u03c1=+0.84)]."
+    },
+    {
+      "S": [
+        46,
+        59,
+        76,
+        85,
+        97
+      ],
+      "C": [
+        59
+      ],
+      "reasoning": "source_060.csv drops 9.3 rpm end-to-start (slope -0.052 rpm/cycle, Spearman -0.50); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        61,
+        78,
+        94
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_062.csv \u0394=+42.0 rpm (slope +0.145, \u03c1=+0.86); source_079.csv \u0394=+3.2 rpm (slope +0.024, \u03c1=+0.24); source_095.csv \u0394=+85.9 rpm (slope +0.319, \u03c1=+0.92)]."
+    },
+    {
+      "S": [
+        11,
+        50,
+        73
+      ],
+      "C": [
+        73
+      ],
+      "reasoning": "source_074.csv drops 11.8 rpm end-to-start (slope -0.043 rpm/cycle, Spearman -0.48); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        41,
+        53,
+        64,
+        94
+      ],
+      "C": [
+        53
+      ],
+      "reasoning": "source_054.csv drops 12.6 rpm end-to-start (slope -0.092 rpm/cycle, Spearman -0.57); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        28,
+        73,
+        81
+      ],
+      "C": [
+        73
+      ],
+      "reasoning": "source_074.csv drops 11.8 rpm end-to-start (slope -0.043 rpm/cycle, Spearman -0.48); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        0,
+        12,
+        29,
+        33
+      ],
+      "C": [
+        0
+      ],
+      "reasoning": "source_001.csv drops 7.5 rpm end-to-start (slope -0.039 rpm/cycle, Spearman -0.41); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        46,
+        47,
+        84,
+        85,
+        96
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_047.csv \u0394=+56.9 rpm (slope +0.269, \u03c1=+0.87); source_048.csv \u0394=+127.9 rpm (slope +0.541, \u03c1=+0.93); source_085.csv \u0394=+8.0 rpm (slope +0.045, \u03c1=+0.46); source_086.csv \u0394=+17.8 rpm (slope +0.069, \u03c1=+0.77); source_097.csv \u0394=+17.0 rpm (slope +0.054, \u03c1=+0.73)]."
+    },
+    {
+      "S": [
+        8,
+        64,
+        77
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_009.csv \u0394=+5.3 rpm (slope +0.015, \u03c1=+0.20); source_065.csv \u0394=+11.3 rpm (slope +0.034, \u03c1=+0.62); source_078.csv \u0394=+36.0 rpm (slope +0.173, \u03c1=+0.84)]."
+    },
+    {
+      "S": [
+        26,
+        44,
+        77,
+        91
+      ],
+      "C": [
+        91
+      ],
+      "reasoning": "source_092.csv drops 7.1 rpm end-to-start (slope -0.050 rpm/cycle, Spearman -0.41); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        4,
+        36,
+        94
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_005.csv \u0394=+4.1 rpm (slope +0.024, \u03c1=+0.27); source_037.csv \u0394=+72.9 rpm (slope +0.319, \u03c1=+0.91); source_095.csv \u0394=+85.9 rpm (slope +0.319, \u03c1=+0.92)]."
+    },
+    {
+      "S": [
+        64,
+        65,
+        69,
+        73,
+        77
+      ],
+      "C": [
+        73
+      ],
+      "reasoning": "source_074.csv drops 11.8 rpm end-to-start (slope -0.043 rpm/cycle, Spearman -0.48); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        4,
+        37,
+        77,
+        90
+      ],
+      "C": [
+        90
+      ],
+      "reasoning": "source_091.csv drops 17.5 rpm end-to-start (slope -0.095 rpm/cycle, Spearman -0.60); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        0,
+        43,
+        84
+      ],
+      "C": [
+        0
+      ],
+      "reasoning": "source_001.csv drops 7.5 rpm end-to-start (slope -0.039 rpm/cycle, Spearman -0.41); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        2,
+        52,
+        66
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_003.csv \u0394=+4.7 rpm (slope +0.038, \u03c1=+0.45); source_053.csv \u0394=+79.3 rpm (slope +0.279, \u03c1=+0.93); source_067.csv \u0394=-1.9 rpm (slope -0.005, \u03c1=-0.11)]."
+    },
+    {
+      "S": [
+        23,
+        25,
+        59,
+        65,
+        85
+      ],
+      "C": [
+        59
+      ],
+      "reasoning": "source_060.csv drops 9.3 rpm end-to-start (slope -0.052 rpm/cycle, Spearman -0.50); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        29,
+        59,
+        70,
+        81,
+        87
+      ],
+      "C": [
+        70
+      ],
+      "reasoning": "source_071.csv drops 13.5 rpm end-to-start (slope -0.062 rpm/cycle, Spearman -0.57); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        18,
+        67,
+        84,
+        85
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_019.csv \u0394=+81.7 rpm (slope +0.329, \u03c1=+0.92); source_068.csv \u0394=+6.5 rpm (slope +0.029, \u03c1=+0.46); source_085.csv \u0394=+8.0 rpm (slope +0.045, \u03c1=+0.46); source_086.csv \u0394=+17.8 rpm (slope +0.069, \u03c1=+0.77)]."
+    },
+    {
+      "S": [
+        41,
+        53,
+        69,
+        79
+      ],
+      "C": [
+        53
+      ],
+      "reasoning": "source_054.csv drops 12.6 rpm end-to-start (slope -0.092 rpm/cycle, Spearman -0.57); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        11,
+        13,
+        39,
+        51,
+        57
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_012.csv \u0394=-2.2 rpm (slope -0.013, \u03c1=-0.17); source_014.csv \u0394=+15.0 rpm (slope +0.069, \u03c1=+0.75); source_040.csv \u0394=+11.7 rpm (slope +0.076, \u03c1=+0.68); source_052.csv \u0394=+116.5 rpm (slope +0.548, \u03c1=+0.94); source_058.csv \u0394=+65.9 rpm (slope +0.366, \u03c1=+0.89)]."
+    },
+    {
+      "S": [
+        5,
+        38,
+        49,
+        57,
+        91
+      ],
+      "C": [
+        38
+      ],
+      "reasoning": "source_039.csv drops 11.7 rpm end-to-start (slope -0.057 rpm/cycle, Spearman -0.59); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        6,
+        8,
+        35
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_007.csv \u0394=+59.9 rpm (slope +0.313, \u03c1=+0.90); source_009.csv \u0394=+5.3 rpm (slope +0.015, \u03c1=+0.20); source_036.csv \u0394=+65.1 rpm (slope +0.328, \u03c1=+0.93)]."
+    },
+    {
+      "S": [
+        1,
+        29,
+        44,
+        96
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_002.csv \u0394=+52.0 rpm (slope +0.216, \u03c1=+0.89); source_030.csv \u0394=+38.1 rpm (slope +0.195, \u03c1=+0.85); source_045.csv \u0394=+14.5 rpm (slope +0.074, \u03c1=+0.65); source_097.csv \u0394=+17.0 rpm (slope +0.054, \u03c1=+0.73)]."
+    },
+    {
+      "S": [
+        40,
+        86,
+        94,
+        96
+      ],
+      "C": [
+        86
+      ],
+      "reasoning": "source_087.csv drops 10.7 rpm end-to-start (slope -0.055 rpm/cycle, Spearman -0.47); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        23,
+        27,
+        33,
+        38,
+        87
+      ],
+      "C": [
+        38
+      ],
+      "reasoning": "source_039.csv drops 11.7 rpm end-to-start (slope -0.057 rpm/cycle, Spearman -0.59); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        51,
+        74,
+        97
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_052.csv \u0394=+116.5 rpm (slope +0.548, \u03c1=+0.94); source_075.csv \u0394=+1.8 rpm (slope +0.017, \u03c1=+0.23); source_098.csv \u0394=+128.0 rpm (slope +0.578, \u03c1=+0.93)]."
+    },
+    {
+      "S": [
+        2,
+        29,
+        63,
+        85
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_003.csv \u0394=+4.7 rpm (slope +0.038, \u03c1=+0.45); source_030.csv \u0394=+38.1 rpm (slope +0.195, \u03c1=+0.85); source_064.csv \u0394=+15.1 rpm (slope +0.078, \u03c1=+0.70); source_086.csv \u0394=+17.8 rpm (slope +0.069, \u03c1=+0.77)]."
+    },
+    {
+      "S": [
+        15,
+        34,
+        87
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_016.csv \u0394=+9.8 rpm (slope +0.043, \u03c1=+0.53); source_035.csv \u0394=+115.2 rpm (slope +0.556, \u03c1=+0.94); source_088.csv \u0394=+67.2 rpm (slope +0.305, \u03c1=+0.91)]."
+    },
+    {
+      "S": [
+        24,
+        55,
+        79
+      ],
+      "C": [
+        24
+      ],
+      "reasoning": "source_025.csv drops 8.8 rpm end-to-start (slope -0.046 rpm/cycle, Spearman -0.49); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        42,
+        47,
+        84,
+        94
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_043.csv \u0394=+35.7 rpm (slope +0.158, \u03c1=+0.83); source_048.csv \u0394=+127.9 rpm (slope +0.541, \u03c1=+0.93); source_085.csv \u0394=+8.0 rpm (slope +0.045, \u03c1=+0.46); source_095.csv \u0394=+85.9 rpm (slope +0.319, \u03c1=+0.92)]."
+    },
+    {
+      "S": [
+        66,
+        79,
+        90
+      ],
+      "C": [
+        90
+      ],
+      "reasoning": "source_091.csv drops 17.5 rpm end-to-start (slope -0.095 rpm/cycle, Spearman -0.60); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        16,
+        17,
+        31,
+        55
+      ],
+      "C": [
+        17
+      ],
+      "reasoning": "source_018.csv drops 17.4 rpm end-to-start (slope -0.102 rpm/cycle, Spearman -0.63); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        51,
+        77,
+        93
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_052.csv \u0394=+116.5 rpm (slope +0.548, \u03c1=+0.94); source_078.csv \u0394=+36.0 rpm (slope +0.173, \u03c1=+0.84); source_094.csv \u0394=+4.8 rpm (slope +0.040, \u03c1=+0.37)]."
+    },
+    {
+      "S": [
+        3,
+        92,
+        95
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_004.csv \u0394=+81.3 rpm (slope +0.314, \u03c1=+0.92); source_093.csv \u0394=+66.8 rpm (slope +0.188, \u03c1=+0.93); source_096.csv \u0394=+39.1 rpm (slope +0.136, \u03c1=+0.84)]."
+    },
+    {
+      "S": [
+        4,
+        5,
+        24
+      ],
+      "C": [
+        24
+      ],
+      "reasoning": "source_025.csv drops 8.8 rpm end-to-start (slope -0.046 rpm/cycle, Spearman -0.49); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        25,
+        31,
+        43,
+        50,
+        78
+      ],
+      "C": [
+        25
+      ],
+      "reasoning": "source_026.csv drops 8.5 rpm end-to-start (slope -0.023 rpm/cycle, Spearman -0.28); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        5,
+        37,
+        76,
+        89
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_006.csv \u0394=+78.5 rpm (slope +0.451, \u03c1=+0.91); source_038.csv \u0394=+2.7 rpm (slope +0.024, \u03c1=+0.29); source_077.csv \u0394=+30.3 rpm (slope +0.129, \u03c1=+0.83); source_090.csv \u0394=+126.1 rpm (slope +0.572, \u03c1=+0.94)]."
+    },
+    {
+      "S": [
+        22,
+        28,
+        38,
+        41,
+        47
+      ],
+      "C": [
+        38
+      ],
+      "reasoning": "source_039.csv drops 11.7 rpm end-to-start (slope -0.057 rpm/cycle, Spearman -0.59); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        0,
+        11,
+        15,
+        83
+      ],
+      "C": [
+        0
+      ],
+      "reasoning": "source_001.csv drops 7.5 rpm end-to-start (slope -0.039 rpm/cycle, Spearman -0.41); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        32,
+        40,
+        43
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_033.csv \u0394=+86.8 rpm (slope +0.417, \u03c1=+0.89); source_041.csv \u0394=+18.3 rpm (slope +0.112, \u03c1=+0.73); source_044.csv \u0394=+123.6 rpm (slope +0.487, \u03c1=+0.94)]."
+    },
+    {
+      "S": [
+        22,
+        25,
+        51,
+        81
+      ],
+      "C": [
+        25
+      ],
+      "reasoning": "source_026.csv drops 8.5 rpm end-to-start (slope -0.023 rpm/cycle, Spearman -0.28); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        22,
+        33,
+        46,
+        66,
+        83
+      ],
+      "C": [
+        33
+      ],
+      "reasoning": "source_034.csv drops 7.2 rpm end-to-start (slope -0.068 rpm/cycle, Spearman -0.47); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        4,
+        45,
+        48,
+        86
+      ],
+      "C": [
+        86
+      ],
+      "reasoning": "source_087.csv drops 10.7 rpm end-to-start (slope -0.055 rpm/cycle, Spearman -0.47); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        2,
+        4,
+        13,
+        31
+      ],
+      "C": [
+        31
+      ],
+      "reasoning": "source_032.csv drops 5.7 rpm end-to-start (slope -0.031 rpm/cycle, Spearman -0.31); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        3,
+        11,
+        15,
+        18,
+        79
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_004.csv \u0394=+81.3 rpm (slope +0.314, \u03c1=+0.92); source_012.csv \u0394=-2.2 rpm (slope -0.013, \u03c1=-0.17); source_016.csv \u0394=+9.8 rpm (slope +0.043, \u03c1=+0.53); source_019.csv \u0394=+81.7 rpm (slope +0.329, \u03c1=+0.92); source_080.csv \u0394=+88.2 rpm (slope +0.457, \u03c1=+0.94)]."
+    },
+    {
+      "S": [
+        22,
+        55,
+        59
+      ],
+      "C": [
+        59
+      ],
+      "reasoning": "source_060.csv drops 9.3 rpm end-to-start (slope -0.052 rpm/cycle, Spearman -0.50); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        0,
+        27,
+        53,
+        84
+      ],
+      "C": [
+        53
+      ],
+      "reasoning": "source_054.csv drops 12.6 rpm end-to-start (slope -0.092 rpm/cycle, Spearman -0.57); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        25,
+        28,
+        74,
+        83,
+        96
+      ],
+      "C": [
+        25
+      ],
+      "reasoning": "source_026.csv drops 8.5 rpm end-to-start (slope -0.023 rpm/cycle, Spearman -0.28); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        7,
+        36,
+        57,
+        88,
+        96
+      ],
+      "C": [
+        7
+      ],
+      "reasoning": "source_008.csv drops 9.2 rpm end-to-start (slope -0.040 rpm/cycle, Spearman -0.46); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        11,
+        29,
+        59,
+        77
+      ],
+      "C": [
+        59
+      ],
+      "reasoning": "source_060.csv drops 9.3 rpm end-to-start (slope -0.052 rpm/cycle, Spearman -0.50); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        7,
+        30,
+        80,
+        86
+      ],
+      "C": [
+        86
+      ],
+      "reasoning": "source_087.csv drops 10.7 rpm end-to-start (slope -0.055 rpm/cycle, Spearman -0.47); the strongest monotonic decline among candidates."
+    },
+    {
+      "S": [
+        1,
+        16,
+        65,
+        68
+      ],
+      "C": [],
+      "reasoning": "No candidate shows a credible progressive decrease in physical core speed; trajectories are flat or rising [source_002.csv \u0394=+52.0 rpm (slope +0.216, \u03c1=+0.89); source_017.csv \u0394=+6.7 rpm (slope +0.032, \u03c1=+0.34); source_066.csv \u0394=+79.7 rpm (slope +0.379, \u03c1=+0.93); source_069.csv \u0394=+37.1 rpm (slope +0.254, \u03c1=+0.84)]."
+    }
+  ],
+  "source_basenames": [
+    "1.csv",
+    "10.csv",
+    "100.csv",
+    "11.csv",
+    "12.csv",
+    "13.csv",
+    "14.csv",
+    "15.csv",
+    "16.csv",
+    "17.csv",
+    "18.csv",
+    "19.csv",
+    "2.csv",
+    "20.csv",
+    "21.csv",
+    "22.csv",
+    "23.csv",
+    "24.csv",
+    "25.csv",
+    "26.csv",
+    "27.csv",
+    "28.csv",
+    "29.csv",
+    "3.csv",
+    "30.csv",
+    "31.csv",
+    "32.csv",
+    "33.csv",
+    "34.csv",
+    "35.csv",
+    "36.csv",
+    "37.csv",
+    "38.csv",
+    "39.csv",
+    "4.csv",
+    "40.csv",
+    "41.csv",
+    "42.csv",
+    "43.csv",
+    "44.csv",
+    "45.csv",
+    "46.csv",
+    "47.csv",
+    "48.csv",
+    "49.csv",
+    "5.csv",
+    "50.csv",
+    "51.csv",
+    "52.csv",
+    "53.csv",
+    "54.csv",
+    "55.csv",
+    "56.csv",
+    "57.csv",
+    "58.csv",
+    "59.csv",
+    "6.csv",
+    "60.csv",
+    "61.csv",
+    "62.csv",
+    "63.csv",
+    "64.csv",
+    "65.csv",
+    "66.csv",
+    "67.csv",
+    "68.csv",
+    "69.csv",
+    "7.csv",
+    "70.csv",
+    "71.csv",
+    "72.csv",
+    "73.csv",
+    "74.csv",
+    "75.csv",
+    "76.csv",
+    "77.csv",
+    "78.csv",
+    "79.csv",
+    "8.csv",
+    "80.csv",
+    "81.csv",
+    "82.csv",
+    "83.csv",
+    "84.csv",
+    "85.csv",
+    "86.csv",
+    "87.csv",
+    "88.csv",
+    "89.csv",
+    "9.csv",
+    "90.csv",
+    "91.csv",
+    "92.csv",
+    "93.csv",
+    "94.csv",
+    "95.csv",
+    "96.csv",
+    "97.csv",
+    "98.csv",
+    "99.csv"
+  ],
+  "meta": {
+    "model": "claude-opus-4-7",
+    "model_request": "claude-opus-4-7",
+    "effort": "max",
+    "protocol": "blind_agentic_single_choice",
+    "n_queries": 200,
+    "global_pool": true,
+    "subgroup_size_range": [
+      3,
+      5
+    ],
+    "seed": 42,
+    "reference_query_file": "cmapss/data/llm_subgroup_queries_claude.json",
+    "condition": "contradictory"
+  }
+}

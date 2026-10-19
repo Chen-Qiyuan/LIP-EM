@@ -1,0 +1,11 @@
+# Offline RL data (not shipped; see README.md)
+data/
+# Elicitation CSVs and mapping written by src/setup_elicitation.py
+elicitation/data/
+elicitation/_truth.json
+# Run logs and trained IQL policies
+logs/
+results*/**/*.pt
+# Pool-dynamics checkpoints written by src/train_dyn_pool.py
+models/dyn_pool/dynamics_e*.pt
+__pycache__/

@@ -1,0 +1,39 @@
+{
+ "shuffles": 500,
+ "seed": 314159,
+ "targets": [
+  4,
+  9,
+  18,
+  26,
+  27,
+  48,
+  51,
+  53,
+  55,
+  80
+ ],
+ "rul_levels": [
+  0.9,
+  0.7,
+  0.5
+ ],
+ "tau": 0.001,
+ "nu": 0.05,
+ "convergence_tol": 0.001,
+ "convergence_patience": 5,
+ "stop_count_start": 14,
+ "max_iter": 1000,
+ "p_0": 0.01,
+ "eps_lip": 0.1,
+ "ridge_lambda": 10000.0,
+ "lip_files": {
+  "LIP-C": "llm_subgroup_queries_claude.json",
+  "LIP-G": "llm_subgroup_queries_gemini.json"
+ },
+ "check_against_em_train": {
+  "max_w_diff": 2.574790380904801e-10,
+  "max_rmse_diff": 5.803386216030049e-09,
+  "iter_mismatch": 0
+ }
+}

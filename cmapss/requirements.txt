@@ -1,0 +1,9 @@
+# Versions used to verify this folder (Python 3.14.4, CPU only).
+numpy==2.5.1
+scipy==1.18.0
+pandas==3.0.5
+torch==2.13.0          # LIP fit (L-BFGS); the CPU build is enough
+matplotlib==3.10.9     # reproduces the paper's figure layout
+# Only for re-collecting LLM responses (collect_responses.py); the cached
+# responses in data/ are enough to reproduce the paper.
+google-genai==2.29.0

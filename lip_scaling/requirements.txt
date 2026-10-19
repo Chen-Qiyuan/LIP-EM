@@ -1,0 +1,4 @@
+# Versions used to produce results/ (Python 3.12.14, CPU only).
+# torch 2.13.0 / numpy 2.5.1 gave bit-identical outputs.
+numpy==2.5.3
+torch==2.14.1

@@ -1,0 +1,361 @@
+{
+  "ranked_sources": [
+    "source_08.csv",
+    "source_14.csv",
+    "source_06.csv",
+    "source_11.csv",
+    "source_07.csv",
+    "source_01.csv",
+    "source_04.csv",
+    "source_05.csv",
+    "source_13.csv",
+    "source_03.csv",
+    "source_02.csv",
+    "source_10.csv",
+    "source_12.csv",
+    "source_15.csv",
+    "source_09.csv"
+  ],
+  "relevant_sources": [
+    "source_08.csv",
+    "source_14.csv",
+    "source_06.csv",
+    "source_11.csv",
+    "source_07.csv"
+  ],
+  "reasoning": "Haul class was inferred from flight_duration_hours (not flight count). Three clean clusters: short-haul median~1.2h (02,09,10,12,15), medium-haul median~2.5h (06,07,08,11,14), long-haul median~4.1h (01,03,04,05,13). Only the five medium-haul engines match the target's operating regime and are credible relevant sources. Within medium-haul, informativeness was ranked by depth of terminal degradation (mean |tail_5%_mean - first_5_flights_mean| across the 14 adjusted sensors) with |slope_per_cycle| as tiebreaker. source_08 leads (shift=0.566, slope=7.6e-3), followed by 14, 06, 11, then 07 (shortest terminal excursion). Long-haul sources are ranked next as adjacent-regime borrowers, short-haul last.",
+  "confidence": "high",
+  "subgroup_choices": [
+    {
+      "query_id": 0,
+      "candidates": [
+        "source_05.csv",
+        "source_06.csv",
+        "source_04.csv"
+      ],
+      "choice": "source_06.csv",
+      "reasoning": "only medium-haul option; endpoint |shift|=0.5335, |slope|=6.32e-03"
+    },
+    {
+      "query_id": 1,
+      "candidates": [
+        "source_04.csv",
+        "source_14.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_08.csv",
+      "reasoning": "medium-haul with largest terminal shift (0.5658) among ['source_14.csv', 'source_08.csv']"
+    },
+    {
+      "query_id": 2,
+      "candidates": [
+        "source_05.csv",
+        "source_10.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_14.csv",
+      "reasoning": "only medium-haul option; endpoint |shift|=0.5533, |slope|=7.08e-03"
+    },
+    {
+      "query_id": 3,
+      "candidates": [
+        "source_01.csv",
+        "source_04.csv",
+        "source_05.csv"
+      ],
+      "choice": "none",
+      "reasoning": "no medium-haul candidate"
+    },
+    {
+      "query_id": 4,
+      "candidates": [
+        "source_01.csv",
+        "source_13.csv",
+        "source_14.csv",
+        "source_07.csv"
+      ],
+      "choice": "source_14.csv",
+      "reasoning": "medium-haul with largest terminal shift (0.5533) among ['source_14.csv', 'source_07.csv']"
+    },
+    {
+      "query_id": 5,
+      "candidates": [
+        "source_10.csv",
+        "source_12.csv",
+        "source_04.csv",
+        "source_07.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_08.csv",
+      "reasoning": "medium-haul with largest terminal shift (0.5658) among ['source_07.csv', 'source_08.csv']"
+    },
+    {
+      "query_id": 6,
+      "candidates": [
+        "source_02.csv",
+        "source_12.csv",
+        "source_10.csv",
+        "source_05.csv"
+      ],
+      "choice": "none",
+      "reasoning": "no medium-haul candidate"
+    },
+    {
+      "query_id": 7,
+      "candidates": [
+        "source_09.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_08.csv",
+      "reasoning": "only medium-haul option; endpoint |shift|=0.5658, |slope|=7.56e-03"
+    },
+    {
+      "query_id": 8,
+      "candidates": [
+        "source_02.csv",
+        "source_15.csv",
+        "source_12.csv",
+        "source_13.csv"
+      ],
+      "choice": "none",
+      "reasoning": "no medium-haul candidate"
+    },
+    {
+      "query_id": 9,
+      "candidates": [
+        "source_04.csv",
+        "source_14.csv",
+        "source_03.csv",
+        "source_08.csv",
+        "source_13.csv"
+      ],
+      "choice": "source_08.csv",
+      "reasoning": "medium-haul with largest terminal shift (0.5658) among ['source_14.csv', 'source_08.csv']"
+    },
+    {
+      "query_id": 10,
+      "candidates": [
+        "source_11.csv",
+        "source_10.csv",
+        "source_05.csv",
+        "source_14.csv",
+        "source_15.csv"
+      ],
+      "choice": "source_14.csv",
+      "reasoning": "medium-haul with largest terminal shift (0.5533) among ['source_11.csv', 'source_14.csv']"
+    },
+    {
+      "query_id": 11,
+      "candidates": [
+        "source_13.csv",
+        "source_02.csv",
+        "source_04.csv",
+        "source_05.csv"
+      ],
+      "choice": "none",
+      "reasoning": "no medium-haul candidate"
+    },
+    {
+      "query_id": 12,
+      "candidates": [
+        "source_01.csv",
+        "source_05.csv",
+        "source_08.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_08.csv",
+      "reasoning": "medium-haul with largest terminal shift (0.5658) among ['source_08.csv', 'source_14.csv']"
+    },
+    {
+      "query_id": 13,
+      "candidates": [
+        "source_03.csv",
+        "source_12.csv",
+        "source_07.csv",
+        "source_13.csv",
+        "source_04.csv"
+      ],
+      "choice": "source_07.csv",
+      "reasoning": "only medium-haul option; endpoint |shift|=0.4636, |slope|=7.23e-03"
+    },
+    {
+      "query_id": 14,
+      "candidates": [
+        "source_14.csv",
+        "source_11.csv",
+        "source_07.csv"
+      ],
+      "choice": "source_14.csv",
+      "reasoning": "medium-haul with largest terminal shift (0.5533) among ['source_14.csv', 'source_11.csv', 'source_07.csv']"
+    },
+    {
+      "query_id": 15,
+      "candidates": [
+        "source_13.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_14.csv",
+      "reasoning": "only medium-haul option; endpoint |shift|=0.5533, |slope|=7.08e-03"
+    },
+    {
+      "query_id": 16,
+      "candidates": [
+        "source_03.csv",
+        "source_06.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_14.csv",
+      "reasoning": "medium-haul with largest terminal shift (0.5533) among ['source_06.csv', 'source_14.csv']"
+    },
+    {
+      "query_id": 17,
+      "candidates": [
+        "source_13.csv",
+        "source_15.csv",
+        "source_07.csv",
+        "source_01.csv"
+      ],
+      "choice": "source_07.csv",
+      "reasoning": "only medium-haul option; endpoint |shift|=0.4636, |slope|=7.23e-03"
+    },
+    {
+      "query_id": 18,
+      "candidates": [
+        "source_12.csv",
+        "source_07.csv",
+        "source_09.csv"
+      ],
+      "choice": "source_07.csv",
+      "reasoning": "only medium-haul option; endpoint |shift|=0.4636, |slope|=7.23e-03"
+    },
+    {
+      "query_id": 19,
+      "candidates": [
+        "source_07.csv",
+        "source_13.csv",
+        "source_11.csv",
+        "source_14.csv",
+        "source_10.csv"
+      ],
+      "choice": "source_14.csv",
+      "reasoning": "medium-haul with largest terminal shift (0.5533) among ['source_07.csv', 'source_11.csv', 'source_14.csv']"
+    },
+    {
+      "query_id": 20,
+      "candidates": [
+        "source_12.csv",
+        "source_11.csv",
+        "source_13.csv",
+        "source_15.csv"
+      ],
+      "choice": "source_11.csv",
+      "reasoning": "only medium-haul option; endpoint |shift|=0.5226, |slope|=7.25e-03"
+    },
+    {
+      "query_id": 21,
+      "candidates": [
+        "source_05.csv",
+        "source_14.csv",
+        "source_11.csv"
+      ],
+      "choice": "source_14.csv",
+      "reasoning": "medium-haul with largest terminal shift (0.5533) among ['source_14.csv', 'source_11.csv']"
+    },
+    {
+      "query_id": 22,
+      "candidates": [
+        "source_02.csv",
+        "source_14.csv",
+        "source_05.csv",
+        "source_08.csv",
+        "source_06.csv"
+      ],
+      "choice": "source_08.csv",
+      "reasoning": "medium-haul with largest terminal shift (0.5658) among ['source_14.csv', 'source_08.csv', 'source_06.csv']"
+    },
+    {
+      "query_id": 23,
+      "candidates": [
+        "source_15.csv",
+        "source_07.csv",
+        "source_11.csv"
+      ],
+      "choice": "source_11.csv",
+      "reasoning": "medium-haul with largest terminal shift (0.5226) among ['source_07.csv', 'source_11.csv']"
+    },
+    {
+      "query_id": 24,
+      "candidates": [
+        "source_13.csv",
+        "source_14.csv",
+        "source_01.csv",
+        "source_15.csv"
+      ],
+      "choice": "source_14.csv",
+      "reasoning": "only medium-haul option; endpoint |shift|=0.5533, |slope|=7.08e-03"
+    },
+    {
+      "query_id": 25,
+      "candidates": [
+        "source_05.csv",
+        "source_11.csv",
+        "source_04.csv",
+        "source_06.csv"
+      ],
+      "choice": "source_06.csv",
+      "reasoning": "medium-haul with largest terminal shift (0.5335) among ['source_11.csv', 'source_06.csv']"
+    },
+    {
+      "query_id": 26,
+      "candidates": [
+        "source_07.csv",
+        "source_05.csv",
+        "source_11.csv"
+      ],
+      "choice": "source_11.csv",
+      "reasoning": "medium-haul with largest terminal shift (0.5226) among ['source_07.csv', 'source_11.csv']"
+    },
+    {
+      "query_id": 27,
+      "candidates": [
+        "source_06.csv",
+        "source_02.csv",
+        "source_14.csv",
+        "source_09.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_08.csv",
+      "reasoning": "medium-haul with largest terminal shift (0.5658) among ['source_06.csv', 'source_14.csv', 'source_08.csv']"
+    },
+    {
+      "query_id": 28,
+      "candidates": [
+        "source_08.csv",
+        "source_04.csv",
+        "source_07.csv",
+        "source_02.csv",
+        "source_03.csv"
+      ],
+      "choice": "source_08.csv",
+      "reasoning": "medium-haul with largest terminal shift (0.5658) among ['source_08.csv', 'source_07.csv']"
+    },
+    {
+      "query_id": 29,
+      "candidates": [
+        "source_15.csv",
+        "source_01.csv",
+        "source_10.csv",
+        "source_06.csv"
+      ],
+      "choice": "source_06.csv",
+      "reasoning": "only medium-haul option; endpoint |shift|=0.5335, |slope|=6.32e-03"
+    }
+  ]
+}

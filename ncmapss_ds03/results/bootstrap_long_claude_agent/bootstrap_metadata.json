@@ -1,0 +1,12 @@
+{
+  "sampling_unit": "target engine",
+  "target_class": "long",
+  "claude_run": "long_claude_agent",
+  "gemini_run": "long_gemini",
+  "target_engines": 5,
+  "replicates": 20000,
+  "seed": 42,
+  "metric": "sqrt(mean(engine prediction error squared))",
+  "paired_comparison": "same resampled engine indices used for LIP and uniform",
+  "complete_trajectory_comparison": "complete nine-cutoff engine trajectories resampled"
+}

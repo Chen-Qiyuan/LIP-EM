@@ -1,0 +1,9 @@
+{
+  "target_class": "medium",
+  "target_description": "The target aircraft belongs to the medium-haul flight class.",
+  "query_count": 30,
+  "random_seed": 42,
+  "query_seed": 42,
+  "queries_supplied_directly": true,
+  "source_labels_shown_to_agent": false
+}

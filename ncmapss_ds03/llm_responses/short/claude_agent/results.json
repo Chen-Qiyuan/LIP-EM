@@ -1,0 +1,361 @@
+{
+  "ranked_sources": [
+    "source_02.csv",
+    "source_10.csv",
+    "source_12.csv",
+    "source_15.csv",
+    "source_09.csv",
+    "source_14.csv",
+    "source_06.csv",
+    "source_08.csv",
+    "source_11.csv",
+    "source_07.csv",
+    "source_05.csv",
+    "source_01.csv",
+    "source_13.csv",
+    "source_04.csv",
+    "source_03.csv"
+  ],
+  "relevant_sources": [
+    "source_02.csv",
+    "source_09.csv",
+    "source_10.csv",
+    "source_12.csv",
+    "source_15.csv"
+  ],
+  "reasoning": "Per-source flight_duration_hours cleanly clusters the 15 histories into three non-overlapping envelopes: short-haul at ~1.0-1.6 h (mean~1.2 h; sources 02,09,10,12,15), medium-haul at ~1.3-3.4 h (mean~2.4-2.5 h; sources 06,07,08,11,14), and long-haul at ~2.5-5.6 h (mean~3.9-4.3 h; sources 01,03,04,05,13). The target is short-haul, so the five short-haul engines are the borrow candidates. Within the short-haul class I rank by terminal degradation clarity: root-sum-square z-score of last-5-flights adjusted-sensor shifts vs. the healthy early-flight noise floor. That ordering is 02 (rssZ=104) > 10 (80) > 12 (70) > 15 (68) > 09 (37). Medium-haul are placed next as an adjacent-class fallback, then long-haul, each internally ranked by the same rssZ metric.",
+  "confidence": "high",
+  "subgroup_choices": [
+    {
+      "query_id": 0,
+      "candidates": [
+        "source_05.csv",
+        "source_06.csv",
+        "source_04.csv"
+      ],
+      "choice": "none",
+      "reasoning": "None of the candidates ['source_04.csv', 'source_05.csv', 'source_06.csv'] belong to the short-haul flight class; every candidate here has flight_duration_hours in the medium- (~1.3-3.4 h) or long-haul (~2.5-5.6 h) envelope, so borrowing from any of them would inject the wrong operating profile."
+    },
+    {
+      "query_id": 1,
+      "candidates": [
+        "source_04.csv",
+        "source_14.csv",
+        "source_08.csv"
+      ],
+      "choice": "none",
+      "reasoning": "None of the candidates ['source_04.csv', 'source_08.csv', 'source_14.csv'] belong to the short-haul flight class; every candidate here has flight_duration_hours in the medium- (~1.3-3.4 h) or long-haul (~2.5-5.6 h) envelope, so borrowing from any of them would inject the wrong operating profile."
+    },
+    {
+      "query_id": 2,
+      "candidates": [
+        "source_05.csv",
+        "source_10.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_10.csv",
+      "reasoning": "Among the short-haul candidates ['source_10.csv', 'source_12.csv'], source_10.csv has the strongest terminal residual signal-to-baseline-noise (higher rssZ and cleaner monotonic trend), making its complete degradation trajectory the most informative to borrow."
+    },
+    {
+      "query_id": 3,
+      "candidates": [
+        "source_01.csv",
+        "source_04.csv",
+        "source_05.csv"
+      ],
+      "choice": "none",
+      "reasoning": "None of the candidates ['source_01.csv', 'source_04.csv', 'source_05.csv'] belong to the short-haul flight class; every candidate here has flight_duration_hours in the medium- (~1.3-3.4 h) or long-haul (~2.5-5.6 h) envelope, so borrowing from any of them would inject the wrong operating profile."
+    },
+    {
+      "query_id": 4,
+      "candidates": [
+        "source_01.csv",
+        "source_13.csv",
+        "source_14.csv",
+        "source_07.csv"
+      ],
+      "choice": "none",
+      "reasoning": "None of the candidates ['source_01.csv', 'source_07.csv', 'source_13.csv', 'source_14.csv'] belong to the short-haul flight class; every candidate here has flight_duration_hours in the medium- (~1.3-3.4 h) or long-haul (~2.5-5.6 h) envelope, so borrowing from any of them would inject the wrong operating profile."
+    },
+    {
+      "query_id": 5,
+      "candidates": [
+        "source_10.csv",
+        "source_12.csv",
+        "source_04.csv",
+        "source_07.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_10.csv",
+      "reasoning": "Among the short-haul candidates ['source_10.csv', 'source_12.csv'], source_10.csv has the strongest terminal residual signal-to-baseline-noise (higher rssZ and cleaner monotonic trend), making its complete degradation trajectory the most informative to borrow."
+    },
+    {
+      "query_id": 6,
+      "candidates": [
+        "source_02.csv",
+        "source_12.csv",
+        "source_10.csv",
+        "source_05.csv"
+      ],
+      "choice": "source_02.csv",
+      "reasoning": "Among the short-haul candidates ['source_02.csv', 'source_10.csv', 'source_12.csv'], source_02.csv has the strongest terminal residual signal-to-baseline-noise (higher rssZ and cleaner monotonic trend), making its complete degradation trajectory the most informative to borrow."
+    },
+    {
+      "query_id": 7,
+      "candidates": [
+        "source_09.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_12.csv",
+      "reasoning": "Among the short-haul candidates ['source_09.csv', 'source_12.csv'], source_12.csv has the strongest terminal residual signal-to-baseline-noise (higher rssZ and cleaner monotonic trend), making its complete degradation trajectory the most informative to borrow."
+    },
+    {
+      "query_id": 8,
+      "candidates": [
+        "source_02.csv",
+        "source_15.csv",
+        "source_12.csv",
+        "source_13.csv"
+      ],
+      "choice": "source_02.csv",
+      "reasoning": "Among the short-haul candidates ['source_02.csv', 'source_12.csv', 'source_15.csv'], source_02.csv has the strongest terminal residual signal-to-baseline-noise (higher rssZ and cleaner monotonic trend), making its complete degradation trajectory the most informative to borrow."
+    },
+    {
+      "query_id": 9,
+      "candidates": [
+        "source_04.csv",
+        "source_14.csv",
+        "source_03.csv",
+        "source_08.csv",
+        "source_13.csv"
+      ],
+      "choice": "none",
+      "reasoning": "None of the candidates ['source_03.csv', 'source_04.csv', 'source_08.csv', 'source_13.csv', 'source_14.csv'] belong to the short-haul flight class; every candidate here has flight_duration_hours in the medium- (~1.3-3.4 h) or long-haul (~2.5-5.6 h) envelope, so borrowing from any of them would inject the wrong operating profile."
+    },
+    {
+      "query_id": 10,
+      "candidates": [
+        "source_11.csv",
+        "source_10.csv",
+        "source_05.csv",
+        "source_14.csv",
+        "source_15.csv"
+      ],
+      "choice": "source_10.csv",
+      "reasoning": "Among the short-haul candidates ['source_10.csv', 'source_15.csv'], source_10.csv has the strongest terminal residual signal-to-baseline-noise (higher rssZ and cleaner monotonic trend), making its complete degradation trajectory the most informative to borrow."
+    },
+    {
+      "query_id": 11,
+      "candidates": [
+        "source_13.csv",
+        "source_02.csv",
+        "source_04.csv",
+        "source_05.csv"
+      ],
+      "choice": "source_02.csv",
+      "reasoning": "source_02.csv is the only short-haul candidate (flight_duration in ~1.0-1.6 h band); the remaining candidates fall in the medium- or long-haul brackets."
+    },
+    {
+      "query_id": 12,
+      "candidates": [
+        "source_01.csv",
+        "source_05.csv",
+        "source_08.csv",
+        "source_14.csv"
+      ],
+      "choice": "none",
+      "reasoning": "None of the candidates ['source_01.csv', 'source_05.csv', 'source_08.csv', 'source_14.csv'] belong to the short-haul flight class; every candidate here has flight_duration_hours in the medium- (~1.3-3.4 h) or long-haul (~2.5-5.6 h) envelope, so borrowing from any of them would inject the wrong operating profile."
+    },
+    {
+      "query_id": 13,
+      "candidates": [
+        "source_03.csv",
+        "source_12.csv",
+        "source_07.csv",
+        "source_13.csv",
+        "source_04.csv"
+      ],
+      "choice": "source_12.csv",
+      "reasoning": "source_12.csv is the only short-haul candidate (flight_duration in ~1.0-1.6 h band); the remaining candidates fall in the medium- or long-haul brackets."
+    },
+    {
+      "query_id": 14,
+      "candidates": [
+        "source_14.csv",
+        "source_11.csv",
+        "source_07.csv"
+      ],
+      "choice": "none",
+      "reasoning": "None of the candidates ['source_07.csv', 'source_11.csv', 'source_14.csv'] belong to the short-haul flight class; every candidate here has flight_duration_hours in the medium- (~1.3-3.4 h) or long-haul (~2.5-5.6 h) envelope, so borrowing from any of them would inject the wrong operating profile."
+    },
+    {
+      "query_id": 15,
+      "candidates": [
+        "source_13.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_12.csv",
+      "reasoning": "source_12.csv is the only short-haul candidate (flight_duration in ~1.0-1.6 h band); the remaining candidates fall in the medium- or long-haul brackets."
+    },
+    {
+      "query_id": 16,
+      "candidates": [
+        "source_03.csv",
+        "source_06.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_12.csv",
+      "reasoning": "source_12.csv is the only short-haul candidate (flight_duration in ~1.0-1.6 h band); the remaining candidates fall in the medium- or long-haul brackets."
+    },
+    {
+      "query_id": 17,
+      "candidates": [
+        "source_13.csv",
+        "source_15.csv",
+        "source_07.csv",
+        "source_01.csv"
+      ],
+      "choice": "source_15.csv",
+      "reasoning": "source_15.csv is the only short-haul candidate (flight_duration in ~1.0-1.6 h band); the remaining candidates fall in the medium- or long-haul brackets."
+    },
+    {
+      "query_id": 18,
+      "candidates": [
+        "source_12.csv",
+        "source_07.csv",
+        "source_09.csv"
+      ],
+      "choice": "source_12.csv",
+      "reasoning": "Among the short-haul candidates ['source_09.csv', 'source_12.csv'], source_12.csv has the strongest terminal residual signal-to-baseline-noise (higher rssZ and cleaner monotonic trend), making its complete degradation trajectory the most informative to borrow."
+    },
+    {
+      "query_id": 19,
+      "candidates": [
+        "source_07.csv",
+        "source_13.csv",
+        "source_11.csv",
+        "source_14.csv",
+        "source_10.csv"
+      ],
+      "choice": "source_10.csv",
+      "reasoning": "source_10.csv is the only short-haul candidate (flight_duration in ~1.0-1.6 h band); the remaining candidates fall in the medium- or long-haul brackets."
+    },
+    {
+      "query_id": 20,
+      "candidates": [
+        "source_12.csv",
+        "source_11.csv",
+        "source_13.csv",
+        "source_15.csv"
+      ],
+      "choice": "source_12.csv",
+      "reasoning": "Among the short-haul candidates ['source_12.csv', 'source_15.csv'], source_12.csv has the strongest terminal residual signal-to-baseline-noise (higher rssZ and cleaner monotonic trend), making its complete degradation trajectory the most informative to borrow."
+    },
+    {
+      "query_id": 21,
+      "candidates": [
+        "source_05.csv",
+        "source_14.csv",
+        "source_11.csv"
+      ],
+      "choice": "none",
+      "reasoning": "None of the candidates ['source_05.csv', 'source_11.csv', 'source_14.csv'] belong to the short-haul flight class; every candidate here has flight_duration_hours in the medium- (~1.3-3.4 h) or long-haul (~2.5-5.6 h) envelope, so borrowing from any of them would inject the wrong operating profile."
+    },
+    {
+      "query_id": 22,
+      "candidates": [
+        "source_02.csv",
+        "source_14.csv",
+        "source_05.csv",
+        "source_08.csv",
+        "source_06.csv"
+      ],
+      "choice": "source_02.csv",
+      "reasoning": "source_02.csv is the only short-haul candidate (flight_duration in ~1.0-1.6 h band); the remaining candidates fall in the medium- or long-haul brackets."
+    },
+    {
+      "query_id": 23,
+      "candidates": [
+        "source_15.csv",
+        "source_07.csv",
+        "source_11.csv"
+      ],
+      "choice": "source_15.csv",
+      "reasoning": "source_15.csv is the only short-haul candidate (flight_duration in ~1.0-1.6 h band); the remaining candidates fall in the medium- or long-haul brackets."
+    },
+    {
+      "query_id": 24,
+      "candidates": [
+        "source_13.csv",
+        "source_14.csv",
+        "source_01.csv",
+        "source_15.csv"
+      ],
+      "choice": "source_15.csv",
+      "reasoning": "source_15.csv is the only short-haul candidate (flight_duration in ~1.0-1.6 h band); the remaining candidates fall in the medium- or long-haul brackets."
+    },
+    {
+      "query_id": 25,
+      "candidates": [
+        "source_05.csv",
+        "source_11.csv",
+        "source_04.csv",
+        "source_06.csv"
+      ],
+      "choice": "none",
+      "reasoning": "None of the candidates ['source_04.csv', 'source_05.csv', 'source_06.csv', 'source_11.csv'] belong to the short-haul flight class; every candidate here has flight_duration_hours in the medium- (~1.3-3.4 h) or long-haul (~2.5-5.6 h) envelope, so borrowing from any of them would inject the wrong operating profile."
+    },
+    {
+      "query_id": 26,
+      "candidates": [
+        "source_07.csv",
+        "source_05.csv",
+        "source_11.csv"
+      ],
+      "choice": "none",
+      "reasoning": "None of the candidates ['source_05.csv', 'source_07.csv', 'source_11.csv'] belong to the short-haul flight class; every candidate here has flight_duration_hours in the medium- (~1.3-3.4 h) or long-haul (~2.5-5.6 h) envelope, so borrowing from any of them would inject the wrong operating profile."
+    },
+    {
+      "query_id": 27,
+      "candidates": [
+        "source_06.csv",
+        "source_02.csv",
+        "source_14.csv",
+        "source_09.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_02.csv",
+      "reasoning": "Among the short-haul candidates ['source_02.csv', 'source_09.csv'], source_02.csv has the strongest terminal residual signal-to-baseline-noise (higher rssZ and cleaner monotonic trend), making its complete degradation trajectory the most informative to borrow."
+    },
+    {
+      "query_id": 28,
+      "candidates": [
+        "source_08.csv",
+        "source_04.csv",
+        "source_07.csv",
+        "source_02.csv",
+        "source_03.csv"
+      ],
+      "choice": "source_02.csv",
+      "reasoning": "source_02.csv is the only short-haul candidate (flight_duration in ~1.0-1.6 h band); the remaining candidates fall in the medium- or long-haul brackets."
+    },
+    {
+      "query_id": 29,
+      "candidates": [
+        "source_15.csv",
+        "source_01.csv",
+        "source_10.csv",
+        "source_06.csv"
+      ],
+      "choice": "source_10.csv",
+      "reasoning": "Among the short-haul candidates ['source_10.csv', 'source_15.csv'], source_10.csv has the strongest terminal residual signal-to-baseline-noise (higher rssZ and cleaner monotonic trend), making its complete degradation trajectory the most informative to borrow."
+    }
+  ]
+}

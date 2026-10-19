@@ -1,0 +1,43 @@
+{
+  "target_desc": "The target domain has a larger mean.",
+  "responses": [
+    {
+      "S": [
+        0,
+        1
+      ],
+      "C": [
+        0
+      ],
+      "reasoning": "Source A has a calculated mean of approximately 1.88, which is significantly higher than Source B's mean of approximately 0.27. This makes Source A the best match for the target description specifying a larger mean."
+    },
+    {
+      "S": [
+        0,
+        2
+      ],
+      "C": [
+        0
+      ],
+      "reasoning": "Source A has a mean of approximately 1.8, which is significantly higher than Source B's mean of approximately -5.6. This makes Source A the best match for the target description requiring a larger mean."
+    },
+    {
+      "S": [
+        1,
+        2
+      ],
+      "C": [
+        1
+      ],
+      "reasoning": "Source A has a significantly higher mean (approximately 0.5) compared to Source B, which is dominated by negative values and has a mean of approximately -5.8. Source A contains numerous values above 10, whereas Source B's distribution is centered much lower."
+    }
+  ],
+  "meta": {
+    "model": "gemini-3-flash-preview",
+    "temperature": 0.0,
+    "dim": 1,
+    "data_seed": 42,
+    "query_format": "labeled attachments",
+    "queried_at": "2026-10-10 20:44:17 EDT"
+  }
+}

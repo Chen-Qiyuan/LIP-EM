@@ -1,0 +1,364 @@
+{
+  "ranked_sources": [
+    "source_13.csv",
+    "source_05.csv",
+    "source_03.csv",
+    "source_04.csv",
+    "source_01.csv",
+    "source_11.csv",
+    "source_07.csv",
+    "source_14.csv",
+    "source_02.csv",
+    "source_06.csv",
+    "source_08.csv",
+    "source_09.csv",
+    "source_10.csv",
+    "source_12.csv",
+    "source_15.csv"
+  ],
+  "relevant_sources": [
+    "source_13.csv",
+    "source_05.csv",
+    "source_03.csv",
+    "source_04.csv",
+    "source_01.csv",
+    "source_11.csv",
+    "source_07.csv",
+    "source_14.csv"
+  ],
+  "reasoning": "Ranking is a descriptive summary derived from independent subgroup choices; LIP fitting uses the choices directly.",
+  "confidence": "medium",
+  "subgroup_choices": [
+    {
+      "query_id": 0,
+      "candidates": [
+        "source_05.csv",
+        "source_06.csv",
+        "source_04.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "Source 04 exhibits the highest average flight duration (4.04 hours) and the largest proportion of flights exceeding 4 hours (50% of its 66 cycles) compared to Source 05 (3.87 hours average, 39% of 59 cycles) and Source 06 (2.36 hours average, 0% of 80 cycles), making it the most representative of the long-haul flight class."
+    },
+    {
+      "query_id": 1,
+      "candidates": [
+        "source_04.csv",
+        "source_14.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "source_04.csv exhibits flight durations ranging from 2.68 to 5.63 hours (mean ~4.1), whereas source_14 and source_08 are restricted to shorter durations between 1.10 and 3.42 hours."
+    },
+    {
+      "query_id": 2,
+      "candidates": [
+        "source_05.csv",
+        "source_10.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_03.csv",
+      "reasoning": "Source 03 exhibits the highest average flight duration (~4.2 hours) and the most frequent occurrences of flights exceeding 5 hours (e.g., cycles 2, 18, 23, 31, 48, 58, 63), whereas Source 05 only has two such flights and the others average significantly lower durations."
+    },
+    {
+      "query_id": 3,
+      "candidates": [
+        "source_01.csv",
+        "source_04.csv",
+        "source_05.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "In the N-CMAPSS DS03 dataset, the long-haul flight class (Profile 3) is defined by durations between 5 and 7 hours. source_05.csv is the only candidate that includes a long-haul flight (5.64 hours at cycle 2) within its first five flights, which are explicitly defined as the healthy operating-response baseline for model adaptation."
+    },
+    {
+      "query_id": 4,
+      "candidates": [
+        "source_01.csv",
+        "source_13.csv",
+        "source_14.csv",
+        "source_07.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "source_13.csv has the highest mean flight duration (4.15 hours) and maximum duration (5.63 hours) compared to source_01 (3.97/5.20), source_14 (2.45/3.40), and source_07 (2.51/3.29), making it the most representative of the long-haul flight class."
+    },
+    {
+      "query_id": 5,
+      "candidates": [
+        "source_10.csv",
+        "source_12.csv",
+        "source_04.csv",
+        "source_07.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "Source 04 exhibits the highest average flight duration among all candidates, with cycles consistently exceeding 3.5 hours and averaging approximately 4.1 hours, which is characteristic of the long-haul flight class."
+    },
+    {
+      "query_id": 6,
+      "candidates": [
+        "source_02.csv",
+        "source_12.csv",
+        "source_10.csv",
+        "source_05.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "Source 05 is the only candidate representing a longer flight class, with flight durations ranging from 2.48 to 5.64 hours (mean ~3.9). In contrast, sources 02, 12, and 10 all record significantly shorter flights ranging from 0.86 to 1.58 hours (mean ~1.2)."
+    },
+    {
+      "query_id": 7,
+      "candidates": [
+        "source_09.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_03.csv",
+      "reasoning": "source_03.csv has the highest mean flight duration (4.22 hours) and maximum duration (5.51 hours) among the candidates, making it the most representative of the long-haul flight class compared to source_08 (2.41 hrs), source_09 (1.18 hrs), and source_12 (1.19 hrs)."
+    },
+    {
+      "query_id": 8,
+      "candidates": [
+        "source_02.csv",
+        "source_15.csv",
+        "source_12.csv",
+        "source_13.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "source_13.csv is the only candidate representing the long-haul class, with flight durations ranging from 2.78 to 5.64 hours (averaging ~4.26 hours), whereas all other candidates (source_02, source_15, source_12) show significantly shorter durations averaging ~1.2 hours."
+    },
+    {
+      "query_id": 9,
+      "candidates": [
+        "source_04.csv",
+        "source_14.csv",
+        "source_03.csv",
+        "source_08.csv",
+        "source_13.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "Source 13 is the most informative for a long-haul flight class model because it contains the highest frequency of flights in the long-haul range (5-7 hours). Specifically, it records 8 flights exceeding 5 hours (Cycles 1, 6, 7, 29, 31, 32, 50, and 63), with a maximum duration of 5.637 hours. In contrast, Source 03 has 6 such flights, Source 04 has 2, and Sources 14 and 08 have none."
+    },
+    {
+      "query_id": 10,
+      "candidates": [
+        "source_11.csv",
+        "source_10.csv",
+        "source_05.csv",
+        "source_14.csv",
+        "source_15.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "Source 05 is the only candidate representing the long-haul flight class, with flight durations frequently exceeding 5 hours (e.g., cycle 2 at 5.64h and cycle 58 at 5.50h). In contrast, other candidates represent shorter flight classes: sources 10 and 15 average approximately 1.2 hours, while sources 11 and 14 average between 2.4 and 2.8 hours."
+    },
+    {
+      "query_id": 11,
+      "candidates": [
+        "source_13.csv",
+        "source_02.csv",
+        "source_04.csv",
+        "source_05.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "source_13.csv contains the highest frequency of flights in the 5-7 hour range (8 flights), which corresponds to the long-haul class in the N-CMAPSS dataset, compared to source_04.csv (2 flights), source_05.csv (2 flights), and source_02.csv (0 flights)."
+    },
+    {
+      "query_id": 12,
+      "candidates": [
+        "source_01.csv",
+        "source_05.csv",
+        "source_08.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_01.csv",
+      "reasoning": "The target aircraft is long-haul, which is characterized by the longest flight durations. Comparing the candidates, source_01.csv has the highest mean flight duration (3.96 hours) and the highest frequency of flights exceeding 5 hours (3 flights), whereas source_05.csv has a lower mean (3.88 hours) and fewer flights over 5 hours (2 flights). source_08.csv and source_14.csv are significantly shorter, with means of 2.41 and 2.64 hours respectively."
+    },
+    {
+      "query_id": 13,
+      "candidates": [
+        "source_03.csv",
+        "source_12.csv",
+        "source_07.csv",
+        "source_13.csv",
+        "source_04.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "The target aircraft belongs to the long-haul flight class, which is characterized by the longest flight durations. Among the candidates, source_13.csv contains the highest frequency of flights in the longest duration bracket, with 8 flights exceeding 5.2 hours and a maximum recorded duration of 5.637 hours, compared to 6 flights for source_03.csv (max 5.512 hours) and 2 flights for source_04.csv (max 5.627 hours)."
+    },
+    {
+      "query_id": 14,
+      "candidates": [
+        "source_14.csv",
+        "source_11.csv",
+        "source_07.csv"
+      ],
+      "choice": "source_11.csv",
+      "reasoning": "To identify the most informative source for the long-haul flight class, I calculated the mean flight duration for each candidate across all recorded cycles. Source 11 has the highest average flight duration at approximately 2.543 hours per cycle, compared to 2.524 hours for source_07 and 2.458 hours for source_14. Additionally, source_11 records the single longest flight duration in the dataset at 3.415 hours (cycle 6)."
+    },
+    {
+      "query_id": 15,
+      "candidates": [
+        "source_13.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "The target is long-haul. Comparing the candidates, source_13.csv contains the highest frequency (11.1%) and the highest absolute value (5.64 hours) of flights exceeding the 5-hour threshold, which characterizes the long-haul flight class in the N-CMAPSS DS03 dataset."
+    },
+    {
+      "query_id": 16,
+      "candidates": [
+        "source_03.csv",
+        "source_06.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_03.csv",
+      "reasoning": "Source 03 is the most relevant for a long-haul target as it exhibits the highest flight durations, with a mean of approximately 4.24 hours and a maximum of 5.51 hours, while all other candidates average below 3 hours."
+    },
+    {
+      "query_id": 17,
+      "candidates": [
+        "source_13.csv",
+        "source_15.csv",
+        "source_07.csv",
+        "source_01.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "The long-haul flight class is characterized by the longest flight durations. Comparing the candidates, source_13.csv exhibits the highest mean flight duration (4.13 hours) and the highest maximum flight duration (5.64 hours), with approximately 12.7% of its flights exceeding 5 hours, making it the most credible representative of the long-haul class."
+    },
+    {
+      "query_id": 18,
+      "candidates": [
+        "source_12.csv",
+        "source_07.csv",
+        "source_09.csv"
+      ],
+      "choice": "source_07.csv",
+      "reasoning": "Source 07 is the most informative for the long-haul flight class because it records the longest flight durations among the candidates, with cycles reaching up to 3.29 hours, whereas sources 12 and 09 never exceed 1.57 hours."
+    },
+    {
+      "query_id": 19,
+      "candidates": [
+        "source_07.csv",
+        "source_13.csv",
+        "source_11.csv",
+        "source_14.csv",
+        "source_10.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "source_13.csv is the only candidate exhibiting flight durations consistently exceeding 4 and 5 hours (e.g., cycles 1, 6, 9, and 29 all record 5.62 hours), which is characteristic of the long-haul flight class compared to the other sources that peak around 3.4 hours."
+    },
+    {
+      "query_id": 20,
+      "candidates": [
+        "source_12.csv",
+        "source_11.csv",
+        "source_13.csv",
+        "source_15.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "Source 13 records the longest flight durations among the candidates, with values consistently ranging from 2.78 to 5.63 hours, which is characteristic of the long-haul flight class compared to the significantly shorter durations in sources 11, 12, and 15."
+    },
+    {
+      "query_id": 21,
+      "candidates": [
+        "source_05.csv",
+        "source_14.csv",
+        "source_11.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "source_05.csv is the only candidate with flight durations exceeding 5 hours (e.g., 5.64 hours in cycle 2 and 5.50 hours in cycle 58), identifying it with the long-haul class, while source_14.csv and source_11.csv have maximum durations of 3.40 and 3.42 hours respectively."
+    },
+    {
+      "query_id": 22,
+      "candidates": [
+        "source_02.csv",
+        "source_14.csv",
+        "source_05.csv",
+        "source_08.csv",
+        "source_06.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "Source 05 is the most informative for the long-haul flight class because it exhibits the highest flight durations among all candidates, with a mean duration of approximately 3.91 hours and a maximum of 5.63 hours."
+    },
+    {
+      "query_id": 23,
+      "candidates": [
+        "source_15.csv",
+        "source_07.csv",
+        "source_11.csv"
+      ],
+      "choice": "none",
+      "reasoning": "The target aircraft belongs to the long-haul flight class, which in the N-CMAPSS DS03 dataset corresponds to Flight Class 3 with durations between 5 and 7 hours. Analysis of the flight_duration_hours in the candidates shows that source_15.csv contains flights between 0.86 and 1.58 hours (Short-haul/Class 1), while source_07.csv and source_11.csv contain flights ranging from approximately 1.10 to 3.41 hours (Short-haul/Class 1 and Medium-haul/Class 2). Since no source machine provides trajectories with flight durations in the 5-7 hour range, there is no credible relevant source for the long-haul target."
+    },
+    {
+      "query_id": 24,
+      "candidates": [
+        "source_13.csv",
+        "source_14.csv",
+        "source_01.csv",
+        "source_15.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "Source 13 is the most representative of the long-haul flight class, as it features the highest average flight duration (4.19 hours) and the highest maximum flight duration (5.64 hours) among all candidates, with 12.7% of its flights exceeding 5 hours."
+    },
+    {
+      "query_id": 25,
+      "candidates": [
+        "source_05.csv",
+        "source_11.csv",
+        "source_04.csv",
+        "source_06.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "Source 05 contains the longest flight durations among all candidates, with multiple cycles exceeding 5.4 hours (e.g., cycle 2 at 5.64h and cycle 58 at 5.50h), whereas other candidates peak below 5.0 hours (source_04) or 3.5 hours (source_11 and source_06)."
+    },
+    {
+      "query_id": 26,
+      "candidates": [
+        "source_07.csv",
+        "source_05.csv",
+        "source_11.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "source_05.csv is the only candidate containing flight durations exceeding 5 hours (e.g., cycle 2 at 5.64h and cycle 58 at 5.50h), which identifies it with the long-haul flight class, whereas source_07.csv and source_11.csv have maximum durations of 3.30h and 3.42h respectively."
+    },
+    {
+      "query_id": 27,
+      "candidates": [
+        "source_06.csv",
+        "source_02.csv",
+        "source_14.csv",
+        "source_09.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_14.csv",
+      "reasoning": "The target is a long-haul aircraft. In the N-CMAPSS DS03 dataset, flight classes are distinguished by duration. Comparing the candidates, source_14.csv contains the highest frequency of flights exceeding 3 hours (12 cycles) and a maximum flight duration of 3.40 hours, making it the most representative of the longer-duration flight classes available in this sample compared to source_02 and source_09 (max ~1.6 hours) or source_08 and source_06 (fewer flights >3 hours)."
+    },
+    {
+      "query_id": 28,
+      "candidates": [
+        "source_08.csv",
+        "source_04.csv",
+        "source_07.csv",
+        "source_02.csv",
+        "source_03.csv"
+      ],
+      "choice": "source_03.csv",
+      "reasoning": "The target is a long-haul aircraft. In the N-CMAPSS dataset, flight classes are categorized by duration: short-haul (1-3h), medium-haul (3-5h), and long-haul (5-7h). source_03.csv consistently records flight durations exceeding 5 hours (e.g., cycles 2, 18, 23, 31, 48, 63, and 74 all show durations between 5.2 and 5.5 hours), making it the most representative candidate for the long-haul class."
+    },
+    {
+      "query_id": 29,
+      "candidates": [
+        "source_15.csv",
+        "source_01.csv",
+        "source_10.csv",
+        "source_06.csv"
+      ],
+      "choice": "none",
+      "reasoning": "The target aircraft is long-haul, which typically involves flight durations of 7-10 hours in the N-CMAPSS DS03 dataset. However, all provided candidates have maximum flight durations significantly below this range: source_15 and source_10 reach only ~1.58 hours, source_06 reaches ~3.31 hours, and source_01 reaches ~5.20 hours, characterizing them as short-haul or medium-haul trajectories."
+    }
+  ]
+}

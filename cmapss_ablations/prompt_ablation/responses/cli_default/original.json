@@ -1,0 +1,2488 @@
+{
+  "target_desc": "This aircraft is operating in a desert environment. Routine visual inspections confirm severe aerodynamic degradation of the high-pressure compressor, likely due to continuously ingesting fine, dry abrasives at high velocities.",
+  "responses": [
+    {
+      "S": [
+        43,
+        64,
+        75
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "core speed climbs +122.0 rpm from its 9065 rpm healthy baseline (27.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9187 rpm with a terminal rate of 2.71 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 076 rises only +25.7 rpm at 0.153 rpm/cycle"
+    },
+    {
+      "S": [
+        9,
+        19,
+        68
+      ],
+      "C": [
+        19
+      ],
+      "reasoning": "core speed climbs +87.8 rpm from its 9046 rpm healthy baseline (20.7x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 2.09 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; 010 ends at a comparable +90.2 rpm but wears more slowly (0.245 vs 0.334 rpm/cycle), a milder continuous abrasive rate"
+    },
+    {
+      "S": [
+        12,
+        50,
+        69,
+        73,
+        77
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "core speed climbs +90.7 rpm from its 9043 rpm healthy baseline (22.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 1.83 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 051 rises only +68.7 rpm at 0.223 rpm/cycle"
+    },
+    {
+      "S": [
+        64,
+        77,
+        90
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "core speed climbs +36.2 rpm from its 9057 rpm healthy baseline (8.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9094 rpm with a terminal rate of 0.79 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 065 rises only +11.3 rpm at 0.034 rpm/cycle"
+    },
+    {
+      "S": [
+        9,
+        22,
+        43,
+        44
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "core speed climbs +122.0 rpm from its 9065 rpm healthy baseline (27.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9187 rpm with a terminal rate of 2.71 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 010 rises only +90.2 rpm at 0.245 rpm/cycle"
+    },
+    {
+      "S": [
+        16,
+        26,
+        61,
+        75,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "core speed climbs +88.9 rpm from its 9053 rpm healthy baseline (20.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9142 rpm with a terminal rate of 2.03 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 062 rises only +41.7 rpm at 0.132 rpm/cycle"
+    },
+    {
+      "S": [
+        66,
+        75,
+        77,
+        86
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "core speed climbs +36.2 rpm from its 9057 rpm healthy baseline (8.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9094 rpm with a terminal rate of 0.79 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 076 rises only +25.7 rpm at 0.153 rpm/cycle"
+    },
+    {
+      "S": [
+        4,
+        15,
+        53,
+        74
+      ],
+      "C": [],
+      "reasoning": "no candidate is a credible severe case - the largest excursion, 016 at +9.3 rpm (2.4x noise sd, 0.044 rpm/cycle), sits in the normal-deterioration band rather than the sustained accelerating climb of heavy HPC erosion"
+    },
+    {
+      "S": [
+        32,
+        40,
+        90,
+        93
+      ],
+      "C": [
+        32
+      ],
+      "reasoning": "core speed climbs +84.8 rpm from its 9049 rpm healthy baseline (20.7x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 2.09 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 041 rises only +17.6 rpm at 0.111 rpm/cycle"
+    },
+    {
+      "S": [
+        12,
+        18,
+        44,
+        47,
+        67
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "core speed climbs +122.6 rpm from its 9066 rpm healthy baseline (27.4x noise sd) along a flat-then-accelerating exponential knee, ending at 9188 rpm with a terminal rate of 3.08 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 019 rises only +78.8 rpm at 0.254 rpm/cycle"
+    },
+    {
+      "S": [
+        15,
+        41,
+        62,
+        70,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "core speed climbs +113.0 rpm from its 9062 rpm healthy baseline (26.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9175 rpm with a terminal rate of 2.69 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 016 rises only +9.3 rpm at 0.044 rpm/cycle"
+    },
+    {
+      "S": [
+        38,
+        78,
+        82,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "core speed climbs +124.9 rpm from its 9064 rpm healthy baseline (26.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9189 rpm with a terminal rate of 3.23 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 079 rises only +3.4 rpm at 0.023 rpm/cycle"
+    },
+    {
+      "S": [
+        13,
+        19,
+        80,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "core speed climbs +113.0 rpm from its 9062 rpm healthy baseline (26.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9175 rpm with a terminal rate of 2.69 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 020 rises only +87.8 rpm at 0.334 rpm/cycle"
+    },
+    {
+      "S": [
+        27,
+        45,
+        63,
+        69,
+        78
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "core speed climbs +90.7 rpm from its 9043 rpm healthy baseline (22.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 1.83 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 046 rises only +63.8 rpm at 0.193 rpm/cycle"
+    },
+    {
+      "S": [
+        11,
+        13,
+        24
+      ],
+      "C": [],
+      "reasoning": "no candidate is a credible severe case - the largest excursion, 014 at +15.2 rpm (4.0x noise sd, 0.068 rpm/cycle), sits in the normal-deterioration band rather than the sustained accelerating climb of heavy HPC erosion"
+    },
+    {
+      "S": [
+        7,
+        45,
+        55,
+        83
+      ],
+      "C": [
+        45
+      ],
+      "reasoning": "core speed climbs +63.8 rpm from its 9067 rpm healthy baseline (14.4x noise sd) along a flat-then-accelerating exponential knee, ending at 9130 rpm with a terminal rate of 1.03 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 084 rises only +26.1 rpm at 0.096 rpm/cycle"
+    },
+    {
+      "S": [
+        8,
+        53,
+        55,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "core speed climbs +88.9 rpm from its 9053 rpm healthy baseline (20.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9142 rpm with a terminal rate of 2.03 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 056 rises only +8.0 rpm at 0.044 rpm/cycle"
+    },
+    {
+      "S": [
+        21,
+        27,
+        42,
+        96
+      ],
+      "C": [
+        42
+      ],
+      "reasoning": "core speed climbs +34.1 rpm from its 9065 rpm healthy baseline (9.1x noise sd) along a flat-then-accelerating exponential knee, ending at 9099 rpm with a terminal rate of 0.64 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 022 rises only +22.8 rpm at 0.122 rpm/cycle"
+    },
+    {
+      "S": [
+        5,
+        22,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "core speed climbs +113.0 rpm from its 9062 rpm healthy baseline (26.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9175 rpm with a terminal rate of 2.69 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; next-closest 006 rises only +77.1 rpm at 0.371 rpm/cycle"
+    },
+    {
+      "S": [
+        12,
+        28,
+        42,
+        55,
+        64
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "core speed climbs +83.7 rpm from its 9059 rpm healthy baseline (20.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9143 rpm with a terminal rate of 2.10 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 043 rises only +34.1 rpm at 0.145 rpm/cycle"
+    },
+    {
+      "S": [
+        32,
+        39,
+        40,
+        80
+      ],
+      "C": [
+        32
+      ],
+      "reasoning": "core speed climbs +84.8 rpm from its 9049 rpm healthy baseline (20.7x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 2.09 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 041 rises only +17.6 rpm at 0.111 rpm/cycle"
+    },
+    {
+      "S": [
+        8,
+        72,
+        76
+      ],
+      "C": [
+        76
+      ],
+      "reasoning": "core speed climbs +28.2 rpm from its 9057 rpm healthy baseline (6.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9085 rpm with a terminal rate of 0.45 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 009 rises only +5.6 rpm at 0.015 rpm/cycle"
+    },
+    {
+      "S": [
+        15,
+        49,
+        87,
+        92,
+        99
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "core speed climbs +84.5 rpm from its 9061 rpm healthy baseline (21.8x noise sd) along a flat-then-accelerating exponential knee, ending at 9145 rpm with a terminal rate of 1.87 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 088 rises only +66.9 rpm at 0.258 rpm/cycle"
+    },
+    {
+      "S": [
+        23,
+        30,
+        37
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "core speed climbs +109.0 rpm from its 9055 rpm healthy baseline (26.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9164 rpm with a terminal rate of 3.01 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 038 rises only +3.2 rpm at 0.025 rpm/cycle"
+    },
+    {
+      "S": [
+        8,
+        34,
+        35,
+        94
+      ],
+      "C": [
+        34
+      ],
+      "reasoning": "core speed climbs +113.8 rpm from its 9050 rpm healthy baseline (26.4x noise sd) along a flat-then-accelerating exponential knee, ending at 9164 rpm with a terminal rate of 2.95 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 095 rises only +89.5 rpm at 0.261 rpm/cycle"
+    },
+    {
+      "S": [
+        45,
+        48,
+        69,
+        88
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "core speed climbs +90.7 rpm from its 9043 rpm healthy baseline (22.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 1.83 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 046 rises only +63.8 rpm at 0.193 rpm/cycle"
+    },
+    {
+      "S": [
+        25,
+        71,
+        76
+      ],
+      "C": [
+        76
+      ],
+      "reasoning": "core speed climbs +28.2 rpm from its 9057 rpm healthy baseline (6.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9085 rpm with a terminal rate of 0.45 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 072 rises only -0.7 rpm at 0.008 rpm/cycle"
+    },
+    {
+      "S": [
+        7,
+        9,
+        26,
+        44,
+        90
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "core speed climbs +90.2 rpm from its 9062 rpm healthy baseline (22.0x noise sd) along a flat-then-accelerating exponential knee, ending at 9152 rpm with a terminal rate of 1.50 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 027 rises only +33.5 rpm at 0.170 rpm/cycle"
+    },
+    {
+      "S": [
+        17,
+        29,
+        54,
+        56,
+        78
+      ],
+      "C": [
+        29
+      ],
+      "reasoning": "core speed climbs +39.1 rpm from its 9055 rpm healthy baseline (9.0x noise sd) along a flat-then-accelerating exponential knee, ending at 9094 rpm with a terminal rate of 0.94 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 079 rises only +3.4 rpm at 0.023 rpm/cycle"
+    },
+    {
+      "S": [
+        30,
+        42,
+        65,
+        69
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "core speed climbs +90.7 rpm from its 9043 rpm healthy baseline (22.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 1.83 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 066 rises only +78.9 rpm at 0.300 rpm/cycle"
+    },
+    {
+      "S": [
+        8,
+        62,
+        63
+      ],
+      "C": [],
+      "reasoning": "no candidate is a credible severe case - the largest excursion, 064 at +15.4 rpm (4.0x noise sd, 0.076 rpm/cycle), sits in the normal-deterioration band rather than the sustained accelerating climb of heavy HPC erosion"
+    },
+    {
+      "S": [
+        3,
+        17,
+        18,
+        32,
+        48
+      ],
+      "C": [
+        32
+      ],
+      "reasoning": "core speed climbs +84.8 rpm from its 9049 rpm healthy baseline (20.7x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 2.09 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 004 rises only +81.7 rpm at 0.251 rpm/cycle"
+    },
+    {
+      "S": [
+        17,
+        57,
+        78
+      ],
+      "C": [
+        57
+      ],
+      "reasoning": "core speed climbs +63.6 rpm from its 9055 rpm healthy baseline (14.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9119 rpm with a terminal rate of 1.76 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 079 rises only +3.4 rpm at 0.023 rpm/cycle"
+    },
+    {
+      "S": [
+        33,
+        43,
+        55,
+        59,
+        60
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "core speed climbs +122.0 rpm from its 9065 rpm healthy baseline (27.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9187 rpm with a terminal rate of 2.71 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; next-closest 061 rises only +91.8 rpm at 0.384 rpm/cycle"
+    },
+    {
+      "S": [
+        6,
+        45,
+        46,
+        77
+      ],
+      "C": [
+        6
+      ],
+      "reasoning": "core speed climbs +60.1 rpm from its 9059 rpm healthy baseline (14.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9119 rpm with a terminal rate of 1.39 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 047 rises only +55.7 rpm at 0.234 rpm/cycle"
+    },
+    {
+      "S": [
+        15,
+        42,
+        47,
+        57,
+        91
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "core speed climbs +122.6 rpm from its 9066 rpm healthy baseline (27.4x noise sd) along a flat-then-accelerating exponential knee, ending at 9188 rpm with a terminal rate of 3.08 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 058 rises only +63.6 rpm at 0.313 rpm/cycle"
+    },
+    {
+      "S": [
+        31,
+        43,
+        51,
+        52,
+        84
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "core speed climbs +114.1 rpm from its 9050 rpm healthy baseline (27.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9164 rpm with a terminal rate of 2.95 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; 044 ends at a comparable +122.0 rpm but wears more slowly (0.362 vs 0.413 rpm/cycle), a milder continuous abrasive rate"
+    },
+    {
+      "S": [
+        14,
+        53,
+        87
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "core speed climbs +91.3 rpm from its 9046 rpm healthy baseline (21.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9137 rpm with a terminal rate of 2.33 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 088 rises only +66.9 rpm at 0.258 rpm/cycle"
+    },
+    {
+      "S": [
+        10,
+        65,
+        67
+      ],
+      "C": [
+        10
+      ],
+      "reasoning": "core speed climbs +117.7 rpm from its 9061 rpm healthy baseline (24.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9178 rpm with a terminal rate of 3.14 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 066 rises only +78.9 rpm at 0.300 rpm/cycle"
+    },
+    {
+      "S": [
+        64,
+        72,
+        99
+      ],
+      "C": [],
+      "reasoning": "no candidate is a credible severe case - the largest excursion, 065 at +11.3 rpm (3.2x noise sd, 0.034 rpm/cycle), sits in the normal-deterioration band rather than the sustained accelerating climb of heavy HPC erosion"
+    },
+    {
+      "S": [
+        10,
+        60,
+        91
+      ],
+      "C": [
+        10
+      ],
+      "reasoning": "core speed climbs +117.7 rpm from its 9061 rpm healthy baseline (24.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9178 rpm with a terminal rate of 3.14 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 061 rises only +91.8 rpm at 0.384 rpm/cycle"
+    },
+    {
+      "S": [
+        3,
+        13,
+        55
+      ],
+      "C": [
+        3
+      ],
+      "reasoning": "core speed climbs +81.7 rpm from its 9053 rpm healthy baseline (19.7x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 1.61 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 014 rises only +15.2 rpm at 0.068 rpm/cycle"
+    },
+    {
+      "S": [
+        45,
+        80,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "core speed climbs +113.0 rpm from its 9062 rpm healthy baseline (26.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9175 rpm with a terminal rate of 2.69 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 046 rises only +63.8 rpm at 0.193 rpm/cycle"
+    },
+    {
+      "S": [
+        29,
+        62,
+        93
+      ],
+      "C": [
+        29
+      ],
+      "reasoning": "core speed climbs +39.1 rpm from its 9055 rpm healthy baseline (9.0x noise sd) along a flat-then-accelerating exponential knee, ending at 9094 rpm with a terminal rate of 0.94 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 094 rises only +4.4 rpm at 0.040 rpm/cycle"
+    },
+    {
+      "S": [
+        16,
+        17,
+        24,
+        91,
+        96
+      ],
+      "C": [],
+      "reasoning": "no candidate is a credible severe case - the largest excursion, 097 at +16.2 rpm (4.1x noise sd, 0.054 rpm/cycle), sits in the normal-deterioration band rather than the sustained accelerating climb of heavy HPC erosion"
+    },
+    {
+      "S": [
+        9,
+        14,
+        74,
+        87,
+        95
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "core speed climbs +91.3 rpm from its 9046 rpm healthy baseline (21.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9137 rpm with a terminal rate of 2.33 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 010 rises only +90.2 rpm at 0.245 rpm/cycle"
+    },
+    {
+      "S": [
+        31,
+        46,
+        50
+      ],
+      "C": [
+        50
+      ],
+      "reasoning": "core speed climbs +68.7 rpm from its 9063 rpm healthy baseline (16.1x noise sd) along a flat-then-accelerating exponential knee, ending at 9131 rpm with a terminal rate of 1.22 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; next-closest 047 rises only +55.7 rpm at 0.234 rpm/cycle"
+    },
+    {
+      "S": [
+        36,
+        40,
+        64,
+        88
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "core speed climbs +75.9 rpm from its 9063 rpm healthy baseline (18.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9139 rpm with a terminal rate of 1.56 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 089 rises only +28.1 rpm at 0.120 rpm/cycle"
+    },
+    {
+      "S": [
+        0,
+        25,
+        92,
+        94
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "core speed climbs +89.5 rpm from its 9045 rpm healthy baseline (22.1x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 1.52 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 093 rises only +65.9 rpm at 0.157 rpm/cycle"
+    },
+    {
+      "S": [
+        15,
+        81,
+        88
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "core speed climbs +113.0 rpm from its 9062 rpm healthy baseline (26.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9175 rpm with a terminal rate of 2.69 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 089 rises only +28.1 rpm at 0.120 rpm/cycle"
+    },
+    {
+      "S": [
+        4,
+        58,
+        70,
+        86
+      ],
+      "C": [],
+      "reasoning": "no candidate is a credible severe case - the largest excursion, 005 at +3.1 rpm (0.8x noise sd, 0.023 rpm/cycle), sits in the normal-deterioration band rather than the sustained accelerating climb of heavy HPC erosion"
+    },
+    {
+      "S": [
+        31,
+        49,
+        50,
+        74,
+        95
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "core speed climbs +84.5 rpm from its 9061 rpm healthy baseline (21.8x noise sd) along a flat-then-accelerating exponential knee, ending at 9145 rpm with a terminal rate of 1.87 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 051 rises only +68.7 rpm at 0.223 rpm/cycle"
+    },
+    {
+      "S": [
+        13,
+        22,
+        27
+      ],
+      "C": [],
+      "reasoning": "no candidate is a credible severe case - the largest excursion, 014 at +15.2 rpm (4.0x noise sd, 0.068 rpm/cycle), sits in the normal-deterioration band rather than the sustained accelerating climb of heavy HPC erosion"
+    },
+    {
+      "S": [
+        11,
+        28,
+        49,
+        69,
+        91
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "core speed climbs +90.7 rpm from its 9043 rpm healthy baseline (22.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 1.83 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; next-closest 029 rises only +83.7 rpm at 0.345 rpm/cycle"
+    },
+    {
+      "S": [
+        2,
+        8,
+        70,
+        73,
+        77
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "core speed climbs +36.2 rpm from its 9057 rpm healthy baseline (8.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9094 rpm with a terminal rate of 0.79 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 003 rises only +3.8 rpm at 0.036 rpm/cycle"
+    },
+    {
+      "S": [
+        7,
+        39,
+        89,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "core speed climbs +125.9 rpm from its 9046 rpm healthy baseline (28.8x noise sd) along a flat-then-accelerating exponential knee, ending at 9172 rpm with a terminal rate of 3.21 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 090 rises only +124.9 rpm at 0.421 rpm/cycle"
+    },
+    {
+      "S": [
+        30,
+        52,
+        64,
+        94
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "core speed climbs +89.5 rpm from its 9045 rpm healthy baseline (22.1x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 1.52 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 053 rises only +76.4 rpm at 0.233 rpm/cycle"
+    },
+    {
+      "S": [
+        2,
+        14,
+        54,
+        58
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "core speed climbs +91.3 rpm from its 9046 rpm healthy baseline (21.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9137 rpm with a terminal rate of 2.33 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 003 rises only +3.8 rpm at 0.036 rpm/cycle"
+    },
+    {
+      "S": [
+        0,
+        13,
+        41,
+        72,
+        96
+      ],
+      "C": [],
+      "reasoning": "no candidate is a credible severe case - the largest excursion, 014 at +15.2 rpm (4.0x noise sd, 0.068 rpm/cycle), sits in the normal-deterioration band rather than the sustained accelerating climb of heavy HPC erosion"
+    },
+    {
+      "S": [
+        41,
+        45,
+        62,
+        77,
+        78
+      ],
+      "C": [
+        45
+      ],
+      "reasoning": "core speed climbs +63.8 rpm from its 9067 rpm healthy baseline (14.4x noise sd) along a flat-then-accelerating exponential knee, ending at 9130 rpm with a terminal rate of 1.03 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 078 rises only +36.2 rpm at 0.155 rpm/cycle"
+    },
+    {
+      "S": [
+        24,
+        79,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "core speed climbs +113.0 rpm from its 9062 rpm healthy baseline (26.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9175 rpm with a terminal rate of 2.69 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; next-closest 080 rises only +88.9 rpm at 0.371 rpm/cycle"
+    },
+    {
+      "S": [
+        51,
+        59,
+        74,
+        93
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "core speed climbs +114.1 rpm from its 9050 rpm healthy baseline (27.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9164 rpm with a terminal rate of 2.95 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 094 rises only +4.4 rpm at 0.040 rpm/cycle"
+    },
+    {
+      "S": [
+        11,
+        37,
+        40
+      ],
+      "C": [],
+      "reasoning": "no candidate is a credible severe case - the largest excursion, 041 at +17.6 rpm (4.6x noise sd, 0.111 rpm/cycle), sits in the normal-deterioration band rather than the sustained accelerating climb of heavy HPC erosion"
+    },
+    {
+      "S": [
+        63,
+        86,
+        95
+      ],
+      "C": [
+        95
+      ],
+      "reasoning": "core speed climbs +38.2 rpm from its 9069 rpm healthy baseline (8.8x noise sd) along a flat-then-accelerating exponential knee, ending at 9108 rpm with a terminal rate of 0.62 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 064 rises only +15.4 rpm at 0.076 rpm/cycle"
+    },
+    {
+      "S": [
+        23,
+        24,
+        26,
+        99
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "core speed climbs +109.0 rpm from its 9055 rpm healthy baseline (26.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9164 rpm with a terminal rate of 3.01 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 027 rises only +33.5 rpm at 0.170 rpm/cycle"
+    },
+    {
+      "S": [
+        6,
+        10,
+        47,
+        59,
+        85
+      ],
+      "C": [
+        10
+      ],
+      "reasoning": "core speed climbs +117.7 rpm from its 9061 rpm healthy baseline (24.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9178 rpm with a terminal rate of 3.14 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; 048 ends at a comparable +122.6 rpm but wears more slowly (0.399 vs 0.439 rpm/cycle), a milder continuous abrasive rate"
+    },
+    {
+      "S": [
+        14,
+        30,
+        91
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "core speed climbs +91.3 rpm from its 9046 rpm healthy baseline (21.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9137 rpm with a terminal rate of 2.33 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 031 rises only -2.8 rpm at -0.017 rpm/cycle"
+    },
+    {
+      "S": [
+        15,
+        16,
+        28,
+        57
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "core speed climbs +83.7 rpm from its 9059 rpm healthy baseline (20.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9143 rpm with a terminal rate of 2.10 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 058 rises only +63.6 rpm at 0.313 rpm/cycle"
+    },
+    {
+      "S": [
+        2,
+        5,
+        19,
+        69
+      ],
+      "C": [
+        19
+      ],
+      "reasoning": "core speed climbs +87.8 rpm from its 9046 rpm healthy baseline (20.7x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 2.09 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; 070 ends at a comparable +90.7 rpm at a near-identical mean rate but its climb is less back-loaded (terminal 1.83 vs 2.09 rpm/cycle), so it is the weaker late runaway"
+    },
+    {
+      "S": [
+        50,
+        57,
+        67,
+        80
+      ],
+      "C": [
+        57
+      ],
+      "reasoning": "core speed climbs +63.6 rpm from its 9055 rpm healthy baseline (14.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9119 rpm with a terminal rate of 1.76 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; 051 ends at a comparable +68.7 rpm but wears more slowly (0.223 vs 0.313 rpm/cycle), a milder continuous abrasive rate"
+    },
+    {
+      "S": [
+        48,
+        71,
+        78,
+        85,
+        99
+      ],
+      "C": [
+        48
+      ],
+      "reasoning": "core speed climbs +48.0 rpm from its 9049 rpm healthy baseline (11.1x noise sd) along a flat-then-accelerating exponential knee, ending at 9097 rpm with a terminal rate of 1.02 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 086 rises only +17.5 rpm at 0.068 rpm/cycle"
+    },
+    {
+      "S": [
+        22,
+        24,
+        57,
+        63,
+        96
+      ],
+      "C": [
+        57
+      ],
+      "reasoning": "core speed climbs +63.6 rpm from its 9055 rpm healthy baseline (14.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9119 rpm with a terminal rate of 1.76 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 064 rises only +15.4 rpm at 0.076 rpm/cycle"
+    },
+    {
+      "S": [
+        36,
+        52,
+        91
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "core speed climbs +75.9 rpm from its 9063 rpm healthy baseline (18.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9139 rpm with a terminal rate of 1.56 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; 053 ends at a comparable +76.4 rpm but wears more slowly (0.233 vs 0.264 rpm/cycle), a milder continuous abrasive rate"
+    },
+    {
+      "S": [
+        5,
+        10,
+        81
+      ],
+      "C": [
+        10
+      ],
+      "reasoning": "core speed climbs +117.7 rpm from its 9061 rpm healthy baseline (24.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9178 rpm with a terminal rate of 3.14 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 082 rises only +113.0 rpm at 0.351 rpm/cycle"
+    },
+    {
+      "S": [
+        9,
+        79,
+        81,
+        82,
+        90
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "core speed climbs +113.0 rpm from its 9062 rpm healthy baseline (26.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9175 rpm with a terminal rate of 2.69 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; next-closest 080 rises only +88.9 rpm at 0.371 rpm/cycle"
+    },
+    {
+      "S": [
+        61,
+        63,
+        75,
+        99
+      ],
+      "C": [
+        61
+      ],
+      "reasoning": "core speed climbs +41.7 rpm from its 9057 rpm healthy baseline (9.8x noise sd) along a flat-then-accelerating exponential knee, ending at 9099 rpm with a terminal rate of 0.66 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; next-closest 076 rises only +25.7 rpm at 0.153 rpm/cycle"
+    },
+    {
+      "S": [
+        31,
+        50,
+        51,
+        85,
+        95
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "core speed climbs +114.1 rpm from its 9050 rpm healthy baseline (27.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9164 rpm with a terminal rate of 2.95 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 051 rises only +68.7 rpm at 0.223 rpm/cycle"
+    },
+    {
+      "S": [
+        6,
+        13,
+        24,
+        26,
+        61
+      ],
+      "C": [
+        6
+      ],
+      "reasoning": "core speed climbs +60.1 rpm from its 9059 rpm healthy baseline (14.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9119 rpm with a terminal rate of 1.39 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 062 rises only +41.7 rpm at 0.132 rpm/cycle"
+    },
+    {
+      "S": [
+        22,
+        33,
+        36,
+        50
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "core speed climbs +75.9 rpm from its 9063 rpm healthy baseline (18.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9139 rpm with a terminal rate of 1.56 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 051 rises only +68.7 rpm at 0.223 rpm/cycle"
+    },
+    {
+      "S": [
+        17,
+        23,
+        36,
+        67
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "core speed climbs +109.0 rpm from its 9055 rpm healthy baseline (26.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9164 rpm with a terminal rate of 3.01 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 037 rises only +75.9 rpm at 0.264 rpm/cycle"
+    },
+    {
+      "S": [
+        32,
+        47,
+        76,
+        82,
+        87
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "core speed climbs +122.6 rpm from its 9066 rpm healthy baseline (27.4x noise sd) along a flat-then-accelerating exponential knee, ending at 9188 rpm with a terminal rate of 3.08 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 033 rises only +84.8 rpm at 0.335 rpm/cycle"
+    },
+    {
+      "S": [
+        19,
+        55,
+        63,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "core speed climbs +88.9 rpm from its 9053 rpm healthy baseline (20.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9142 rpm with a terminal rate of 2.03 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 020 rises only +87.8 rpm at 0.334 rpm/cycle"
+    },
+    {
+      "S": [
+        17,
+        28,
+        73
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "core speed climbs +83.7 rpm from its 9059 rpm healthy baseline (20.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9143 rpm with a terminal rate of 2.10 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 074 rises only -11.3 rpm at -0.041 rpm/cycle"
+    },
+    {
+      "S": [
+        49,
+        67,
+        85,
+        91
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "core speed climbs +84.5 rpm from its 9061 rpm healthy baseline (21.8x noise sd) along a flat-then-accelerating exponential knee, ending at 9145 rpm with a terminal rate of 1.87 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 086 rises only +17.5 rpm at 0.068 rpm/cycle"
+    },
+    {
+      "S": [
+        9,
+        58,
+        60,
+        71
+      ],
+      "C": [
+        60
+      ],
+      "reasoning": "core speed climbs +91.8 rpm from its 9057 rpm healthy baseline (22.7x noise sd) along a flat-then-accelerating exponential knee, ending at 9149 rpm with a terminal rate of 2.57 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 010 rises only +90.2 rpm at 0.245 rpm/cycle"
+    },
+    {
+      "S": [
+        13,
+        16,
+        80,
+        93,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "core speed climbs +125.9 rpm from its 9046 rpm healthy baseline (28.8x noise sd) along a flat-then-accelerating exponential knee, ending at 9172 rpm with a terminal rate of 3.21 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 014 rises only +15.2 rpm at 0.068 rpm/cycle"
+    },
+    {
+      "S": [
+        8,
+        25,
+        76,
+        90,
+        92
+      ],
+      "C": [
+        92
+      ],
+      "reasoning": "core speed climbs +65.9 rpm from its 9055 rpm healthy baseline (17.1x noise sd) along a flat-then-accelerating exponential knee, ending at 9121 rpm with a terminal rate of 0.82 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 077 rises only +28.2 rpm at 0.123 rpm/cycle"
+    },
+    {
+      "S": [
+        12,
+        16,
+        59,
+        98
+      ],
+      "C": [
+        12
+      ],
+      "reasoning": "core speed climbs +35.5 rpm from its 9053 rpm healthy baseline (9.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9089 rpm with a terminal rate of 0.48 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 017 rises only +7.4 rpm at 0.032 rpm/cycle"
+    },
+    {
+      "S": [
+        45,
+        51,
+        66,
+        72
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "core speed climbs +114.1 rpm from its 9050 rpm healthy baseline (27.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9164 rpm with a terminal rate of 2.95 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 046 rises only +63.8 rpm at 0.193 rpm/cycle"
+    },
+    {
+      "S": [
+        13,
+        23,
+        47,
+        59
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "core speed climbs +122.6 rpm from its 9066 rpm healthy baseline (27.4x noise sd) along a flat-then-accelerating exponential knee, ending at 9188 rpm with a terminal rate of 3.08 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; next-closest 024 rises only +109.0 rpm at 0.429 rpm/cycle"
+    },
+    {
+      "S": [
+        8,
+        11,
+        48,
+        65,
+        69
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "core speed climbs +90.7 rpm from its 9043 rpm healthy baseline (22.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 1.83 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 066 rises only +78.9 rpm at 0.300 rpm/cycle"
+    },
+    {
+      "S": [
+        33,
+        65,
+        72
+      ],
+      "C": [
+        65
+      ],
+      "reasoning": "core speed climbs +78.9 rpm from its 9061 rpm healthy baseline (20.0x noise sd) along a flat-then-accelerating exponential knee, ending at 9140 rpm with a terminal rate of 1.71 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 034 rises only -8.0 rpm at -0.071 rpm/cycle"
+    },
+    {
+      "S": [
+        26,
+        36,
+        61,
+        73,
+        78
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "core speed climbs +75.9 rpm from its 9063 rpm healthy baseline (18.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9139 rpm with a terminal rate of 1.56 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 062 rises only +41.7 rpm at 0.132 rpm/cycle"
+    },
+    {
+      "S": [
+        8,
+        14,
+        43,
+        54,
+        91
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "core speed climbs +122.0 rpm from its 9065 rpm healthy baseline (27.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9187 rpm with a terminal rate of 2.71 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 015 rises only +91.3 rpm at 0.348 rpm/cycle"
+    },
+    {
+      "S": [
+        54,
+        93,
+        99
+      ],
+      "C": [],
+      "reasoning": "no candidate is a credible severe case - the largest excursion, 094 at +4.4 rpm (1.0x noise sd, 0.040 rpm/cycle), sits in the normal-deterioration band rather than the sustained accelerating climb of heavy HPC erosion"
+    },
+    {
+      "S": [
+        13,
+        37,
+        46,
+        65
+      ],
+      "C": [
+        65
+      ],
+      "reasoning": "core speed climbs +78.9 rpm from its 9061 rpm healthy baseline (20.0x noise sd) along a flat-then-accelerating exponential knee, ending at 9140 rpm with a terminal rate of 1.71 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 047 rises only +55.7 rpm at 0.234 rpm/cycle"
+    },
+    {
+      "S": [
+        11,
+        26,
+        41,
+        85,
+        91
+      ],
+      "C": [
+        26
+      ],
+      "reasoning": "core speed climbs +33.5 rpm from its 9051 rpm healthy baseline (8.7x noise sd) along a flat-then-accelerating exponential knee, ending at 9085 rpm with a terminal rate of 0.75 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 086 rises only +17.5 rpm at 0.068 rpm/cycle"
+    },
+    {
+      "S": [
+        3,
+        54,
+        57,
+        67
+      ],
+      "C": [
+        3
+      ],
+      "reasoning": "core speed climbs +81.7 rpm from its 9053 rpm healthy baseline (19.7x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 1.61 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; next-closest 058 rises only +63.6 rpm at 0.313 rpm/cycle"
+    },
+    {
+      "S": [
+        28,
+        41,
+        45,
+        79,
+        95
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "core speed climbs +88.9 rpm from its 9053 rpm healthy baseline (20.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9142 rpm with a terminal rate of 2.03 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 029 rises only +83.7 rpm at 0.345 rpm/cycle"
+    },
+    {
+      "S": [
+        54,
+        72,
+        77,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "core speed climbs +124.9 rpm from its 9064 rpm healthy baseline (26.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9189 rpm with a terminal rate of 3.23 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 078 rises only +36.2 rpm at 0.155 rpm/cycle"
+    },
+    {
+      "S": [
+        28,
+        67,
+        86
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "core speed climbs +83.7 rpm from its 9059 rpm healthy baseline (20.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9143 rpm with a terminal rate of 2.10 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 068 rises only +6.4 rpm at 0.029 rpm/cycle"
+    },
+    {
+      "S": [
+        10,
+        65,
+        99
+      ],
+      "C": [
+        10
+      ],
+      "reasoning": "core speed climbs +117.7 rpm from its 9061 rpm healthy baseline (24.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9178 rpm with a terminal rate of 3.14 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 066 rises only +78.9 rpm at 0.300 rpm/cycle"
+    },
+    {
+      "S": [
+        9,
+        61,
+        63
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "core speed climbs +90.2 rpm from its 9062 rpm healthy baseline (22.0x noise sd) along a flat-then-accelerating exponential knee, ending at 9152 rpm with a terminal rate of 1.50 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 062 rises only +41.7 rpm at 0.132 rpm/cycle"
+    },
+    {
+      "S": [
+        2,
+        14,
+        23,
+        44,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "core speed climbs +125.9 rpm from its 9046 rpm healthy baseline (28.8x noise sd) along a flat-then-accelerating exponential knee, ending at 9172 rpm with a terminal rate of 3.21 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 024 rises only +109.0 rpm at 0.429 rpm/cycle"
+    },
+    {
+      "S": [
+        28,
+        65,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "core speed climbs +124.9 rpm from its 9064 rpm healthy baseline (26.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9189 rpm with a terminal rate of 3.23 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 029 rises only +83.7 rpm at 0.345 rpm/cycle"
+    },
+    {
+      "S": [
+        0,
+        5,
+        15
+      ],
+      "C": [
+        5
+      ],
+      "reasoning": "core speed climbs +77.1 rpm from its 9055 rpm healthy baseline (19.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9132 rpm with a terminal rate of 2.10 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 016 rises only +9.3 rpm at 0.044 rpm/cycle"
+    },
+    {
+      "S": [
+        23,
+        28,
+        76,
+        84,
+        93
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "core speed climbs +109.0 rpm from its 9055 rpm healthy baseline (26.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9164 rpm with a terminal rate of 3.01 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 029 rises only +83.7 rpm at 0.345 rpm/cycle"
+    },
+    {
+      "S": [
+        11,
+        69,
+        75,
+        83,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "core speed climbs +124.9 rpm from its 9064 rpm healthy baseline (26.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9189 rpm with a terminal rate of 3.23 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 070 rises only +90.7 rpm at 0.336 rpm/cycle"
+    },
+    {
+      "S": [
+        11,
+        12,
+        19,
+        69
+      ],
+      "C": [
+        19
+      ],
+      "reasoning": "core speed climbs +87.8 rpm from its 9046 rpm healthy baseline (20.7x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 2.09 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; 070 ends at a comparable +90.7 rpm at a near-identical mean rate but its climb is less back-loaded (terminal 1.83 vs 2.09 rpm/cycle), so it is the weaker late runaway"
+    },
+    {
+      "S": [
+        8,
+        44,
+        61,
+        84
+      ],
+      "C": [
+        61
+      ],
+      "reasoning": "core speed climbs +41.7 rpm from its 9057 rpm healthy baseline (9.8x noise sd) along a flat-then-accelerating exponential knee, ending at 9099 rpm with a terminal rate of 0.66 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 045 rises only +15.0 rpm at 0.075 rpm/cycle"
+    },
+    {
+      "S": [
+        1,
+        18,
+        27
+      ],
+      "C": [
+        18
+      ],
+      "reasoning": "core speed climbs +78.8 rpm from its 9047 rpm healthy baseline (20.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9126 rpm with a terminal rate of 1.69 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 002 rises only +51.8 rpm at 0.186 rpm/cycle"
+    },
+    {
+      "S": [
+        50,
+        60,
+        73,
+        95
+      ],
+      "C": [
+        60
+      ],
+      "reasoning": "core speed climbs +91.8 rpm from its 9057 rpm healthy baseline (22.7x noise sd) along a flat-then-accelerating exponential knee, ending at 9149 rpm with a terminal rate of 2.57 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 051 rises only +68.7 rpm at 0.223 rpm/cycle"
+    },
+    {
+      "S": [
+        4,
+        21,
+        88
+      ],
+      "C": [
+        88
+      ],
+      "reasoning": "core speed climbs +28.1 rpm from its 9047 rpm healthy baseline (7.0x noise sd) along a flat-then-accelerating exponential knee, ending at 9075 rpm with a terminal rate of 0.52 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; next-closest 022 rises only +22.8 rpm at 0.122 rpm/cycle"
+    },
+    {
+      "S": [
+        9,
+        16,
+        36,
+        77
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "core speed climbs +90.2 rpm from its 9062 rpm healthy baseline (22.0x noise sd) along a flat-then-accelerating exponential knee, ending at 9152 rpm with a terminal rate of 1.50 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; next-closest 037 rises only +75.9 rpm at 0.264 rpm/cycle"
+    },
+    {
+      "S": [
+        25,
+        44,
+        53,
+        77
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "core speed climbs +36.2 rpm from its 9057 rpm healthy baseline (8.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9094 rpm with a terminal rate of 0.79 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 045 rises only +15.0 rpm at 0.075 rpm/cycle"
+    },
+    {
+      "S": [
+        14,
+        24,
+        54,
+        93
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "core speed climbs +91.3 rpm from its 9046 rpm healthy baseline (21.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9137 rpm with a terminal rate of 2.33 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 094 rises only +4.4 rpm at 0.040 rpm/cycle"
+    },
+    {
+      "S": [
+        25,
+        44,
+        64,
+        67
+      ],
+      "C": [],
+      "reasoning": "no candidate is a credible severe case - the largest excursion, 045 at +15.0 rpm (3.3x noise sd, 0.075 rpm/cycle), sits in the normal-deterioration band rather than the sustained accelerating climb of heavy HPC erosion"
+    },
+    {
+      "S": [
+        39,
+        49,
+        67,
+        91
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "core speed climbs +84.5 rpm from its 9061 rpm healthy baseline (21.8x noise sd) along a flat-then-accelerating exponential knee, ending at 9145 rpm with a terminal rate of 1.87 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 040 rises only +10.7 rpm at 0.078 rpm/cycle"
+    },
+    {
+      "S": [
+        9,
+        12,
+        27,
+        30,
+        91
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "core speed climbs +90.2 rpm from its 9062 rpm healthy baseline (22.0x noise sd) along a flat-then-accelerating exponential knee, ending at 9152 rpm with a terminal rate of 1.50 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 013 rises only +35.5 rpm at 0.114 rpm/cycle"
+    },
+    {
+      "S": [
+        15,
+        40,
+        61,
+        95
+      ],
+      "C": [
+        61
+      ],
+      "reasoning": "core speed climbs +41.7 rpm from its 9057 rpm healthy baseline (9.8x noise sd) along a flat-then-accelerating exponential knee, ending at 9099 rpm with a terminal rate of 0.66 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 096 rises only +38.2 rpm at 0.122 rpm/cycle"
+    },
+    {
+      "S": [
+        3,
+        31,
+        56,
+        58,
+        91
+      ],
+      "C": [
+        3
+      ],
+      "reasoning": "core speed climbs +81.7 rpm from its 9053 rpm healthy baseline (19.7x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 1.61 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 032 rises only -4.4 rpm at -0.029 rpm/cycle"
+    },
+    {
+      "S": [
+        9,
+        22,
+        57
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "core speed climbs +90.2 rpm from its 9062 rpm healthy baseline (22.0x noise sd) along a flat-then-accelerating exponential knee, ending at 9152 rpm with a terminal rate of 1.50 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; next-closest 058 rises only +63.6 rpm at 0.313 rpm/cycle"
+    },
+    {
+      "S": [
+        53,
+        58,
+        64,
+        68
+      ],
+      "C": [
+        68
+      ],
+      "reasoning": "core speed climbs +35.9 rpm from its 9059 rpm healthy baseline (8.7x noise sd) along a flat-then-accelerating exponential knee, ending at 9095 rpm with a terminal rate of 1.20 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 065 rises only +11.3 rpm at 0.034 rpm/cycle"
+    },
+    {
+      "S": [
+        33,
+        54,
+        77
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "core speed climbs +36.2 rpm from its 9057 rpm healthy baseline (8.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9094 rpm with a terminal rate of 0.79 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 034 rises only -8.0 rpm at -0.071 rpm/cycle"
+    },
+    {
+      "S": [
+        35,
+        51,
+        60,
+        96
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "core speed climbs +114.1 rpm from its 9050 rpm healthy baseline (27.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9164 rpm with a terminal rate of 2.95 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 061 rises only +91.8 rpm at 0.384 rpm/cycle"
+    },
+    {
+      "S": [
+        12,
+        85,
+        91,
+        99
+      ],
+      "C": [
+        12
+      ],
+      "reasoning": "core speed climbs +35.5 rpm from its 9053 rpm healthy baseline (9.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9089 rpm with a terminal rate of 0.48 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 086 rises only +17.5 rpm at 0.068 rpm/cycle"
+    },
+    {
+      "S": [
+        24,
+        31,
+        78
+      ],
+      "C": [],
+      "reasoning": "no candidate is a credible severe case - the largest excursion, 079 at +3.4 rpm (0.9x noise sd, 0.023 rpm/cycle), sits in the normal-deterioration band rather than the sustained accelerating climb of heavy HPC erosion"
+    },
+    {
+      "S": [
+        4,
+        5,
+        11,
+        47
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "core speed climbs +122.6 rpm from its 9066 rpm healthy baseline (27.4x noise sd) along a flat-then-accelerating exponential knee, ending at 9188 rpm with a terminal rate of 3.08 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 006 rises only +77.1 rpm at 0.371 rpm/cycle"
+    },
+    {
+      "S": [
+        5,
+        7,
+        27,
+        33,
+        55
+      ],
+      "C": [
+        5
+      ],
+      "reasoning": "core speed climbs +77.1 rpm from its 9055 rpm healthy baseline (19.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9132 rpm with a terminal rate of 2.10 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 056 rises only +8.0 rpm at 0.044 rpm/cycle"
+    },
+    {
+      "S": [
+        1,
+        72,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "core speed climbs +124.9 rpm from its 9064 rpm healthy baseline (26.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9189 rpm with a terminal rate of 3.23 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 002 rises only +51.8 rpm at 0.186 rpm/cycle"
+    },
+    {
+      "S": [
+        15,
+        36,
+        40,
+        70,
+        82
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "core speed climbs +75.9 rpm from its 9063 rpm healthy baseline (18.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9139 rpm with a terminal rate of 1.56 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 041 rises only +17.6 rpm at 0.111 rpm/cycle"
+    },
+    {
+      "S": [
+        7,
+        35,
+        49,
+        94
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "core speed climbs +84.5 rpm from its 9061 rpm healthy baseline (21.8x noise sd) along a flat-then-accelerating exponential knee, ending at 9145 rpm with a terminal rate of 1.87 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; 095 ends at a comparable +89.5 rpm but wears more slowly (0.261 vs 0.324 rpm/cycle), a milder continuous abrasive rate"
+    },
+    {
+      "S": [
+        14,
+        30,
+        68,
+        75
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "core speed climbs +91.3 rpm from its 9046 rpm healthy baseline (21.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9137 rpm with a terminal rate of 2.33 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 069 rises only +35.9 rpm at 0.232 rpm/cycle"
+    },
+    {
+      "S": [
+        1,
+        20,
+        32,
+        61,
+        66
+      ],
+      "C": [
+        32
+      ],
+      "reasoning": "core speed climbs +84.8 rpm from its 9049 rpm healthy baseline (20.7x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 2.09 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 021 rises only +60.8 rpm at 0.313 rpm/cycle"
+    },
+    {
+      "S": [
+        15,
+        40,
+        81,
+        91,
+        98
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "core speed climbs +113.0 rpm from its 9062 rpm healthy baseline (26.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9175 rpm with a terminal rate of 2.69 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 041 rises only +17.6 rpm at 0.111 rpm/cycle"
+    },
+    {
+      "S": [
+        13,
+        44,
+        49,
+        63,
+        95
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "core speed climbs +84.5 rpm from its 9061 rpm healthy baseline (21.8x noise sd) along a flat-then-accelerating exponential knee, ending at 9145 rpm with a terminal rate of 1.87 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 096 rises only +38.2 rpm at 0.122 rpm/cycle"
+    },
+    {
+      "S": [
+        3,
+        42,
+        46,
+        47,
+        72
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "core speed climbs +122.6 rpm from its 9066 rpm healthy baseline (27.4x noise sd) along a flat-then-accelerating exponential knee, ending at 9188 rpm with a terminal rate of 3.08 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 004 rises only +81.7 rpm at 0.251 rpm/cycle"
+    },
+    {
+      "S": [
+        4,
+        88,
+        93
+      ],
+      "C": [
+        88
+      ],
+      "reasoning": "core speed climbs +28.1 rpm from its 9047 rpm healthy baseline (7.0x noise sd) along a flat-then-accelerating exponential knee, ending at 9075 rpm with a terminal rate of 0.52 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 094 rises only +4.4 rpm at 0.040 rpm/cycle"
+    },
+    {
+      "S": [
+        19,
+        28,
+        49
+      ],
+      "C": [
+        19
+      ],
+      "reasoning": "core speed climbs +87.8 rpm from its 9046 rpm healthy baseline (20.7x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 2.09 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; next-closest 029 rises only +83.7 rpm at 0.345 rpm/cycle"
+    },
+    {
+      "S": [
+        1,
+        8,
+        24,
+        26,
+        47
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "core speed climbs +122.6 rpm from its 9066 rpm healthy baseline (27.4x noise sd) along a flat-then-accelerating exponential knee, ending at 9188 rpm with a terminal rate of 3.08 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 002 rises only +51.8 rpm at 0.186 rpm/cycle"
+    },
+    {
+      "S": [
+        39,
+        62,
+        66,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "core speed climbs +88.9 rpm from its 9053 rpm healthy baseline (20.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9142 rpm with a terminal rate of 2.03 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 040 rises only +10.7 rpm at 0.078 rpm/cycle"
+    },
+    {
+      "S": [
+        33,
+        35,
+        52,
+        72,
+        87
+      ],
+      "C": [
+        52
+      ],
+      "reasoning": "core speed climbs +76.4 rpm from its 9053 rpm healthy baseline (18.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9129 rpm with a terminal rate of 1.26 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; next-closest 036 rises only +65.0 rpm at 0.272 rpm/cycle"
+    },
+    {
+      "S": [
+        36,
+        67,
+        74,
+        84
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "core speed climbs +75.9 rpm from its 9063 rpm healthy baseline (18.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9139 rpm with a terminal rate of 1.56 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 085 rises only +7.1 rpm at 0.045 rpm/cycle"
+    },
+    {
+      "S": [
+        11,
+        57,
+        85
+      ],
+      "C": [
+        57
+      ],
+      "reasoning": "core speed climbs +63.6 rpm from its 9055 rpm healthy baseline (14.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9119 rpm with a terminal rate of 1.76 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 086 rises only +17.5 rpm at 0.068 rpm/cycle"
+    },
+    {
+      "S": [
+        48,
+        51,
+        52,
+        83
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "core speed climbs +114.1 rpm from its 9050 rpm healthy baseline (27.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9164 rpm with a terminal rate of 2.95 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 053 rises only +76.4 rpm at 0.233 rpm/cycle"
+    },
+    {
+      "S": [
+        17,
+        38,
+        61,
+        88,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "core speed climbs +125.9 rpm from its 9046 rpm healthy baseline (28.8x noise sd) along a flat-then-accelerating exponential knee, ending at 9172 rpm with a terminal rate of 3.21 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 062 rises only +41.7 rpm at 0.132 rpm/cycle"
+    },
+    {
+      "S": [
+        2,
+        60,
+        92
+      ],
+      "C": [
+        60
+      ],
+      "reasoning": "core speed climbs +91.8 rpm from its 9057 rpm healthy baseline (22.7x noise sd) along a flat-then-accelerating exponential knee, ending at 9149 rpm with a terminal rate of 2.57 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 093 rises only +65.9 rpm at 0.157 rpm/cycle"
+    },
+    {
+      "S": [
+        13,
+        29,
+        56,
+        59
+      ],
+      "C": [
+        29
+      ],
+      "reasoning": "core speed climbs +39.1 rpm from its 9055 rpm healthy baseline (9.0x noise sd) along a flat-then-accelerating exponential knee, ending at 9094 rpm with a terminal rate of 0.94 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 014 rises only +15.2 rpm at 0.068 rpm/cycle"
+    },
+    {
+      "S": [
+        52,
+        63,
+        68
+      ],
+      "C": [
+        52
+      ],
+      "reasoning": "core speed climbs +76.4 rpm from its 9053 rpm healthy baseline (18.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9129 rpm with a terminal rate of 1.26 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 069 rises only +35.9 rpm at 0.232 rpm/cycle"
+    },
+    {
+      "S": [
+        46,
+        59,
+        76,
+        85,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "core speed climbs +125.9 rpm from its 9046 rpm healthy baseline (28.8x noise sd) along a flat-then-accelerating exponential knee, ending at 9172 rpm with a terminal rate of 3.21 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 047 rises only +55.7 rpm at 0.234 rpm/cycle"
+    },
+    {
+      "S": [
+        61,
+        78,
+        94
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "core speed climbs +89.5 rpm from its 9045 rpm healthy baseline (22.1x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 1.52 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 062 rises only +41.7 rpm at 0.132 rpm/cycle"
+    },
+    {
+      "S": [
+        11,
+        50,
+        73
+      ],
+      "C": [
+        50
+      ],
+      "reasoning": "core speed climbs +68.7 rpm from its 9063 rpm healthy baseline (16.1x noise sd) along a flat-then-accelerating exponential knee, ending at 9131 rpm with a terminal rate of 1.22 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 012 rises only -2.9 rpm at -0.017 rpm/cycle"
+    },
+    {
+      "S": [
+        41,
+        53,
+        64,
+        94
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "core speed climbs +89.5 rpm from its 9045 rpm healthy baseline (22.1x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 1.52 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 065 rises only +11.3 rpm at 0.034 rpm/cycle"
+    },
+    {
+      "S": [
+        28,
+        73,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "core speed climbs +113.0 rpm from its 9062 rpm healthy baseline (26.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9175 rpm with a terminal rate of 2.69 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 029 rises only +83.7 rpm at 0.345 rpm/cycle"
+    },
+    {
+      "S": [
+        0,
+        12,
+        29,
+        33
+      ],
+      "C": [
+        29
+      ],
+      "reasoning": "core speed climbs +39.1 rpm from its 9055 rpm healthy baseline (9.0x noise sd) along a flat-then-accelerating exponential knee, ending at 9094 rpm with a terminal rate of 0.94 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 013 rises only +35.5 rpm at 0.114 rpm/cycle"
+    },
+    {
+      "S": [
+        46,
+        47,
+        84,
+        85,
+        96
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "core speed climbs +122.6 rpm from its 9066 rpm healthy baseline (27.4x noise sd) along a flat-then-accelerating exponential knee, ending at 9188 rpm with a terminal rate of 3.08 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 047 rises only +55.7 rpm at 0.234 rpm/cycle"
+    },
+    {
+      "S": [
+        8,
+        64,
+        77
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "core speed climbs +36.2 rpm from its 9057 rpm healthy baseline (8.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9094 rpm with a terminal rate of 0.79 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 065 rises only +11.3 rpm at 0.034 rpm/cycle"
+    },
+    {
+      "S": [
+        26,
+        44,
+        77,
+        91
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "core speed climbs +36.2 rpm from its 9057 rpm healthy baseline (8.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9094 rpm with a terminal rate of 0.79 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; next-closest 027 rises only +33.5 rpm at 0.170 rpm/cycle"
+    },
+    {
+      "S": [
+        4,
+        36,
+        94
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "core speed climbs +89.5 rpm from its 9045 rpm healthy baseline (22.1x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 1.52 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; next-closest 037 rises only +75.9 rpm at 0.264 rpm/cycle"
+    },
+    {
+      "S": [
+        64,
+        65,
+        69,
+        73,
+        77
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "core speed climbs +90.7 rpm from its 9043 rpm healthy baseline (22.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 1.83 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 066 rises only +78.9 rpm at 0.300 rpm/cycle"
+    },
+    {
+      "S": [
+        4,
+        37,
+        77,
+        90
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "core speed climbs +36.2 rpm from its 9057 rpm healthy baseline (8.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9094 rpm with a terminal rate of 0.79 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 005 rises only +3.1 rpm at 0.023 rpm/cycle"
+    },
+    {
+      "S": [
+        0,
+        43,
+        84
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "core speed climbs +122.0 rpm from its 9065 rpm healthy baseline (27.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9187 rpm with a terminal rate of 2.71 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 085 rises only +7.1 rpm at 0.045 rpm/cycle"
+    },
+    {
+      "S": [
+        2,
+        52,
+        66
+      ],
+      "C": [
+        52
+      ],
+      "reasoning": "core speed climbs +76.4 rpm from its 9053 rpm healthy baseline (18.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9129 rpm with a terminal rate of 1.26 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 003 rises only +3.8 rpm at 0.036 rpm/cycle"
+    },
+    {
+      "S": [
+        23,
+        25,
+        59,
+        65,
+        85
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "core speed climbs +109.0 rpm from its 9055 rpm healthy baseline (26.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9164 rpm with a terminal rate of 3.01 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 066 rises only +78.9 rpm at 0.300 rpm/cycle"
+    },
+    {
+      "S": [
+        29,
+        59,
+        70,
+        81,
+        87
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "core speed climbs +113.0 rpm from its 9062 rpm healthy baseline (26.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9175 rpm with a terminal rate of 2.69 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 088 rises only +66.9 rpm at 0.258 rpm/cycle"
+    },
+    {
+      "S": [
+        18,
+        67,
+        84,
+        85
+      ],
+      "C": [
+        18
+      ],
+      "reasoning": "core speed climbs +78.8 rpm from its 9047 rpm healthy baseline (20.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9126 rpm with a terminal rate of 1.69 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 086 rises only +17.5 rpm at 0.068 rpm/cycle"
+    },
+    {
+      "S": [
+        41,
+        53,
+        69,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "core speed climbs +88.9 rpm from its 9053 rpm healthy baseline (20.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9142 rpm with a terminal rate of 2.03 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; 070 ends at a comparable +90.7 rpm but wears more slowly (0.336 vs 0.371 rpm/cycle), a milder continuous abrasive rate"
+    },
+    {
+      "S": [
+        11,
+        13,
+        39,
+        51,
+        57
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "core speed climbs +114.1 rpm from its 9050 rpm healthy baseline (27.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9164 rpm with a terminal rate of 2.95 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 058 rises only +63.6 rpm at 0.313 rpm/cycle"
+    },
+    {
+      "S": [
+        5,
+        38,
+        49,
+        57,
+        91
+      ],
+      "C": [
+        5
+      ],
+      "reasoning": "core speed climbs +77.1 rpm from its 9055 rpm healthy baseline (19.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9132 rpm with a terminal rate of 2.10 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; 050 ends at a comparable +84.5 rpm but wears more slowly (0.324 vs 0.371 rpm/cycle), a milder continuous abrasive rate"
+    },
+    {
+      "S": [
+        6,
+        8,
+        35
+      ],
+      "C": [
+        35
+      ],
+      "reasoning": "core speed climbs +65.0 rpm from its 9058 rpm healthy baseline (16.4x noise sd) along a flat-then-accelerating exponential knee, ending at 9123 rpm with a terminal rate of 1.46 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 007 rises only +60.1 rpm at 0.270 rpm/cycle"
+    },
+    {
+      "S": [
+        1,
+        29,
+        44,
+        96
+      ],
+      "C": [
+        1
+      ],
+      "reasoning": "core speed climbs +51.8 rpm from its 9052 rpm healthy baseline (12.8x noise sd) along a flat-then-accelerating exponential knee, ending at 9103 rpm with a terminal rate of 0.97 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 030 rises only +39.1 rpm at 0.182 rpm/cycle"
+    },
+    {
+      "S": [
+        40,
+        86,
+        94,
+        96
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "core speed climbs +89.5 rpm from its 9045 rpm healthy baseline (22.1x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 1.52 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 041 rises only +17.6 rpm at 0.111 rpm/cycle"
+    },
+    {
+      "S": [
+        23,
+        27,
+        33,
+        38,
+        87
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "core speed climbs +109.0 rpm from its 9055 rpm healthy baseline (26.6x noise sd) along a flat-then-accelerating exponential knee, ending at 9164 rpm with a terminal rate of 3.01 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 088 rises only +66.9 rpm at 0.258 rpm/cycle"
+    },
+    {
+      "S": [
+        51,
+        74,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "core speed climbs +125.9 rpm from its 9046 rpm healthy baseline (28.8x noise sd) along a flat-then-accelerating exponential knee, ending at 9172 rpm with a terminal rate of 3.21 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 052 rises only +114.1 rpm at 0.413 rpm/cycle"
+    },
+    {
+      "S": [
+        2,
+        29,
+        63,
+        85
+      ],
+      "C": [
+        29
+      ],
+      "reasoning": "core speed climbs +39.1 rpm from its 9055 rpm healthy baseline (9.0x noise sd) along a flat-then-accelerating exponential knee, ending at 9094 rpm with a terminal rate of 0.94 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 086 rises only +17.5 rpm at 0.068 rpm/cycle"
+    },
+    {
+      "S": [
+        15,
+        34,
+        87
+      ],
+      "C": [
+        34
+      ],
+      "reasoning": "core speed climbs +113.8 rpm from its 9050 rpm healthy baseline (26.4x noise sd) along a flat-then-accelerating exponential knee, ending at 9164 rpm with a terminal rate of 2.95 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 088 rises only +66.9 rpm at 0.258 rpm/cycle"
+    },
+    {
+      "S": [
+        24,
+        55,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "core speed climbs +88.9 rpm from its 9053 rpm healthy baseline (20.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9142 rpm with a terminal rate of 2.03 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 056 rises only +8.0 rpm at 0.044 rpm/cycle"
+    },
+    {
+      "S": [
+        42,
+        47,
+        84,
+        94
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "core speed climbs +122.6 rpm from its 9066 rpm healthy baseline (27.4x noise sd) along a flat-then-accelerating exponential knee, ending at 9188 rpm with a terminal rate of 3.08 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 095 rises only +89.5 rpm at 0.261 rpm/cycle"
+    },
+    {
+      "S": [
+        66,
+        79,
+        90
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "core speed climbs +88.9 rpm from its 9053 rpm healthy baseline (20.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9142 rpm with a terminal rate of 2.03 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 067 rises only -2.7 rpm at -0.005 rpm/cycle"
+    },
+    {
+      "S": [
+        16,
+        17,
+        31,
+        55
+      ],
+      "C": [],
+      "reasoning": "no candidate is a credible severe case - the largest excursion, 056 at +8.0 rpm (2.0x noise sd, 0.044 rpm/cycle), sits in the normal-deterioration band rather than the sustained accelerating climb of heavy HPC erosion"
+    },
+    {
+      "S": [
+        51,
+        77,
+        93
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "core speed climbs +114.1 rpm from its 9050 rpm healthy baseline (27.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9164 rpm with a terminal rate of 2.95 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 078 rises only +36.2 rpm at 0.155 rpm/cycle"
+    },
+    {
+      "S": [
+        3,
+        92,
+        95
+      ],
+      "C": [
+        3
+      ],
+      "reasoning": "core speed climbs +81.7 rpm from its 9053 rpm healthy baseline (19.7x noise sd) along a flat-then-accelerating exponential knee, ending at 9134 rpm with a terminal rate of 1.61 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 093 rises only +65.9 rpm at 0.157 rpm/cycle"
+    },
+    {
+      "S": [
+        4,
+        5,
+        24
+      ],
+      "C": [
+        5
+      ],
+      "reasoning": "core speed climbs +77.1 rpm from its 9055 rpm healthy baseline (19.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9132 rpm with a terminal rate of 2.10 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 005 rises only +3.1 rpm at 0.023 rpm/cycle"
+    },
+    {
+      "S": [
+        25,
+        31,
+        43,
+        50,
+        78
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "core speed climbs +122.0 rpm from its 9065 rpm healthy baseline (27.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9187 rpm with a terminal rate of 2.71 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 051 rises only +68.7 rpm at 0.223 rpm/cycle"
+    },
+    {
+      "S": [
+        5,
+        37,
+        76,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "core speed climbs +124.9 rpm from its 9064 rpm healthy baseline (26.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9189 rpm with a terminal rate of 3.23 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 006 rises only +77.1 rpm at 0.371 rpm/cycle"
+    },
+    {
+      "S": [
+        22,
+        28,
+        38,
+        41,
+        47
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "core speed climbs +122.6 rpm from its 9066 rpm healthy baseline (27.4x noise sd) along a flat-then-accelerating exponential knee, ending at 9188 rpm with a terminal rate of 3.08 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 029 rises only +83.7 rpm at 0.345 rpm/cycle"
+    },
+    {
+      "S": [
+        0,
+        11,
+        15,
+        83
+      ],
+      "C": [
+        83
+      ],
+      "reasoning": "core speed climbs +26.1 rpm from its 9047 rpm healthy baseline (6.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9073 rpm with a terminal rate of 0.30 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 016 rises only +9.3 rpm at 0.044 rpm/cycle"
+    },
+    {
+      "S": [
+        32,
+        40,
+        43
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "core speed climbs +122.0 rpm from its 9065 rpm healthy baseline (27.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9187 rpm with a terminal rate of 2.71 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 033 rises only +84.8 rpm at 0.335 rpm/cycle"
+    },
+    {
+      "S": [
+        22,
+        25,
+        51,
+        81
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "core speed climbs +114.1 rpm from its 9050 rpm healthy baseline (27.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9164 rpm with a terminal rate of 2.95 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 082 rises only +113.0 rpm at 0.351 rpm/cycle"
+    },
+    {
+      "S": [
+        22,
+        33,
+        46,
+        66,
+        83
+      ],
+      "C": [
+        46
+      ],
+      "reasoning": "core speed climbs +55.7 rpm from its 9063 rpm healthy baseline (12.5x noise sd) along a flat-then-accelerating exponential knee, ending at 9118 rpm with a terminal rate of 1.36 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 084 rises only +26.1 rpm at 0.096 rpm/cycle"
+    },
+    {
+      "S": [
+        4,
+        45,
+        48,
+        86
+      ],
+      "C": [
+        45
+      ],
+      "reasoning": "core speed climbs +63.8 rpm from its 9067 rpm healthy baseline (14.4x noise sd) along a flat-then-accelerating exponential knee, ending at 9130 rpm with a terminal rate of 1.03 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; next-closest 049 rises only +48.0 rpm at 0.195 rpm/cycle"
+    },
+    {
+      "S": [
+        2,
+        4,
+        13,
+        31
+      ],
+      "C": [],
+      "reasoning": "no candidate is a credible severe case - the largest excursion, 014 at +15.2 rpm (4.0x noise sd, 0.068 rpm/cycle), sits in the normal-deterioration band rather than the sustained accelerating climb of heavy HPC erosion"
+    },
+    {
+      "S": [
+        3,
+        11,
+        15,
+        18,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "core speed climbs +88.9 rpm from its 9053 rpm healthy baseline (20.9x noise sd) along a flat-then-accelerating exponential knee, ending at 9142 rpm with a terminal rate of 2.03 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 004 rises only +81.7 rpm at 0.251 rpm/cycle"
+    },
+    {
+      "S": [
+        22,
+        55,
+        59
+      ],
+      "C": [],
+      "reasoning": "no candidate is a credible severe case - the largest excursion, 056 at +8.0 rpm (2.0x noise sd, 0.044 rpm/cycle), sits in the normal-deterioration band rather than the sustained accelerating climb of heavy HPC erosion"
+    },
+    {
+      "S": [
+        0,
+        27,
+        53,
+        84
+      ],
+      "C": [],
+      "reasoning": "no candidate is a credible severe case - the largest excursion, 085 at +7.1 rpm (1.7x noise sd, 0.045 rpm/cycle), sits in the normal-deterioration band rather than the sustained accelerating climb of heavy HPC erosion"
+    },
+    {
+      "S": [
+        25,
+        28,
+        74,
+        83,
+        96
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "core speed climbs +83.7 rpm from its 9059 rpm healthy baseline (20.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9143 rpm with a terminal rate of 2.10 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 084 rises only +26.1 rpm at 0.096 rpm/cycle"
+    },
+    {
+      "S": [
+        7,
+        36,
+        57,
+        88,
+        96
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "core speed climbs +75.9 rpm from its 9063 rpm healthy baseline (18.3x noise sd) along a flat-then-accelerating exponential knee, ending at 9139 rpm with a terminal rate of 1.56 rpm/cycle - the most aggressive sustained HPC efficiency-loss signature in this subgroup; next-closest 058 rises only +63.6 rpm at 0.313 rpm/cycle"
+    },
+    {
+      "S": [
+        11,
+        29,
+        59,
+        77
+      ],
+      "C": [
+        29
+      ],
+      "reasoning": "core speed climbs +39.1 rpm from its 9055 rpm healthy baseline (9.0x noise sd) along a flat-then-accelerating exponential knee, ending at 9094 rpm with a terminal rate of 0.94 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 078 rises only +36.2 rpm at 0.155 rpm/cycle"
+    },
+    {
+      "S": [
+        7,
+        30,
+        80,
+        86
+      ],
+      "C": [],
+      "reasoning": "no candidate rises at all - the best here, 081, drifts -3.0 rpm (flat/downward core speed), the opposite of the core-speed runaway that severe HPC aerodynamic loss produces"
+    },
+    {
+      "S": [
+        1,
+        16,
+        65,
+        68
+      ],
+      "C": [
+        65
+      ],
+      "reasoning": "core speed climbs +78.9 rpm from its 9061 rpm healthy baseline (20.0x noise sd) along a flat-then-accelerating exponential knee, ending at 9140 rpm with a terminal rate of 1.71 rpm/cycle - the deepest and fastest HPC efficiency-loss signature in this subgroup; next-closest 002 rises only +51.8 rpm at 0.186 rpm/cycle"
+    }
+  ],
+  "source_basenames": [
+    "1.csv",
+    "10.csv",
+    "100.csv",
+    "11.csv",
+    "12.csv",
+    "13.csv",
+    "14.csv",
+    "15.csv",
+    "16.csv",
+    "17.csv",
+    "18.csv",
+    "19.csv",
+    "2.csv",
+    "20.csv",
+    "21.csv",
+    "22.csv",
+    "23.csv",
+    "24.csv",
+    "25.csv",
+    "26.csv",
+    "27.csv",
+    "28.csv",
+    "29.csv",
+    "3.csv",
+    "30.csv",
+    "31.csv",
+    "32.csv",
+    "33.csv",
+    "34.csv",
+    "35.csv",
+    "36.csv",
+    "37.csv",
+    "38.csv",
+    "39.csv",
+    "4.csv",
+    "40.csv",
+    "41.csv",
+    "42.csv",
+    "43.csv",
+    "44.csv",
+    "45.csv",
+    "46.csv",
+    "47.csv",
+    "48.csv",
+    "49.csv",
+    "5.csv",
+    "50.csv",
+    "51.csv",
+    "52.csv",
+    "53.csv",
+    "54.csv",
+    "55.csv",
+    "56.csv",
+    "57.csv",
+    "58.csv",
+    "59.csv",
+    "6.csv",
+    "60.csv",
+    "61.csv",
+    "62.csv",
+    "63.csv",
+    "64.csv",
+    "65.csv",
+    "66.csv",
+    "67.csv",
+    "68.csv",
+    "69.csv",
+    "7.csv",
+    "70.csv",
+    "71.csv",
+    "72.csv",
+    "73.csv",
+    "74.csv",
+    "75.csv",
+    "76.csv",
+    "77.csv",
+    "78.csv",
+    "79.csv",
+    "8.csv",
+    "80.csv",
+    "81.csv",
+    "82.csv",
+    "83.csv",
+    "84.csv",
+    "85.csv",
+    "86.csv",
+    "87.csv",
+    "88.csv",
+    "89.csv",
+    "9.csv",
+    "90.csv",
+    "91.csv",
+    "92.csv",
+    "93.csv",
+    "94.csv",
+    "95.csv",
+    "96.csv",
+    "97.csv",
+    "98.csv",
+    "99.csv"
+  ],
+  "meta": {
+    "model": "claude-opus-cli-session",
+    "model_request": "opus",
+    "effort": "max",
+    "protocol": "blind_agentic_single_choice",
+    "n_queries": 200,
+    "global_pool": true,
+    "subgroup_size_range": [
+      3,
+      5
+    ],
+    "seed": 42,
+    "reference_query_file": "cmapss/data/llm_subgroup_queries_claude.json",
+    "condition": "original"
+  }
+}

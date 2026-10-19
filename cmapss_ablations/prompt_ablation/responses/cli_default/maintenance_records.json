@@ -1,0 +1,2504 @@
+{
+  "target_desc": "Maintenance records describe severe high-pressure-compressor erosion after repeated exposure to airborne sand and dust during operation.",
+  "responses": [
+    {
+      "S": [
+        43,
+        64,
+        75
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +150 rpm (38x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_076 reaches only +29 rpm."
+    },
+    {
+      "S": [
+        9,
+        19,
+        68
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "Flat baseline through the first 59% of life, then a convex runaway to a terminal Nc excursion of +110 rpm (27x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_020 reaches only +106 rpm."
+    },
+    {
+      "S": [
+        12,
+        50,
+        69,
+        73,
+        77
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Flat baseline through the first 59% of life, then a convex runaway to a terminal Nc excursion of +107 rpm (27x the 4 rpm noise floor, Spearman rho=0.95) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_051 reaches only +88 rpm."
+    },
+    {
+      "S": [
+        64,
+        77,
+        90
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Flat baseline through the first 68% of life, then a convex runaway to a terminal Nc excursion of +43 rpm (11x the 4 rpm noise floor, Spearman rho=0.84) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_065 reaches only +11 rpm."
+    },
+    {
+      "S": [
+        9,
+        22,
+        43,
+        44
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +150 rpm (38x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_010 reaches only +110 rpm."
+    },
+    {
+      "S": [
+        16,
+        26,
+        61,
+        75,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Flat baseline through the first 64% of life, then a convex runaway to a terminal Nc excursion of +106 rpm (27x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_062 reaches only +49 rpm."
+    },
+    {
+      "S": [
+        66,
+        75,
+        77,
+        86
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Flat baseline through the first 68% of life, then a convex runaway to a terminal Nc excursion of +43 rpm (11x the 4 rpm noise floor, Spearman rho=0.84) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_076 reaches only +29 rpm."
+    },
+    {
+      "S": [
+        4,
+        15,
+        53,
+        74
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the rising, accelerating core-speed signature of HPC degradation: end-of-life Nc excursions are source_016 +9 rpm, source_005 +5 rpm, source_075 +4 rpm, source_054 -15 rpm, all at or below the 12 rpm (3-sigma) noise gate, so none is credible as severe HPC erosion."
+    },
+    {
+      "S": [
+        32,
+        40,
+        90,
+        93
+      ],
+      "C": [
+        32
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +106 rpm (27x the 4 rpm noise floor, Spearman rho=0.89) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_041 reaches only +22 rpm."
+    },
+    {
+      "S": [
+        12,
+        18,
+        44,
+        47,
+        67
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +157 rpm (39x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_019 reaches only +100 rpm."
+    },
+    {
+      "S": [
+        15,
+        41,
+        62,
+        70,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +138 rpm (34x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_016 reaches only +9 rpm."
+    },
+    {
+      "S": [
+        38,
+        78,
+        82,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +155 rpm (39x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_079 reaches only +3 rpm."
+    },
+    {
+      "S": [
+        13,
+        19,
+        80,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +138 rpm (34x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_020 reaches only +106 rpm."
+    },
+    {
+      "S": [
+        27,
+        45,
+        63,
+        69,
+        78
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Flat baseline through the first 59% of life, then a convex runaway to a terminal Nc excursion of +107 rpm (27x the 4 rpm noise floor, Spearman rho=0.95) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_046 reaches only +79 rpm."
+    },
+    {
+      "S": [
+        11,
+        13,
+        24
+      ],
+      "C": [
+        13
+      ],
+      "reasoning": "Flat baseline through the first 82% of life, then a convex runaway to a terminal Nc excursion of +16 rpm (4x the 4 rpm noise floor, Spearman rho=0.75) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_012 reaches only -3 rpm."
+    },
+    {
+      "S": [
+        7,
+        45,
+        55,
+        83
+      ],
+      "C": [
+        45
+      ],
+      "reasoning": "Flat baseline through the first 60% of life, then a convex runaway to a terminal Nc excursion of +79 rpm (20x the 4 rpm noise floor, Spearman rho=0.91) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_084 reaches only +28 rpm."
+    },
+    {
+      "S": [
+        8,
+        53,
+        55,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Flat baseline through the first 64% of life, then a convex runaway to a terminal Nc excursion of +106 rpm (27x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_056 reaches only +11 rpm."
+    },
+    {
+      "S": [
+        21,
+        27,
+        42,
+        96
+      ],
+      "C": [
+        42
+      ],
+      "reasoning": "Flat baseline through the first 59% of life, then a convex runaway to a terminal Nc excursion of +41 rpm (10x the 4 rpm noise floor, Spearman rho=0.83) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_022 reaches only +24 rpm."
+    },
+    {
+      "S": [
+        5,
+        22,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +138 rpm (34x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_006 reaches only +94 rpm."
+    },
+    {
+      "S": [
+        12,
+        28,
+        42,
+        55,
+        64
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +102 rpm (25x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_013 reaches only +44 rpm."
+    },
+    {
+      "S": [
+        32,
+        39,
+        40,
+        80
+      ],
+      "C": [
+        32
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +106 rpm (27x the 4 rpm noise floor, Spearman rho=0.89) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_041 reaches only +22 rpm."
+    },
+    {
+      "S": [
+        8,
+        72,
+        76
+      ],
+      "C": [
+        76
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +35 rpm (9x the 4 rpm noise floor, Spearman rho=0.83) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_009 reaches only +4 rpm."
+    },
+    {
+      "S": [
+        15,
+        49,
+        87,
+        92,
+        99
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +103 rpm (26x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_088 reaches only +80 rpm."
+    },
+    {
+      "S": [
+        23,
+        30,
+        37
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "Flat baseline through the first 68% of life, then a convex runaway to a terminal Nc excursion of +135 rpm (34x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_038 reaches only +5 rpm."
+    },
+    {
+      "S": [
+        8,
+        34,
+        35,
+        94
+      ],
+      "C": [
+        34
+      ],
+      "reasoning": "Flat baseline through the first 69% of life, then a convex runaway to a terminal Nc excursion of +142 rpm (35x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_095 reaches only +103 rpm."
+    },
+    {
+      "S": [
+        45,
+        48,
+        69,
+        88
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Flat baseline through the first 59% of life, then a convex runaway to a terminal Nc excursion of +107 rpm (27x the 4 rpm noise floor, Spearman rho=0.95) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_046 reaches only +79 rpm."
+    },
+    {
+      "S": [
+        25,
+        71,
+        76
+      ],
+      "C": [
+        76
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +35 rpm (9x the 4 rpm noise floor, Spearman rho=0.83) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_072 reaches only +2 rpm."
+    },
+    {
+      "S": [
+        7,
+        9,
+        26,
+        44,
+        90
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "Flat baseline through the first 59% of life, then a convex runaway to a terminal Nc excursion of +110 rpm (27x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_027 reaches only +40 rpm."
+    },
+    {
+      "S": [
+        17,
+        29,
+        54,
+        56,
+        78
+      ],
+      "C": [
+        29
+      ],
+      "reasoning": "Flat baseline through the first 72% of life, then a convex runaway to a terminal Nc excursion of +41 rpm (10x the 4 rpm noise floor, Spearman rho=0.85) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_079 reaches only +3 rpm."
+    },
+    {
+      "S": [
+        30,
+        42,
+        65,
+        69
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Flat baseline through the first 59% of life, then a convex runaway to a terminal Nc excursion of +107 rpm (27x the 4 rpm noise floor, Spearman rho=0.95) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_066 reaches only +95 rpm."
+    },
+    {
+      "S": [
+        8,
+        62,
+        63
+      ],
+      "C": [
+        63
+      ],
+      "reasoning": "Flat baseline through the first 75% of life, then a convex runaway to a terminal Nc excursion of +18 rpm (4x the 4 rpm noise floor, Spearman rho=0.70) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_009 reaches only +4 rpm."
+    },
+    {
+      "S": [
+        3,
+        17,
+        18,
+        32,
+        48
+      ],
+      "C": [
+        32
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +106 rpm (27x the 4 rpm noise floor, Spearman rho=0.89) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_019 reaches only +100 rpm."
+    },
+    {
+      "S": [
+        17,
+        57,
+        78
+      ],
+      "C": [
+        57
+      ],
+      "reasoning": "Flat baseline through the first 59% of life, then a convex runaway to a terminal Nc excursion of +81 rpm (20x the 4 rpm noise floor, Spearman rho=0.89) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_079 reaches only +3 rpm."
+    },
+    {
+      "S": [
+        33,
+        43,
+        55,
+        59,
+        60
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +150 rpm (38x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_061 reaches only +117 rpm."
+    },
+    {
+      "S": [
+        6,
+        45,
+        46,
+        77
+      ],
+      "C": [
+        45
+      ],
+      "reasoning": "Flat baseline through the first 60% of life, then a convex runaway to a terminal Nc excursion of +79 rpm (20x the 4 rpm noise floor, Spearman rho=0.91) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_007 reaches only +70 rpm."
+    },
+    {
+      "S": [
+        15,
+        42,
+        47,
+        57,
+        91
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +157 rpm (39x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_058 reaches only +81 rpm."
+    },
+    {
+      "S": [
+        31,
+        43,
+        51,
+        52,
+        84
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +150 rpm (38x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_052 reaches only +140 rpm."
+    },
+    {
+      "S": [
+        14,
+        53,
+        87
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "Flat baseline through the first 66% of life, then a convex runaway to a terminal Nc excursion of +113 rpm (28x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_088 reaches only +80 rpm."
+    },
+    {
+      "S": [
+        10,
+        65,
+        67
+      ],
+      "C": [
+        10
+      ],
+      "reasoning": "Flat baseline through the first 66% of life, then a convex runaway to a terminal Nc excursion of +153 rpm (38x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_066 reaches only +95 rpm."
+    },
+    {
+      "S": [
+        64,
+        72,
+        99
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the rising, accelerating core-speed signature of HPC degradation: end-of-life Nc excursions are source_065 +11 rpm, source_100 +1 rpm, source_073 -13 rpm, all at or below the 12 rpm (3-sigma) noise gate, so none is credible as severe HPC erosion."
+    },
+    {
+      "S": [
+        10,
+        60,
+        91
+      ],
+      "C": [
+        10
+      ],
+      "reasoning": "Flat baseline through the first 66% of life, then a convex runaway to a terminal Nc excursion of +153 rpm (38x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_061 reaches only +117 rpm."
+    },
+    {
+      "S": [
+        3,
+        13,
+        55
+      ],
+      "C": [
+        3
+      ],
+      "reasoning": "Flat baseline through the first 60% of life, then a convex runaway to a terminal Nc excursion of +97 rpm (24x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_014 reaches only +16 rpm."
+    },
+    {
+      "S": [
+        45,
+        80,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +138 rpm (34x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_046 reaches only +79 rpm."
+    },
+    {
+      "S": [
+        29,
+        62,
+        93
+      ],
+      "C": [
+        29
+      ],
+      "reasoning": "Flat baseline through the first 72% of life, then a convex runaway to a terminal Nc excursion of +41 rpm (10x the 4 rpm noise floor, Spearman rho=0.85) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_094 reaches only +6 rpm."
+    },
+    {
+      "S": [
+        16,
+        17,
+        24,
+        91,
+        96
+      ],
+      "C": [
+        96
+      ],
+      "reasoning": "Flat baseline through the first 73% of life, then a convex runaway to a terminal Nc excursion of +20 rpm (5x the 4 rpm noise floor, Spearman rho=0.73) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_017 reaches only +8 rpm."
+    },
+    {
+      "S": [
+        9,
+        14,
+        74,
+        87,
+        95
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "Flat baseline through the first 66% of life, then a convex runaway to a terminal Nc excursion of +113 rpm (28x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_010 reaches only +110 rpm."
+    },
+    {
+      "S": [
+        31,
+        46,
+        50
+      ],
+      "C": [
+        50
+      ],
+      "reasoning": "Flat baseline through the first 62% of life, then a convex runaway to a terminal Nc excursion of +88 rpm (22x the 4 rpm noise floor, Spearman rho=0.89) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_047 reaches only +67 rpm."
+    },
+    {
+      "S": [
+        36,
+        40,
+        64,
+        88
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "Flat baseline through the first 60% of life, then a convex runaway to a terminal Nc excursion of +86 rpm (22x the 4 rpm noise floor, Spearman rho=0.91) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_089 reaches only +34 rpm."
+    },
+    {
+      "S": [
+        0,
+        25,
+        92,
+        94
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +103 rpm (26x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_093 reaches only +78 rpm."
+    },
+    {
+      "S": [
+        15,
+        81,
+        88
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +138 rpm (34x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_089 reaches only +34 rpm."
+    },
+    {
+      "S": [
+        4,
+        58,
+        70,
+        86
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the rising, accelerating core-speed signature of HPC degradation: end-of-life Nc excursions are source_005 +5 rpm, source_087 -14 rpm, source_071 -17 rpm, source_059 -23 rpm, all at or below the 12 rpm (3-sigma) noise gate, so none is credible as severe HPC erosion."
+    },
+    {
+      "S": [
+        31,
+        49,
+        50,
+        74,
+        95
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +103 rpm (26x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_051 reaches only +88 rpm."
+    },
+    {
+      "S": [
+        13,
+        22,
+        27
+      ],
+      "C": [
+        13
+      ],
+      "reasoning": "Flat baseline through the first 82% of life, then a convex runaway to a terminal Nc excursion of +16 rpm (4x the 4 rpm noise floor, Spearman rho=0.75) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_028 reaches only -7 rpm."
+    },
+    {
+      "S": [
+        11,
+        28,
+        49,
+        69,
+        91
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Flat baseline through the first 59% of life, then a convex runaway to a terminal Nc excursion of +107 rpm (27x the 4 rpm noise floor, Spearman rho=0.95) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_050 reaches only +103 rpm."
+    },
+    {
+      "S": [
+        2,
+        8,
+        70,
+        73,
+        77
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Flat baseline through the first 68% of life, then a convex runaway to a terminal Nc excursion of +43 rpm (11x the 4 rpm noise floor, Spearman rho=0.84) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_003 reaches only +8 rpm."
+    },
+    {
+      "S": [
+        7,
+        39,
+        89,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "Flat baseline through the first 64% of life, then a convex runaway to a terminal Nc excursion of +156 rpm (39x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_090 reaches only +155 rpm."
+    },
+    {
+      "S": [
+        30,
+        52,
+        64,
+        94
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +103 rpm (26x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_053 reaches only +95 rpm."
+    },
+    {
+      "S": [
+        2,
+        14,
+        54,
+        58
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "Flat baseline through the first 66% of life, then a convex runaway to a terminal Nc excursion of +113 rpm (28x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_003 reaches only +8 rpm."
+    },
+    {
+      "S": [
+        0,
+        13,
+        41,
+        72,
+        96
+      ],
+      "C": [
+        96
+      ],
+      "reasoning": "Flat baseline through the first 73% of life, then a convex runaway to a terminal Nc excursion of +20 rpm (5x the 4 rpm noise floor, Spearman rho=0.73) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_014 reaches only +16 rpm."
+    },
+    {
+      "S": [
+        41,
+        45,
+        62,
+        77,
+        78
+      ],
+      "C": [
+        45
+      ],
+      "reasoning": "Flat baseline through the first 60% of life, then a convex runaway to a terminal Nc excursion of +79 rpm (20x the 4 rpm noise floor, Spearman rho=0.91) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_078 reaches only +43 rpm."
+    },
+    {
+      "S": [
+        24,
+        79,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +138 rpm (34x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_080 reaches only +106 rpm."
+    },
+    {
+      "S": [
+        51,
+        59,
+        74,
+        93
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +140 rpm (35x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_094 reaches only +6 rpm."
+    },
+    {
+      "S": [
+        11,
+        37,
+        40
+      ],
+      "C": [
+        40
+      ],
+      "reasoning": "Flat baseline through the first 82% of life, then a convex runaway to a terminal Nc excursion of +22 rpm (5x the 4 rpm noise floor, Spearman rho=0.73) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_038 reaches only +5 rpm."
+    },
+    {
+      "S": [
+        63,
+        86,
+        95
+      ],
+      "C": [
+        95
+      ],
+      "reasoning": "Flat baseline through the first 71% of life, then a convex runaway to a terminal Nc excursion of +47 rpm (12x the 4 rpm noise floor, Spearman rho=0.84) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_064 reaches only +18 rpm."
+    },
+    {
+      "S": [
+        23,
+        24,
+        26,
+        99
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "Flat baseline through the first 68% of life, then a convex runaway to a terminal Nc excursion of +135 rpm (34x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_027 reaches only +40 rpm."
+    },
+    {
+      "S": [
+        6,
+        10,
+        47,
+        59,
+        85
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +157 rpm (39x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_011 reaches only +153 rpm."
+    },
+    {
+      "S": [
+        14,
+        30,
+        91
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "Flat baseline through the first 66% of life, then a convex runaway to a terminal Nc excursion of +113 rpm (28x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_031 reaches only -5 rpm."
+    },
+    {
+      "S": [
+        15,
+        16,
+        28,
+        57
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +102 rpm (25x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_058 reaches only +81 rpm."
+    },
+    {
+      "S": [
+        2,
+        5,
+        19,
+        69
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Flat baseline through the first 59% of life, then a convex runaway to a terminal Nc excursion of +107 rpm (27x the 4 rpm noise floor, Spearman rho=0.95) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_020 reaches only +106 rpm."
+    },
+    {
+      "S": [
+        50,
+        57,
+        67,
+        80
+      ],
+      "C": [
+        50
+      ],
+      "reasoning": "Flat baseline through the first 62% of life, then a convex runaway to a terminal Nc excursion of +88 rpm (22x the 4 rpm noise floor, Spearman rho=0.89) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_058 reaches only +81 rpm."
+    },
+    {
+      "S": [
+        48,
+        71,
+        78,
+        85,
+        99
+      ],
+      "C": [
+        48
+      ],
+      "reasoning": "Flat baseline through the first 66% of life, then a convex runaway to a terminal Nc excursion of +62 rpm (15x the 4 rpm noise floor, Spearman rho=0.85) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_086 reaches only +21 rpm."
+    },
+    {
+      "S": [
+        22,
+        24,
+        57,
+        63,
+        96
+      ],
+      "C": [
+        57
+      ],
+      "reasoning": "Flat baseline through the first 59% of life, then a convex runaway to a terminal Nc excursion of +81 rpm (20x the 4 rpm noise floor, Spearman rho=0.89) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_097 reaches only +20 rpm."
+    },
+    {
+      "S": [
+        36,
+        52,
+        91
+      ],
+      "C": [
+        52
+      ],
+      "reasoning": "Flat baseline through the first 60% of life, then a convex runaway to a terminal Nc excursion of +95 rpm (24x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_037 reaches only +86 rpm."
+    },
+    {
+      "S": [
+        5,
+        10,
+        81
+      ],
+      "C": [
+        10
+      ],
+      "reasoning": "Flat baseline through the first 66% of life, then a convex runaway to a terminal Nc excursion of +153 rpm (38x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_082 reaches only +138 rpm."
+    },
+    {
+      "S": [
+        9,
+        79,
+        81,
+        82,
+        90
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +138 rpm (34x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_010 reaches only +110 rpm."
+    },
+    {
+      "S": [
+        61,
+        63,
+        75,
+        99
+      ],
+      "C": [
+        61
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +49 rpm (12x the 4 rpm noise floor, Spearman rho=0.86) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_076 reaches only +29 rpm."
+    },
+    {
+      "S": [
+        31,
+        50,
+        51,
+        85,
+        95
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +140 rpm (35x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_051 reaches only +88 rpm."
+    },
+    {
+      "S": [
+        6,
+        13,
+        24,
+        26,
+        61
+      ],
+      "C": [
+        6
+      ],
+      "reasoning": "Flat baseline through the first 62% of life, then a convex runaway to a terminal Nc excursion of +70 rpm (18x the 4 rpm noise floor, Spearman rho=0.90) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_062 reaches only +49 rpm."
+    },
+    {
+      "S": [
+        22,
+        33,
+        36,
+        50
+      ],
+      "C": [
+        50
+      ],
+      "reasoning": "Flat baseline through the first 62% of life, then a convex runaway to a terminal Nc excursion of +88 rpm (22x the 4 rpm noise floor, Spearman rho=0.89) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_037 reaches only +86 rpm."
+    },
+    {
+      "S": [
+        17,
+        23,
+        36,
+        67
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "Flat baseline through the first 68% of life, then a convex runaway to a terminal Nc excursion of +135 rpm (34x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_037 reaches only +86 rpm."
+    },
+    {
+      "S": [
+        32,
+        47,
+        76,
+        82,
+        87
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +157 rpm (39x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_033 reaches only +106 rpm."
+    },
+    {
+      "S": [
+        19,
+        55,
+        63,
+        79
+      ],
+      "C": [
+        19
+      ],
+      "reasoning": "Flat baseline through the first 58% of life, then a convex runaway to a terminal Nc excursion of +106 rpm (27x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_080 reaches only +106 rpm."
+    },
+    {
+      "S": [
+        17,
+        28,
+        73
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +102 rpm (25x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_074 reaches only -14 rpm."
+    },
+    {
+      "S": [
+        49,
+        67,
+        85,
+        91
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +103 rpm (26x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_086 reaches only +21 rpm."
+    },
+    {
+      "S": [
+        9,
+        58,
+        60,
+        71
+      ],
+      "C": [
+        60
+      ],
+      "reasoning": "Flat baseline through the first 63% of life, then a convex runaway to a terminal Nc excursion of +117 rpm (29x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_010 reaches only +110 rpm."
+    },
+    {
+      "S": [
+        13,
+        16,
+        80,
+        93,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "Flat baseline through the first 64% of life, then a convex runaway to a terminal Nc excursion of +156 rpm (39x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_014 reaches only +16 rpm."
+    },
+    {
+      "S": [
+        8,
+        25,
+        76,
+        90,
+        92
+      ],
+      "C": [
+        92
+      ],
+      "reasoning": "Flat baseline through the first 56% of life, then a convex runaway to a terminal Nc excursion of +78 rpm (20x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_077 reaches only +35 rpm."
+    },
+    {
+      "S": [
+        12,
+        16,
+        59,
+        98
+      ],
+      "C": [
+        12
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +44 rpm (11x the 4 rpm noise floor, Spearman rho=0.85) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_017 reaches only +8 rpm."
+    },
+    {
+      "S": [
+        45,
+        51,
+        66,
+        72
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +140 rpm (35x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_046 reaches only +79 rpm."
+    },
+    {
+      "S": [
+        13,
+        23,
+        47,
+        59
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +157 rpm (39x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_024 reaches only +135 rpm."
+    },
+    {
+      "S": [
+        8,
+        11,
+        48,
+        65,
+        69
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Flat baseline through the first 59% of life, then a convex runaway to a terminal Nc excursion of +107 rpm (27x the 4 rpm noise floor, Spearman rho=0.95) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_066 reaches only +95 rpm."
+    },
+    {
+      "S": [
+        33,
+        65,
+        72
+      ],
+      "C": [
+        65
+      ],
+      "reasoning": "Flat baseline through the first 64% of life, then a convex runaway to a terminal Nc excursion of +95 rpm (24x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_034 reaches only -9 rpm."
+    },
+    {
+      "S": [
+        26,
+        36,
+        61,
+        73,
+        78
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "Flat baseline through the first 60% of life, then a convex runaway to a terminal Nc excursion of +86 rpm (22x the 4 rpm noise floor, Spearman rho=0.91) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_062 reaches only +49 rpm."
+    },
+    {
+      "S": [
+        8,
+        14,
+        43,
+        54,
+        91
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +150 rpm (38x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_015 reaches only +113 rpm."
+    },
+    {
+      "S": [
+        54,
+        93,
+        99
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the rising, accelerating core-speed signature of HPC degradation: end-of-life Nc excursions are source_094 +6 rpm, source_100 +1 rpm, source_055 -19 rpm, all at or below the 12 rpm (3-sigma) noise gate, so none is credible as severe HPC erosion."
+    },
+    {
+      "S": [
+        13,
+        37,
+        46,
+        65
+      ],
+      "C": [
+        65
+      ],
+      "reasoning": "Flat baseline through the first 64% of life, then a convex runaway to a terminal Nc excursion of +95 rpm (24x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_047 reaches only +67 rpm."
+    },
+    {
+      "S": [
+        11,
+        26,
+        41,
+        85,
+        91
+      ],
+      "C": [
+        26
+      ],
+      "reasoning": "Flat baseline through the first 68% of life, then a convex runaway to a terminal Nc excursion of +40 rpm (10x the 4 rpm noise floor, Spearman rho=0.85) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_086 reaches only +21 rpm."
+    },
+    {
+      "S": [
+        3,
+        54,
+        57,
+        67
+      ],
+      "C": [
+        3
+      ],
+      "reasoning": "Flat baseline through the first 60% of life, then a convex runaway to a terminal Nc excursion of +97 rpm (24x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_058 reaches only +81 rpm."
+    },
+    {
+      "S": [
+        28,
+        41,
+        45,
+        79,
+        95
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Flat baseline through the first 64% of life, then a convex runaway to a terminal Nc excursion of +106 rpm (27x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_029 reaches only +102 rpm."
+    },
+    {
+      "S": [
+        54,
+        72,
+        77,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +155 rpm (39x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_078 reaches only +43 rpm."
+    },
+    {
+      "S": [
+        28,
+        67,
+        86
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +102 rpm (25x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_068 reaches only +8 rpm."
+    },
+    {
+      "S": [
+        10,
+        65,
+        99
+      ],
+      "C": [
+        10
+      ],
+      "reasoning": "Flat baseline through the first 66% of life, then a convex runaway to a terminal Nc excursion of +153 rpm (38x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_066 reaches only +95 rpm."
+    },
+    {
+      "S": [
+        9,
+        61,
+        63
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "Flat baseline through the first 59% of life, then a convex runaway to a terminal Nc excursion of +110 rpm (27x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_062 reaches only +49 rpm."
+    },
+    {
+      "S": [
+        2,
+        14,
+        23,
+        44,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "Flat baseline through the first 64% of life, then a convex runaway to a terminal Nc excursion of +156 rpm (39x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_024 reaches only +135 rpm."
+    },
+    {
+      "S": [
+        28,
+        65,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +155 rpm (39x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_029 reaches only +102 rpm."
+    },
+    {
+      "S": [
+        0,
+        5,
+        15
+      ],
+      "C": [
+        5
+      ],
+      "reasoning": "Flat baseline through the first 63% of life, then a convex runaway to a terminal Nc excursion of +94 rpm (23x the 4 rpm noise floor, Spearman rho=0.91) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_016 reaches only +9 rpm."
+    },
+    {
+      "S": [
+        23,
+        28,
+        76,
+        84,
+        93
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "Flat baseline through the first 68% of life, then a convex runaway to a terminal Nc excursion of +135 rpm (34x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_029 reaches only +102 rpm."
+    },
+    {
+      "S": [
+        11,
+        69,
+        75,
+        83,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +155 rpm (39x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_070 reaches only +107 rpm."
+    },
+    {
+      "S": [
+        11,
+        12,
+        19,
+        69
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Flat baseline through the first 59% of life, then a convex runaway to a terminal Nc excursion of +107 rpm (27x the 4 rpm noise floor, Spearman rho=0.95) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_020 reaches only +106 rpm."
+    },
+    {
+      "S": [
+        8,
+        44,
+        61,
+        84
+      ],
+      "C": [
+        61
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +49 rpm (12x the 4 rpm noise floor, Spearman rho=0.86) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_045 reaches only +18 rpm."
+    },
+    {
+      "S": [
+        1,
+        18,
+        27
+      ],
+      "C": [
+        18
+      ],
+      "reasoning": "Flat baseline through the first 64% of life, then a convex runaway to a terminal Nc excursion of +100 rpm (25x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_002 reaches only +58 rpm."
+    },
+    {
+      "S": [
+        50,
+        60,
+        73,
+        95
+      ],
+      "C": [
+        60
+      ],
+      "reasoning": "Flat baseline through the first 63% of life, then a convex runaway to a terminal Nc excursion of +117 rpm (29x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_051 reaches only +88 rpm."
+    },
+    {
+      "S": [
+        4,
+        21,
+        88
+      ],
+      "C": [
+        88
+      ],
+      "reasoning": "Flat baseline through the first 63% of life, then a convex runaway to a terminal Nc excursion of +34 rpm (9x the 4 rpm noise floor, Spearman rho=0.79) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_022 reaches only +24 rpm."
+    },
+    {
+      "S": [
+        9,
+        16,
+        36,
+        77
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "Flat baseline through the first 59% of life, then a convex runaway to a terminal Nc excursion of +110 rpm (27x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_037 reaches only +86 rpm."
+    },
+    {
+      "S": [
+        25,
+        44,
+        53,
+        77
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Flat baseline through the first 68% of life, then a convex runaway to a terminal Nc excursion of +43 rpm (11x the 4 rpm noise floor, Spearman rho=0.84) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_045 reaches only +18 rpm."
+    },
+    {
+      "S": [
+        14,
+        24,
+        54,
+        93
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "Flat baseline through the first 66% of life, then a convex runaway to a terminal Nc excursion of +113 rpm (28x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_094 reaches only +6 rpm."
+    },
+    {
+      "S": [
+        25,
+        44,
+        64,
+        67
+      ],
+      "C": [
+        44
+      ],
+      "reasoning": "Flat baseline through the first 75% of life, then a convex runaway to a terminal Nc excursion of +18 rpm (5x the 4 rpm noise floor, Spearman rho=0.65) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_065 reaches only +11 rpm."
+    },
+    {
+      "S": [
+        39,
+        49,
+        67,
+        91
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +103 rpm (26x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_040 reaches only +16 rpm."
+    },
+    {
+      "S": [
+        9,
+        12,
+        27,
+        30,
+        91
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "Flat baseline through the first 59% of life, then a convex runaway to a terminal Nc excursion of +110 rpm (27x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_013 reaches only +44 rpm."
+    },
+    {
+      "S": [
+        15,
+        40,
+        61,
+        95
+      ],
+      "C": [
+        61
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +49 rpm (12x the 4 rpm noise floor, Spearman rho=0.86) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_096 reaches only +47 rpm."
+    },
+    {
+      "S": [
+        3,
+        31,
+        56,
+        58,
+        91
+      ],
+      "C": [
+        3
+      ],
+      "reasoning": "Flat baseline through the first 60% of life, then a convex runaway to a terminal Nc excursion of +97 rpm (24x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_032 reaches only -5 rpm."
+    },
+    {
+      "S": [
+        9,
+        22,
+        57
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "Flat baseline through the first 59% of life, then a convex runaway to a terminal Nc excursion of +110 rpm (27x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_058 reaches only +81 rpm."
+    },
+    {
+      "S": [
+        53,
+        58,
+        64,
+        68
+      ],
+      "C": [
+        68
+      ],
+      "reasoning": "Flat baseline through the first 81% of life, then a convex runaway to a terminal Nc excursion of +42 rpm (11x the 4 rpm noise floor, Spearman rho=0.84) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_065 reaches only +11 rpm."
+    },
+    {
+      "S": [
+        33,
+        54,
+        77
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Flat baseline through the first 68% of life, then a convex runaway to a terminal Nc excursion of +43 rpm (11x the 4 rpm noise floor, Spearman rho=0.84) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_034 reaches only -9 rpm."
+    },
+    {
+      "S": [
+        35,
+        51,
+        60,
+        96
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +140 rpm (35x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_061 reaches only +117 rpm."
+    },
+    {
+      "S": [
+        12,
+        85,
+        91,
+        99
+      ],
+      "C": [
+        12
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +44 rpm (11x the 4 rpm noise floor, Spearman rho=0.85) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_086 reaches only +21 rpm."
+    },
+    {
+      "S": [
+        24,
+        31,
+        78
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the rising, accelerating core-speed signature of HPC degradation: end-of-life Nc excursions are source_079 +3 rpm, source_032 -5 rpm, source_025 -12 rpm, all at or below the 12 rpm (3-sigma) noise gate, so none is credible as severe HPC erosion."
+    },
+    {
+      "S": [
+        4,
+        5,
+        11,
+        47
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +157 rpm (39x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_006 reaches only +94 rpm."
+    },
+    {
+      "S": [
+        5,
+        7,
+        27,
+        33,
+        55
+      ],
+      "C": [
+        5
+      ],
+      "reasoning": "Flat baseline through the first 63% of life, then a convex runaway to a terminal Nc excursion of +94 rpm (23x the 4 rpm noise floor, Spearman rho=0.91) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_056 reaches only +11 rpm."
+    },
+    {
+      "S": [
+        1,
+        72,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +155 rpm (39x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_002 reaches only +58 rpm."
+    },
+    {
+      "S": [
+        15,
+        36,
+        40,
+        70,
+        82
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "Flat baseline through the first 60% of life, then a convex runaway to a terminal Nc excursion of +86 rpm (22x the 4 rpm noise floor, Spearman rho=0.91) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_041 reaches only +22 rpm."
+    },
+    {
+      "S": [
+        7,
+        35,
+        49,
+        94
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +103 rpm (26x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_050 reaches only +103 rpm."
+    },
+    {
+      "S": [
+        14,
+        30,
+        68,
+        75
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "Flat baseline through the first 66% of life, then a convex runaway to a terminal Nc excursion of +113 rpm (28x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_069 reaches only +42 rpm."
+    },
+    {
+      "S": [
+        1,
+        20,
+        32,
+        61,
+        66
+      ],
+      "C": [
+        32
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +106 rpm (27x the 4 rpm noise floor, Spearman rho=0.89) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_021 reaches only +76 rpm."
+    },
+    {
+      "S": [
+        15,
+        40,
+        81,
+        91,
+        98
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +138 rpm (34x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_041 reaches only +22 rpm."
+    },
+    {
+      "S": [
+        13,
+        44,
+        49,
+        63,
+        95
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +103 rpm (26x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_096 reaches only +47 rpm."
+    },
+    {
+      "S": [
+        3,
+        42,
+        46,
+        47,
+        72
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +157 rpm (39x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_004 reaches only +97 rpm."
+    },
+    {
+      "S": [
+        4,
+        88,
+        93
+      ],
+      "C": [
+        88
+      ],
+      "reasoning": "Flat baseline through the first 63% of life, then a convex runaway to a terminal Nc excursion of +34 rpm (9x the 4 rpm noise floor, Spearman rho=0.79) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_094 reaches only +6 rpm."
+    },
+    {
+      "S": [
+        19,
+        28,
+        49
+      ],
+      "C": [
+        19
+      ],
+      "reasoning": "Flat baseline through the first 58% of life, then a convex runaway to a terminal Nc excursion of +106 rpm (27x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_050 reaches only +103 rpm."
+    },
+    {
+      "S": [
+        1,
+        8,
+        24,
+        26,
+        47
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +157 rpm (39x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_002 reaches only +58 rpm."
+    },
+    {
+      "S": [
+        39,
+        62,
+        66,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Flat baseline through the first 64% of life, then a convex runaway to a terminal Nc excursion of +106 rpm (27x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_040 reaches only +16 rpm."
+    },
+    {
+      "S": [
+        33,
+        35,
+        52,
+        72,
+        87
+      ],
+      "C": [
+        52
+      ],
+      "reasoning": "Flat baseline through the first 60% of life, then a convex runaway to a terminal Nc excursion of +95 rpm (24x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_088 reaches only +80 rpm."
+    },
+    {
+      "S": [
+        36,
+        67,
+        74,
+        84
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "Flat baseline through the first 60% of life, then a convex runaway to a terminal Nc excursion of +86 rpm (22x the 4 rpm noise floor, Spearman rho=0.91) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_085 reaches only +9 rpm."
+    },
+    {
+      "S": [
+        11,
+        57,
+        85
+      ],
+      "C": [
+        57
+      ],
+      "reasoning": "Flat baseline through the first 59% of life, then a convex runaway to a terminal Nc excursion of +81 rpm (20x the 4 rpm noise floor, Spearman rho=0.89) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_086 reaches only +21 rpm."
+    },
+    {
+      "S": [
+        48,
+        51,
+        52,
+        83
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +140 rpm (35x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_053 reaches only +95 rpm."
+    },
+    {
+      "S": [
+        17,
+        38,
+        61,
+        88,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "Flat baseline through the first 64% of life, then a convex runaway to a terminal Nc excursion of +156 rpm (39x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_062 reaches only +49 rpm."
+    },
+    {
+      "S": [
+        2,
+        60,
+        92
+      ],
+      "C": [
+        60
+      ],
+      "reasoning": "Flat baseline through the first 63% of life, then a convex runaway to a terminal Nc excursion of +117 rpm (29x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_093 reaches only +78 rpm."
+    },
+    {
+      "S": [
+        13,
+        29,
+        56,
+        59
+      ],
+      "C": [
+        29
+      ],
+      "reasoning": "Flat baseline through the first 72% of life, then a convex runaway to a terminal Nc excursion of +41 rpm (10x the 4 rpm noise floor, Spearman rho=0.85) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_014 reaches only +16 rpm."
+    },
+    {
+      "S": [
+        52,
+        63,
+        68
+      ],
+      "C": [
+        52
+      ],
+      "reasoning": "Flat baseline through the first 60% of life, then a convex runaway to a terminal Nc excursion of +95 rpm (24x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_069 reaches only +42 rpm."
+    },
+    {
+      "S": [
+        46,
+        59,
+        76,
+        85,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "Flat baseline through the first 64% of life, then a convex runaway to a terminal Nc excursion of +156 rpm (39x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_047 reaches only +67 rpm."
+    },
+    {
+      "S": [
+        61,
+        78,
+        94
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +103 rpm (26x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_062 reaches only +49 rpm."
+    },
+    {
+      "S": [
+        11,
+        50,
+        73
+      ],
+      "C": [
+        50
+      ],
+      "reasoning": "Flat baseline through the first 62% of life, then a convex runaway to a terminal Nc excursion of +88 rpm (22x the 4 rpm noise floor, Spearman rho=0.89) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_012 reaches only -3 rpm."
+    },
+    {
+      "S": [
+        41,
+        53,
+        64,
+        94
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +103 rpm (26x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_065 reaches only +11 rpm."
+    },
+    {
+      "S": [
+        28,
+        73,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +138 rpm (34x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_029 reaches only +102 rpm."
+    },
+    {
+      "S": [
+        0,
+        12,
+        29,
+        33
+      ],
+      "C": [
+        12
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +44 rpm (11x the 4 rpm noise floor, Spearman rho=0.85) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_030 reaches only +41 rpm."
+    },
+    {
+      "S": [
+        46,
+        47,
+        84,
+        85,
+        96
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +157 rpm (39x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_047 reaches only +67 rpm."
+    },
+    {
+      "S": [
+        8,
+        64,
+        77
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Flat baseline through the first 68% of life, then a convex runaway to a terminal Nc excursion of +43 rpm (11x the 4 rpm noise floor, Spearman rho=0.84) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_065 reaches only +11 rpm."
+    },
+    {
+      "S": [
+        26,
+        44,
+        77,
+        91
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Flat baseline through the first 68% of life, then a convex runaway to a terminal Nc excursion of +43 rpm (11x the 4 rpm noise floor, Spearman rho=0.84) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_027 reaches only +40 rpm."
+    },
+    {
+      "S": [
+        4,
+        36,
+        94
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +103 rpm (26x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_037 reaches only +86 rpm."
+    },
+    {
+      "S": [
+        64,
+        65,
+        69,
+        73,
+        77
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Flat baseline through the first 59% of life, then a convex runaway to a terminal Nc excursion of +107 rpm (27x the 4 rpm noise floor, Spearman rho=0.95) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_066 reaches only +95 rpm."
+    },
+    {
+      "S": [
+        4,
+        37,
+        77,
+        90
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Flat baseline through the first 68% of life, then a convex runaway to a terminal Nc excursion of +43 rpm (11x the 4 rpm noise floor, Spearman rho=0.84) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_005 reaches only +5 rpm."
+    },
+    {
+      "S": [
+        0,
+        43,
+        84
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +150 rpm (38x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_085 reaches only +9 rpm."
+    },
+    {
+      "S": [
+        2,
+        52,
+        66
+      ],
+      "C": [
+        52
+      ],
+      "reasoning": "Flat baseline through the first 60% of life, then a convex runaway to a terminal Nc excursion of +95 rpm (24x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_003 reaches only +8 rpm."
+    },
+    {
+      "S": [
+        23,
+        25,
+        59,
+        65,
+        85
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "Flat baseline through the first 68% of life, then a convex runaway to a terminal Nc excursion of +135 rpm (34x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_066 reaches only +95 rpm."
+    },
+    {
+      "S": [
+        29,
+        59,
+        70,
+        81,
+        87
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +138 rpm (34x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_088 reaches only +80 rpm."
+    },
+    {
+      "S": [
+        18,
+        67,
+        84,
+        85
+      ],
+      "C": [
+        18
+      ],
+      "reasoning": "Flat baseline through the first 64% of life, then a convex runaway to a terminal Nc excursion of +100 rpm (25x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_086 reaches only +21 rpm."
+    },
+    {
+      "S": [
+        41,
+        53,
+        69,
+        79
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Flat baseline through the first 59% of life, then a convex runaway to a terminal Nc excursion of +107 rpm (27x the 4 rpm noise floor, Spearman rho=0.95) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_080 reaches only +106 rpm."
+    },
+    {
+      "S": [
+        11,
+        13,
+        39,
+        51,
+        57
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +140 rpm (35x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_058 reaches only +81 rpm."
+    },
+    {
+      "S": [
+        5,
+        38,
+        49,
+        57,
+        91
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +103 rpm (26x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_006 reaches only +94 rpm."
+    },
+    {
+      "S": [
+        6,
+        8,
+        35
+      ],
+      "C": [
+        35
+      ],
+      "reasoning": "Flat baseline through the first 54% of life, then a convex runaway to a terminal Nc excursion of +76 rpm (19x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_007 reaches only +70 rpm."
+    },
+    {
+      "S": [
+        1,
+        29,
+        44,
+        96
+      ],
+      "C": [
+        1
+      ],
+      "reasoning": "Flat baseline through the first 58% of life, then a convex runaway to a terminal Nc excursion of +58 rpm (15x the 4 rpm noise floor, Spearman rho=0.89) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_030 reaches only +41 rpm."
+    },
+    {
+      "S": [
+        40,
+        86,
+        94,
+        96
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +103 rpm (26x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_041 reaches only +22 rpm."
+    },
+    {
+      "S": [
+        23,
+        27,
+        33,
+        38,
+        87
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "Flat baseline through the first 68% of life, then a convex runaway to a terminal Nc excursion of +135 rpm (34x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_088 reaches only +80 rpm."
+    },
+    {
+      "S": [
+        51,
+        74,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "Flat baseline through the first 64% of life, then a convex runaway to a terminal Nc excursion of +156 rpm (39x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_052 reaches only +140 rpm."
+    },
+    {
+      "S": [
+        2,
+        29,
+        63,
+        85
+      ],
+      "C": [
+        29
+      ],
+      "reasoning": "Flat baseline through the first 72% of life, then a convex runaway to a terminal Nc excursion of +41 rpm (10x the 4 rpm noise floor, Spearman rho=0.85) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_086 reaches only +21 rpm."
+    },
+    {
+      "S": [
+        15,
+        34,
+        87
+      ],
+      "C": [
+        34
+      ],
+      "reasoning": "Flat baseline through the first 69% of life, then a convex runaway to a terminal Nc excursion of +142 rpm (35x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_088 reaches only +80 rpm."
+    },
+    {
+      "S": [
+        24,
+        55,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Flat baseline through the first 64% of life, then a convex runaway to a terminal Nc excursion of +106 rpm (27x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_056 reaches only +11 rpm."
+    },
+    {
+      "S": [
+        42,
+        47,
+        84,
+        94
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +157 rpm (39x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_095 reaches only +103 rpm."
+    },
+    {
+      "S": [
+        66,
+        79,
+        90
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Flat baseline through the first 64% of life, then a convex runaway to a terminal Nc excursion of +106 rpm (27x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_067 reaches only -4 rpm."
+    },
+    {
+      "S": [
+        16,
+        17,
+        31,
+        55
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the rising, accelerating core-speed signature of HPC degradation: end-of-life Nc excursions are source_056 +11 rpm, source_017 +8 rpm, source_032 -5 rpm, source_018 -20 rpm, all at or below the 12 rpm (3-sigma) noise gate, so none is credible as severe HPC erosion."
+    },
+    {
+      "S": [
+        51,
+        77,
+        93
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +140 rpm (35x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_078 reaches only +43 rpm."
+    },
+    {
+      "S": [
+        3,
+        92,
+        95
+      ],
+      "C": [
+        3
+      ],
+      "reasoning": "Flat baseline through the first 60% of life, then a convex runaway to a terminal Nc excursion of +97 rpm (24x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_093 reaches only +78 rpm."
+    },
+    {
+      "S": [
+        4,
+        5,
+        24
+      ],
+      "C": [
+        5
+      ],
+      "reasoning": "Flat baseline through the first 63% of life, then a convex runaway to a terminal Nc excursion of +94 rpm (23x the 4 rpm noise floor, Spearman rho=0.91) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_005 reaches only +5 rpm."
+    },
+    {
+      "S": [
+        25,
+        31,
+        43,
+        50,
+        78
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +150 rpm (38x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_051 reaches only +88 rpm."
+    },
+    {
+      "S": [
+        5,
+        37,
+        76,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "Flat baseline through the first 67% of life, then a convex runaway to a terminal Nc excursion of +155 rpm (39x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_006 reaches only +94 rpm."
+    },
+    {
+      "S": [
+        22,
+        28,
+        38,
+        41,
+        47
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +157 rpm (39x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_029 reaches only +102 rpm."
+    },
+    {
+      "S": [
+        0,
+        11,
+        15,
+        83
+      ],
+      "C": [
+        83
+      ],
+      "reasoning": "Flat baseline through the first 63% of life, then a convex runaway to a terminal Nc excursion of +28 rpm (7x the 4 rpm noise floor, Spearman rho=0.82) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_016 reaches only +9 rpm."
+    },
+    {
+      "S": [
+        32,
+        40,
+        43
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +150 rpm (38x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_033 reaches only +106 rpm."
+    },
+    {
+      "S": [
+        22,
+        25,
+        51,
+        81
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +140 rpm (35x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_082 reaches only +138 rpm."
+    },
+    {
+      "S": [
+        22,
+        33,
+        46,
+        66,
+        83
+      ],
+      "C": [
+        46
+      ],
+      "reasoning": "Flat baseline through the first 65% of life, then a convex runaway to a terminal Nc excursion of +67 rpm (17x the 4 rpm noise floor, Spearman rho=0.87) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_084 reaches only +28 rpm."
+    },
+    {
+      "S": [
+        4,
+        45,
+        48,
+        86
+      ],
+      "C": [
+        45
+      ],
+      "reasoning": "Flat baseline through the first 60% of life, then a convex runaway to a terminal Nc excursion of +79 rpm (20x the 4 rpm noise floor, Spearman rho=0.91) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_049 reaches only +62 rpm."
+    },
+    {
+      "S": [
+        2,
+        4,
+        13,
+        31
+      ],
+      "C": [
+        13
+      ],
+      "reasoning": "Flat baseline through the first 82% of life, then a convex runaway to a terminal Nc excursion of +16 rpm (4x the 4 rpm noise floor, Spearman rho=0.75) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_003 reaches only +8 rpm."
+    },
+    {
+      "S": [
+        3,
+        11,
+        15,
+        18,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Flat baseline through the first 64% of life, then a convex runaway to a terminal Nc excursion of +106 rpm (27x the 4 rpm noise floor, Spearman rho=0.94) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_019 reaches only +100 rpm."
+    },
+    {
+      "S": [
+        22,
+        55,
+        59
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the rising, accelerating core-speed signature of HPC degradation: end-of-life Nc excursions are source_056 +11 rpm, source_023 -10 rpm, source_060 -13 rpm, all at or below the 12 rpm (3-sigma) noise gate, so none is credible as severe HPC erosion."
+    },
+    {
+      "S": [
+        0,
+        27,
+        53,
+        84
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the rising, accelerating core-speed signature of HPC degradation: end-of-life Nc excursions are source_085 +9 rpm, source_028 -7 rpm, source_001 -9 rpm, source_054 -15 rpm, all at or below the 12 rpm (3-sigma) noise gate, so none is credible as severe HPC erosion."
+    },
+    {
+      "S": [
+        25,
+        28,
+        74,
+        83,
+        96
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "Flat baseline through the first 61% of life, then a convex runaway to a terminal Nc excursion of +102 rpm (25x the 4 rpm noise floor, Spearman rho=0.92) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_084 reaches only +28 rpm."
+    },
+    {
+      "S": [
+        7,
+        36,
+        57,
+        88,
+        96
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "Flat baseline through the first 60% of life, then a convex runaway to a terminal Nc excursion of +86 rpm (22x the 4 rpm noise floor, Spearman rho=0.91) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_058 reaches only +81 rpm."
+    },
+    {
+      "S": [
+        11,
+        29,
+        59,
+        77
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Flat baseline through the first 68% of life, then a convex runaway to a terminal Nc excursion of +43 rpm (11x the 4 rpm noise floor, Spearman rho=0.84) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_030 reaches only +41 rpm."
+    },
+    {
+      "S": [
+        7,
+        30,
+        80,
+        86
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the rising, accelerating core-speed signature of HPC degradation: end-of-life Nc excursions are source_081 -3 rpm, source_031 -5 rpm, source_008 -13 rpm, source_087 -14 rpm, all at or below the 12 rpm (3-sigma) noise gate, so none is credible as severe HPC erosion."
+    },
+    {
+      "S": [
+        1,
+        16,
+        65,
+        68
+      ],
+      "C": [
+        65
+      ],
+      "reasoning": "Flat baseline through the first 64% of life, then a convex runaway to a terminal Nc excursion of +95 rpm (24x the 4 rpm noise floor, Spearman rho=0.93) - the largest progressive HPC spool-up in this subgroup, matching severe erosion-driven efficiency and flow loss; next best source_002 reaches only +58 rpm."
+    }
+  ],
+  "source_basenames": [
+    "1.csv",
+    "10.csv",
+    "100.csv",
+    "11.csv",
+    "12.csv",
+    "13.csv",
+    "14.csv",
+    "15.csv",
+    "16.csv",
+    "17.csv",
+    "18.csv",
+    "19.csv",
+    "2.csv",
+    "20.csv",
+    "21.csv",
+    "22.csv",
+    "23.csv",
+    "24.csv",
+    "25.csv",
+    "26.csv",
+    "27.csv",
+    "28.csv",
+    "29.csv",
+    "3.csv",
+    "30.csv",
+    "31.csv",
+    "32.csv",
+    "33.csv",
+    "34.csv",
+    "35.csv",
+    "36.csv",
+    "37.csv",
+    "38.csv",
+    "39.csv",
+    "4.csv",
+    "40.csv",
+    "41.csv",
+    "42.csv",
+    "43.csv",
+    "44.csv",
+    "45.csv",
+    "46.csv",
+    "47.csv",
+    "48.csv",
+    "49.csv",
+    "5.csv",
+    "50.csv",
+    "51.csv",
+    "52.csv",
+    "53.csv",
+    "54.csv",
+    "55.csv",
+    "56.csv",
+    "57.csv",
+    "58.csv",
+    "59.csv",
+    "6.csv",
+    "60.csv",
+    "61.csv",
+    "62.csv",
+    "63.csv",
+    "64.csv",
+    "65.csv",
+    "66.csv",
+    "67.csv",
+    "68.csv",
+    "69.csv",
+    "7.csv",
+    "70.csv",
+    "71.csv",
+    "72.csv",
+    "73.csv",
+    "74.csv",
+    "75.csv",
+    "76.csv",
+    "77.csv",
+    "78.csv",
+    "79.csv",
+    "8.csv",
+    "80.csv",
+    "81.csv",
+    "82.csv",
+    "83.csv",
+    "84.csv",
+    "85.csv",
+    "86.csv",
+    "87.csv",
+    "88.csv",
+    "89.csv",
+    "9.csv",
+    "90.csv",
+    "91.csv",
+    "92.csv",
+    "93.csv",
+    "94.csv",
+    "95.csv",
+    "96.csv",
+    "97.csv",
+    "98.csv",
+    "99.csv"
+  ],
+  "meta": {
+    "model": "claude-opus-cli-session",
+    "model_request": "opus",
+    "effort": "max",
+    "protocol": "blind_agentic_single_choice",
+    "n_queries": 200,
+    "global_pool": true,
+    "subgroup_size_range": [
+      3,
+      5
+    ],
+    "seed": 42,
+    "reference_query_file": "cmapss/data/llm_subgroup_queries_claude.json",
+    "condition": "maintenance_records"
+  }
+}

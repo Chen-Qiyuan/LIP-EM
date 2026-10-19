@@ -1,0 +1,361 @@
+{
+  "ranked_sources": [
+    "source_01.csv",
+    "source_04.csv",
+    "source_05.csv",
+    "source_13.csv",
+    "source_03.csv",
+    "source_06.csv",
+    "source_14.csv",
+    "source_08.csv",
+    "source_11.csv",
+    "source_07.csv",
+    "source_12.csv",
+    "source_15.csv",
+    "source_02.csv",
+    "source_10.csv",
+    "source_09.csv"
+  ],
+  "relevant_sources": [
+    "source_01.csv",
+    "source_03.csv",
+    "source_04.csv",
+    "source_05.csv",
+    "source_13.csv"
+  ],
+  "reasoning": "Sources cluster into three duration bands: LONG (median ~3.9-4.3 h, max ~5-5.6 h; source_01/03/04/05/13), MEDIUM (median ~2.4-2.6 h; source_06/07/08/11/14), and SHORT (median ~1.2 h, max <1.6 h; source_02/09/10/12/15). Only the LONG cluster matches the long-haul target class. Within it, source_01 (n=77, mean end-vs-start |delta|=0.74) and source_04 (n=66, |delta|=0.69) exhibit the strongest degradation trajectories, so they borrow best; source_03 has the least degradation depth. Medium and short sources come next by residual similarity but are class-mismatched and are reported as candidates only for adversarial subgroups.",
+  "confidence": "high",
+  "subgroup_choices": [
+    {
+      "query_id": 0,
+      "candidates": [
+        "source_05.csv",
+        "source_06.csv",
+        "source_04.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "source_04.csv is long-haul (median=4.00h, max=5.63h) and offers a stronger degradation trajectory (n=66, |delta|=0.69) than source_05.csv (n=59, |delta|=0.63)."
+    },
+    {
+      "query_id": 1,
+      "candidates": [
+        "source_04.csv",
+        "source_14.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "source_04.csv is long-haul (median=4.00h, max=5.63h) the only long-haul candidate in this subgroup."
+    },
+    {
+      "query_id": 2,
+      "candidates": [
+        "source_05.csv",
+        "source_10.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "source_05.csv is long-haul (median=3.88h, max=5.64h) and offers a stronger degradation trajectory (n=59, |delta|=0.63) than source_03.csv (n=71, |delta|=0.54)."
+    },
+    {
+      "query_id": 3,
+      "candidates": [
+        "source_01.csv",
+        "source_04.csv",
+        "source_05.csv"
+      ],
+      "choice": "source_01.csv",
+      "reasoning": "source_01.csv is long-haul (median=4.09h, max=5.20h) and offers a stronger degradation trajectory (n=77, |delta|=0.74) than source_04.csv (n=66, |delta|=0.69), source_05.csv (n=59, |delta|=0.63)."
+    },
+    {
+      "query_id": 4,
+      "candidates": [
+        "source_01.csv",
+        "source_13.csv",
+        "source_14.csv",
+        "source_07.csv"
+      ],
+      "choice": "source_01.csv",
+      "reasoning": "source_01.csv is long-haul (median=4.09h, max=5.20h) and offers a stronger degradation trajectory (n=77, |delta|=0.74) than source_13.csv (n=63, |delta|=0.59)."
+    },
+    {
+      "query_id": 5,
+      "candidates": [
+        "source_10.csv",
+        "source_12.csv",
+        "source_04.csv",
+        "source_07.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "source_04.csv is long-haul (median=4.00h, max=5.63h) the only long-haul candidate in this subgroup."
+    },
+    {
+      "query_id": 6,
+      "candidates": [
+        "source_02.csv",
+        "source_12.csv",
+        "source_10.csv",
+        "source_05.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "source_05.csv is long-haul (median=3.88h, max=5.64h) the only long-haul candidate in this subgroup."
+    },
+    {
+      "query_id": 7,
+      "candidates": [
+        "source_09.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_03.csv",
+      "reasoning": "source_03.csv is long-haul (median=4.26h, max=5.51h) the only long-haul candidate in this subgroup."
+    },
+    {
+      "query_id": 8,
+      "candidates": [
+        "source_02.csv",
+        "source_15.csv",
+        "source_12.csv",
+        "source_13.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "source_13.csv is long-haul (median=4.31h, max=5.64h) the only long-haul candidate in this subgroup."
+    },
+    {
+      "query_id": 9,
+      "candidates": [
+        "source_04.csv",
+        "source_14.csv",
+        "source_03.csv",
+        "source_08.csv",
+        "source_13.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "source_04.csv is long-haul (median=4.00h, max=5.63h) and offers a stronger degradation trajectory (n=66, |delta|=0.69) than source_03.csv (n=71, |delta|=0.54), source_13.csv (n=63, |delta|=0.59)."
+    },
+    {
+      "query_id": 10,
+      "candidates": [
+        "source_11.csv",
+        "source_10.csv",
+        "source_05.csv",
+        "source_14.csv",
+        "source_15.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "source_05.csv is long-haul (median=3.88h, max=5.64h) the only long-haul candidate in this subgroup."
+    },
+    {
+      "query_id": 11,
+      "candidates": [
+        "source_13.csv",
+        "source_02.csv",
+        "source_04.csv",
+        "source_05.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "source_04.csv is long-haul (median=4.00h, max=5.63h) and offers a stronger degradation trajectory (n=66, |delta|=0.69) than source_13.csv (n=63, |delta|=0.59), source_05.csv (n=59, |delta|=0.63)."
+    },
+    {
+      "query_id": 12,
+      "candidates": [
+        "source_01.csv",
+        "source_05.csv",
+        "source_08.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_01.csv",
+      "reasoning": "source_01.csv is long-haul (median=4.09h, max=5.20h) and offers a stronger degradation trajectory (n=77, |delta|=0.74) than source_05.csv (n=59, |delta|=0.63)."
+    },
+    {
+      "query_id": 13,
+      "candidates": [
+        "source_03.csv",
+        "source_12.csv",
+        "source_07.csv",
+        "source_13.csv",
+        "source_04.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "source_04.csv is long-haul (median=4.00h, max=5.63h) and offers a stronger degradation trajectory (n=66, |delta|=0.69) than source_03.csv (n=71, |delta|=0.54), source_13.csv (n=63, |delta|=0.59)."
+    },
+    {
+      "query_id": 14,
+      "candidates": [
+        "source_14.csv",
+        "source_11.csv",
+        "source_07.csv"
+      ],
+      "choice": "none",
+      "reasoning": "No candidate matches the long-haul class (all have median flight duration <3.5h)."
+    },
+    {
+      "query_id": 15,
+      "candidates": [
+        "source_13.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "source_13.csv is long-haul (median=4.31h, max=5.64h) and offers a stronger degradation trajectory (n=63, |delta|=0.59) than source_03.csv (n=71, |delta|=0.54)."
+    },
+    {
+      "query_id": 16,
+      "candidates": [
+        "source_03.csv",
+        "source_06.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_03.csv",
+      "reasoning": "source_03.csv is long-haul (median=4.26h, max=5.51h) the only long-haul candidate in this subgroup."
+    },
+    {
+      "query_id": 17,
+      "candidates": [
+        "source_13.csv",
+        "source_15.csv",
+        "source_07.csv",
+        "source_01.csv"
+      ],
+      "choice": "source_01.csv",
+      "reasoning": "source_01.csv is long-haul (median=4.09h, max=5.20h) and offers a stronger degradation trajectory (n=77, |delta|=0.74) than source_13.csv (n=63, |delta|=0.59)."
+    },
+    {
+      "query_id": 18,
+      "candidates": [
+        "source_12.csv",
+        "source_07.csv",
+        "source_09.csv"
+      ],
+      "choice": "none",
+      "reasoning": "No candidate matches the long-haul class (all have median flight duration <3.5h)."
+    },
+    {
+      "query_id": 19,
+      "candidates": [
+        "source_07.csv",
+        "source_13.csv",
+        "source_11.csv",
+        "source_14.csv",
+        "source_10.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "source_13.csv is long-haul (median=4.31h, max=5.64h) the only long-haul candidate in this subgroup."
+    },
+    {
+      "query_id": 20,
+      "candidates": [
+        "source_12.csv",
+        "source_11.csv",
+        "source_13.csv",
+        "source_15.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "source_13.csv is long-haul (median=4.31h, max=5.64h) the only long-haul candidate in this subgroup."
+    },
+    {
+      "query_id": 21,
+      "candidates": [
+        "source_05.csv",
+        "source_14.csv",
+        "source_11.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "source_05.csv is long-haul (median=3.88h, max=5.64h) the only long-haul candidate in this subgroup."
+    },
+    {
+      "query_id": 22,
+      "candidates": [
+        "source_02.csv",
+        "source_14.csv",
+        "source_05.csv",
+        "source_08.csv",
+        "source_06.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "source_05.csv is long-haul (median=3.88h, max=5.64h) the only long-haul candidate in this subgroup."
+    },
+    {
+      "query_id": 23,
+      "candidates": [
+        "source_15.csv",
+        "source_07.csv",
+        "source_11.csv"
+      ],
+      "choice": "none",
+      "reasoning": "No candidate matches the long-haul class (all have median flight duration <3.5h)."
+    },
+    {
+      "query_id": 24,
+      "candidates": [
+        "source_13.csv",
+        "source_14.csv",
+        "source_01.csv",
+        "source_15.csv"
+      ],
+      "choice": "source_01.csv",
+      "reasoning": "source_01.csv is long-haul (median=4.09h, max=5.20h) and offers a stronger degradation trajectory (n=77, |delta|=0.74) than source_13.csv (n=63, |delta|=0.59)."
+    },
+    {
+      "query_id": 25,
+      "candidates": [
+        "source_05.csv",
+        "source_11.csv",
+        "source_04.csv",
+        "source_06.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "source_04.csv is long-haul (median=4.00h, max=5.63h) and offers a stronger degradation trajectory (n=66, |delta|=0.69) than source_05.csv (n=59, |delta|=0.63)."
+    },
+    {
+      "query_id": 26,
+      "candidates": [
+        "source_07.csv",
+        "source_05.csv",
+        "source_11.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "source_05.csv is long-haul (median=3.88h, max=5.64h) the only long-haul candidate in this subgroup."
+    },
+    {
+      "query_id": 27,
+      "candidates": [
+        "source_06.csv",
+        "source_02.csv",
+        "source_14.csv",
+        "source_09.csv",
+        "source_08.csv"
+      ],
+      "choice": "none",
+      "reasoning": "No candidate matches the long-haul class (all have median flight duration <3.5h)."
+    },
+    {
+      "query_id": 28,
+      "candidates": [
+        "source_08.csv",
+        "source_04.csv",
+        "source_07.csv",
+        "source_02.csv",
+        "source_03.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "source_04.csv is long-haul (median=4.00h, max=5.63h) and offers a stronger degradation trajectory (n=66, |delta|=0.69) than source_03.csv (n=71, |delta|=0.54)."
+    },
+    {
+      "query_id": 29,
+      "candidates": [
+        "source_15.csv",
+        "source_01.csv",
+        "source_10.csv",
+        "source_06.csv"
+      ],
+      "choice": "source_01.csv",
+      "reasoning": "source_01.csv is long-haul (median=4.09h, max=5.20h) the only long-haul candidate in this subgroup."
+    }
+  ]
+}

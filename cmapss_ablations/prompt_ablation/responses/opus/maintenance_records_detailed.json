@@ -1,0 +1,2486 @@
+{
+  "target_desc": "Maintenance records describe severe aerodynamic degradation of the high-pressure compressor following sustained exposure to airborne sand and dust during operation, likely caused by continuous high-velocity ingestion of fine, dry abrasive particles.",
+  "responses": [
+    {
+      "S": [
+        43,
+        64,
+        75
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Nc rises +135 rpm over the trajectory with accelerating slope (early +10.2 to late +114.9 rpm/100cyc, curvature +4.40), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        9,
+        19,
+        68
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "Nc rises +103 rpm over the trajectory with accelerating slope (early +6.2 to late +70.3 rpm/100cyc, curvature +2.29), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        12,
+        50,
+        69,
+        73,
+        77
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Nc rises +96 rpm over the trajectory with accelerating slope (early +12.1 to late +92.3 rpm/100cyc, curvature +3.79), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        64,
+        77,
+        90
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Nc rises +38 rpm over the trajectory with accelerating slope (early +3.2 to late +37.4 rpm/100cyc, curvature +1.71), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        9,
+        22,
+        43,
+        44
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Nc rises +135 rpm over the trajectory with accelerating slope (early +10.2 to late +114.9 rpm/100cyc, curvature +4.40), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        16,
+        26,
+        61,
+        75,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Nc rises +92 rpm over the trajectory with accelerating slope (early +10.2 to late +102.4 rpm/100cyc, curvature +4.87), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        66,
+        75,
+        77,
+        86
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Nc rises +38 rpm over the trajectory with accelerating slope (early +3.2 to late +37.4 rpm/100cyc, curvature +1.71), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        4,
+        15,
+        53,
+        74
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the substantial accelerating Nc rise required for severe HPC sand/dust erosion; best is source_016.csv at only +10 rpm delta."
+    },
+    {
+      "S": [
+        32,
+        40,
+        90,
+        93
+      ],
+      "C": [
+        32
+      ],
+      "reasoning": "Nc rises +92 rpm over the trajectory with accelerating slope (early +5.4 to late +98.4 rpm/100cyc, curvature +4.69), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        12,
+        18,
+        44,
+        47,
+        67
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Nc rises +138 rpm over the trajectory with accelerating slope (early +8.5 to late +129.5 rpm/100cyc, curvature +5.49), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        15,
+        41,
+        62,
+        70,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Nc rises +123 rpm over the trajectory with accelerating slope (early +7.6 to late +111.4 rpm/100cyc, curvature +4.69), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        38,
+        78,
+        82,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "Nc rises +134 rpm over the trajectory with accelerating slope (early +10.1 to late +135.7 rpm/100cyc, curvature +6.05), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        13,
+        19,
+        80,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Nc rises +123 rpm over the trajectory with accelerating slope (early +7.6 to late +111.4 rpm/100cyc, curvature +4.69), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        27,
+        45,
+        63,
+        69,
+        78
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Nc rises +96 rpm over the trajectory with accelerating slope (early +12.1 to late +92.3 rpm/100cyc, curvature +3.79), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        11,
+        13,
+        24
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the substantial accelerating Nc rise required for severe HPC sand/dust erosion; best is source_014.csv at only +18 rpm delta."
+    },
+    {
+      "S": [
+        7,
+        45,
+        55,
+        83
+      ],
+      "C": [
+        45
+      ],
+      "reasoning": "Nc rises +73 rpm over the trajectory with accelerating slope (early +5.7 to late +51.9 rpm/100cyc, curvature +1.69), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        8,
+        53,
+        55,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Nc rises +92 rpm over the trajectory with accelerating slope (early +10.2 to late +102.4 rpm/100cyc, curvature +4.87), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        21,
+        27,
+        42,
+        96
+      ],
+      "C": [
+        42
+      ],
+      "reasoning": "Nc rises +37 rpm over the trajectory with accelerating slope (early +2.9 to late +33.7 rpm/100cyc, curvature +1.42), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        5,
+        22,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Nc rises +123 rpm over the trajectory with accelerating slope (early +7.6 to late +111.4 rpm/100cyc, curvature +4.69), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        12,
+        28,
+        42,
+        55,
+        64
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "Nc rises +90 rpm over the trajectory with accelerating slope (early +9.2 to late +92.4 rpm/100cyc, curvature +4.13), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        32,
+        39,
+        40,
+        80
+      ],
+      "C": [
+        32
+      ],
+      "reasoning": "Nc rises +92 rpm over the trajectory with accelerating slope (early +5.4 to late +98.4 rpm/100cyc, curvature +4.69), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        8,
+        72,
+        76
+      ],
+      "C": [
+        76
+      ],
+      "reasoning": "Nc rises +32 rpm over the trajectory with accelerating slope (early +2.6 to late +25.7 rpm/100cyc, curvature +0.99), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        15,
+        49,
+        87,
+        92,
+        99
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "Nc rises +90 rpm over the trajectory with accelerating slope (early +7.9 to late +93.6 rpm/100cyc, curvature +4.32), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        23,
+        30,
+        37
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "Nc rises +117 rpm over the trajectory with accelerating slope (early +12.5 to late +133.2 rpm/100cyc, curvature +6.49), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        8,
+        34,
+        35,
+        94
+      ],
+      "C": [
+        34
+      ],
+      "reasoning": "Nc rises +122 rpm over the trajectory with accelerating slope (early +9.8 to late +132.2 rpm/100cyc, curvature +6.29), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        45,
+        48,
+        69,
+        88
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Nc rises +96 rpm over the trajectory with accelerating slope (early +12.1 to late +92.3 rpm/100cyc, curvature +3.79), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        25,
+        71,
+        76
+      ],
+      "C": [
+        76
+      ],
+      "reasoning": "Nc rises +32 rpm over the trajectory with accelerating slope (early +2.6 to late +25.7 rpm/100cyc, curvature +0.99), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        7,
+        9,
+        26,
+        44,
+        90
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "Nc rises +103 rpm over the trajectory with accelerating slope (early +6.2 to late +70.3 rpm/100cyc, curvature +2.29), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        17,
+        29,
+        54,
+        56,
+        78
+      ],
+      "C": [
+        29
+      ],
+      "reasoning": "Nc rises +39 rpm over the trajectory with accelerating slope (early +7.1 to late +38.2 rpm/100cyc, curvature +1.57), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        30,
+        42,
+        65,
+        69
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Nc rises +96 rpm over the trajectory with accelerating slope (early +12.1 to late +92.3 rpm/100cyc, curvature +3.79), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        8,
+        62,
+        63
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the substantial accelerating Nc rise required for severe HPC sand/dust erosion; best is source_064.csv at only +15 rpm delta."
+    },
+    {
+      "S": [
+        3,
+        17,
+        18,
+        32,
+        48
+      ],
+      "C": [
+        32
+      ],
+      "reasoning": "Nc rises +92 rpm over the trajectory with accelerating slope (early +5.4 to late +98.4 rpm/100cyc, curvature +4.69), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        17,
+        57,
+        78
+      ],
+      "C": [
+        57
+      ],
+      "reasoning": "Nc rises +68 rpm over the trajectory with accelerating slope (early +5.7 to late +82.1 rpm/100cyc, curvature +4.32), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        33,
+        43,
+        55,
+        59,
+        60
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Nc rises +135 rpm over the trajectory with accelerating slope (early +10.2 to late +114.9 rpm/100cyc, curvature +4.40), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        6,
+        45,
+        46,
+        77
+      ],
+      "C": [
+        45
+      ],
+      "reasoning": "Nc rises +73 rpm over the trajectory with accelerating slope (early +5.7 to late +51.9 rpm/100cyc, curvature +1.69), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        15,
+        42,
+        47,
+        57,
+        91
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Nc rises +138 rpm over the trajectory with accelerating slope (early +8.5 to late +129.5 rpm/100cyc, curvature +5.49), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        31,
+        43,
+        51,
+        52,
+        84
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Nc rises +135 rpm over the trajectory with accelerating slope (early +10.2 to late +114.9 rpm/100cyc, curvature +4.40), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        14,
+        53,
+        87
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "Nc rises +100 rpm over the trajectory with accelerating slope (early +8.6 to late +101.6 rpm/100cyc, curvature +4.56), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        10,
+        65,
+        67
+      ],
+      "C": [
+        10
+      ],
+      "reasoning": "Nc rises +133 rpm over the trajectory with accelerating slope (early +10.7 to late +136.8 rpm/100cyc, curvature +6.27), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        64,
+        72,
+        99
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the substantial accelerating Nc rise required for severe HPC sand/dust erosion; best is source_065.csv at only +12 rpm delta."
+    },
+    {
+      "S": [
+        10,
+        60,
+        91
+      ],
+      "C": [
+        10
+      ],
+      "reasoning": "Nc rises +133 rpm over the trajectory with accelerating slope (early +10.7 to late +136.8 rpm/100cyc, curvature +6.27), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        3,
+        13,
+        55
+      ],
+      "C": [
+        3
+      ],
+      "reasoning": "Nc rises +89 rpm over the trajectory with accelerating slope (early +7.0 to late +71.7 rpm/100cyc, curvature +2.64), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        45,
+        80,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Nc rises +123 rpm over the trajectory with accelerating slope (early +7.6 to late +111.4 rpm/100cyc, curvature +4.69), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        29,
+        62,
+        93
+      ],
+      "C": [
+        29
+      ],
+      "reasoning": "Nc rises +39 rpm over the trajectory with accelerating slope (early +7.1 to late +38.2 rpm/100cyc, curvature +1.57), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        16,
+        17,
+        24,
+        91,
+        96
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the substantial accelerating Nc rise required for severe HPC sand/dust erosion; best is source_097.csv at only +18 rpm delta."
+    },
+    {
+      "S": [
+        9,
+        14,
+        74,
+        87,
+        95
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "Nc rises +103 rpm over the trajectory with accelerating slope (early +6.2 to late +70.3 rpm/100cyc, curvature +2.29), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        31,
+        46,
+        50
+      ],
+      "C": [
+        50
+      ],
+      "reasoning": "Nc rises +78 rpm over the trajectory with accelerating slope (early +4.7 to late +61.2 rpm/100cyc, curvature +2.17), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        36,
+        40,
+        64,
+        88
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "Nc rises +79 rpm over the trajectory with accelerating slope (early +6.7 to late +69.7 rpm/100cyc, curvature +2.81), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        0,
+        25,
+        92,
+        94
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "Nc rises +97 rpm over the trajectory with accelerating slope (early +6.2 to late +71.1 rpm/100cyc, curvature +2.45), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        15,
+        81,
+        88
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Nc rises +123 rpm over the trajectory with accelerating slope (early +7.6 to late +111.4 rpm/100cyc, curvature +4.69), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        4,
+        58,
+        70,
+        86
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the substantial accelerating Nc rise required for severe HPC sand/dust erosion; best is source_005.csv at only +5 rpm delta."
+    },
+    {
+      "S": [
+        31,
+        49,
+        50,
+        74,
+        95
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "Nc rises +90 rpm over the trajectory with accelerating slope (early +7.9 to late +93.6 rpm/100cyc, curvature +4.32), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        13,
+        22,
+        27
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the substantial accelerating Nc rise required for severe HPC sand/dust erosion; best is source_014.csv at only +18 rpm delta."
+    },
+    {
+      "S": [
+        11,
+        28,
+        49,
+        69,
+        91
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Nc rises +96 rpm over the trajectory with accelerating slope (early +12.1 to late +92.3 rpm/100cyc, curvature +3.79), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        2,
+        8,
+        70,
+        73,
+        77
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Nc rises +38 rpm over the trajectory with accelerating slope (early +3.2 to late +37.4 rpm/100cyc, curvature +1.71), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        7,
+        39,
+        89,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "Nc rises +137 rpm over the trajectory with accelerating slope (early +9.2 to late +137.0 rpm/100cyc, curvature +6.08), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        30,
+        52,
+        64,
+        94
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "Nc rises +97 rpm over the trajectory with accelerating slope (early +6.2 to late +71.1 rpm/100cyc, curvature +2.45), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        2,
+        14,
+        54,
+        58
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "Nc rises +100 rpm over the trajectory with accelerating slope (early +8.6 to late +101.6 rpm/100cyc, curvature +4.56), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        0,
+        13,
+        41,
+        72,
+        96
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the substantial accelerating Nc rise required for severe HPC sand/dust erosion; best is source_097.csv at only +18 rpm delta."
+    },
+    {
+      "S": [
+        41,
+        45,
+        62,
+        77,
+        78
+      ],
+      "C": [
+        45
+      ],
+      "reasoning": "Nc rises +73 rpm over the trajectory with accelerating slope (early +5.7 to late +51.9 rpm/100cyc, curvature +1.69), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        24,
+        79,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Nc rises +123 rpm over the trajectory with accelerating slope (early +7.6 to late +111.4 rpm/100cyc, curvature +4.69), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        51,
+        59,
+        74,
+        93
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Nc rises +122 rpm over the trajectory with accelerating slope (early +10.9 to late +128.3 rpm/100cyc, curvature +5.94), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        11,
+        37,
+        40
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the substantial accelerating Nc rise required for severe HPC sand/dust erosion; best is source_041.csv at only +18 rpm delta."
+    },
+    {
+      "S": [
+        63,
+        86,
+        95
+      ],
+      "C": [
+        95
+      ],
+      "reasoning": "Nc rises +44 rpm over the trajectory with accelerating slope (early +2.4 to late +29.0 rpm/100cyc, curvature +0.92), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        23,
+        24,
+        26,
+        99
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "Nc rises +117 rpm over the trajectory with accelerating slope (early +12.5 to late +133.2 rpm/100cyc, curvature +6.49), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        6,
+        10,
+        47,
+        59,
+        85
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Nc rises +138 rpm over the trajectory with accelerating slope (early +8.5 to late +129.5 rpm/100cyc, curvature +5.49), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        14,
+        30,
+        91
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "Nc rises +100 rpm over the trajectory with accelerating slope (early +8.6 to late +101.6 rpm/100cyc, curvature +4.56), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        15,
+        16,
+        28,
+        57
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "Nc rises +90 rpm over the trajectory with accelerating slope (early +9.2 to late +92.4 rpm/100cyc, curvature +4.13), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        2,
+        5,
+        19,
+        69
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Nc rises +96 rpm over the trajectory with accelerating slope (early +12.1 to late +92.3 rpm/100cyc, curvature +3.79), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        50,
+        57,
+        67,
+        80
+      ],
+      "C": [
+        50
+      ],
+      "reasoning": "Nc rises +78 rpm over the trajectory with accelerating slope (early +4.7 to late +61.2 rpm/100cyc, curvature +2.17), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        48,
+        71,
+        78,
+        85,
+        99
+      ],
+      "C": [
+        48
+      ],
+      "reasoning": "Nc rises +55 rpm over the trajectory with accelerating slope (early +4.5 to late +52.1 rpm/100cyc, curvature +2.17), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        22,
+        24,
+        57,
+        63,
+        96
+      ],
+      "C": [
+        57
+      ],
+      "reasoning": "Nc rises +68 rpm over the trajectory with accelerating slope (early +5.7 to late +82.1 rpm/100cyc, curvature +4.32), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        36,
+        52,
+        91
+      ],
+      "C": [
+        52
+      ],
+      "reasoning": "Nc rises +89 rpm over the trajectory with accelerating slope (early +7.0 to late +60.8 rpm/100cyc, curvature +1.92), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        5,
+        10,
+        81
+      ],
+      "C": [
+        10
+      ],
+      "reasoning": "Nc rises +133 rpm over the trajectory with accelerating slope (early +10.7 to late +136.8 rpm/100cyc, curvature +6.27), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        9,
+        79,
+        81,
+        82,
+        90
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Nc rises +123 rpm over the trajectory with accelerating slope (early +7.6 to late +111.4 rpm/100cyc, curvature +4.69), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        61,
+        63,
+        75,
+        99
+      ],
+      "C": [
+        61
+      ],
+      "reasoning": "Nc rises +48 rpm over the trajectory with accelerating slope (early +3.7 to late +30.8 rpm/100cyc, curvature +0.93), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        31,
+        50,
+        51,
+        85,
+        95
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Nc rises +122 rpm over the trajectory with accelerating slope (early +10.9 to late +128.3 rpm/100cyc, curvature +5.94), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        6,
+        13,
+        24,
+        26,
+        61
+      ],
+      "C": [
+        6
+      ],
+      "reasoning": "Nc rises +62 rpm over the trajectory with accelerating slope (early +5.5 to late +67.6 rpm/100cyc, curvature +3.31), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        22,
+        33,
+        36,
+        50
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "Nc rises +79 rpm over the trajectory with accelerating slope (early +6.7 to late +69.7 rpm/100cyc, curvature +2.81), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        17,
+        23,
+        36,
+        67
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "Nc rises +117 rpm over the trajectory with accelerating slope (early +12.5 to late +133.2 rpm/100cyc, curvature +6.49), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        32,
+        47,
+        76,
+        82,
+        87
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Nc rises +138 rpm over the trajectory with accelerating slope (early +8.5 to late +129.5 rpm/100cyc, curvature +5.49), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        19,
+        55,
+        63,
+        79
+      ],
+      "C": [
+        19
+      ],
+      "reasoning": "Nc rises +94 rpm over the trajectory with accelerating slope (early +10.7 to late +95.6 rpm/100cyc, curvature +4.23), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        17,
+        28,
+        73
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "Nc rises +90 rpm over the trajectory with accelerating slope (early +9.2 to late +92.4 rpm/100cyc, curvature +4.13), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        49,
+        67,
+        85,
+        91
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "Nc rises +90 rpm over the trajectory with accelerating slope (early +7.9 to late +93.6 rpm/100cyc, curvature +4.32), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        9,
+        58,
+        60,
+        71
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "Nc rises +103 rpm over the trajectory with accelerating slope (early +6.2 to late +70.3 rpm/100cyc, curvature +2.29), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        13,
+        16,
+        80,
+        93,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "Nc rises +137 rpm over the trajectory with accelerating slope (early +9.2 to late +137.0 rpm/100cyc, curvature +6.08), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        8,
+        25,
+        76,
+        90,
+        92
+      ],
+      "C": [
+        92
+      ],
+      "reasoning": "Nc rises +76 rpm over the trajectory with accelerating slope (early +5.3 to late +40.6 rpm/100cyc, curvature +1.03), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        12,
+        16,
+        59,
+        98
+      ],
+      "C": [
+        12
+      ],
+      "reasoning": "Nc rises +42 rpm over the trajectory with accelerating slope (early +2.9 to late +27.4 rpm/100cyc, curvature +0.84), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        45,
+        51,
+        66,
+        72
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Nc rises +122 rpm over the trajectory with accelerating slope (early +10.9 to late +128.3 rpm/100cyc, curvature +5.94), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        13,
+        23,
+        47,
+        59
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Nc rises +138 rpm over the trajectory with accelerating slope (early +8.5 to late +129.5 rpm/100cyc, curvature +5.49), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        8,
+        11,
+        48,
+        65,
+        69
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Nc rises +96 rpm over the trajectory with accelerating slope (early +12.1 to late +92.3 rpm/100cyc, curvature +3.79), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        33,
+        65,
+        72
+      ],
+      "C": [
+        65
+      ],
+      "reasoning": "Nc rises +84 rpm over the trajectory with accelerating slope (early +8.3 to late +85.7 rpm/100cyc, curvature +3.83), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        26,
+        36,
+        61,
+        73,
+        78
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "Nc rises +79 rpm over the trajectory with accelerating slope (early +6.7 to late +69.7 rpm/100cyc, curvature +2.81), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        8,
+        14,
+        43,
+        54,
+        91
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Nc rises +135 rpm over the trajectory with accelerating slope (early +10.2 to late +114.9 rpm/100cyc, curvature +4.40), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        54,
+        93,
+        99
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the substantial accelerating Nc rise required for severe HPC sand/dust erosion; best is source_094.csv at only +5 rpm delta."
+    },
+    {
+      "S": [
+        13,
+        37,
+        46,
+        65
+      ],
+      "C": [
+        65
+      ],
+      "reasoning": "Nc rises +84 rpm over the trajectory with accelerating slope (early +8.3 to late +85.7 rpm/100cyc, curvature +3.83), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        11,
+        26,
+        41,
+        85,
+        91
+      ],
+      "C": [
+        26
+      ],
+      "reasoning": "Nc rises +36 rpm over the trajectory with accelerating slope (early +4.3 to late +36.4 rpm/100cyc, curvature +1.67), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        3,
+        54,
+        57,
+        67
+      ],
+      "C": [
+        3
+      ],
+      "reasoning": "Nc rises +89 rpm over the trajectory with accelerating slope (early +7.0 to late +71.7 rpm/100cyc, curvature +2.64), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        28,
+        41,
+        45,
+        79,
+        95
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Nc rises +92 rpm over the trajectory with accelerating slope (early +10.2 to late +102.4 rpm/100cyc, curvature +4.87), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        54,
+        72,
+        77,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "Nc rises +134 rpm over the trajectory with accelerating slope (early +10.1 to late +135.7 rpm/100cyc, curvature +6.05), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        28,
+        67,
+        86
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "Nc rises +90 rpm over the trajectory with accelerating slope (early +9.2 to late +92.4 rpm/100cyc, curvature +4.13), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        10,
+        65,
+        99
+      ],
+      "C": [
+        10
+      ],
+      "reasoning": "Nc rises +133 rpm over the trajectory with accelerating slope (early +10.7 to late +136.8 rpm/100cyc, curvature +6.27), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        9,
+        61,
+        63
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "Nc rises +103 rpm over the trajectory with accelerating slope (early +6.2 to late +70.3 rpm/100cyc, curvature +2.29), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        2,
+        14,
+        23,
+        44,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "Nc rises +137 rpm over the trajectory with accelerating slope (early +9.2 to late +137.0 rpm/100cyc, curvature +6.08), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        28,
+        65,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "Nc rises +134 rpm over the trajectory with accelerating slope (early +10.1 to late +135.7 rpm/100cyc, curvature +6.05), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        0,
+        5,
+        15
+      ],
+      "C": [
+        5
+      ],
+      "reasoning": "Nc rises +79 rpm over the trajectory with accelerating slope (early +6.8 to late +101.9 rpm/100cyc, curvature +5.78), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        23,
+        28,
+        76,
+        84,
+        93
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "Nc rises +117 rpm over the trajectory with accelerating slope (early +12.5 to late +133.2 rpm/100cyc, curvature +6.49), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        11,
+        69,
+        75,
+        83,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "Nc rises +134 rpm over the trajectory with accelerating slope (early +10.1 to late +135.7 rpm/100cyc, curvature +6.05), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        11,
+        12,
+        19,
+        69
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Nc rises +96 rpm over the trajectory with accelerating slope (early +12.1 to late +92.3 rpm/100cyc, curvature +3.79), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        8,
+        44,
+        61,
+        84
+      ],
+      "C": [
+        61
+      ],
+      "reasoning": "Nc rises +48 rpm over the trajectory with accelerating slope (early +3.7 to late +30.8 rpm/100cyc, curvature +0.93), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        1,
+        18,
+        27
+      ],
+      "C": [
+        18
+      ],
+      "reasoning": "Nc rises +89 rpm over the trajectory with accelerating slope (early +5.5 to late +76.6 rpm/100cyc, curvature +3.02), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        50,
+        60,
+        73,
+        95
+      ],
+      "C": [
+        60
+      ],
+      "reasoning": "Nc rises +99 rpm over the trajectory with accelerating slope (early +10.9 to late +120.7 rpm/100cyc, curvature +6.21), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        4,
+        21,
+        88
+      ],
+      "C": [
+        88
+      ],
+      "reasoning": "Nc rises +31 rpm over the trajectory with accelerating slope (early +2.6 to late +29.2 rpm/100cyc, curvature +1.23), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        9,
+        16,
+        36,
+        77
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "Nc rises +103 rpm over the trajectory with accelerating slope (early +6.2 to late +70.3 rpm/100cyc, curvature +2.29), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        25,
+        44,
+        53,
+        77
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Nc rises +38 rpm over the trajectory with accelerating slope (early +3.2 to late +37.4 rpm/100cyc, curvature +1.71), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        14,
+        24,
+        54,
+        93
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "Nc rises +100 rpm over the trajectory with accelerating slope (early +8.6 to late +101.6 rpm/100cyc, curvature +4.56), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        25,
+        44,
+        64,
+        67
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the substantial accelerating Nc rise required for severe HPC sand/dust erosion; best is source_045.csv at only +15 rpm delta."
+    },
+    {
+      "S": [
+        39,
+        49,
+        67,
+        91
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "Nc rises +90 rpm over the trajectory with accelerating slope (early +7.9 to late +93.6 rpm/100cyc, curvature +4.32), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        9,
+        12,
+        27,
+        30,
+        91
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "Nc rises +103 rpm over the trajectory with accelerating slope (early +6.2 to late +70.3 rpm/100cyc, curvature +2.29), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        15,
+        40,
+        61,
+        95
+      ],
+      "C": [
+        61
+      ],
+      "reasoning": "Nc rises +48 rpm over the trajectory with accelerating slope (early +3.7 to late +30.8 rpm/100cyc, curvature +0.93), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        3,
+        31,
+        56,
+        58,
+        91
+      ],
+      "C": [
+        3
+      ],
+      "reasoning": "Nc rises +89 rpm over the trajectory with accelerating slope (early +7.0 to late +71.7 rpm/100cyc, curvature +2.64), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        9,
+        22,
+        57
+      ],
+      "C": [
+        9
+      ],
+      "reasoning": "Nc rises +103 rpm over the trajectory with accelerating slope (early +6.2 to late +70.3 rpm/100cyc, curvature +2.29), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        53,
+        58,
+        64,
+        68
+      ],
+      "C": [
+        68
+      ],
+      "reasoning": "Nc rises +36 rpm over the trajectory with accelerating slope (early +6.2 to late +54.1 rpm/100cyc, curvature +3.27), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        33,
+        54,
+        77
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Nc rises +38 rpm over the trajectory with accelerating slope (early +3.2 to late +37.4 rpm/100cyc, curvature +1.71), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        35,
+        51,
+        60,
+        96
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Nc rises +122 rpm over the trajectory with accelerating slope (early +10.9 to late +128.3 rpm/100cyc, curvature +5.94), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        12,
+        85,
+        91,
+        99
+      ],
+      "C": [
+        12
+      ],
+      "reasoning": "Nc rises +42 rpm over the trajectory with accelerating slope (early +2.9 to late +27.4 rpm/100cyc, curvature +0.84), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        24,
+        31,
+        78
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the substantial accelerating Nc rise required for severe HPC sand/dust erosion; best is source_079.csv at only +4 rpm delta."
+    },
+    {
+      "S": [
+        4,
+        5,
+        11,
+        47
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Nc rises +138 rpm over the trajectory with accelerating slope (early +8.5 to late +129.5 rpm/100cyc, curvature +5.49), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        5,
+        7,
+        27,
+        33,
+        55
+      ],
+      "C": [
+        5
+      ],
+      "reasoning": "Nc rises +79 rpm over the trajectory with accelerating slope (early +6.8 to late +101.9 rpm/100cyc, curvature +5.78), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        1,
+        72,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "Nc rises +134 rpm over the trajectory with accelerating slope (early +10.1 to late +135.7 rpm/100cyc, curvature +6.05), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        15,
+        36,
+        40,
+        70,
+        82
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "Nc rises +79 rpm over the trajectory with accelerating slope (early +6.7 to late +69.7 rpm/100cyc, curvature +2.81), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        7,
+        35,
+        49,
+        94
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "Nc rises +97 rpm over the trajectory with accelerating slope (early +6.2 to late +71.1 rpm/100cyc, curvature +2.45), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        14,
+        30,
+        68,
+        75
+      ],
+      "C": [
+        14
+      ],
+      "reasoning": "Nc rises +100 rpm over the trajectory with accelerating slope (early +8.6 to late +101.6 rpm/100cyc, curvature +4.56), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        1,
+        20,
+        32,
+        61,
+        66
+      ],
+      "C": [
+        32
+      ],
+      "reasoning": "Nc rises +92 rpm over the trajectory with accelerating slope (early +5.4 to late +98.4 rpm/100cyc, curvature +4.69), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        15,
+        40,
+        81,
+        91,
+        98
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Nc rises +123 rpm over the trajectory with accelerating slope (early +7.6 to late +111.4 rpm/100cyc, curvature +4.69), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        13,
+        44,
+        49,
+        63,
+        95
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "Nc rises +90 rpm over the trajectory with accelerating slope (early +7.9 to late +93.6 rpm/100cyc, curvature +4.32), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        3,
+        42,
+        46,
+        47,
+        72
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Nc rises +138 rpm over the trajectory with accelerating slope (early +8.5 to late +129.5 rpm/100cyc, curvature +5.49), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        4,
+        88,
+        93
+      ],
+      "C": [
+        88
+      ],
+      "reasoning": "Nc rises +31 rpm over the trajectory with accelerating slope (early +2.6 to late +29.2 rpm/100cyc, curvature +1.23), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        19,
+        28,
+        49
+      ],
+      "C": [
+        19
+      ],
+      "reasoning": "Nc rises +94 rpm over the trajectory with accelerating slope (early +10.7 to late +95.6 rpm/100cyc, curvature +4.23), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        1,
+        8,
+        24,
+        26,
+        47
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Nc rises +138 rpm over the trajectory with accelerating slope (early +8.5 to late +129.5 rpm/100cyc, curvature +5.49), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        39,
+        62,
+        66,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Nc rises +92 rpm over the trajectory with accelerating slope (early +10.2 to late +102.4 rpm/100cyc, curvature +4.87), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        33,
+        35,
+        52,
+        72,
+        87
+      ],
+      "C": [
+        52
+      ],
+      "reasoning": "Nc rises +89 rpm over the trajectory with accelerating slope (early +7.0 to late +60.8 rpm/100cyc, curvature +1.92), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        36,
+        67,
+        74,
+        84
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "Nc rises +79 rpm over the trajectory with accelerating slope (early +6.7 to late +69.7 rpm/100cyc, curvature +2.81), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        11,
+        57,
+        85
+      ],
+      "C": [
+        57
+      ],
+      "reasoning": "Nc rises +68 rpm over the trajectory with accelerating slope (early +5.7 to late +82.1 rpm/100cyc, curvature +4.32), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        48,
+        51,
+        52,
+        83
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Nc rises +122 rpm over the trajectory with accelerating slope (early +10.9 to late +128.3 rpm/100cyc, curvature +5.94), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        17,
+        38,
+        61,
+        88,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "Nc rises +137 rpm over the trajectory with accelerating slope (early +9.2 to late +137.0 rpm/100cyc, curvature +6.08), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        2,
+        60,
+        92
+      ],
+      "C": [
+        60
+      ],
+      "reasoning": "Nc rises +99 rpm over the trajectory with accelerating slope (early +10.9 to late +120.7 rpm/100cyc, curvature +6.21), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        13,
+        29,
+        56,
+        59
+      ],
+      "C": [
+        29
+      ],
+      "reasoning": "Nc rises +39 rpm over the trajectory with accelerating slope (early +7.1 to late +38.2 rpm/100cyc, curvature +1.57), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        52,
+        63,
+        68
+      ],
+      "C": [
+        52
+      ],
+      "reasoning": "Nc rises +89 rpm over the trajectory with accelerating slope (early +7.0 to late +60.8 rpm/100cyc, curvature +1.92), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        46,
+        59,
+        76,
+        85,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "Nc rises +137 rpm over the trajectory with accelerating slope (early +9.2 to late +137.0 rpm/100cyc, curvature +6.08), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        61,
+        78,
+        94
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "Nc rises +97 rpm over the trajectory with accelerating slope (early +6.2 to late +71.1 rpm/100cyc, curvature +2.45), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        11,
+        50,
+        73
+      ],
+      "C": [
+        50
+      ],
+      "reasoning": "Nc rises +78 rpm over the trajectory with accelerating slope (early +4.7 to late +61.2 rpm/100cyc, curvature +2.17), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        41,
+        53,
+        64,
+        94
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "Nc rises +97 rpm over the trajectory with accelerating slope (early +6.2 to late +71.1 rpm/100cyc, curvature +2.45), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        28,
+        73,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Nc rises +123 rpm over the trajectory with accelerating slope (early +7.6 to late +111.4 rpm/100cyc, curvature +4.69), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        0,
+        12,
+        29,
+        33
+      ],
+      "C": [
+        12
+      ],
+      "reasoning": "Nc rises +42 rpm over the trajectory with accelerating slope (early +2.9 to late +27.4 rpm/100cyc, curvature +0.84), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        46,
+        47,
+        84,
+        85,
+        96
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Nc rises +138 rpm over the trajectory with accelerating slope (early +8.5 to late +129.5 rpm/100cyc, curvature +5.49), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        8,
+        64,
+        77
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Nc rises +38 rpm over the trajectory with accelerating slope (early +3.2 to late +37.4 rpm/100cyc, curvature +1.71), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        26,
+        44,
+        77,
+        91
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Nc rises +38 rpm over the trajectory with accelerating slope (early +3.2 to late +37.4 rpm/100cyc, curvature +1.71), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        4,
+        36,
+        94
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "Nc rises +97 rpm over the trajectory with accelerating slope (early +6.2 to late +71.1 rpm/100cyc, curvature +2.45), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        64,
+        65,
+        69,
+        73,
+        77
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Nc rises +96 rpm over the trajectory with accelerating slope (early +12.1 to late +92.3 rpm/100cyc, curvature +3.79), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        4,
+        37,
+        77,
+        90
+      ],
+      "C": [
+        77
+      ],
+      "reasoning": "Nc rises +38 rpm over the trajectory with accelerating slope (early +3.2 to late +37.4 rpm/100cyc, curvature +1.71), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        0,
+        43,
+        84
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Nc rises +135 rpm over the trajectory with accelerating slope (early +10.2 to late +114.9 rpm/100cyc, curvature +4.40), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        2,
+        52,
+        66
+      ],
+      "C": [
+        52
+      ],
+      "reasoning": "Nc rises +89 rpm over the trajectory with accelerating slope (early +7.0 to late +60.8 rpm/100cyc, curvature +1.92), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        23,
+        25,
+        59,
+        65,
+        85
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "Nc rises +117 rpm over the trajectory with accelerating slope (early +12.5 to late +133.2 rpm/100cyc, curvature +6.49), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        29,
+        59,
+        70,
+        81,
+        87
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Nc rises +123 rpm over the trajectory with accelerating slope (early +7.6 to late +111.4 rpm/100cyc, curvature +4.69), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        18,
+        67,
+        84,
+        85
+      ],
+      "C": [
+        18
+      ],
+      "reasoning": "Nc rises +89 rpm over the trajectory with accelerating slope (early +5.5 to late +76.6 rpm/100cyc, curvature +3.02), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        41,
+        53,
+        69,
+        79
+      ],
+      "C": [
+        69
+      ],
+      "reasoning": "Nc rises +96 rpm over the trajectory with accelerating slope (early +12.1 to late +92.3 rpm/100cyc, curvature +3.79), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        11,
+        13,
+        39,
+        51,
+        57
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Nc rises +122 rpm over the trajectory with accelerating slope (early +10.9 to late +128.3 rpm/100cyc, curvature +5.94), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        5,
+        38,
+        49,
+        57,
+        91
+      ],
+      "C": [
+        49
+      ],
+      "reasoning": "Nc rises +90 rpm over the trajectory with accelerating slope (early +7.9 to late +93.6 rpm/100cyc, curvature +4.32), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        6,
+        8,
+        35
+      ],
+      "C": [
+        35
+      ],
+      "reasoning": "Nc rises +68 rpm over the trajectory with accelerating slope (early +9.6 to late +72.0 rpm/100cyc, curvature +3.26), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        1,
+        29,
+        44,
+        96
+      ],
+      "C": [
+        1
+      ],
+      "reasoning": "Nc rises +55 rpm over the trajectory with accelerating slope (early +5.9 to late +45.9 rpm/100cyc, curvature +1.76), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        40,
+        86,
+        94,
+        96
+      ],
+      "C": [
+        94
+      ],
+      "reasoning": "Nc rises +97 rpm over the trajectory with accelerating slope (early +6.2 to late +71.1 rpm/100cyc, curvature +2.45), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        23,
+        27,
+        33,
+        38,
+        87
+      ],
+      "C": [
+        23
+      ],
+      "reasoning": "Nc rises +117 rpm over the trajectory with accelerating slope (early +12.5 to late +133.2 rpm/100cyc, curvature +6.49), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        51,
+        74,
+        97
+      ],
+      "C": [
+        97
+      ],
+      "reasoning": "Nc rises +137 rpm over the trajectory with accelerating slope (early +9.2 to late +137.0 rpm/100cyc, curvature +6.08), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        2,
+        29,
+        63,
+        85
+      ],
+      "C": [
+        29
+      ],
+      "reasoning": "Nc rises +39 rpm over the trajectory with accelerating slope (early +7.1 to late +38.2 rpm/100cyc, curvature +1.57), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        15,
+        34,
+        87
+      ],
+      "C": [
+        34
+      ],
+      "reasoning": "Nc rises +122 rpm over the trajectory with accelerating slope (early +9.8 to late +132.2 rpm/100cyc, curvature +6.29), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        24,
+        55,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Nc rises +92 rpm over the trajectory with accelerating slope (early +10.2 to late +102.4 rpm/100cyc, curvature +4.87), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        42,
+        47,
+        84,
+        94
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Nc rises +138 rpm over the trajectory with accelerating slope (early +8.5 to late +129.5 rpm/100cyc, curvature +5.49), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        66,
+        79,
+        90
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Nc rises +92 rpm over the trajectory with accelerating slope (early +10.2 to late +102.4 rpm/100cyc, curvature +4.87), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        16,
+        17,
+        31,
+        55
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the substantial accelerating Nc rise required for severe HPC sand/dust erosion; best is source_056.csv at only +9 rpm delta."
+    },
+    {
+      "S": [
+        51,
+        77,
+        93
+      ],
+      "C": [
+        51
+      ],
+      "reasoning": "Nc rises +122 rpm over the trajectory with accelerating slope (early +10.9 to late +128.3 rpm/100cyc, curvature +5.94), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        3,
+        92,
+        95
+      ],
+      "C": [
+        3
+      ],
+      "reasoning": "Nc rises +89 rpm over the trajectory with accelerating slope (early +7.0 to late +71.7 rpm/100cyc, curvature +2.64), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        4,
+        5,
+        24
+      ],
+      "C": [
+        5
+      ],
+      "reasoning": "Nc rises +79 rpm over the trajectory with accelerating slope (early +6.8 to late +101.9 rpm/100cyc, curvature +5.78), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        25,
+        31,
+        43,
+        50,
+        78
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Nc rises +135 rpm over the trajectory with accelerating slope (early +10.2 to late +114.9 rpm/100cyc, curvature +4.40), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        5,
+        37,
+        76,
+        89
+      ],
+      "C": [
+        89
+      ],
+      "reasoning": "Nc rises +134 rpm over the trajectory with accelerating slope (early +10.1 to late +135.7 rpm/100cyc, curvature +6.05), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        22,
+        28,
+        38,
+        41,
+        47
+      ],
+      "C": [
+        47
+      ],
+      "reasoning": "Nc rises +138 rpm over the trajectory with accelerating slope (early +8.5 to late +129.5 rpm/100cyc, curvature +5.49), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        0,
+        11,
+        15,
+        83
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the substantial accelerating Nc rise required for severe HPC sand/dust erosion; best is source_084.csv at only +28 rpm delta."
+    },
+    {
+      "S": [
+        32,
+        40,
+        43
+      ],
+      "C": [
+        43
+      ],
+      "reasoning": "Nc rises +135 rpm over the trajectory with accelerating slope (early +10.2 to late +114.9 rpm/100cyc, curvature +4.40), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        22,
+        25,
+        51,
+        81
+      ],
+      "C": [
+        81
+      ],
+      "reasoning": "Nc rises +123 rpm over the trajectory with accelerating slope (early +7.6 to late +111.4 rpm/100cyc, curvature +4.69), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        22,
+        33,
+        46,
+        66,
+        83
+      ],
+      "C": [
+        46
+      ],
+      "reasoning": "Nc rises +60 rpm over the trajectory with accelerating slope (early +5.6 to late +61.7 rpm/100cyc, curvature +2.75), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        4,
+        45,
+        48,
+        86
+      ],
+      "C": [
+        45
+      ],
+      "reasoning": "Nc rises +73 rpm over the trajectory with accelerating slope (early +5.7 to late +51.9 rpm/100cyc, curvature +1.69), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        2,
+        4,
+        13,
+        31
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the substantial accelerating Nc rise required for severe HPC sand/dust erosion; best is source_014.csv at only +18 rpm delta."
+    },
+    {
+      "S": [
+        3,
+        11,
+        15,
+        18,
+        79
+      ],
+      "C": [
+        79
+      ],
+      "reasoning": "Nc rises +92 rpm over the trajectory with accelerating slope (early +10.2 to late +102.4 rpm/100cyc, curvature +4.87), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        22,
+        55,
+        59
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the substantial accelerating Nc rise required for severe HPC sand/dust erosion; best is source_056.csv at only +9 rpm delta."
+    },
+    {
+      "S": [
+        0,
+        27,
+        53,
+        84
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the substantial accelerating Nc rise required for severe HPC sand/dust erosion; best is source_085.csv at only +7 rpm delta."
+    },
+    {
+      "S": [
+        25,
+        28,
+        74,
+        83,
+        96
+      ],
+      "C": [
+        28
+      ],
+      "reasoning": "Nc rises +90 rpm over the trajectory with accelerating slope (early +9.2 to late +92.4 rpm/100cyc, curvature +4.13), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        7,
+        36,
+        57,
+        88,
+        96
+      ],
+      "C": [
+        36
+      ],
+      "reasoning": "Nc rises +79 rpm over the trajectory with accelerating slope (early +6.7 to late +69.7 rpm/100cyc, curvature +2.81), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        11,
+        29,
+        59,
+        77
+      ],
+      "C": [
+        29
+      ],
+      "reasoning": "Nc rises +39 rpm over the trajectory with accelerating slope (early +7.1 to late +38.2 rpm/100cyc, curvature +1.57), matching severe HPC erosion."
+    },
+    {
+      "S": [
+        7,
+        30,
+        80,
+        86
+      ],
+      "C": [],
+      "reasoning": "No candidate shows the substantial accelerating Nc rise required for severe HPC sand/dust erosion; best is source_081.csv at only -2 rpm delta."
+    },
+    {
+      "S": [
+        1,
+        16,
+        65,
+        68
+      ],
+      "C": [
+        65
+      ],
+      "reasoning": "Nc rises +84 rpm over the trajectory with accelerating slope (early +8.3 to late +85.7 rpm/100cyc, curvature +3.83), matching severe HPC erosion."
+    }
+  ],
+  "source_basenames": [
+    "1.csv",
+    "10.csv",
+    "100.csv",
+    "11.csv",
+    "12.csv",
+    "13.csv",
+    "14.csv",
+    "15.csv",
+    "16.csv",
+    "17.csv",
+    "18.csv",
+    "19.csv",
+    "2.csv",
+    "20.csv",
+    "21.csv",
+    "22.csv",
+    "23.csv",
+    "24.csv",
+    "25.csv",
+    "26.csv",
+    "27.csv",
+    "28.csv",
+    "29.csv",
+    "3.csv",
+    "30.csv",
+    "31.csv",
+    "32.csv",
+    "33.csv",
+    "34.csv",
+    "35.csv",
+    "36.csv",
+    "37.csv",
+    "38.csv",
+    "39.csv",
+    "4.csv",
+    "40.csv",
+    "41.csv",
+    "42.csv",
+    "43.csv",
+    "44.csv",
+    "45.csv",
+    "46.csv",
+    "47.csv",
+    "48.csv",
+    "49.csv",
+    "5.csv",
+    "50.csv",
+    "51.csv",
+    "52.csv",
+    "53.csv",
+    "54.csv",
+    "55.csv",
+    "56.csv",
+    "57.csv",
+    "58.csv",
+    "59.csv",
+    "6.csv",
+    "60.csv",
+    "61.csv",
+    "62.csv",
+    "63.csv",
+    "64.csv",
+    "65.csv",
+    "66.csv",
+    "67.csv",
+    "68.csv",
+    "69.csv",
+    "7.csv",
+    "70.csv",
+    "71.csv",
+    "72.csv",
+    "73.csv",
+    "74.csv",
+    "75.csv",
+    "76.csv",
+    "77.csv",
+    "78.csv",
+    "79.csv",
+    "8.csv",
+    "80.csv",
+    "81.csv",
+    "82.csv",
+    "83.csv",
+    "84.csv",
+    "85.csv",
+    "86.csv",
+    "87.csv",
+    "88.csv",
+    "89.csv",
+    "9.csv",
+    "90.csv",
+    "91.csv",
+    "92.csv",
+    "93.csv",
+    "94.csv",
+    "95.csv",
+    "96.csv",
+    "97.csv",
+    "98.csv",
+    "99.csv"
+  ],
+  "meta": {
+    "model": "claude-opus-4-7",
+    "model_request": "claude-opus-4-7",
+    "effort": "max",
+    "protocol": "blind_agentic_single_choice",
+    "n_queries": 200,
+    "global_pool": true,
+    "subgroup_size_range": [
+      3,
+      5
+    ],
+    "seed": 42,
+    "reference_query_file": "cmapss/data/llm_subgroup_queries_claude.json",
+    "condition": "maintenance_records_detailed"
+  }
+}

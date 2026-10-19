@@ -1,0 +1,6 @@
+# Python 3.14.4; versions as used to produce the paper figures
+numpy==2.5.1
+scipy==1.18.0
+matplotlib==3.10.9
+torch==2.13.0          # CPU build is enough (lip.fit_lip)
+google-genai==2.29.0   # only needed for `python gaussian.py query`

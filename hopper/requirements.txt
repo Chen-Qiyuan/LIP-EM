@@ -1,0 +1,13 @@
+# Versions used for the Table 2 runs (Python 3.14.4, CUDA 12.8).
+torch==2.11.0
+numpy==2.4.4
+h5py==3.16.0
+pandas==3.0.2
+gymnasium==1.2.3
+mujoco==3.8.0
+tqdm==4.67.3
+# Table script (src/make_table.py); the table was rebuilt with scipy 1.18.1.
+scipy==1.18.1
+# Only for re-running the Gemini elicitation (src/lip_query_gemini.py);
+# the cached responses were collected with google-genai 1.75.0.
+google-genai==1.75.0

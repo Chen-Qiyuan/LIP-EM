@@ -1,0 +1,43 @@
+{
+  "target_desc": "The target domain has a larger x mean.",
+  "responses": [
+    {
+      "S": [
+        0,
+        1
+      ],
+      "C": [
+        0
+      ],
+      "reasoning": "Source A's x-coordinate mean is approximately 55.1, which is notably higher than Source B's x-coordinate mean of approximately 50.8. This higher average x-value directly matches the target description while both datasets maintain similar y-coordinate means around 120."
+    },
+    {
+      "S": [
+        0,
+        2
+      ],
+      "C": [
+        0
+      ],
+      "reasoning": "Source A's x-coordinate mean is approximately 55.1, which is significantly higher than Source B's mean of approximately 48.2. This higher average in Source A directly matches the target description's requirement for a larger x mean."
+    },
+    {
+      "S": [
+        1,
+        2
+      ],
+      "C": [
+        1
+      ],
+      "reasoning": "Source A's x-coordinate mean is approximately 50.5, which is larger than Source B's mean of approximately 47.9, while both datasets have similar y-coordinate means around 120. This aligns with the target description's requirement for a larger x mean."
+    }
+  ],
+  "meta": {
+    "model": "gemini-3-flash-preview",
+    "temperature": 0.0,
+    "dim": 2,
+    "data_seed": 42,
+    "query_format": "labeled attachments",
+    "queried_at": "2026-10-10 20:51:34 EDT"
+  }
+}

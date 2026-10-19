@@ -1,0 +1,95 @@
+{
+  "claude_agent": {
+    "elicitation": "claude_agent",
+    "queries": 30,
+    "choice_accuracy_scoring_only": 1.0,
+    "relevant_sources_reported": [
+      "source_08.csv",
+      "source_14.csv",
+      "source_06.csv",
+      "source_11.csv",
+      "source_07.csv"
+    ],
+    "confidence": "high",
+    "folds": {
+      "DS03-dev-U02": {
+        "queries_after_target_exclusion": 16,
+        "matching_mean_prior": 0.1378278445995703,
+        "nonmatching_mean_prior": 0.0036996087550239232,
+        "source_classification_auc": 1.0
+      },
+      "DS03-dev-U03": {
+        "queries_after_target_exclusion": 22,
+        "matching_mean_prior": 0.1810177961010328,
+        "nonmatching_mean_prior": 0.003620250826416297,
+        "source_classification_auc": 1.0
+      },
+      "DS03-dev-U04": {
+        "queries_after_target_exclusion": 20,
+        "matching_mean_prior": 0.1916663288241296,
+        "nonmatching_mean_prior": 0.00392846811640012,
+        "source_classification_auc": 1.0
+      },
+      "DS03-dev-U07": {
+        "queries_after_target_exclusion": 24,
+        "matching_mean_prior": 0.21513786247648015,
+        "nonmatching_mean_prior": 0.0034002677124996016,
+        "source_classification_auc": 1.0
+      },
+      "DS03-test-U15": {
+        "queries_after_target_exclusion": 22,
+        "matching_mean_prior": 0.1995968298555485,
+        "nonmatching_mean_prior": 0.0034895582608934794,
+        "source_classification_auc": 1.0
+      }
+    }
+  },
+  "gemini": {
+    "elicitation": "gemini",
+    "queries": 30,
+    "choice_accuracy_scoring_only": 0.13333333333333333,
+    "relevant_sources_reported": [
+      "source_04.csv",
+      "source_01.csv",
+      "source_03.csv",
+      "source_05.csv",
+      "source_13.csv",
+      "source_11.csv",
+      "source_07.csv",
+      "source_14.csv"
+    ],
+    "confidence": "medium",
+    "folds": {
+      "DS03-dev-U02": {
+        "queries_after_target_exclusion": 16,
+        "matching_mean_prior": 0.006465379061630682,
+        "nonmatching_mean_prior": 0.035090031604435815,
+        "source_classification_auc": 0.475
+      },
+      "DS03-dev-U03": {
+        "queries_after_target_exclusion": 22,
+        "matching_mean_prior": 0.004779564389164961,
+        "nonmatching_mean_prior": 0.04502021171029598,
+        "source_classification_auc": 0.375
+      },
+      "DS03-dev-U04": {
+        "queries_after_target_exclusion": 20,
+        "matching_mean_prior": 0.0037267502209206455,
+        "nonmatching_mean_prior": 0.04388479004503025,
+        "source_classification_auc": 0.25
+      },
+      "DS03-dev-U07": {
+        "queries_after_target_exclusion": 24,
+        "matching_mean_prior": 0.00473332921576502,
+        "nonmatching_mean_prior": 0.04878362611299836,
+        "source_classification_auc": 0.375
+      },
+      "DS03-test-U15": {
+        "queries_after_target_exclusion": 22,
+        "matching_mean_prior": 0.005983138958189507,
+        "nonmatching_mean_prior": 0.04603751323511611,
+        "source_classification_auc": 0.4
+      }
+    }
+  }
+}

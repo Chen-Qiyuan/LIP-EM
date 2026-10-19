@@ -1,0 +1,364 @@
+{
+  "ranked_sources": [
+    "source_13.csv",
+    "source_03.csv",
+    "source_05.csv",
+    "source_04.csv",
+    "source_01.csv",
+    "source_11.csv",
+    "source_07.csv",
+    "source_14.csv",
+    "source_02.csv",
+    "source_06.csv",
+    "source_08.csv",
+    "source_09.csv",
+    "source_10.csv",
+    "source_12.csv",
+    "source_15.csv"
+  ],
+  "relevant_sources": [
+    "source_13.csv",
+    "source_03.csv",
+    "source_05.csv",
+    "source_04.csv",
+    "source_01.csv",
+    "source_11.csv",
+    "source_07.csv",
+    "source_14.csv"
+  ],
+  "reasoning": "Ranking is derived after collection from independent subgroup choices; it was never requested from or shown to Claude.",
+  "confidence": "medium",
+  "subgroup_choices": [
+    {
+      "query_id": 0,
+      "candidates": [
+        "source_05.csv",
+        "source_06.csv",
+        "source_04.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "Flight-duration distributions clearly separate the candidates: source_06 has short flights (min ~1.3h, max ~3.3h, mean ~2.4h) \u2014 short-haul. source_05 has mean ~3.9h with max ~5.6h, dominated by medium-length flights. source_04 has the highest sustained durations (mean ~4.0h, max 5.63h, ~26% of flights >4.5h and multiple flights \u22655.0h), making it the closest match to a long-haul operating profile. Additionally, source_04's degradation signatures (adjusted_T48 reaching ~2.0, adjusted_Wf ~3.4 by end of trajectory) show the pronounced per-cycle stress consistent with longer missions, providing the most transferable sensor-residual dynamics for a long-haul target."
+    },
+    {
+      "query_id": 1,
+      "candidates": [
+        "source_04.csv",
+        "source_14.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "source_04 has mean flight_duration_hours \u2248 4.0 h (range 2.68\u20135.63, with flights reaching 5.50 and 5.63 h), whereas source_14 (mean \u2248 2.44 h, max 3.40) and source_08 (mean \u2248 2.50 h, max 3.42) are consistently sub-3.5 h short-duration profiles. For a long-haul target, source_04's substantially longer cruise-phase exposure makes it the only credibly relevant match; the other two are ~40% shorter on average and never approach long-haul durations."
+    },
+    {
+      "query_id": 2,
+      "candidates": [
+        "source_05.csv",
+        "source_10.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_03.csv",
+      "reasoning": "Flight-duration distribution is the only reliable flight-class proxy here. source_10 (max 1.58h) and source_12 (max 1.58h) are short-haul; source_14 (max 3.40h, mean ~2.5h) is short/medium-haul. source_05 has mean ~3.87h, max 5.64h, with only 2 flights >5h \u2014 medium-haul character. source_03 has mean ~4.24h, max 5.51h, with ~6 flights \u22655.2h and the bulk in the 4\u20135h band, making it the closest match to a long-haul duration profile among the candidates."
+    },
+    {
+      "query_id": 3,
+      "candidates": [
+        "source_01.csv",
+        "source_04.csv",
+        "source_05.csv"
+      ],
+      "choice": "none",
+      "reasoning": "All three candidates share a Class-2 (medium-haul, ~3\u20135 h) flight-duration profile, not long-haul. Mean flight_duration_hours: source_01 \u2248 3.92 h (max 5.20), source_04 \u2248 3.97 h (max 5.63), source_05 \u2248 3.92 h (max 5.64). Fraction of flights > 5 h: source_01 = 3/77 \u2248 3.9%, source_04 = 2/66 \u2248 3.0%, source_05 = 2/59 \u2248 3.4%; the modal duration in every file sits in the 3\u20135 h bin. A long-haul (Class-3) trajectory would exhibit mean duration > 5 h with the majority of cycles above 5 h. None of the three files satisfies that criterion, so none is a credible source for adaptation to a long-haul target."
+    },
+    {
+      "query_id": 4,
+      "candidates": [
+        "source_01.csv",
+        "source_13.csv",
+        "source_14.csv",
+        "source_07.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "Long-haul is characterized by the longest flight_duration_hours. source_13 has the highest mean duration (~4.19h across 63 flights) and highest maximum (~5.64h), with ~8 flights exceeding 5h (5.62, 5.62, 5.42, 5.62, 5.24, 5.24, 5.62, 5.64). source_01 is medium (mean ~4.0h, max ~5.20h, only ~3 flights >5h). source_14 (mean ~2.40h, max ~3.40h) and source_07 (mean ~2.50h, max ~3.30h) are clearly short-haul with zero flights >5h. source_13 is the closest operational-profile match to long-haul."
+    },
+    {
+      "query_id": 5,
+      "candidates": [
+        "source_10.csv",
+        "source_12.csv",
+        "source_04.csv",
+        "source_07.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "flight_duration_hours per source \u2014 source_10: 0.87\u20131.58 h (mean ~1.2); source_12: 0.87\u20131.58 h (mean ~1.2); source_07: 1.10\u20133.30 h (mean ~2.5); source_08: 1.10\u20133.42 h (mean ~2.5); source_04: 2.68\u20135.63 h (mean ~4.0, with multiple flights \u22655 h, e.g., 5.628, 5.498, 4.986, 4.925, 4.837). source_04 is the only candidate whose per-flight durations are consistent with a long-haul flight class; the others are short/medium-haul. Its sustained-cruise dominated cycles will most closely match the target's damage-accumulation regime, making it the most informative source for RUL adaptation."
+    },
+    {
+      "query_id": 6,
+      "candidates": [
+        "source_02.csv",
+        "source_12.csv",
+        "source_10.csv",
+        "source_05.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "flight_duration_hours per file: source_02 ranges 0.87\u20131.58h (mean ~1.25h), source_12 ranges 0.87\u20131.58h (mean ~1.20h), source_10 ranges 0.87\u20131.58h (mean ~1.19h) \u2014 all three sit in the sub-2h short-haul band. source_05 ranges 2.48\u20135.64h with mean ~4.0h, roughly 3\u20134\u00d7 the duration of the other candidates and the only file whose per-flight loading (~4h cruise-dominated missions) is consistent with a long-haul target. It is the only credible source for long-haul adaptation."
+    },
+    {
+      "query_id": 7,
+      "candidates": [
+        "source_09.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_03.csv",
+      "reasoning": "Flight-duration distributions: source_03 mean \u2248 4.30 h (range 2.48\u20135.51 h; several flights \u22655.2 h, e.g. 5.51, 5.47, 5.23), consistent with long-duration missions. The other candidates are far shorter: source_09 mean \u2248 1.20 h (0.87\u20131.58), source_12 mean \u2248 1.22 h (0.87\u20131.58), source_08 mean \u2248 2.48 h (1.10\u20133.42). source_03's per-flight thermodynamic loading and residual-drift regime (visible in the growing T48/T50/Wf residuals over cycles) is the only candidate whose operating envelope credibly overlaps a long-haul target, making it the most informative source for RUL model adaptation."
+    },
+    {
+      "query_id": 8,
+      "candidates": [
+        "source_02.csv",
+        "source_15.csv",
+        "source_12.csv",
+        "source_13.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "Flight-duration distributions cleanly separate source_13 from the rest: source_13 spans 2.77\u20135.64 h (mean ~4.2 h, with multiple flights >5 h), while source_02 (0.87\u20131.58 h, mean ~1.24), source_15 (0.87\u20131.58 h, mean ~1.20), and source_12 (0.87\u20131.58 h, mean ~1.21) all sit in a short-haul regime roughly 3\u20134\u00d7 shorter. Long-haul aircraft accumulate damage under sustained cruise loading, so a source whose per-flight duration matches that regime is essential for RUL transfer; only source_13's per-cycle duration and its correspondingly larger per-cycle sensor-residual excursions (e.g., adjusted_T48 reaching ~2.0 by cycle 63) are consistent with long-haul operation."
+    },
+    {
+      "query_id": 9,
+      "candidates": [
+        "source_04.csv",
+        "source_14.csv",
+        "source_03.csv",
+        "source_08.csv",
+        "source_13.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "source_13 (mean 4.17h, max 5.64h, 8/63=12.7% flights >5h) provides the greatest overlap with a long-haul operational envelope. source_03 (mean 4.21h, max 5.51h, 8.5% >5h) is close in mean but has fewer long flights and lower max. source_04 (mean 4.00h, only 3.0% >5h) has minimal long-haul exposure. source_08 (mean ~2.40h, max 3.42h) and source_14 (mean ~2.40h, max 3.40h) show short-haul profiles with no flights >5h and are unsuitable for long-haul adaptation."
+    },
+    {
+      "query_id": 10,
+      "candidates": [
+        "source_11.csv",
+        "source_10.csv",
+        "source_05.csv",
+        "source_14.csv",
+        "source_15.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "Flight_duration_hours distributions: source_05 mean ~3.9h with many flights >4h and several >5h (max ~5.64h); source_11 mean ~2.6h (max ~3.4h); source_14 mean ~2.5h (max ~3.4h); source_10 mean ~1.2h (max ~1.58h); source_15 mean ~1.2h (max ~1.58h). Only source_05 exhibits per-flight durations characteristic of long-haul operations, so its degradation dynamics under sustained cruise loading best match the long-haul target."
+    },
+    {
+      "query_id": 11,
+      "candidates": [
+        "source_13.csv",
+        "source_02.csv",
+        "source_04.csv",
+        "source_05.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "source_02 is clearly short-haul (all 76 flights 0.87-1.58 hrs, mean ~1.25) \u2014 excluded. Among the remaining candidates, source_13 has the highest mean flight duration (~4.17 hrs) and the highest count/fraction of long flights: 8 flights \u22655.2 hrs (~13% of cycles) with max 5.64 hrs, versus source_04 (mean ~4.00, only 2 flights \u22655 hrs) and source_05 (mean ~3.88, only 2 flights \u22655 hrs). source_13's flight-duration envelope extends furthest into the long-haul (Fc=3) 5+ hr regime, making its degradation trajectory the most representative for adapting to a long-haul target."
+    },
+    {
+      "query_id": 12,
+      "candidates": [
+        "source_01.csv",
+        "source_05.csv",
+        "source_08.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_01.csv",
+      "reasoning": "Mean flight_duration_hours: source_01=3.99 (n=77, median~4.09, max 5.20), source_05=3.88 (n=59, median~3.89, max 5.64), source_08=2.44 (n=67, max 3.42), source_14=2.46 (n=73, max 3.40). source_08 and source_14 cluster in 1-3h (short-haul, Fc1). source_01 and source_05 span ~2.5-5.6h consistent with the long-mission class. Between them, source_01 has the higher mean (3.99 vs 3.88h), higher median, 53% of flights \u22654h (vs 39% for source_05), and 3 flights >5h vs 2, giving the most long-haul-like duration profile among the candidates."
+    },
+    {
+      "query_id": 13,
+      "candidates": [
+        "source_03.csv",
+        "source_12.csv",
+        "source_07.csv",
+        "source_13.csv",
+        "source_04.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "source_13 has the highest maximum flight duration (5.637h) and the highest proportion of flights \u22655h (8/63 = 12.7%) among candidates. The value ~5.623h is repeated 4 times (cycles 1, 6, 29, 50), indicating a recurring long-haul route. Compare: source_04 has only 2/66 (3.0%) flights \u22655h (max 5.628h), source_03 has 6/71 (8.5%) flights \u22655h (max 5.513h), source_07 (max 3.30h, mean ~2.5h) and source_12 (max 1.58h, mean ~1.2h) are clearly short-haul. The repeated max-duration route plus highest long-flight frequency best matches a long-haul aircraft."
+    },
+    {
+      "query_id": 14,
+      "candidates": [
+        "source_14.csv",
+        "source_11.csv",
+        "source_07.csv"
+      ],
+      "choice": "none",
+      "reasoning": "Target is long-haul (N-CMAPSS flight class 3, typical flight duration \u22655h). All three candidates have near-identical short-haul duration distributions: source_14 mean\u22482.48h max=3.40h; source_11 mean\u22482.53h max=3.42h; source_07 mean\u22482.51h max=3.17h. None contains any flight even reaching 3.5h, and all are consistent with flight class 1 (short-haul, 1\u20133h). No candidate exhibits the extended cruise-dominant duty cycle characteristic of long-haul operation, so none provides a credible source for adaptation to a long-haul target."
+    },
+    {
+      "query_id": 15,
+      "candidates": [
+        "source_13.csv",
+        "source_03.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "Flight-duration signatures: source_12 mean~1.2h (max 1.58h) and source_14 mean~2.4h (max 3.40h) are short-haul, incompatible with a long-haul target. source_13 and source_03 have similar means (~4.18h vs ~4.21h), but source_13 has the highest max duration (5.64h vs 5.51h) and the largest fraction of long flights \u22655h (8/63 \u2248 12.7% vs 6/71 \u2248 8.5%), giving it the heaviest long-haul tail. source_13 therefore best matches a long-haul duration/loading regime."
+    },
+    {
+      "query_id": 16,
+      "candidates": [
+        "source_03.csv",
+        "source_06.csv",
+        "source_12.csv",
+        "source_14.csv"
+      ],
+      "choice": "source_03.csv",
+      "reasoning": "Using flight_duration_hours as the flight-class signal: source_03 median ~4.4 h, range 2.48\u20135.51 h, with multiple flights \u22655 h (5.51, 5.47, 5.23); source_06 median ~2.5 h, range 1.31\u20133.31 h (all <3.5 h); source_12 median ~1.2 h, range 0.87\u20131.58 h (all <1.6 h); source_14 median ~2.5 h, range 1.31\u20133.40 h (all <3.5 h). Only source_03 sits in the medium-to-long duration regime and contains flights above the N-CMAPSS class-3 (>5 h) threshold, making it the sole plausible donor for a long-haul target; the other three are firmly short/very-short-haul and would create a large flight-class distributional shift."
+    },
+    {
+      "query_id": 17,
+      "candidates": [
+        "source_13.csv",
+        "source_15.csv",
+        "source_07.csv",
+        "source_01.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "source_13 flight_duration_hours range 2.77\u20135.64h (mean \u22484.17h) with 8/63 flights (12.7%) at \u22655h including recurring 5.623h and 5.637h entries \u2014 consistent with long-haul. source_15 (mean \u22481.2h, max 1.58h) is short-haul; source_07 (mean \u22482.5h, max 3.30h) is short/medium; source_01 (mean \u22484.0h, max 5.20h) only reaches \u22655h in 3/77 flights (3.9%), so its long-flight envelope is shorter and rarer than source_13's."
+    },
+    {
+      "query_id": 18,
+      "candidates": [
+        "source_12.csv",
+        "source_07.csv",
+        "source_09.csv"
+      ],
+      "choice": "source_07.csv",
+      "reasoning": "Flight_duration_hours is the only observable proxy for flight class. source_07 has mission lengths of 1.55\u20133.30h (mean ~2.5h), roughly 2x longer than source_12 (0.87\u20131.58h, mean ~1.2h) and source_09 (0.87\u20131.58h, mean ~1.2h). source_07 is the only candidate whose duration distribution overlaps the long-haul regime, making it the most informative source for transfer to a long-haul target."
+    },
+    {
+      "query_id": 19,
+      "candidates": [
+        "source_07.csv",
+        "source_13.csv",
+        "source_11.csv",
+        "source_14.csv",
+        "source_10.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "Among candidates, only source_13 exhibits flight durations characteristic of long-haul operations: range 2.77\u20135.64h with mean \u22484.1h and multiple flights \u22655.6h (e.g., 5.623, 5.637). Others cap well below 3.5h (source_07 max 3.30, source_11 max 3.42, source_14 max 3.40) and source_10 sits at ~0.87\u20131.58h (short-haul). source_13 is the only credible long-haul match."
+    },
+    {
+      "query_id": 20,
+      "candidates": [
+        "source_12.csv",
+        "source_11.csv",
+        "source_13.csv",
+        "source_15.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "Flight-duration distributions: source_12 mean\u22481.2h (range 0.87-1.58), source_15 mean\u22481.2h (range 0.87-1.58), source_11 mean\u22482.5h (range 1.10-3.42), source_13 mean\u22484.2h (range 2.77-5.64, with 8 flights \u22655.2h). Only source_13's durations extend beyond 5h and cluster in the 3-5+h band, matching N-CMAPSS long-haul (flight class 3, >5h). The other three lie in the short-haul (1-3h) band."
+    },
+    {
+      "query_id": 21,
+      "candidates": [
+        "source_05.csv",
+        "source_14.csv",
+        "source_11.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "Flight-duration distributions distinguish the classes. source_05.csv has mean flight duration \u2248 3.88h with max 5.64h and multiple flights \u22655h (e.g., cycles 2 and 58), consistent with long-haul operations. In contrast, source_14.csv (mean \u2248 2.4h, max \u2248 3.40h) and source_11.csv (mean \u2248 2.6h, max \u2248 3.42h) have no flights exceeding 3.5h \u2014 clearly short-haul profiles. source_05 is the only candidate whose per-flight operating time approaches the long-haul regime, making it the most informative source for RUL model adaptation."
+    },
+    {
+      "query_id": 22,
+      "candidates": [
+        "source_02.csv",
+        "source_14.csv",
+        "source_05.csv",
+        "source_08.csv",
+        "source_06.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "Flight-duration distributions distinguish classes: source_02 mean\u22481.25h (max 1.58), source_14 mean\u22482.5h (max 3.40), source_08 mean\u22482.4h (max 3.42), source_06 mean\u22482.4h (max 3.23), source_05 mean\u22483.9h with range 2.87\u20135.64h. Only source_05 shows sustained multi-hour flights consistent with a long-haul operating envelope, making it the most representative source for a long-haul target."
+    },
+    {
+      "query_id": 23,
+      "candidates": [
+        "source_15.csv",
+        "source_07.csv",
+        "source_11.csv"
+      ],
+      "choice": "source_11.csv",
+      "reasoning": "Flight-duration profile: source_15 mean ~1.2 h (max 1.58 h, 0% flights \u22653 h) is short-haul; source_07 mean ~2.5 h (max 3.30 h, ~8% \u22653 h); source_11 mean ~2.6 h (max 3.42 h, ~19% \u22653 h). source_11 has the longest average and maximum duration and roughly 2\u00d7 the proportion of long flights vs source_07, making it the best long-haul match."
+    },
+    {
+      "query_id": 24,
+      "candidates": [
+        "source_13.csv",
+        "source_14.csv",
+        "source_01.csv",
+        "source_15.csv"
+      ],
+      "choice": "source_13.csv",
+      "reasoning": "Comparing flight_duration_hours distributions: source_15 mean\u22481.2h (max 1.58h) and source_14 mean\u22482.4h (max 3.40h) are clearly short-haul. source_01 mean\u22484.0h with max 5.20h and only ~3/77 flights \u22655h \u2014 medium-haul. source_13 has mean\u22484.2h with max 5.64h and ~8/63 (~13%) flights at \u22655h (5.235, 5.422, 5.623, 5.637), the highest per-flight durations of any candidate. source_13 best matches long-haul operating envelope and is the most informative for adaptation."
+    },
+    {
+      "query_id": 25,
+      "candidates": [
+        "source_05.csv",
+        "source_11.csv",
+        "source_04.csv",
+        "source_06.csv"
+      ],
+      "choice": "source_04.csv",
+      "reasoning": "Flight-duration means/medians: source_04 = 4.00h/4.00h (p75=4.50h, max=5.63h); source_05 = 3.88h/3.88h (p75=4.34h, max=5.64h); source_11 = 2.56h/2.58h (max=3.42h); source_06 = 2.43h/2.44h (max=3.31h). source_11 and source_06 are clearly short-haul (all flights \u22643.4h) \u2014 a large domain gap from a long-haul target. Both source_04 and source_05 sit in medium-haul territory, but source_04 has a higher central tendency (mean +0.12h, p75 +0.16h) and a denser tail of 4.5\u20135.6h flights, so its operating-load and duration distribution is the closest available proxy for adapting an RUL model to a long-haul target."
+    },
+    {
+      "query_id": 26,
+      "candidates": [
+        "source_07.csv",
+        "source_05.csv",
+        "source_11.csv"
+      ],
+      "choice": "source_05.csv",
+      "reasoning": "Flight-duration distributions distinguish flight classes. source_05 mean \u22483.88 h with many flights in 4\u20135 h and peaks at 5.50 h and 5.64 h \u2014 consistent with a long-haul mission profile of extended cruise segments. source_07 mean \u22482.5 h (range ~1.55\u20133.30 h) and source_11 mean \u22482.5 h (range ~1.10\u20133.42 h) both indicate short-flight operation. Adjusted sensor residuals in source_05 also grow much more gradually per cycle (e.g., adjusted_T48 reaches ~2.07 by cycle 59 over long flights), yielding degradation-per-flight-hour dynamics closer to a long-haul target than the shorter-cycle sources."
+    },
+    {
+      "query_id": 27,
+      "candidates": [
+        "source_06.csv",
+        "source_02.csv",
+        "source_14.csv",
+        "source_09.csv",
+        "source_08.csv"
+      ],
+      "choice": "source_14.csv",
+      "reasoning": "Among candidates, source_02 (mean ~1.24h, max 1.58h) and source_09 (mean ~1.20h, max 1.58h) are clearly short-haul. Of the longer-duration candidates, source_14 has the highest mean flight_duration_hours (~2.51h across 73 cycles) and the highest share of \u22653.0h flights (~18%, with maxima reaching 3.40h), versus source_06 (~2.40h mean, ~14% \u22653h) and source_08 (~2.42h mean, ~9% \u22653h). source_14 is therefore the closest match to a long-haul flight class."
+    },
+    {
+      "query_id": 28,
+      "candidates": [
+        "source_08.csv",
+        "source_04.csv",
+        "source_07.csv",
+        "source_02.csv",
+        "source_03.csv"
+      ],
+      "choice": "source_03.csv",
+      "reasoning": "Mean flight_duration_hours by source: source_02 ~1.2h, source_07 ~2.44h, source_08 ~2.42h, source_04 ~4.00h, source_03 ~4.21h. source_03 also shows the most consistently long profile with 6 flights >=5h (5.24, 5.47, 5.51x3, 5.24) and min around 2.48h, versus source_04's only 2 flights >=5h (5.63, 5.50) and lower mean. sources_02/07/08 all sit below ~2.5h mean, clearly incompatible with long-haul duty cycles. source_03's duration distribution best matches a long-haul flight class, providing the closest operating envelope for RUL model adaptation."
+    },
+    {
+      "query_id": 29,
+      "candidates": [
+        "source_15.csv",
+        "source_01.csv",
+        "source_10.csv",
+        "source_06.csv"
+      ],
+      "choice": "source_01.csv",
+      "reasoning": "Flight duration is the direct feature for flight class. source_01 has flight_duration_hours in the 2.48\u20135.20 h range with mean \u2248 4.0 h \u2014 the longest of the candidates and consistent with a long-haul mission profile. The others cluster at short-haul (source_15 \u2248 1.18 h mean, source_10 \u2248 1.19 h mean, both \u22641.58 h max) or medium-haul (source_06 \u2248 2.48 h mean, 1.31\u20133.23 h). source_01's per-flight fuel-flow and thermal-loading residual magnitudes (e.g., adjusted_Wf reaching ~3.9 by cycle 77) are also consistent with sustained cruise on long segments, making it the most informative donor for a long-haul target."
+    }
+  ]
+}

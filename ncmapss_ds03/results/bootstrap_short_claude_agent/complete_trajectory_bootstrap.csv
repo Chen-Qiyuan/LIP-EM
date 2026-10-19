@@ -1,0 +1,4 @@
+first_method,second_method,comparison,first_rmse,second_rmse,difference,ci95_lower,ci95_upper,bootstrap_probability_first_better,bootstrap_replicates
+claude_lip_em,uniform_em,RMSE(claude_lip_em) - RMSE(uniform_em),8.800076495879642,10.829442199649785,-2.029365703770143,-4.316318016988141,1.7223652155757332,0.9015,20000
+gemini_lip_em,uniform_em,RMSE(gemini_lip_em) - RMSE(uniform_em),9.449148407249313,10.829442199649785,-1.3802937924004723,-2.572048231784816,0.4919468646746532,0.9449,20000
+claude_lip_em,gemini_lip_em,RMSE(claude_lip_em) - RMSE(gemini_lip_em),8.800076495879642,9.449148407249313,-0.6490719113696706,-1.9253578674389367,1.447349859111287,0.7722,20000

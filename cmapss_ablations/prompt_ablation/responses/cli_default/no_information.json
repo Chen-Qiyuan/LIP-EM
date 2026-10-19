@@ -1,0 +1,2122 @@
+{
+  "target_desc": "Maintenance records are available for the target aircraft, but they contain no reliable information about the condition or trajectory of the high-pressure compressor.",
+  "responses": [
+    {
+      "S": [
+        43,
+        64,
+        75
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +11.3 to +123.6 rpm over 154-313 cycles, with 3 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        9,
+        19,
+        68
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +37.6 to +91.6 rpm over 137-276 cycles, with 3 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        12,
+        50,
+        69,
+        73,
+        77
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.1 to +91.4 rpm over 199-287 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        64,
+        77,
+        90
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -17.5 to +36.2 rpm over 154-313 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        9,
+        22,
+        43,
+        44
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -7.0 to +123.6 rpm over 163-276 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        16,
+        26,
+        61,
+        75,
+        79
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +6.5 to +88.2 rpm over 154-283 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        66,
+        75,
+        77,
+        86
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -10.7 to +36.2 rpm over 154-362 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        4,
+        15,
+        53,
+        74
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.1 to +9.8 rpm over 137-210 cycles, with 1 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        32,
+        40,
+        90,
+        93
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -17.5 to +86.8 rpm over 154-194 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        12,
+        18,
+        44,
+        47,
+        67
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +6.4 to +127.9 rpm over 213-287 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        15,
+        41,
+        62,
+        70,
+        81
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -21.7 to +113.4 rpm over 153-256 cycles, with 2 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        38,
+        78,
+        82,
+        89
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -11.8 to +126.1 rpm over 150-293 cycles, with 1 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        13,
+        19,
+        80,
+        81
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -2.2 to +113.4 rpm over 199-240 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        27,
+        45,
+        63,
+        69,
+        78
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -5.1 to +91.4 rpm over 150-269 cycles, with 3 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        11,
+        13,
+        24
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -8.8 to +15.0 rpm over 158-234 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        7,
+        45,
+        55,
+        83
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -9.2 to +67.4 rpm over 207-269 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        8,
+        53,
+        55,
+        79
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.1 to +88.2 rpm over 137-231 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        21,
+        27,
+        42,
+        96
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -5.1 to +35.7 rpm over 165-336 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        5,
+        22,
+        81
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -7.0 to +113.4 rpm over 163-214 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        12,
+        28,
+        42,
+        55,
+        64
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +9.0 to +85.3 rpm over 195-313 cycles, with 5 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        32,
+        39,
+        40,
+        80
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -2.2 to +86.8 rpm over 158-240 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        8,
+        72,
+        76
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.2 to +30.3 rpm over 166-231 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        15,
+        49,
+        87,
+        92,
+        99
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +1.4 to +86.2 rpm over 185-341 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        23,
+        30,
+        37
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -3.4 to +112.7 rpm over 158-196 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        8,
+        34,
+        35,
+        94
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +5.4 to +117.1 rpm over 188-258 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        45,
+        48,
+        69,
+        88
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +29.2 to +91.4 rpm over 208-269 cycles, with 4 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        25,
+        71,
+        76
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -8.5 to +30.3 rpm over 213-234 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        7,
+        9,
+        26,
+        44,
+        90
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -17.5 to +91.5 rpm over 154-276 cycles, with 3 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        17,
+        29,
+        54,
+        56,
+        78
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -17.1 to +38.1 rpm over 147-188 cycles, with 1 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        30,
+        42,
+        65,
+        69
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -3.4 to +91.4 rpm over 158-214 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        8,
+        62,
+        63
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -21.7 to +15.1 rpm over 153-209 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        3,
+        17,
+        18,
+        32,
+        48
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -17.1 to +86.8 rpm over 147-240 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        17,
+        57,
+        78
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -17.1 to +65.9 rpm over 147-172 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        33,
+        43,
+        55,
+        59,
+        60
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -9.3 to +123.6 rpm over 128-231 cycles, with 3 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        6,
+        45,
+        46,
+        77
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +36.2 to +67.4 rpm over 180-269 cycles, with 4 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        15,
+        42,
+        47,
+        57,
+        91
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -6.0 to +127.9 rpm over 135-214 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        31,
+        43,
+        51,
+        52,
+        84
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -5.7 to +123.6 rpm over 170-275 cycles, with 3 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        14,
+        53,
+        87
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.1 to +94.5 rpm over 137-213 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        10,
+        65,
+        67
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +6.4 to +125.5 rpm over 195-259 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        64,
+        72,
+        99
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.2 to +11.3 rpm over 166-313 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        10,
+        60,
+        91
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -6.0 to +125.5 rpm over 135-195 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        3,
+        13,
+        55
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +9.0 to +81.3 rpm over 231-240 cycles, with 3 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        45,
+        80,
+        81
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -2.2 to +113.4 rpm over 214-269 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        29,
+        62,
+        93
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -21.7 to +38.1 rpm over 153-181 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        16,
+        17,
+        24,
+        91,
+        96
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -17.1 to +16.9 rpm over 135-336 cycles, with 1 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        9,
+        14,
+        74,
+        87,
+        95
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +1.8 to +94.5 rpm over 195-283 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        31,
+        46,
+        50
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -5.7 to +72.1 rpm over 170-257 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        36,
+        40,
+        64,
+        88
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +11.3 to +73.6 rpm over 158-313 cycles, with 4 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        0,
+        25,
+        92,
+        94
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -8.5 to +86.7 rpm over 192-341 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        15,
+        81,
+        88
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +9.8 to +113.4 rpm over 202-217 cycles, with 3 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        4,
+        58,
+        70,
+        86
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -19.1 to +4.1 rpm over 170-213 cycles, with 0 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        31,
+        49,
+        50,
+        74,
+        95
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -5.7 to +86.2 rpm over 170-283 cycles, with 3 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        13,
+        22,
+        27
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -7.0 to +15.0 rpm over 163-234 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        11,
+        28,
+        49,
+        69,
+        91
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -6.0 to +91.4 rpm over 135-208 cycles, with 3 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        2,
+        8,
+        70,
+        73,
+        77
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -13.5 to +36.2 rpm over 199-229 cycles, with 1 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        7,
+        39,
+        89,
+        97
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -9.2 to +128.0 rpm over 192-207 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        30,
+        52,
+        64,
+        94
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -3.4 to +86.7 rpm over 158-313 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        2,
+        14,
+        54,
+        58
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -19.1 to +94.5 rpm over 147-200 cycles, with 1 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        0,
+        13,
+        41,
+        72,
+        96
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.2 to +16.9 rpm over 166-336 cycles, with 2 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        41,
+        45,
+        62,
+        77,
+        78
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -21.7 to +67.4 rpm over 150-269 cycles, with 2 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        24,
+        79,
+        81
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -8.8 to +113.4 rpm over 185-214 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        51,
+        59,
+        74,
+        93
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -9.3 to +116.5 rpm over 155-210 cycles, with 1 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        11,
+        37,
+        40
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -3.2 to +18.1 rpm over 158-196 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        63,
+        86,
+        95
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -10.7 to +39.1 rpm over 178-283 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        23,
+        24,
+        26,
+        99
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -8.8 to +112.7 rpm over 179-194 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        6,
+        10,
+        47,
+        59,
+        85
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -9.3 to +127.9 rpm over 180-278 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        14,
+        30,
+        91
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -6.0 to +94.5 rpm over 135-195 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        15,
+        16,
+        28,
+        57
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +6.5 to +85.3 rpm over 168-202 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        2,
+        5,
+        19,
+        69
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +4.7 to +91.6 rpm over 163-208 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        50,
+        57,
+        67,
+        80
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -2.2 to +72.1 rpm over 172-259 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        48,
+        71,
+        78,
+        85,
+        99
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +0.9 to +50.6 rpm over 150-278 cycles, with 2 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        22,
+        24,
+        57,
+        63,
+        96
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -8.8 to +65.9 rpm over 163-336 cycles, with 3 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        36,
+        52,
+        91
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -6.0 to +80.0 rpm over 135-275 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        5,
+        10,
+        81
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +78.5 to +125.5 rpm over 163-214 cycles, with 3 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        9,
+        79,
+        81,
+        82,
+        90
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -17.5 to +113.4 rpm over 154-293 cycles, with 3 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        61,
+        63,
+        75,
+        99
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +1.4 to +42.0 rpm over 154-283 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        31,
+        50,
+        51,
+        85,
+        95
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -5.7 to +116.5 rpm over 170-283 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        6,
+        13,
+        24,
+        26,
+        61
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -8.8 to +59.9 rpm over 180-283 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        22,
+        33,
+        36,
+        50
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -7.0 to +73.6 rpm over 128-257 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        17,
+        23,
+        36,
+        67
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -17.1 to +112.7 rpm over 147-259 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        32,
+        47,
+        76,
+        82,
+        87
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -5.8 to +127.9 rpm over 194-293 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        19,
+        55,
+        63,
+        79
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +9.0 to +91.6 rpm over 185-231 cycles, with 4 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        17,
+        28,
+        73
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -17.1 to +85.3 rpm over 147-229 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        49,
+        67,
+        85,
+        91
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -6.0 to +86.2 rpm over 135-278 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        9,
+        58,
+        60,
+        71
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -19.1 to +97.9 rpm over 174-276 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        13,
+        16,
+        80,
+        93,
+        97
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -2.2 to +128.0 rpm over 155-240 cycles, with 2 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        8,
+        25,
+        76,
+        90,
+        92
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -17.5 to +66.8 rpm over 154-341 cycles, with 2 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        12,
+        16,
+        59,
+        98
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -9.3 to +36.7 rpm over 156-287 cycles, with 1 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        45,
+        51,
+        66,
+        72
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.2 to +116.5 rpm over 166-362 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        13,
+        23,
+        47,
+        59
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -9.3 to +127.9 rpm over 179-234 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        8,
+        11,
+        48,
+        65,
+        69
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -3.2 to +91.4 rpm over 158-213 cycles, with 3 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        33,
+        65,
+        72
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.2 to +81.2 rpm over 128-199 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        26,
+        36,
+        61,
+        73,
+        78
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.1 to +73.6 rpm over 150-283 cycles, with 3 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        8,
+        14,
+        43,
+        54,
+        91
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -16.8 to +123.6 rpm over 135-231 cycles, with 2 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        54,
+        93,
+        99
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -16.8 to +4.9 rpm over 147-185 cycles, with 0 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        13,
+        37,
+        46,
+        65
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +2.7 to +81.2 rpm over 196-234 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        11,
+        26,
+        41,
+        85,
+        91
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -6.0 to +34.7 rpm over 135-278 cycles, with 2 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        3,
+        54,
+        57,
+        67
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -16.8 to +81.3 rpm over 147-259 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        28,
+        41,
+        45,
+        79,
+        95
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -5.9 to +88.2 rpm over 185-283 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        54,
+        72,
+        77,
+        89
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -16.8 to +126.1 rpm over 147-201 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        28,
+        67,
+        86
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -10.7 to +85.3 rpm over 178-259 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        10,
+        65,
+        99
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +1.4 to +125.5 rpm over 185-199 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        9,
+        61,
+        63
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +15.1 to +91.5 rpm over 202-283 cycles, with 3 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        2,
+        14,
+        23,
+        44,
+        97
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +4.7 to +128.0 rpm over 179-215 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        28,
+        65,
+        89
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +81.2 to +126.1 rpm over 195-201 cycles, with 3 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        0,
+        5,
+        15
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -7.5 to +78.5 rpm over 163-202 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        23,
+        28,
+        76,
+        84,
+        93
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +4.9 to +112.7 rpm over 155-231 cycles, with 3 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        11,
+        69,
+        75,
+        83,
+        89
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -3.2 to +126.1 rpm over 154-267 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        11,
+        12,
+        19,
+        69
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -3.2 to +91.6 rpm over 158-287 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        8,
+        44,
+        61,
+        84
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +5.4 to +42.0 rpm over 188-283 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        1,
+        18,
+        27
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -5.1 to +81.7 rpm over 200-230 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        50,
+        60,
+        73,
+        95
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.1 to +97.9 rpm over 174-283 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        4,
+        21,
+        88
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +4.1 to +29.2 rpm over 165-217 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        9,
+        16,
+        36,
+        77
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +6.5 to +91.5 rpm over 168-276 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        25,
+        44,
+        53,
+        77
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.1 to +36.2 rpm over 137-234 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        14,
+        24,
+        54,
+        93
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -16.8 to +94.5 rpm over 147-195 cycles, with 1 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        25,
+        44,
+        64,
+        67
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -8.5 to +14.8 rpm over 215-313 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        39,
+        49,
+        67,
+        91
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -6.0 to +86.2 rpm over 135-259 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        9,
+        12,
+        27,
+        30,
+        91
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -6.0 to +91.5 rpm over 135-287 cycles, with 2 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        15,
+        40,
+        61,
+        95
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +9.8 to +42.0 rpm over 158-283 cycles, with 4 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        3,
+        31,
+        56,
+        58,
+        91
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -19.1 to +81.3 rpm over 135-240 cycles, with 1 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        9,
+        22,
+        57
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -7.0 to +91.5 rpm over 163-276 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        53,
+        58,
+        64,
+        68
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -19.1 to +37.6 rpm over 137-313 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        33,
+        54,
+        77
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -16.8 to +36.2 rpm over 128-199 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        35,
+        51,
+        60,
+        96
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +16.9 to +116.5 rpm over 174-336 cycles, with 4 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        12,
+        85,
+        91,
+        99
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -6.0 to +36.7 rpm over 135-287 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        24,
+        31,
+        78
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -8.8 to +3.2 rpm over 150-194 cycles, with 0 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        4,
+        5,
+        11,
+        47
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -3.2 to +127.9 rpm over 158-213 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        5,
+        7,
+        27,
+        33,
+        55
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -9.2 to +78.5 rpm over 128-231 cycles, with 2 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        1,
+        72,
+        89
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.2 to +126.1 rpm over 166-222 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        15,
+        36,
+        40,
+        70,
+        82
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -13.5 to +73.6 rpm over 158-293 cycles, with 3 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        7,
+        35,
+        49,
+        94
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -9.2 to +86.7 rpm over 188-258 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        14,
+        30,
+        68,
+        75
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -3.4 to +94.5 rpm over 137-195 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        1,
+        20,
+        32,
+        61,
+        66
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -1.9 to +86.8 rpm over 156-362 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        15,
+        40,
+        81,
+        91,
+        98
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -8.8 to +113.4 rpm over 135-214 cycles, with 3 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        13,
+        44,
+        49,
+        63,
+        95
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +14.8 to +86.2 rpm over 195-283 cycles, with 5 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        3,
+        42,
+        46,
+        47,
+        72
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.2 to +127.9 rpm over 166-240 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        4,
+        88,
+        93
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +4.1 to +29.2 rpm over 155-217 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        19,
+        28,
+        49
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +85.3 to +91.6 rpm over 195-199 cycles, with 3 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        1,
+        8,
+        24,
+        26,
+        47
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -8.8 to +127.9 rpm over 191-222 cycles, with 3 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        39,
+        62,
+        66,
+        79
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -21.7 to +88.2 rpm over 153-362 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        33,
+        35,
+        52,
+        72,
+        87
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.2 to +80.0 rpm over 128-275 cycles, with 3 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        36,
+        67,
+        74,
+        84
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +1.8 to +73.6 rpm over 188-259 cycles, with 1 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        11,
+        57,
+        85
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -3.2 to +65.9 rpm over 158-278 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        48,
+        51,
+        52,
+        83
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +26.9 to +116.5 rpm over 193-275 cycles, with 4 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        17,
+        38,
+        61,
+        88,
+        97
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -17.1 to +128.0 rpm over 147-283 cycles, with 3 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        2,
+        60,
+        92
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +4.7 to +97.9 rpm over 174-341 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        13,
+        29,
+        56,
+        59
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -9.3 to +38.1 rpm over 180-234 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        52,
+        63,
+        68
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +15.1 to +80.0 rpm over 137-275 cycles, with 3 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        46,
+        59,
+        76,
+        85,
+        97
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -9.3 to +128.0 rpm over 180-278 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        61,
+        78,
+        94
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +3.2 to +86.7 rpm over 150-283 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        11,
+        50,
+        73
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.1 to +72.1 rpm over 158-257 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        41,
+        53,
+        64,
+        94
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.1 to +86.7 rpm over 137-313 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        28,
+        73,
+        81
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.1 to +113.4 rpm over 195-229 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        0,
+        12,
+        29,
+        33
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -7.5 to +38.1 rpm over 128-287 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        46,
+        47,
+        84,
+        85,
+        96
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +7.9 to +127.9 rpm over 188-336 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        8,
+        64,
+        77
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +5.4 to +36.2 rpm over 199-313 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        26,
+        44,
+        77,
+        91
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -6.0 to +36.2 rpm over 135-215 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        4,
+        36,
+        94
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +4.1 to +86.7 rpm over 170-258 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        64,
+        65,
+        69,
+        73,
+        77
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.1 to +91.4 rpm over 199-313 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        4,
+        37,
+        77,
+        90
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -17.5 to +36.2 rpm over 154-199 cycles, with 1 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        0,
+        43,
+        84
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -7.5 to +123.6 rpm over 188-231 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        2,
+        52,
+        66
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -1.9 to +80.0 rpm over 200-362 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        23,
+        25,
+        59,
+        65,
+        85
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -9.3 to +112.7 rpm over 179-278 cycles, with 3 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        29,
+        59,
+        70,
+        81,
+        87
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -13.5 to +113.4 rpm over 180-214 cycles, with 3 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        18,
+        67,
+        84,
+        85
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +6.4 to +81.7 rpm over 188-278 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        41,
+        53,
+        69,
+        79
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.1 to +91.4 rpm over 137-256 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        11,
+        13,
+        39,
+        51,
+        57
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -3.2 to +116.5 rpm over 158-234 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        5,
+        38,
+        49,
+        57,
+        91
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -11.8 to +86.2 rpm over 135-207 cycles, with 3 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        6,
+        8,
+        35
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +5.4 to +65.9 rpm over 180-209 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        1,
+        29,
+        44,
+        96
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +14.8 to +52.0 rpm over 181-336 cycles, with 4 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        40,
+        86,
+        94,
+        96
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -10.7 to +86.7 rpm over 158-336 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        23,
+        27,
+        33,
+        38,
+        87
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -11.8 to +112.7 rpm over 128-213 cycles, with 2 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        51,
+        74,
+        97
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +1.8 to +128.0 rpm over 193-210 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        2,
+        29,
+        63,
+        85
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +4.7 to +38.1 rpm over 181-278 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        15,
+        34,
+        87
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +9.8 to +117.1 rpm over 189-213 cycles, with 3 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        24,
+        55,
+        79
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -8.8 to +88.2 rpm over 185-231 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        42,
+        47,
+        84,
+        94
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +7.9 to +127.9 rpm over 188-258 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        66,
+        79,
+        90
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -17.5 to +88.2 rpm over 154-362 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        16,
+        17,
+        31,
+        55
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -17.1 to +9.0 rpm over 147-231 cycles, with 1 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        51,
+        77,
+        93
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +4.9 to +116.5 rpm over 155-199 cycles, with 2 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        3,
+        92,
+        95
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +39.1 to +81.3 rpm over 240-341 cycles, with 3 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        4,
+        5,
+        24
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -8.8 to +78.5 rpm over 163-194 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        25,
+        31,
+        43,
+        50,
+        78
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -8.5 to +123.6 rpm over 150-257 cycles, with 2 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        5,
+        37,
+        76,
+        89
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +2.7 to +126.1 rpm over 163-231 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        22,
+        28,
+        38,
+        41,
+        47
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -11.8 to +127.9 rpm over 163-256 cycles, with 2 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        0,
+        11,
+        15,
+        83
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -7.5 to +26.9 rpm over 158-267 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        32,
+        40,
+        43
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +18.1 to +123.6 rpm over 158-231 cycles, with 3 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        22,
+        25,
+        51,
+        81
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -8.5 to +116.5 rpm over 163-234 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        22,
+        33,
+        46,
+        66,
+        83
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -7.0 to +58.0 rpm over 128-362 cycles, with 2 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        4,
+        45,
+        48,
+        86
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -10.7 to +67.4 rpm over 170-269 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        2,
+        4,
+        13,
+        31
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -5.7 to +15.0 rpm over 170-234 cycles, with 1 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        3,
+        11,
+        15,
+        18,
+        79
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -3.2 to +88.2 rpm over 158-240 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        22,
+        55,
+        59
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -9.3 to +9.0 rpm over 163-231 cycles, with 1 of 3 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        0,
+        27,
+        53,
+        84
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -12.1 to +7.9 rpm over 137-200 cycles, with 0 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        25,
+        28,
+        74,
+        83,
+        96
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -8.5 to +85.3 rpm over 195-336 cycles, with 3 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        7,
+        36,
+        57,
+        88,
+        96
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -9.2 to +73.6 rpm over 172-336 cycles, with 4 of 5 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        11,
+        29,
+        59,
+        77
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -9.3 to +38.1 rpm over 158-199 cycles, with 2 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        7,
+        30,
+        80,
+        86
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans -10.7 to -2.2 rpm over 158-240 cycles, with 0 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    },
+    {
+      "S": [
+        1,
+        16,
+        65,
+        68
+      ],
+      "C": [],
+      "reasoning": "Candidates are physically distinct, not near-duplicates: end-of-life Nc drift spans +6.5 to +81.2 rpm over 137-222 cycles, with 3 of 4 showing the strong monotone core-speed rise characteristic of advanced HPC flow/efficiency loss. Discriminating among them requires a target-side constraint, but the only target information states that the maintenance records carry no reliable information on HPC condition or trajectory, and no target trajectory is supplied. No trajectory is therefore implied, so no candidate here is a credible match rather than an arbitrary pick."
+    }
+  ],
+  "source_basenames": [
+    "1.csv",
+    "10.csv",
+    "100.csv",
+    "11.csv",
+    "12.csv",
+    "13.csv",
+    "14.csv",
+    "15.csv",
+    "16.csv",
+    "17.csv",
+    "18.csv",
+    "19.csv",
+    "2.csv",
+    "20.csv",
+    "21.csv",
+    "22.csv",
+    "23.csv",
+    "24.csv",
+    "25.csv",
+    "26.csv",
+    "27.csv",
+    "28.csv",
+    "29.csv",
+    "3.csv",
+    "30.csv",
+    "31.csv",
+    "32.csv",
+    "33.csv",
+    "34.csv",
+    "35.csv",
+    "36.csv",
+    "37.csv",
+    "38.csv",
+    "39.csv",
+    "4.csv",
+    "40.csv",
+    "41.csv",
+    "42.csv",
+    "43.csv",
+    "44.csv",
+    "45.csv",
+    "46.csv",
+    "47.csv",
+    "48.csv",
+    "49.csv",
+    "5.csv",
+    "50.csv",
+    "51.csv",
+    "52.csv",
+    "53.csv",
+    "54.csv",
+    "55.csv",
+    "56.csv",
+    "57.csv",
+    "58.csv",
+    "59.csv",
+    "6.csv",
+    "60.csv",
+    "61.csv",
+    "62.csv",
+    "63.csv",
+    "64.csv",
+    "65.csv",
+    "66.csv",
+    "67.csv",
+    "68.csv",
+    "69.csv",
+    "7.csv",
+    "70.csv",
+    "71.csv",
+    "72.csv",
+    "73.csv",
+    "74.csv",
+    "75.csv",
+    "76.csv",
+    "77.csv",
+    "78.csv",
+    "79.csv",
+    "8.csv",
+    "80.csv",
+    "81.csv",
+    "82.csv",
+    "83.csv",
+    "84.csv",
+    "85.csv",
+    "86.csv",
+    "87.csv",
+    "88.csv",
+    "89.csv",
+    "9.csv",
+    "90.csv",
+    "91.csv",
+    "92.csv",
+    "93.csv",
+    "94.csv",
+    "95.csv",
+    "96.csv",
+    "97.csv",
+    "98.csv",
+    "99.csv"
+  ],
+  "meta": {
+    "model": "claude-opus-cli-session",
+    "model_request": "opus",
+    "effort": "max",
+    "protocol": "blind_agentic_single_choice",
+    "n_queries": 200,
+    "global_pool": true,
+    "subgroup_size_range": [
+      3,
+      5
+    ],
+    "seed": 42,
+    "reference_query_file": "cmapss/data/llm_subgroup_queries_claude.json",
+    "condition": "no_information"
+  }
+}
